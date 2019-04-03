@@ -1,0 +1,66 @@
+# File (tests/current_tests/121726/121-121726-0000.flac):
+# - 8.46 seconds long.
+# - actual    text: 'also a popular contrivance whereby love making may be suspended but not stopped during the picnic season'
+# - processed text: 'also a papular condrivance were by love making may be suspended but not stoped during the picnic eason'
+# - processed in 9.622445106506348 miliseconds.
+# - WER = 0.35294117647058826
+# File (tests/current_tests/121726/121-121726-0001.flac):
+# - 5.925 seconds long.
+# - actual    text: 'harangue the tiresome product of a tireless tongue'
+# - processed text: 'her rang the tire some product of a tireless tongue'
+# - processed in 4.978201389312744 miliseconds.
+# - WER = 0.5
+# File (tests/current_tests/121726/121-121726-0002.flac):
+# - 4.41 seconds long.
+# - actual    text: 'angor pain painful to hear'
+# - processed text: 'angle hain voll to her'
+# - processed in 3.672590732574463 miliseconds.
+# - WER = 0.8
+# File (tests/current_tests/121726/121-121726-0003.flac):
+# - 6.755 seconds long.
+# - actual    text: 'hay fever a heart trouble caused by falling in love with a grass widow'
+# - processed text: 'hay fever a heard trouble caused by falling in love with a grass widow'
+# - processed in 5.9365949630737305 miliseconds.
+# - WER = 0.07142857142857142
+# File (tests/current_tests/121726/121-121726-0004.flac):
+# - 4.02 seconds long.
+# - actual    text: 'heaven a good place to be raised to'
+# - processed text: 'heaven ar good place to be raised to'
+# - processed in 3.476041555404663 miliseconds.
+# - WER = 0.125
+# File (tests/current_tests/121726/121-121726-0005.flac):
+# - 3.1 seconds long.
+# - actual    text: 'hedge a fence'
+# - processed text: 'hedge a fence'
+# - processed in 2.5909016132354736 miliseconds.
+# - WER = 0.0
+# File (tests/current_tests/121726/121-121726-0006.flac):
+# - 3.895 seconds long.
+# - actual    text: 'heredity the cause of all our faults'
+# - processed text: 'her redity the cause of all our faults'
+# - processed in 3.317425489425659 miliseconds.
+# - WER = 0.2857142857142857
+# File (tests/current_tests/121726/121-121726-0007.flac):
+# - 6.73 seconds long.
+# - actual    text: 'horse sense a degree of wisdom that keeps one from betting on the races'
+# - processed text: 'por sens a degree of wisdom that keeps one from betting on the races'
+# - processed in 6.079961776733398 miliseconds.
+# - WER = 0.14285714285714285
+# File (tests/current_tests/121726/121-121726-0008.flac):
+# - 4.99 seconds long.
+# - actual    text: 'hose man's excuse for wetting the walk'
+# - processed text: 'how is man uxcuse for wetting the walk'
+# - processed in 4.738331079483032 miliseconds.
+# - WER = 0.5
+# File (tests/current_tests/121726/121-121726-0009.flac):
+# - 7.26 seconds long.
+# - actual    text: 'hotel a place where a guest often gives up good dollars for poor quarters'
+# - processed text: 'how tel a place were a guest often gaves up good dollars popor quarters'
+# - processed in 6.346877574920654 miliseconds.
+# - WER = 0.42857142857142855
+# File (tests/current_tests/121726/121-121726-0010.flac):
+# - 9.81 seconds long.
+# - actual    text: 'housecleaning a domestic upheaval that makes it easy for the government to enlist all the soldiers it needs'
+# - processed text: 'how scleening ad o mestic upheble andthat makes it easy for the government to enlist all the soldiers at needs'
+# - processed in 8.882785081863403 miliseconds.
+# - WER = 0.4444444444444444
