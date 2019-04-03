@@ -9,10 +9,15 @@ Created on Tue Mar 26 14:32:43 2019
 """
 
 from deepspeech import Model
-from os import listdir, path
+from os import listdir, path, makedirs
 from jiwer import wer    
 import soundfile as sf
 import time
+import platform
+
+platform_meta = platform.machine() + "_" + platform.version()
+if not path.exists(platform_meta):
+    makedirs("logs/" + platform_meta)
 
 
 verbose = True
@@ -29,7 +34,8 @@ def prepare_pathes(directory, exten = ''):
     return updated_pathes
 
 localtime = time.strftime("%Y%m%d-%H%M%S")
-log_filepath = "logs/logs_" + localtime + ".txt"
+log_filepath = "logs/" + platform_meta  +"/logs_" + localtime + ".txt"
+benchmark_filepath = "logs/" + platform_meta  +"/deepspeech_benchmark_ " + localtime + ".csv"
 directories = prepare_pathes("tests/current_tests")
 audio_pathes = list()
 text_pathes = list()
@@ -62,13 +68,13 @@ processed_data = "filename,length(sec),actual_text,processed_text,proc_time(ms),
 avg_wer = 0
 avg_proc_time = 0
 num_of_audiofiles = len([item for sublist in audio_pathes for item in sublist])
-current_audio_number = 0
+current_audio_number = 1
 for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
     audio_group.sort()
     audio_transcripts = open(audio_text_group_path[0], 'r').readlines()
     for audio_path, audio_transcript in zip(audio_group, audio_transcripts):
-    
-        print("\n=> Progress = " + "{0:.2f}".format(current_audio_number/num_of_audiofiles) + "%\n" )
+        
+        print("\n=> Progress = " + "{0:.2f}".format((current_audio_number/num_of_audiofiles)*100) + "%\n" )
         current_audio_number+=1
         
         audio, fs = sf.read(audio_path, dtype='int16')    
@@ -88,7 +94,7 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
         current_wer = round(current_wer,3)
         
         # Accumlated data
-        avg_proc_time += (proc_time/audio_len)
+        avg_proc_time += (proc_time/(audio_len*1000))
         avg_wer += current_wer
         
         
@@ -118,18 +124,19 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
 ##############################################################################
 # ---------------Finalizing processed data and Saving Logs
 ##############################################################################
+avg_proc_time /= num_of_audiofiles
 avg_wer /= num_of_audiofiles
 if(verbose):
-    print("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
+    print("Avg. Proc. time (ms/second of audio) = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
 log_file.write("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
 log_file.close()
-processed_data+= "AvgProcTime/sec," + str(avg_proc_time) + "\n"
+processed_data+= "AvgProcTime (ms/second of audio)," + str(avg_proc_time) + "\n"
 processed_data+= "AvgWER," + str(avg_wer) + "\n"
 
 
-with open('logs/deepspeech_benchmark.csv', 'w') as f:
+with open(benchmark_filepath, 'w') as f:
     for line in processed_data:
         f.write(line)
     
