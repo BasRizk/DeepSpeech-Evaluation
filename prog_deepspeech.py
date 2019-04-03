@@ -69,6 +69,7 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
     for audio_path, audio_transcript in zip(audio_group, audio_transcripts):
     
         print("\n=> Progress = " + "{0:.2f}".format(current_audio_number/num_of_audiofiles) + "%\n" )
+        current_audio_number+=1
         
         audio, fs = sf.read(audio_path, dtype='int16')    
         start_proc = time.time()
@@ -77,15 +78,20 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
        
         audio_len = len(audio)/fs 
         proc_time = end-start_proc
+        proc_time = round(proc_time,3)
+
     
         # Processing WORD ERROR RATE (WER)
         audio_transcript = audio_transcript[:-1].split(" ")
         actual_text = " ".join(audio_transcript[1:]).lower()
         current_wer = wer(actual_text, processed_text, standardize=True)
+        current_wer = round(current_wer,3)
         
         # Accumlated data
-        avg_proc_time += proc_time
+        avg_proc_time += (proc_time/audio_len)
         avg_wer += current_wer
+        
+        
         
         progress_row = audio_path + "," + str(audio_len) + "," + actual_text +\
                          "," + processed_text + "," + str(proc_time) +\
@@ -112,16 +118,15 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
 ##############################################################################
 # ---------------Finalizing processed data and Saving Logs
 ##############################################################################
-avg_proc_time /= num_of_audiofiles
 avg_wer /= num_of_audiofiles
 if(verbose):
-    print("Avg. Proc. time = " + str(avg_proc_time) + "\n" +\
+    print("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
-log_file.write("Avg. Proc. time = " + str(avg_proc_time) + "\n" +\
+log_file.write("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
 log_file.close()
-processed_data+= "Avg. Proc. Time," + str(avg_proc_time) + "\n"
-processed_data+= "Avg. WER," + str(avg_wer) + "\n"
+processed_data+= "AvgProcTime/sec," + str(avg_proc_time) + "\n"
+processed_data+= "AvgWER," + str(avg_wer) + "\n"
 
 
 with open('logs/deepspeech_benchmark.csv', 'w') as f:
