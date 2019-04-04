@@ -16,8 +16,9 @@ import time
 import platform
 
 platform_meta = platform.machine() + "_" + platform.version()
-if not path.exists(platform_meta):
-    makedirs("logs/" + platform_meta)
+platform_meta_path = "logs/" + platform_meta
+if not path.exists(platform_meta_path):
+    makedirs(platform_meta_path)
 
 
 verbose = True
@@ -34,12 +35,12 @@ def prepare_pathes(directory, exten = ''):
     return updated_pathes
 
 localtime = time.strftime("%Y%m%d-%H%M%S")
-log_filepath = "logs/" + platform_meta  +"/logs_" + localtime + ".txt"
-benchmark_filepath = "logs/" + platform_meta  +"/deepspeech_benchmark_ " + localtime + ".csv"
-directories = prepare_pathes("tests/current_tests")
+log_filepath = platform_meta_path  +"/logs_" + localtime + ".txt"
+benchmark_filepath = platform_meta_path  +"/deepspeech_benchmark_ " + localtime + ".csv"
+test_directories = prepare_pathes("tests/current_tests")
 audio_pathes = list()
 text_pathes = list()
-for d in directories:
+for d in test_directories:
     audio_pathes.append(prepare_pathes(d, "flac"))
     text_pathes.append(prepare_pathes(d, "txt"))
 audio_pathes.sort()
