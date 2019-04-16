@@ -65,7 +65,7 @@ ds = Model(output_graph_path,
 # ---Running the DeepSpeech STT Engine by running through the audio files
 ##############################################################################
 log_file = open(log_filepath, "w")
-processed_data = "filename,length(sec),actual_text,processed_text,proc_time(ms),wer\n"
+processed_data = "filename,length(sec),actual_text,processed_text,proc_time(s),wer\n"
 avg_wer = 0
 avg_proc_time = 0
 num_of_audiofiles = len([item for sublist in audio_pathes for item in sublist])
@@ -109,14 +109,14 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
                   "# - " + str(audio_len) + " seconds long.\n"+\
                   "# - actual    text: '" + actual_text + "'\n" +\
                   "# - processed text: '" + processed_text + "'\n" +\
-                  "# - processed in "  + str(proc_time) + " miliseconds.\n"
+                  "# - processed in "  + str(proc_time) + " seconds.\n"
                   "# - WER = "  + str(current_wer) + "\n")
                   
         log_file.write("# File (" + audio_path + "):\n" +\
               "# - " + str(audio_len) + " seconds long.\n"+\
               "# - actual    text: '" + actual_text + "'\n" +\
               "# - processed text: '" + processed_text + "'\n" +\
-              "# - processed in "  + str(proc_time) + " miliseconds.\n"
+              "# - processed in "  + str(proc_time) + " seconds.\n"
               "# - WER = "  + str(current_wer) + "\n")
         
                   
@@ -128,12 +128,12 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
 avg_proc_time /= num_of_audiofiles
 avg_wer /= num_of_audiofiles
 if(verbose):
-    print("Avg. Proc. time (ms/second of audio) = " + str(avg_proc_time) + "\n" +\
+    print("Avg. Proc. time (sec/second of audio) = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
 log_file.write("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
 log_file.close()
-processed_data+= "AvgProcTime (ms/second of audio)," + str(avg_proc_time) + "\n"
+processed_data+= "AvgProcTime (sec/second of audio)," + str(avg_proc_time) + "\n"
 processed_data+= "AvgWER," + str(avg_wer) + "\n"
 
 
