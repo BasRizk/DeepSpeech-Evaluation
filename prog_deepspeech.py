@@ -13,13 +13,35 @@ from os import listdir, path, makedirs
 from jiwer import wer    
 import soundfile as sf
 import time
-import platform
 
-platform_meta = platform.machine() + "_" + platform.version()
-platform_meta_path = "logs/" + platform_meta
+import platform, os
+ 
+
+##############################################################################
+# ------------------------Documenting Machine ID
+##############################################################################
+
+def cpu_info():
+    if platform.system() == 'Windows':
+        return platform.processor()
+    elif platform.system() == 'Darwin':
+        command = '/usr/sbin/sysctl -n machdep.cpu.brand_string'
+        return os.popen(command).read().strip()
+    elif platform.system() == 'Linux':
+        command = 'cat /proc/cpuinfo'
+        return os.popen(command).read().strip()
+    return 'platform not identified'
+
+localtime = time.strftime("%Y%m%d-%H%M%S")
+platform_id = platform.machine() + "_" + platform.system() + "_" +\
+                platform.node() + "_" + localtime
+platform_meta_path = "logs/" + platform_id
+
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
 
+with open(os.path.join(platform_meta_path,"cpu_info.txt"), 'w') as f:
+    f.write(cpu_info())
 
 verbose = True
 
@@ -36,7 +58,7 @@ def prepare_pathes(directory, exten = ''):
 
 localtime = time.strftime("%Y%m%d-%H%M%S")
 log_filepath = platform_meta_path  +"/logs_" + localtime + ".txt"
-benchmark_filepath = platform_meta_path  +"/deepspeech_benchmark_ " + localtime + ".csv"
+benchmark_filepath = platform_meta_path  +"/deepspeech041_benchmark_ " + localtime + ".csv"
 test_directories = prepare_pathes("tests/current_tests")
 audio_pathes = list()
 text_pathes = list()
@@ -65,7 +87,7 @@ ds = Model(output_graph_path,
 # ---Running the DeepSpeech STT Engine by running through the audio files
 ##############################################################################
 log_file = open(log_filepath, "w")
-processed_data = "filename,length(sec),actual_text,processed_text,proc_time(s),wer\n"
+processed_data = "filename,length(sec),proc_time(sec),wer,actual_text,processed_text\n"
 avg_wer = 0
 avg_proc_time = 0
 num_of_audiofiles = len([item for sublist in audio_pathes for item in sublist])
@@ -95,14 +117,13 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
         current_wer = round(current_wer,3)
         
         # Accumlated data
-        avg_proc_time += (proc_time/(audio_len*1000))
+        avg_proc_time += (proc_time/(audio_len))
         avg_wer += current_wer
         
         
-        
-        progress_row = audio_path + "," + str(audio_len) + "," + actual_text +\
-                         "," + processed_text + "," + str(proc_time) +\
-                         "," + str(current_wer)
+        audio_path = audio_path.split("/")[-1]
+        progress_row = audio_path + "," + str(audio_len) + "," + str(proc_time)  + "," +\
+                        str(current_wer) + "," + actual_text + "," + processed_text
                          
         if(verbose):
             print("# File (" + audio_path + "):\n" +\
