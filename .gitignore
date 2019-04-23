@@ -2,6 +2,10 @@
 tests/
 models/
 
+# Zip and tar files
+*.zip
+*.tar.gz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
