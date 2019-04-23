@@ -16,7 +16,8 @@ import time
 
 import platform, os
  
-
+gpu_support = False
+verbose = True
 ##############################################################################
 # ------------------------Documenting Machine ID
 ##############################################################################
@@ -32,6 +33,12 @@ def cpu_info():
         return os.popen(command).read().strip()
     return 'platform not identified'
 
+def gpu_info():
+    if platform.system() == 'Linux':
+        command = 'nvidia-smi'
+        return os.popen(command).read().strip()
+    return 'platform not identified'
+
 localtime = time.strftime("%Y%m%d-%H%M%S")
 platform_id = platform.machine() + "_" + platform.system() + "_" +\
                 platform.node() + "_" + localtime
@@ -40,10 +47,13 @@ platform_meta_path = "logs/" + platform_id
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
 
-with open(os.path.join(platform_meta_path,"cpu_info.txt"), 'w') as f:
-    f.write(cpu_info())
+if(gpu_support):
+    with open(os.path.join(platform_meta_path,"gpu_info.txt"), 'w') as f:
+        f.write(gpu_info())
+else:
+    with open(os.path.join(platform_meta_path,"cpu_info.txt"), 'w') as f:
+        f.write(cpu_info())
 
-verbose = True
 
 ##############################################################################
 # ------------------------------Preparing pathes
