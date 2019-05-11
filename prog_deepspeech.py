@@ -16,6 +16,7 @@ import time
 
 import platform, os
  
+is_global_directories = True
 gpu_support = False
 verbose = True
 ##############################################################################
@@ -58,12 +59,25 @@ else:
 ##############################################################################
 # ------------------------------Preparing pathes
 ##############################################################################
-def prepare_pathes(directory, exten = ''):
+def prepare_pathes(directory, exten = '', global_dir=False):
     updated_pathes = list()
-    filenames = listdir(directory)
-    for filename in filenames:
-        if(filename.endswith(exten)):
-            updated_pathes.append(path.join(directory, filename))
+    if(global_dir):
+        subdirectories = listdir(directory)
+        subdirectories.sort()
+        for subdirectory in subdirectories:
+            subdirectory = path.join(directory, subdirectory)
+            filenames = listdir(subdirectory)
+            filenames.sort()
+            for filename in filenames:
+                if(filename.endswith(exten)):
+                    updated_pathes.append(path.join(subdirectory, filename))
+            updated_pathes.sort()
+    else:
+        filenames = listdir(directory)
+        for filename in filenames:
+            if(filename.endswith(exten)):
+                updated_pathes.append(path.join(directory, filename))
+    updated_pathes.sort()
     return updated_pathes
 
 localtime = time.strftime("%Y%m%d-%H%M%S")
@@ -73,8 +87,8 @@ test_directories = prepare_pathes("tests/current_tests")
 audio_pathes = list()
 text_pathes = list()
 for d in test_directories:
-    audio_pathes.append(prepare_pathes(d, "flac"))
-    text_pathes.append(prepare_pathes(d, "txt"))
+    audio_pathes.append(prepare_pathes(d, "flac", global_dir=is_global_directories))
+    text_pathes.append(prepare_pathes(d, "txt", global_dir=is_global_directories))
 audio_pathes.sort()
 text_pathes.sort()    
     
