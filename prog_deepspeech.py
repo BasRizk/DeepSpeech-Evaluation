@@ -134,7 +134,7 @@ ds = Model(output_graph_path,
            alphabet_path,
            BEAM_WIDTH)
 inf_model_load_end = timer() - inf_model_load_start
-print('Loaded inference model in {:.3}s.'.format(inf_model_load_end), file=sys.stderr)
+print('Loaded inference model in {:.3}s.'.format(inf_model_load_end))
 log_file.write('Loaded inference model in {:.3}s.'.format(inf_model_load_end))
 
 if USE_LANGUAGE_MODEL:
@@ -145,7 +145,7 @@ if USE_LANGUAGE_MODEL:
     ds.enableDecoderWithLM(alphabet_path, lm_path, trie_path,
                            LM_ALPHA, LM_BETA)
     lm_load_end = timer() - lm_load_start
-    print('Loaded language model in {:.3}s.'.format(lm_load_end), file=sys.stderr)
+    print('Loaded language model in {:.3}s.'.format(lm_load_end))
     log_file.write('Loaded language model in {:.3}s.'.format(lm_load_end))
 
 ##############################################################################
@@ -172,7 +172,7 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
         inference_start = timer()
         processed_text = ds.stt(audio, fs)
         inference_end = timer() - inference_start
-        print('Inference took %0.3fs for %0.3fs audio file.' % (inference_end, audio_len), file=sys.stderr)
+        print('Inference took %0.3fs for %0.3fs audio file.' % (inference_end, audio_len))
         #end = time.time()
        
         proc_time = inference_end
