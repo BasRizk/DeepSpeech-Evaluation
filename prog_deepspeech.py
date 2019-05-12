@@ -103,6 +103,7 @@ text_pathes.sort()
 ##############################################################################
 # ----------------------------- Model Loading 
 ##############################################################################
+log_file = open(log_filepath, "w")
 
 # These constants control the beam search decoder
 # Beam width used in the CTC decoder when building candidate transcriptions
@@ -123,25 +124,33 @@ alphabet_path = "models/alphabet.txt"
 lm_path = "models/lm.binary"
 trie_path = "models/trie"
 
+print('Loading inference model from files {}'.format(output_graph_path),
+          file=sys.stderr)
+log_file.write('Loading inference model from files {}'.format(output_graph_path))
+inf_model_load_start = timer()
 ds = Model(output_graph_path,
            N_FEATURES,
            N_CONTEXT,
            alphabet_path,
            BEAM_WIDTH)
+inf_model_load_end = timer() - inf_model_load_start
+print('Loaded inference model in {:.3}s.'.format(inf_model_load_end), file=sys.stderr)
+log_file.write('Loaded inference model in {:.3}s.'.format(inf_model_load_end))
 
 if USE_LANGUAGE_MODEL:
     print('Loading language model from files {} {}'.format(alphabet_path, trie_path),
           file=sys.stderr)
+    log_file.write('Loading language model from files {} {}'.format(alphabet_path, trie_path))
     lm_load_start = timer()
     ds.enableDecoderWithLM(alphabet_path, lm_path, trie_path,
                            LM_ALPHA, LM_BETA)
     lm_load_end = timer() - lm_load_start
     print('Loaded language model in {:.3}s.'.format(lm_load_end), file=sys.stderr)
+    log_file.write('Loaded language model in {:.3}s.'.format(lm_load_end))
 
 ##############################################################################
 # ---Running the DeepSpeech STT Engine by running through the audio files
 ##############################################################################
-log_file = open(log_filepath, "w")
 processed_data = "filename,length(sec),proc_time(sec),wer,actual_text,processed_text\n"
 avg_wer = 0
 avg_proc_time = 0
@@ -158,16 +167,15 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
         audio, fs = sf.read(audio_path, dtype='int16')
         audio_len = len(audio)/fs 
 
-        start_proc = time.time()
+        #start_proc = time.time()
         print('Running inference.', file=sys.stderr)
         inference_start = timer()
         processed_text = ds.stt(audio, fs)
         inference_end = timer() - inference_start
         print('Inference took %0.3fs for %0.3fs audio file.' % (inference_end, audio_len), file=sys.stderr)
-        end = time.time()
+        #end = time.time()
        
-        proc_time = end-start_proc
-        #proc_time = inference_end - inference_start
+        proc_time = inference_end
         proc_time = round(proc_time,3)
 
     
