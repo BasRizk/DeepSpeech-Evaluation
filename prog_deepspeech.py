@@ -13,11 +13,15 @@ from os import listdir, path, makedirs
 from jiwer import wer    
 import soundfile as sf
 import time
+import platform, os, sys
 
-import platform, os
+from timeit import default_timer as timer
+
  
-gpu_support = False
-verbose = True
+IS_GLOBAL_DIRECTORIES = False
+USING_GPU = False
+USE_LANGUAGE_MODEL = False
+VERBOSE = True
 ##############################################################################
 # ------------------------Documenting Machine ID
 ##############################################################################
@@ -47,7 +51,7 @@ platform_meta_path = "logs/" + platform_id
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
 
-if(gpu_support):
+if(USING_GPU):
     with open(os.path.join(platform_meta_path,"gpu_info.txt"), 'w') as f:
         f.write(gpu_info())
 else:
@@ -58,12 +62,25 @@ else:
 ##############################################################################
 # ------------------------------Preparing pathes
 ##############################################################################
-def prepare_pathes(directory, exten = ''):
+def prepare_pathes(directory, exten = '', global_dir=False):
     updated_pathes = list()
-    filenames = listdir(directory)
-    for filename in filenames:
-        if(filename.endswith(exten)):
-            updated_pathes.append(path.join(directory, filename))
+    if(global_dir):
+        subdirectories = listdir(directory)
+        subdirectories.sort()
+        for subdirectory in subdirectories:
+            subdirectory = path.join(directory, subdirectory)
+            filenames = listdir(subdirectory)
+            filenames.sort()
+            for filename in filenames:
+                if(filename.endswith(exten)):
+                    updated_pathes.append(path.join(subdirectory, filename))
+            updated_pathes.sort()
+    else:
+        filenames = listdir(directory)
+        for filename in filenames:
+            if(filename.endswith(exten)):
+                updated_pathes.append(path.join(directory, filename))
+    updated_pathes.sort()
     return updated_pathes
 
 localtime = time.strftime("%Y%m%d-%H%M%S")
@@ -73,8 +90,8 @@ test_directories = prepare_pathes("tests/current_tests")
 audio_pathes = list()
 text_pathes = list()
 for d in test_directories:
-    audio_pathes.append(prepare_pathes(d, "flac"))
-    text_pathes.append(prepare_pathes(d, "txt"))
+    audio_pathes.append(prepare_pathes(d, "flac", global_dir=IS_GLOBAL_DIRECTORIES))
+    text_pathes.append(prepare_pathes(d, "txt", global_dir=IS_GLOBAL_DIRECTORIES))
 audio_pathes.sort()
 text_pathes.sort()    
     
@@ -83,15 +100,43 @@ text_pathes.sort()
 #    text_path = prepare_pathes("tests/text", "txt")
 #    audio_transcripts = open(text_path[0], 'r').readlines()
 
+##############################################################################
+# ----------------------------- Model Loading 
+##############################################################################
+
+# These constants control the beam search decoder
+# Beam width used in the CTC decoder when building candidate transcriptions
+BEAM_WIDTH = 500
+# The alpha hyperparameter of the CTC decoder. Language Model weight
+LM_ALPHA = 0.75
+# The beta hyperparameter of the CTC decoder. Word insertion bonus.
+LM_BETA = 1.85
+
+# These constants are tied to the shape of the graph used
+# Number of MFCC features to use
+N_FEATURES = 26
+# Size of the context window used for producing timesteps in the input vector
+N_CONTEXT = 9
 
 output_graph_path = "models/output_graph.pb"
 alphabet_path = "models/alphabet.txt"
-ds = Model(output_graph_path,
-           26,
-           9,
-           alphabet_path,
-           500)
+lm_path = "models/lm.binary"
+trie_path = "models/trie"
 
+ds = Model(output_graph_path,
+           N_FEATURES,
+           N_CONTEXT,
+           alphabet_path,
+           BEAM_WIDTH)
+
+if USE_LANGUAGE_MODEL:
+    print('Loading language model from files {} {}'.format(alphabet_path, trie_path),
+          file=sys.stderr)
+    lm_load_start = timer()
+    ds.enableDecoderWithLM(alphabet_path, lm_path, trie_path,
+                           LM_ALPHA, LM_BETA)
+    lm_load_end = timer() - lm_load_start
+    print('Loaded language model in {:.3}s.'.format(lm_load_end), file=sys.stderr)
 
 ##############################################################################
 # ---Running the DeepSpeech STT Engine by running through the audio files
@@ -110,13 +155,19 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
         print("\n=> Progress = " + "{0:.2f}".format((current_audio_number/num_of_audiofiles)*100) + "%\n" )
         current_audio_number+=1
         
-        audio, fs = sf.read(audio_path, dtype='int16')    
+        audio, fs = sf.read(audio_path, dtype='int16')
+        audio_len = len(audio)/fs 
+
         start_proc = time.time()
+        print('Running inference.', file=sys.stderr)
+        inference_start = timer()
         processed_text = ds.stt(audio, fs)
+        inference_end = timer() - inference_start
+        print('Inference took %0.3fs for %0.3fs audio file.' % (inference_end, audio_len), file=sys.stderr)
         end = time.time()
        
-        audio_len = len(audio)/fs 
         proc_time = end-start_proc
+        #proc_time = inference_end - inference_start
         proc_time = round(proc_time,3)
 
     
@@ -135,7 +186,7 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
         progress_row = audio_path + "," + str(audio_len) + "," + str(proc_time)  + "," +\
                         str(current_wer) + "," + actual_text + "," + processed_text
                          
-        if(verbose):
+        if(VERBOSE):
             print("# File (" + audio_path + "):\n" +\
                   "# - " + str(audio_len) + " seconds long.\n"+\
                   "# - actual    text: '" + actual_text + "'\n" +\
@@ -158,7 +209,7 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
 ##############################################################################
 avg_proc_time /= num_of_audiofiles
 avg_wer /= num_of_audiofiles
-if(verbose):
+if(VERBOSE):
     print("Avg. Proc. time (sec/second of audio) = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
 log_file.write("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
