@@ -1,0 +1,746 @@
+# File (121-121726-0000.flac):
+# - 8.46 seconds long.
+# - actual    text: 'also a popular contrivance whereby love making may be suspended but not stopped during the picnic season'
+# - processed text: 'also a papular contrivance were by love making may be suspended but not stoped during the picnic season'
+# - processed in 156.464 seconds.
+# - WER = 0.235
+# File (121-121726-0001.flac):
+# - 5.925 seconds long.
+# - actual    text: 'harangue the tiresome product of a tireless tongue'
+# - processed text: 'her ang the tire some product of a tireless tongue'
+# - processed in 97.417 seconds.
+# - WER = 0.5
+# File (121-121726-0002.flac):
+# - 4.41 seconds long.
+# - actual    text: 'angor pain painful to hear'
+# - processed text: 'angler hain intold to her'
+# - processed in 73.966 seconds.
+# - WER = 0.8
+# File (121-121726-0003.flac):
+# - 6.755 seconds long.
+# - actual    text: 'hay fever a heart trouble caused by falling in love with a grass widow'
+# - processed text: 'hay fever a heard trouble caused by falling in love with a grass widow'
+# - processed in 111.018 seconds.
+# - WER = 0.071
+# File (121-121726-0004.flac):
+# - 4.02 seconds long.
+# - actual    text: 'heaven a good place to be raised to'
+# - processed text: 'heaven ar good place to be raised to'
+# - processed in 66.31 seconds.
+# - WER = 0.125
+# File (121-121726-0005.flac):
+# - 3.1 seconds long.
+# - actual    text: 'hedge a fence'
+# - processed text: 'hedge a fence'
+# - processed in 51.427 seconds.
+# - WER = 0.0
+# File (121-121726-0006.flac):
+# - 3.895 seconds long.
+# - actual    text: 'heredity the cause of all our faults'
+# - processed text: 'her redity the cause of all our faults'
+# - processed in 59.546 seconds.
+# - WER = 0.286
+# File (121-121726-0007.flac):
+# - 6.73 seconds long.
+# - actual    text: 'horse sense a degree of wisdom that keeps one from betting on the races'
+# - processed text: 'por sense a egree of wisdom that keeps one from betting on the races'
+# - processed in 95.832 seconds.
+# - WER = 0.143
+# File (121-121726-0008.flac):
+# - 4.99 seconds long.
+# - actual    text: 'hose man's excuse for wetting the walk'
+# - processed text: 'ho as man suxcuse for wetting the walk'
+# - processed in 70.578 seconds.
+# - WER = 0.5
+# File (121-121726-0009.flac):
+# - 7.26 seconds long.
+# - actual    text: 'hotel a place where a guest often gives up good dollars for poor quarters'
+# - processed text: 'how tl a place were a guest often gaves up good dollars popor quarters'
+# - processed in 103.782 seconds.
+# - WER = 0.429
+# File (121-121726-0010.flac):
+# - 9.81 seconds long.
+# - actual    text: 'housecleaning a domestic upheaval that makes it easy for the government to enlist all the soldiers it needs'
+# - processed text: 'how sclaining ad do mestic upheble ndthat makes it easy for the government to enlist all the soldiers at needs'
+# - processed in 138.206 seconds.
+# - WER = 0.444
+# File (121-121726-0011.flac):
+# - 4.035 seconds long.
+# - actual    text: 'husband the next thing to a wife'
+# - processed text: 'hasband the next thing to a wife'
+# - processed in 55.585 seconds.
+# - WER = 0.143
+# File (121-121726-0012.flac):
+# - 4.045 seconds long.
+# - actual    text: 'hussy woman and bond tie'
+# - processed text: 'hosse woman and barn tie'
+# - processed in 56.323 seconds.
+# - WER = 0.4
+# File (121-121726-0013.flac):
+# - 2.49 seconds long.
+# - actual    text: 'tied to a woman'
+# - processed text: 'an tided to war woman'
+# - processed in 32.687 seconds.
+# - WER = 0.75
+# File (121-121726-0014.flac):
+# - 3.165 seconds long.
+# - actual    text: 'hypocrite a horse dealer'
+# - processed text: 'ipecrit a horse tarer'
+# - processed in 43.521 seconds.
+# - WER = 0.5
+# File (121-123852-0000.flac):
+# - 17.695 seconds long.
+# - actual    text: 'those pretty wrongs that liberty commits when i am sometime absent from thy heart thy beauty and thy years full well befits for still temptation follows where thou art'
+# - processed text: 'those pretty wrongs that liverty canmits when i am some time absent from thy heart thy beauty and thy years ful well defits for still tempttation follows where thou art'
+# - processed in 254.492 seconds.
+# - WER = 0.241
+# File (121-123852-0001.flac):
+# - 1.87 seconds long.
+# - actual    text: 'ay me'
+# - processed text: 'i mean'
+# - processed in 26.374 seconds.
+# - WER = 1.0
+# File (121-123852-0002.flac):
+# - 17.285 seconds long.
+# - actual    text: 'no matter then although my foot did stand upon the farthest earth remov'd from thee for nimble thought can jump both sea and land as soon as think the place where he would be but ah'
+# - processed text: 'no matter ban although my foottad stand upon the fathest earth removed from thee for nimble thought can jump both fe and land as soon as think the place where he would be but ah'
+# - processed in 253.545 seconds.
+# - WER = 0.189
+# File (121-123852-0003.flac):
+# - 23.505 seconds long.
+# - actual    text: 'thought kills me that i am not thought to leap large lengths of miles when thou art gone but that so much of earth and water wrought i must attend time's leisure with my moan receiving nought by elements so slow but heavy tears badges of either's woe'
+# - processed text: 'thought kils me that i am not thought to leap large lengths of miles winh thou art gone but that so much of earth and water rought i must attend times leisure with my moan receiving not by elements so slow but heavy tears badges of eithers woe'
+# - processed in 324.999 seconds.
+# - WER = 0.16
+# File (121-123852-0004.flac):
+# - 16.29 seconds long.
+# - actual    text: 'my heart doth plead that thou in him dost lie a closet never pierc'd with crystal eyes but the defendant doth that plea deny and says in him thy fair appearance lies'
+# - processed text: 'my heart doth pleed that thou in him dust lie a closet never perced with chrystal eyes but the defendant doth that plead ei and says in him thy fair o parance lies'
+# - processed in 235.411 seconds.
+# - WER = 0.273
+# File (61-70968-0000.flac):
+# - 4.905 seconds long.
+# - actual    text: 'he began a confused complaint against the wizard who had vanished behind the curtain on the left'
+# - processed text: 'he began a confused complaint against the wizard who hadvanished behind the curtain ong the left'
+# - processed in 69.895 seconds.
+# - WER = 0.176
+# File (61-70968-0001.flac):
+# - 3.61 seconds long.
+# - actual    text: 'give not so earnest a mind to these mummeries child'
+# - processed text: 'kiv not so earnest a mind to bhe's mummories child'
+# - processed in 52.927 seconds.
+# - WER = 0.4
+# File (61-70968-0002.flac):
+# - 2.97 seconds long.
+# - actual    text: 'a golden fortune and a happy life'
+# - processed text: 'a golden fortune and i happy life'
+# - processed in 41.724 seconds.
+# - WER = 0.143
+# File (61-70968-0003.flac):
+# - 4.315 seconds long.
+# - actual    text: 'he was like unto my father in a way and yet was not my father'
+# - processed text: 'he was like un to my father and away and yet was not my faulther'
+# - processed in 62.252 seconds.
+# - WER = 0.4
+# File (61-70968-0004.flac):
+# - 3.885 seconds long.
+# - actual    text: 'also there was a stripling page who turned into a maid'
+# - processed text: 'also there was a striptling page who turned into a maid'
+# - processed in 53.272 seconds.
+# - WER = 0.091
+# File (61-70968-0005.flac):
+# - 5.07 seconds long.
+# - actual    text: 'this was so sweet a lady sir and in some manner i do think she died'
+# - processed text: 'this was so sweetilady sir and in some matner i do think she died'
+# - processed in 68.855 seconds.
+# - WER = 0.25
+# File (61-70968-0006.flac):
+# - 2.935 seconds long.
+# - actual    text: 'but then the picture was gone as quickly as it came'
+# - processed text: 'but then the picture was gone as quickly as it came'
+# - processed in 40.725 seconds.
+# - WER = 0.0
+# File (61-70968-0007.flac):
+# - 3.55 seconds long.
+# - actual    text: 'sister nell do you hear these marvels'
+# - processed text: 'sistem nel do you hear these marvels'
+# - processed in 50.686 seconds.
+# - WER = 0.286
+# File (61-70968-0008.flac):
+# - 3.535 seconds long.
+# - actual    text: 'take your place and let us see what the crystal can show to you'
+# - processed text: 'take your place in let us see what the cristal can show to you'
+# - processed in 50.379 seconds.
+# - WER = 0.143
+# File (61-70968-0009.flac):
+# - 4.51 seconds long.
+# - actual    text: 'like as not young master though i am an old man'
+# - processed text: 'like is not young master though iam and old man'
+# - processed in 60.372 seconds.
+# - WER = 0.364
+# File (61-70968-0010.flac):
+# - 8.295 seconds long.
+# - actual    text: 'forthwith all ran to the opening of the tent to see what might be amiss but master will who peeped out first needed no more than one glance'
+# - processed text: 'forth with all rantod the opening of the tent to see what might be amiss but master will who peeped out first needed no more than one glance'
+# - processed in 115.079 seconds.
+# - WER = 0.143
+# File (61-70968-0011.flac):
+# - 6.375 seconds long.
+# - actual    text: 'he gave way to the others very readily and retreated unperceived by the squire and mistress fitzooth to the rear of the tent'
+# - processed text: 'he cave way to the others very readily and retreated unpeceived by this squire and mistress fitzuth to the rear of the tent'
+# - processed in 89.054 seconds.
+# - WER = 0.174
+# File (61-70968-0012.flac):
+# - 2.61 seconds long.
+# - actual    text: 'cries of a nottingham a nottingham'
+# - processed text: 'cries of anoting ham u not ingham'
+# - processed in 35.776 seconds.
+# - WER = 0.833
+# File (61-70968-0013.flac):
+# - 4.45 seconds long.
+# - actual    text: 'before them fled the stroller and his three sons capless and terrified'
+# - processed text: 'before them fled the stroller an his three sons caplus and terrified'
+# - processed in 61.653 seconds.
+# - WER = 0.167
+# File (61-70968-0014.flac):
+# - 7.485 seconds long.
+# - actual    text: 'what is the tumult and rioting cried out the squire authoritatively and he blew twice on a silver whistle which hung at his belt'
+# - processed text: 'what is the tumulten rieting cried out thi squireauthoritatively and he blew twice on the solver whistle which hunget his belt'
+# - processed in 103.395 seconds.
+# - WER = 0.417
+# File (61-70968-0015.flac):
+# - 5.375 seconds long.
+# - actual    text: 'nay we refused their request most politely most noble said the little stroller'
+# - processed text: 'nay we refrees they request most politely most noble seit the little stroner'
+# - processed in 71.691 seconds.
+# - WER = 0.308
+# File (61-70968-0016.flac):
+# - 3.72 seconds long.
+# - actual    text: 'and then they became vexed and would have snatched your purse from us'
+# - processed text: 'and then the became vexed and would asnatched your pers from us'
+# - processed in 51.72 seconds.
+# - WER = 0.308
+# File (61-70968-0017.flac):
+# - 5.11 seconds long.
+# - actual    text: 'i could not see my boy injured excellence for but doing his duty as one of cumberland's sons'
+# - processed text: 'i could not see my boy injrdexelence for but doing his duty as one of cumberland sons'
+# - processed in 71.345 seconds.
+# - WER = 0.158
+# File (61-70968-0018.flac):
+# - 2.405 seconds long.
+# - actual    text: 'so i did push this fellow'
+# - processed text: 'so bi did push this fellow'
+# - processed in 34.483 seconds.
+# - WER = 0.167
+# File (61-70968-0019.flac):
+# - 5.475 seconds long.
+# - actual    text: 'it is enough said george gamewell sharply and he turned upon the crowd'
+# - processed text: 'it is i nogh said george gamewill sharply as he turned upon the crowd'
+# - processed in 77.394 seconds.
+# - WER = 0.308
+# File (61-70968-0020.flac):
+# - 5.105 seconds long.
+# - actual    text: 'shame on you citizens cried he i blush for my fellows of nottingham'
+# - processed text: 'she monused to thisens cried he i blush for my fellows of not inhaim'
+# - processed in 70.611 seconds.
+# - WER = 0.462
+# File (61-70968-0021.flac):
+# - 2.69 seconds long.
+# - actual    text: 'surely we can submit with good grace'
+# - processed text: 'shurely we con submit with good grace'
+# - processed in 37.16 seconds.
+# - WER = 0.286
+# File (61-70968-0022.flac):
+# - 4.67 seconds long.
+# - actual    text: 'tis fine for you to talk old man answered the lean sullen apprentice'
+# - processed text: 'tis fine for  you to talk alld man answere the leans solen apprintice'
+# - processed in 65.215 seconds.
+# - WER = 0.385
+# File (61-70968-0023.flac):
+# - 5.025 seconds long.
+# - actual    text: 'but i wrestled with this fellow and do know that he played unfairly in the second bout'
+# - processed text: 'but i restled with this fellow and do now that he played on fairly in the second bout'
+# - processed in 71.344 seconds.
+# - WER = 0.235
+# File (61-70968-0024.flac):
+# - 6.025 seconds long.
+# - actual    text: 'spoke the squire losing all patience and it was to you that i gave another purse in consolation'
+# - processed text: 'spoke this squirelosyn alpatient and it was te you that i gave another person consolation'
+# - processed in 87.134 seconds.
+# - WER = 0.444
+# File (61-70968-0025.flac):
+# - 4.41 seconds long.
+# - actual    text: 'come to me men here here he raised his voice still louder'
+# - processed text: 'come to me men here here he raised his voice to louder'
+# - processed in 62.601 seconds.
+# - WER = 0.083
+# File (61-70968-0026.flac):
+# - 4.92 seconds long.
+# - actual    text: 'the strollers took their part in it with hearty zest now that they had some chance of beating off their foes'
+# - processed text: 'the strolers took their partnet with heartyzeste now that they had some chance of beating off their foes'
+# - processed in 70.075 seconds.
+# - WER = 0.286
+# File (61-70968-0027.flac):
+# - 6.87 seconds long.
+# - actual    text: 'robin and the little tumbler between them tried to force the squire to stand back and very valiantly did these two comport themselves'
+# - processed text: 'robitin the little tumbler between them tryed to force the squire dostand back and very valley bly to these two comport themselves'
+# - processed in 97.917 seconds.
+# - WER = 0.348
+# File (61-70968-0028.flac):
+# - 5.355 seconds long.
+# - actual    text: 'the head and chief of the riot the nottingham apprentice with clenched fists threatened montfichet'
+# - processed text: 'the head en chief of the riot that notding ham a prentice with clench fists threatened monfyshe'
+# - processed in 76.518 seconds.
+# - WER = 0.533
+# File (61-70968-0029.flac):
+# - 3.495 seconds long.
+# - actual    text: 'the squire helped to thrust them all in and entered swiftly himself'
+# - processed text: 'the squire helped a thrust the mallion and entered swiftly himself'
+# - processed in 50.474 seconds.
+# - WER = 0.333
+# File (61-70968-0030.flac):
+# - 5.685 seconds long.
+# - actual    text: 'now be silent on your lives he began but the captured apprentice set up an instant shout'
+# - processed text: 'now be silent onyor lives he began but the captured a prentice set up an instant shout'
+# - processed in 79.925 seconds.
+# - WER = 0.235
+# File (61-70968-0031.flac):
+# - 2.925 seconds long.
+# - actual    text: 'silence you knave cried montfichet'
+# - processed text: 'silent u nave cried mantrishe'
+# - processed in 43.325 seconds.
+# - WER = 0.8
+# File (61-70968-0032.flac):
+# - 4.28 seconds long.
+# - actual    text: 'he felt for and found the wizard's black cloth the squire was quite out of breath'
+# - processed text: 'he felt for infound the wizard's black cloth the squire was quite out of breath'
+# - processed in 60.579 seconds.
+# - WER = 0.118
+# File (61-70968-0033.flac):
+# - 5.685 seconds long.
+# - actual    text: 'thrusting open the proper entrance of the tent robin suddenly rushed forth with his burden with a great shout'
+# - processed text: 'thrusting open the proper entrance of the tent robin suddenly rushed forth with his burden with a great shout'
+# - processed in 79.968 seconds.
+# - WER = 0.0
+# File (61-70968-0034.flac):
+# - 4.23 seconds long.
+# - actual    text: 'a montfichet a montfichet gamewell to the rescue'
+# - processed text: 'amont fesha of montbesha game well to the rescue'
+# - processed in 57.782 seconds.
+# - WER = 0.75
+# File (61-70968-0035.flac):
+# - 7.95 seconds long.
+# - actual    text: 'taking advantage of this the squire's few men redoubled their efforts and encouraged by robin's and the little stroller's cries fought their way to him'
+# - processed text: 'taking advantage of this thi squires tu men redoubled therefforts and incouraged by rob ins in the little strolers cries falther weight to him'
+# - processed in 107.663 seconds.
+# - WER = 0.536
+# File (61-70968-0036.flac):
+# - 2.9349375 seconds long.
+# - actual    text: 'george montfichet will never forget this day'
+# - processed text: 'george montfije will never forget this day'
+# - processed in 40.265 seconds.
+# - WER = 0.143
+# File (61-70968-0037.flac):
+# - 4.315 seconds long.
+# - actual    text: 'what is your name lording asked the little stroller presently'
+# - processed text: 'what is your name lording asked the little stroller presently'
+# - processed in 60.224 seconds.
+# - WER = 0.0
+# File (61-70968-0038.flac):
+# - 2.05 seconds long.
+# - actual    text: 'robin fitzooth'
+# - processed text: 'robin fitzoth'
+# - processed in 28.311 seconds.
+# - WER = 0.5
+# File (61-70968-0039.flac):
+# - 3.805 seconds long.
+# - actual    text: 'and mine is will stuteley shall we be comrades'
+# - processed text: 'and mind is will stutly shall we become rans'
+# - processed in 53.741 seconds.
+# - WER = 0.444
+# File (61-70968-0040.flac):
+# - 3.95 seconds long.
+# - actual    text: 'right willingly for between us we have won the battle answered robin'
+# - processed text: 'right willingly for between us we have on the battle answered brobin'
+# - processed in 57.804 seconds.
+# - WER = 0.167
+# File (61-70968-0041.flac):
+# - 6.825 seconds long.
+# - actual    text: 'i like you will you are the second will that i have met and liked within two days is there a sign in that'
+# - processed text: 'id like you will you are the second will that i have met an ligke with in tu days is there a sign in that'
+# - processed in 96.794 seconds.
+# - WER = 0.25
+# File (61-70968-0042.flac):
+# - 2.785 seconds long.
+# - actual    text: 'montfichet called out for robin to give him an arm'
+# - processed text: 'monfi sha called out for robin to give him an arm'
+# - processed in 38.537 seconds.
+# - WER = 0.2
+# File (61-70968-0043.flac):
+# - 6.735 seconds long.
+# - actual    text: 'friends said montfichet faintly to the wrestlers bear us escort so far as the sheriff's house'
+# - processed text: 'friends said montti sha faintly to the restlers barus escorts so far as the sherif's house'
+# - processed in 93.182 seconds.
+# - WER = 0.412
+# File (61-70968-0044.flac):
+# - 2.77 seconds long.
+# - actual    text: 'it will not be safe for you to stay here now'
+# - processed text: 'it will not be safefr you to stay here now'
+# - processed in 37.813 seconds.
+# - WER = 0.182
+# File (61-70968-0045.flac):
+# - 3.475 seconds long.
+# - actual    text: 'pray follow us with mine and my lord sheriff's men'
+# - processed text: 'pray follow us with mine and my lord sheriss men'
+# - processed in 45.783 seconds.
+# - WER = 0.182
+# File (61-70968-0046.flac):
+# - 3.55 seconds long.
+# - actual    text: 'nottingham castle was reached and admittance was demanded'
+# - processed text: 'not ig ham castle was reached and inmittens was demanded'
+# - processed in 49.0 seconds.
+# - WER = 0.5
+# File (61-70968-0047.flac):
+# - 4.775 seconds long.
+# - actual    text: 'master monceux the sheriff of nottingham was mightily put about when told of the rioting'
+# - processed text: 'master monse the sheriff of notding ham was mightily put about when told of the rioting'
+# - processed in 68.606 seconds.
+# - WER = 0.2
+# File (61-70968-0048.flac):
+# - 3.02 seconds long.
+# - actual    text: 'and henry might return to england at any moment'
+# - processed text: 'and henry might return to england at any moment'
+# - processed in 42.802 seconds.
+# - WER = 0.0
+# File (61-70968-0049.flac):
+# - 8.25 seconds long.
+# - actual    text: 'have your will child if the boy also wills it montfichet answered feeling too ill to oppose anything very strongly just then'
+# - processed text: 'have your will child if the boy also will sit in mut be sha answered feeling too ill toopose anything very strongly just then'
+# - processed in 116.185 seconds.
+# - WER = 0.364
+# File (61-70968-0050.flac):
+# - 5.58 seconds long.
+# - actual    text: 'he made an effort to hide his condition from them all and robin felt his fingers tighten upon his arm'
+# - processed text: 'he made an effort to hide his condition from the mall and robin felt his favors tighten upon his arm'
+# - processed in 78.827 seconds.
+# - WER = 0.15
+# File (61-70968-0051.flac):
+# - 3.135 seconds long.
+# - actual    text: 'beg me a room of the sheriff child quickly'
+# - processed text: 'beg me a room of the sheriff child quickly'
+# - processed in 44.082 seconds.
+# - WER = 0.0
+# File (61-70968-0052.flac):
+# - 2.65 seconds long.
+# - actual    text: 'but who is this fellow plucking at your sleeve'
+# - processed text: 'but who is thi fellow plucking at respeeve'
+# - processed in 36.44 seconds.
+# - WER = 0.333
+# File (61-70968-0053.flac):
+# - 4.22 seconds long.
+# - actual    text: 'he is my esquire excellency returned robin with dignity'
+# - processed text: 'he as my esquire excellency i returned robin with dignity'
+# - processed in 60.88 seconds.
+# - WER = 0.222
+# File (61-70968-0054.flac):
+# - 7.86 seconds long.
+# - actual    text: 'mistress fitzooth had been carried off by the sheriff's daughter and her maids as soon as they had entered the house so that robin alone had the care of montfichet'
+# - processed text: 'mistress fitzouth had been carried off by the seraf staughter an her maids as soon as they had entered the house  that brob en alone had the care of monby shap'
+# - processed in 111.829 seconds.
+# - WER = 0.323
+# File (61-70968-0055.flac):
+# - 3.965 seconds long.
+# - actual    text: 'robin was glad when at length they were left to their own devices'
+# - processed text: 'robin was glad when at length they were left to their own devices'
+# - processed in 55.739 seconds.
+# - WER = 0.0
+# File (61-70968-0056.flac):
+# - 3.565 seconds long.
+# - actual    text: 'the wine did certainly bring back the color to the squire's cheeks'
+# - processed text: 'the winded certainly bring back the color to this squire's cheeks'
+# - processed in 49.386 seconds.
+# - WER = 0.231
+# File (61-70968-0057.flac):
+# - 5.065 seconds long.
+# - actual    text: 'these escapades are not for old gamewell lad his day has come to twilight'
+# - processed text: 'these escapates are not for old game well lead his day has come to twilight'
+# - processed in 71.956 seconds.
+# - WER = 0.286
+# File (61-70968-0058.flac):
+# - 1.82 seconds long.
+# - actual    text: 'will you forgive me now'
+# - processed text: 'will you forgive me now'
+# - processed in 24.734 seconds.
+# - WER = 0.0
+# File (61-70968-0059.flac):
+# - 2.17 seconds long.
+# - actual    text: 'it will be no disappointment to me'
+# - processed text: 'it'll be noticappointment to me'
+# - processed in 30.806 seconds.
+# - WER = 0.286
+# File (61-70968-0060.flac):
+# - 3.735 seconds long.
+# - actual    text: 'no thanks i am glad to give you such easy happiness'
+# - processed text: 'no thanks i am glad to give you such easy happiness'
+# - processed in 53.986 seconds.
+# - WER = 0.0
+# File (61-70968-0061.flac):
+# - 5.53 seconds long.
+# - actual    text: 'you are a worthy leech will presently whispered robin the wine has worked a marvel'
+# - processed text: 'you are a worthy leade will presently whispered crobin the wine is worked a marfl'
+# - processed in 77.908 seconds.
+# - WER = 0.267
+# File (61-70968-0062.flac):
+# - 2.555 seconds long.
+# - actual    text: 'ay and show you some pretty tricks'
+# - processed text: 'i enshow you some pretty tricks'
+# - processed in 36.253 seconds.
+# - WER = 0.429
+# File (61-70970-0000.flac):
+# - 6.075 seconds long.
+# - actual    text: 'young fitzooth had been commanded to his mother's chamber so soon as he had come out from his converse with the squire'
+# - processed text: 'young fits youth had been commanded to his mother's chamber so soon as he had come out from his converse with the squire'
+# - processed in 83.887 seconds.
+# - WER = 0.087
+# File (61-70970-0001.flac):
+# - 6.155 seconds long.
+# - actual    text: 'there befell an anxious interview mistress fitzooth arguing for and against the squire's project in a breath'
+# - processed text: 'there be fell in anxious interview mistress fiszhoth arguing for in against this squire's project in the breath'
+# - processed in 84.473 seconds.
+# - WER = 0.389
+# File (61-70970-0002.flac):
+# - 4.165 seconds long.
+# - actual    text: 'most of all robin thought of his father what would he counsel'
+# - processed text: 'must of all robin thought of his father what would he countsel'
+# - processed in 59.73 seconds.
+# - WER = 0.167
+# File (61-70970-0003.flac):
+# - 3.835 seconds long.
+# - actual    text: 'if for a whim you beggar yourself i cannot stay you'
+# - processed text: 'if for a wim you begger yourself i cannot stay you'
+# - processed in 55.635 seconds.
+# - WER = 0.182
+# File (61-70970-0004.flac):
+# - 10.515 seconds long.
+# - actual    text: 'but take it whilst i live and wear montfichet's shield in the days when my eyes can be rejoiced by so brave a sight for you will ne'er disgrace our scutcheon i warrant me'
+# - processed text: 'but take it will stylive and where montfy shes she old in the days when my eyes can be rejoiced by so brav a sight for you will nerer desgrace our stuch and i warrant me'
+# - processed in 151.758 seconds.
+# - WER = 0.371
+# File (61-70970-0005.flac):
+# - 2.02 seconds long.
+# - actual    text: 'the lad had checked him then'
+# - processed text: 'the lad adjhecke him then'
+# - processed in 28.635 seconds.
+# - WER = 0.333
+# File (61-70970-0006.flac):
+# - 2.335 seconds long.
+# - actual    text: 'never that sir he had said'
+# - processed text: 'never that's sir he had said'
+# - processed in 29.499 seconds.
+# - WER = 0.167
+# File (61-70970-0007.flac):
+# - 4.485 seconds long.
+# - actual    text: 'he was in deep converse with the clerk and entered the hall holding him by the arm'
+# - processed text: 'he was in deep converse with the cork and entere the hall holding him by the arm'
+# - processed in 61.696 seconds.
+# - WER = 0.118
+# File (61-70970-0008.flac):
+# - 2.15 seconds long.
+# - actual    text: 'now to bed boy'
+# - processed text: 'now to bed boy'
+# - processed in 30.375 seconds.
+# - WER = 0.0
+# File (61-70970-0009.flac):
+# - 3.405 seconds long.
+# - actual    text: 'tis late and i go myself within a short space'
+# - processed text: 'tis late and i go myself with an a short space'
+# - processed in 46.583 seconds.
+# - WER = 0.2
+# File (61-70970-0010.flac):
+# - 3.045 seconds long.
+# - actual    text: 'dismiss your squire robin and bid me good e e n'
+# - processed text: 'dousmiss your squire robin and bid me good ea an'
+# - processed in 39.68 seconds.
+# - WER = 0.364
+# File (61-70970-0011.flac):
+# - 6.075 seconds long.
+# - actual    text: 'as any in england i would say said gamewell proudly that is in his day'
+# - processed text: 'as any an engle and i would say said kamewoll proudly that is in his day'
+# - processed in 82.679 seconds.
+# - WER = 0.267
+# File (61-70970-0012.flac):
+# - 3.135 seconds long.
+# - actual    text: 'yet he will teach you a few tricks when morning is come'
+# - processed text: 'yet he will teach you a few tricks when morning is come'
+# - processed in 44.273 seconds.
+# - WER = 0.0
+# File (61-70970-0013.flac):
+# - 4.35 seconds long.
+# - actual    text: 'there was no chance to alter his sleeping room to one nearer to gamewell's chamber'
+# - processed text: 'there was no chance to alter his sleeping room to one nearer to gamewell's chamber'
+# - processed in 60.291 seconds.
+# - WER = 0.0
+# File (61-70970-0014.flac):
+# - 3.405 seconds long.
+# - actual    text: 'presently he crossed the floor of his room with decided step'
+# - processed text: 'presently he crossed the floor of his room with decided step'
+# - processed in 49.072 seconds.
+# - WER = 0.0
+# File (61-70970-0015.flac):
+# - 8.415 seconds long.
+# - actual    text: 'will cried he softly and stuteley who had chosen his couch across the door of his young master's chamber sprang up at once in answer'
+# - processed text: 'will cried he saftly and stuatly who had chosen his coucter cross the door of his young master's chamber sprang up at once an answer'
+# - processed in 123.487 seconds.
+# - WER = 0.192
+# File (61-70970-0016.flac):
+# - 4.37 seconds long.
+# - actual    text: 'we will go out together to the bower there is a way down to the court from my window'
+# - processed text: 'we will go out together to the bower there 's a waiy down to the court re my window'
+# - processed in 62.654 seconds.
+# - WER = 0.105
+# File (61-70970-0017.flac):
+# - 2.55 seconds long.
+# - actual    text: 'rest and be still until i warn you'
+# - processed text: 'rest and beasstill intil a warn you'
+# - processed in 35.305 seconds.
+# - WER = 0.5
+# File (61-70970-0018.flac):
+# - 4.6 seconds long.
+# - actual    text: 'the hours passed wearily by and movement could yet be heard about the hall'
+# - processed text: 'the hours passed wearily by and movement could yet be heard about the hall'
+# - processed in 66.813 seconds.
+# - WER = 0.0
+# File (61-70970-0019.flac):
+# - 3.78 seconds long.
+# - actual    text: 'at last all was quiet and black in the courtyard of gamewell'
+# - processed text: 'at last all was quiet and black and the courtyrd of gamewell'
+# - processed in 54.299 seconds.
+# - WER = 0.167
+# File (61-70970-0020.flac):
+# - 5.025 seconds long.
+# - actual    text: 'will whispered robin opening his door as he spoke are you ready'
+# - processed text: 'will whispered roban opening his doors he spoke are ho ready'
+# - processed in 70.042 seconds.
+# - WER = 0.333
+# File (61-70970-0021.flac):
+# - 5.405 seconds long.
+# - actual    text: 'they then renewed their journey and under the better light made a safe crossing of the stable roofs'
+# - processed text: 'they then reneed their journey and onter the better light made a safe crossing of the stable roofs'
+# - processed in 78.182 seconds.
+# - WER = 0.111
+# File (61-70970-0022.flac):
+# - 3.97 seconds long.
+# - actual    text: 'robin entered the hut dragging the unwilling esquire after him'
+# - processed text: 'robin entered the hut dragging the unwilling asquire after him'
+# - processed in 57.664 seconds.
+# - WER = 0.1
+# File (61-70970-0023.flac):
+# - 3.705 seconds long.
+# - actual    text: 'be not so foolish friend said fitzooth crossly'
+# - processed text: 'bei not so foolish friend said fistoth crossly'
+# - processed in 58.633 seconds.
+# - WER = 0.25
+# File (61-70970-0024.flac):
+# - 7.235 seconds long.
+# - actual    text: 'they moved thereafter cautiously about the hut groping before and about them to find something to show that warrenton had fulfilled his mission'
+# - processed text: 'they moved thereafter cautiously about the hut groping before an about them to find something to show that the warrant in ad elfilled his mission'
+# - processed in 113.346 seconds.
+# - WER = 0.261
+# File (61-70970-0025.flac):
+# - 7.435 seconds long.
+# - actual    text: 'they were upon the verge of an open trap in the far corner of the hut and stuteley had tripped over the edge of the reversed flap mouth of this pit'
+# - processed text: 'they were upon the virge of an open trap in the far corner of the hut and stutly hadttripped over the edge of the reversed flap mouth of thes pit'
+# - processed in 124.752 seconds.
+# - WER = 0.161
+# File (61-70970-0026.flac):
+# - 5.475 seconds long.
+# - actual    text: 'fitzooth's hand rested at last upon the top rung of a ladder and slowly the truth came to him'
+# - processed text: 'fitzoths hand rested at last upon the top rong of a ladder and spoly te truth came to him'
+# - processed in 94.161 seconds.
+# - WER = 0.25
+# File (61-70970-0027.flac):
+# - 5.08 seconds long.
+# - actual    text: 'robin carefully descended the ladder and found himself soon upon firm rocky ground'
+# - processed text: 'robin carefully descended the latter in found himself soon upon firm brocky ground'
+# - processed in 81.832 seconds.
+# - WER = 0.231
+# File (61-70970-0028.flac):
+# - 6.55 seconds long.
+# - actual    text: 'stuteley was by his side in a flash and then they both began feeling about them to ascertain the shape and character of this vault'
+# - processed text: 'hastetly was by his side in the flash and then the both began feeling about them to ascertain the shape an character of his vault'
+# - processed in 104.272 seconds.
+# - WER = 0.2
+# File (61-70970-0029.flac):
+# - 4.03 seconds long.
+# - actual    text: 'from the blackness behind the light they heard a voice warrenton's'
+# - processed text: 'from the blackness behind the light they heard a voice warrantons'
+# - processed in 62.081 seconds.
+# - WER = 0.167
+# File (61-70970-0030.flac):
+# - 3.24 seconds long.
+# - actual    text: 'save me masters but you startled me rarely'
+# - processed text: 'save me masters but you startled me rareily'
+# - processed in 43.43 seconds.
+# - WER = 0.125
+# File (61-70970-0031.flac):
+# - 5.135 seconds long.
+# - actual    text: 'cried he waving the lanthorn before him to make sure that these were no ghosts in front of him'
+# - processed text: 'chried he waving he lanthern before him to make sure that these were no ghost and front of him'
+# - processed in 73.604 seconds.
+# - WER = 0.263
+# File (61-70970-0032.flac):
+# - 3.135 seconds long.
+# - actual    text: 'enquired robin with his suspicions still upon him'
+# - processed text: 'inquired robin with his uspicions still upon him'
+# - processed in 46.963 seconds.
+# - WER = 0.25
+# File (61-70970-0033.flac):
+# - 3.42 seconds long.
+# - actual    text: 'truly such a horse should be worth much in nottingham fair'
+# - processed text: 'truly such a horse would be worth much an noting him faire'
+# - processed in 50.606 seconds.
+# - WER = 0.455
+# File (61-70970-0034.flac):
+# - 4.485 seconds long.
+# - actual    text: 'nay nay lording answered warrenton with a half laugh'
+# - processed text: 'ne naeo ording answered warranton with a half lagh'
+# - processed in 63.75 seconds.
+# - WER = 0.556
+# File (61-70970-0035.flac):
+# - 7.405 seconds long.
+# - actual    text: 'warrenton spoke thus with significance to show robin that he was not to think geoffrey's claims to the estate would be passed by'
+# - processed text: 'warranton spoke thus with sedificance to show robin that he was not to think jeoffry's claims to the estate wel be passed by'
+# - processed in 103.522 seconds.
+# - WER = 0.167
+# File (61-70970-0036.flac):
+# - 6.785 seconds long.
+# - actual    text: 'robin fitzooth saw that his doubts of warrenton had been unfair and he became ashamed of himself for harboring them'
+# - processed text: 'robin fitzoth saw that his doubts of warranton had been onfair and he became mashamed of himself for herbring them'
+# - processed in 95.774 seconds.
+# - WER = 0.25
+# File (61-70970-0037.flac):
+# - 5.98 seconds long.
+# - actual    text: 'his tones rang pleasantly on warrenton's ears and forthwith a good fellowship was heralded between them'
+# - processed text: 'his tones rang pleasantly onworrant ans ears and forthwith the good fellowship was heralded between them'
+# - processed in 84.72 seconds.
+# - WER = 0.235
+# File (61-70970-0038.flac):
+# - 10.4 seconds long.
+# - actual    text: 'the old servant told him quietly as they crept back to gamewell that this passage way led from the hut in the pleasance to sherwood and that geoffrey for the time was hiding with the outlaws in the forest'
+# - processed text: 'the oldserv ant told him quietly as they crept back o gainwell at this passage way led from the hut in the pleasants to sherewood and that jeffrey for the time was hiding with the outlaws in the forest'
+# - processed in 149.208 seconds.
+# - WER = 0.205
+# File (61-70970-0039.flac):
+# - 6.665 seconds long.
+# - actual    text: 'he implores us to be discreet as the grave in this matter for in sooth his life is in the hollow of our hands'
+# - processed text: 'he implores us to be discreet as the grave an this matter for in suth his life is in the hollow of our hands'
+# - processed in 98.252 seconds.
+# - WER = 0.083
+# File (61-70970-0040.flac):
+# - 4.165 seconds long.
+# - actual    text: 'they regained their apartment apparently without disturbing the household of gamewell'
+# - processed text: 'they regain their apartment apparently without disturbing the household of gainewell'
+# - processed in 59.565 seconds.
+# - WER = 0.182
+Avg. Proc. time/sec = 14.325844764355937
+Avg. WER = 0.2643064516129032
