@@ -18,9 +18,9 @@ import platform, os, sys
 from timeit import default_timer as timer
 
  
-IS_GLOBAL_DIRECTORIES = False
+IS_GLOBAL_DIRECTORIES = True
 USING_GPU = False
-USE_LANGUAGE_MODEL = False
+USE_LANGUAGE_MODEL = True
 VERBOSE = True
 ##############################################################################
 # ------------------------Documenting Machine ID
