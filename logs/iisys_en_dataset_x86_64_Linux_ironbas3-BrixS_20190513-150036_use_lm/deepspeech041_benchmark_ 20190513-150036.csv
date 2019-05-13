@@ -1,0 +1,2028 @@
+filename,length(sec),proc_time(sec),wer,actual_text,processed_text
+10_A_1.wav,1.62675,3.986,0.6,athena turn on the lights,a then a turn on the lights
+10_A_2.wav,1.686625,1.552,0.0,minerva turn on the lights,minerva turn on the lights
+10_A_3.wav,1.7465,1.593,0.0,artemis turn on the lights,artemis turn on the lights
+10_A_4.wav,1.7165625,1.558,0.2,freya turn on the lights,free turn on the lights
+10_A_5.wav,1.4271875,1.321,0.0,james turn on the lights,james turn on the lights
+10_A_6.wav,1.686625,1.594,0.2,computer turn on the lights,could turn on the lights
+10_B_1.wav,1.9294375,1.74,1.0,mute unmute,but anne
+10_B_2.wav,1.686375,1.548,0.5,stop abort,stop aboard
+10_B_3.wav,1.7165625,1.546,1.0,pause resume,horse resumed
+10_B_4.wav,1.5195625,1.364,0.0,next back,next back
+10_B_5.wav,0.6589375,0.619,0.0,louder,louder
+10_B_6.wav,1.0979375,1.018,0.75,turn the volume down,from blame down
+10_B_7.wav,1.39725,1.28,0.25,set volume to six,set william to six
+10_C_1.wav,1.6666875,1.548,0.5,play some music by bon jovi,play on music by on jove
+10_C_2.wav,2.025875,1.856,0.167,play my eighties rock playlist now,play my aides rock playlist now
+10_C_3.wav,1.5569375,1.464,0.0,what song is currently playing,what song is currently playing
+10_C_4.wav,2.0458125,1.922,0.286,please add this song to my favourites,please at the song to my favourites
+10_C_5.wav,1.8263125,1.751,0.25,what can i do with the music skill,what can i do if the music scale
+10_D_1.wav,2.3151875,2.17,0.857,set an alarm for five am please,said in alarm for a five a m the
+10_D_2.wav,2.3543125,2.211,0.0,how much time is left on my pizza timer,how much time is left on my pizza timer
+10_D_3.wav,2.4349375,2.299,0.333,remind me of the tennis training tonight at five,remind me of the tennis raining to night at five
+10_D_4.wav,1.576875,1.433,0.5,cancel all my timers,cancel all my time or
+10_D_5.wav,0.798625,0.746,0.0,what's the date,what's the date
+10_D_6.wav,1.7664375,1.616,0.5,when is easter sunday this year,when is he sir sunday the year
+10_E_1.wav,2.115625,1.948,0.375,add milk and cheese to my shopping list,at more and cheese to my shopping less
+10_E_2.wav,1.39725,1.291,0.5,create a new appointment,trade in new appointment
+10_E_3.wav,4.769625,4.364,0.308,put doctor smith on my calendar for nineteenth of july at five pm,but doctor smith on my calendar for a nineteenth of july at five p m
+10_E_4.wav,2.6943125,2.468,0.25,remind me to mow the lawn next saturday,remind me to nod a lawn next saturday
+10_E_5.wav,2.1855,2.006,0.5,what reminders do i have for this weekend,at reminders to have for the weekend
+10_F_1.wav,2.0956875,1.905,0.4,give me articles about politics,give article about politics
+10_F_2.wav,0.95825,0.871,1.0,tell me the news,tom goes
+10_F_3.wav,1.457125,1.341,0.667,what happened today,what happened to day
+10_F_4.wav,1.8861875,1.721,0.2,which news topics are available,which new topics are available
+10_F_5.wav,2.9338125,2.67,0.167,set business as preferred news category,said business as preferred news category
+10_F_6.wav,1.457125,1.324,0.667,how does the news skill work,how does iuskidar
+10_F_7.wav,1.8263125,1.67,0.5,will it rain today in manchester,will it rain to day and manchester
+10_F_8.wav,2.2054375,2.029,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+10_F_9.wav,2.015875,1.856,1.0,do i need an umbrella tomorrow,during the one umbrella to morrow
+10_G_1.wav,2.9836875,2.787,0.0,how long does it take from london to liverpool by car,how long does it take from london to liverpool by car
+10_G_2.wav,3.1333125,2.852,0.444,set my location to kennington road four in london,said my location to cannon rode for in london
+10_G_3.wav,1.5569375,1.422,0.4,i need help with navigation,i eat help of navigation
+10_G_4.wav,2.50475,2.286,0.5,what restaurants are within five kilometres,water astrans are within five kilometers
+10_G_5.wav,2.784125,2.544,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+10_G_6.wav,4.101125,3.769,0.0,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tower of london on foot
+10_G_7.wav,2.017625,1.857,0.167,find me a burger restaurant nearby,find me a burner restaurant nearby
+10_G_8.wav,2.495625,2.297,0.444,what's the address of the nearest tesco store,was the address of the nearest testator
+10_H_1.wav,1.693125,1.572,0.0,how many feet are in a mile,how many feet are in a mile
+10_H_2.wav,1.8761875,1.713,0.167,what's seven times forty four,what seven times forty four
+10_H_3.wav,2.9138125,2.753,0.222,what's two hundred twenty five divided by five,what's two hundred twenty five you ted by five
+10_H_4.wav,2.7641875,2.592,0.2,what's fifteen percent of one hundred and twenty eight,what's fifteen per cent of one hundred and twenty eight
+10_H_5.wav,2.8819375,2.635,0.111,is three hundred and thirty seven a prime number,is free hundred and thirty seven a prime number
+10_I_1.wav,1.8661875,1.694,0.0,what's the definition of cat,what's the definition of cat
+10_I_2.wav,1.7265,1.569,0.2,what does to share mean,what does to share me
+10_I_3.wav,1.367375,1.26,0.0,how do you spell date,how do you spell date
+10_I_4.wav,1.896125,1.757,0.5,tell me words that start with an a,tell you are to start with a a
+10_I_5.wav,2.4948125,2.248,0.167,which words contain c o n,which words contain s o n
+10_I_6.wav,1.507,1.367,0.0,can you translate cat,can you translate cat
+10_I_7.wav,1.5569375,1.414,0.2,what is dog in german,what is talk in german
+10_I_8.wav,3.0235625,2.783,0.222,set the number of words for translations to three,set the number of birds for translations to free
+10_I_9.wav,1.85625,1.732,0.5,what is another word for dashboard,what is another word for a dash board
+10_J_1.wav,1.9759375,1.85,0.0,turn on the living room lights please,turn on the living room lights please
+10_J_2.wav,2.893875,2.694,0.1,set the temperature in the kitchen to twenty two degrees,set the temperature and the kitchen to twenty two degrees
+10_J_3.wav,1.9759375,1.835,0.333,set the shutters to fifty percent,set the shutters to fifty per cent
+10_J_4.wav,1.7365,1.592,0.333,please lower the blinds by half,please lowered blinds by half
+10_K_1.wav,1.4471875,1.337,0.6,how old is queen elizabeth,how old is green of isabel
+10_K_10.wav,1.1079375,1.033,0.0,do you like to travel,do you like to travel
+10_K_11.wav,1.517,1.409,0.0,what kind of music do you like,what kind of music do you like
+10_K_2.wav,1.7564375,1.621,0.0,how many people live in australia,how many people live in australia
+10_K_3.wav,1.6666875,1.548,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+10_K_4.wav,1.566875,1.441,0.333,how long is the river danube,how long is the river the new
+10_K_5.wav,2.355125,2.151,0.889,how tall is the tallest mountain in the alps,how taricheae now ten and yelps
+10_K_6.wav,2.245375,2.028,0.571,which movies did tom cruise play in,which moves that tom truly in
+10_K_7.wav,1.18775,1.096,0.0,what do you dream about,what do you dream about
+10_K_8.wav,1.2675625,1.146,0.4,what's your favourite colour,what's your favorite color
+10_K_9.wav,1.8263125,1.699,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+11_A_1.wav,1.9460625,1.78,0.6,athena turn on the lights,of the man turn on the lights
+11_A_2.wav,1.9859375,1.807,0.6,minerva turn on the lights,mine that turn on the light
+11_A_3.wav,2.235375,1.997,0.8,artemis turn on the lights,he master on light
+11_A_4.wav,2.025875,1.829,0.6,freya turn on the lights,ray a son on the lights
+11_A_5.wav,1.9460625,1.762,0.2,james turn on the lights,same turn on the lights
+11_A_6.wav,1.9759375,1.813,0.2,computer turn on the lights,computer turn on the light
+11_B_1.wav,2.1460625,1.899,1.0,mute unmute,mute and mute
+11_B_2.wav,1.88225,1.677,1.5,stop abort,stop in a bad
+11_B_3.wav,1.5469375,1.368,1.0,pause resume,has resumed
+11_B_4.wav,1.4870625,1.327,0.0,next back,next back
+11_B_5.wav,0.73875,0.681,0.0,louder,louder
+11_B_6.wav,1.457125,1.336,0.5,turn the volume down,turn the volumes hour
+11_B_7.wav,1.83625,1.668,0.5,set volume to six,set the warning to six
+11_C_1.wav,2.8645625,2.556,0.333,play some music by bon jovi,play some music by panchow
+11_C_2.wav,3.0179375,2.72,0.5,play my eighties rock playlist now,play my eightieth roboplanes now
+11_C_3.wav,2.577875,2.336,0.4,what song is currently playing,what songs currently playing
+11_C_4.wav,2.452125,2.238,0.429,please add this song to my favourites,is it this song to my favorites
+11_C_5.wav,2.29525,2.117,0.125,what can i do with the music skill,what can i do with the music score
+11_D_1.wav,2.993625,2.706,0.571,set an alarm for five am please,said in alarm replied am please
+11_D_2.wav,2.7455625,2.512,0.444,how much time is left on my pizza timer,how much time is left on my poet i am a
+11_D_3.wav,3.765125,3.413,0.333,remind me of the tennis training tonight at five,remind me of the tennis straining to night at five
+11_D_4.wav,1.7764375,1.617,1.0,cancel all my timers,cancer or my time must
+11_D_5.wav,1.17775,1.073,0.0,what's the date,what's the date
+11_D_6.wav,2.6444375,2.372,0.667,when is easter sunday this year,when i esterday the year
+11_E_1.wav,2.54075,2.277,0.5,add milk and cheese to my shopping list,and nuances to my shopping lest
+11_E_2.wav,1.8163125,1.647,1.0,create a new appointment,great and mecontents
+11_E_3.wav,7.067125,6.344,0.231,put doctor smith on my calendar for ninetieth of july at five pm,when doctor smith on my calendar for nineteen of july at five he 
+11_E_4.wav,4.649875,4.168,0.5,remind me to mow the lawn next saturday,remind me of sir more long next saturday
+11_E_5.wav,3.4226875,3.109,0.625,what reminders do i have for this weekend,what remind us through i have for this week end
+11_F_1.wav,2.28525,2.092,0.6,give me articles about politics,lift me up takes about politics
+11_F_2.wav,1.347375,1.229,0.5,tell me the news,to me the youth
+11_F_3.wav,1.7465,1.575,1.0,what happened today,what's happened to day
+11_F_4.wav,2.3655,2.15,0.2,which news topics are available,which new topics are available
+11_F_5.wav,4.3305,3.874,1.0,set business as preferred news category,said pisness asked prepared us henery
+11_F_6.wav,2.7143125,2.444,0.667,how does the news skill work,how does that muscular
+11_F_7.wav,2.3969375,2.185,1.0,will it rain today in manchester,were a drain to day and manchester
+11_F_8.wav,3.416125,3.096,0.4,what's the weather going to be like on sunday,was the weather growing to be like an sunday
+11_F_9.wav,2.5464375,2.303,0.5,do i need an umbrella tomorrow,and i need an umbrella to morrow
+11_G_1.wav,3.4790625,3.201,0.0,how long does it take from london to liverpool by car,how long does it take from london to liverpool by car
+11_G_2.wav,4.5479375,4.101,0.222,set my location to kennington road four in london,said my location to kennington road while in london
+11_G_3.wav,2.4948125,2.257,0.4,i need help with navigation,i need help with my mediation
+11_G_4.wav,3.5324375,3.176,0.333,what restaurants are with five kilometres,what resterons or with five kilometres
+11_G_5.wav,3.273,3.001,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+11_G_6.wav,4.6798125,4.267,0.071,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tower of london on 
+11_G_7.wav,2.444875,2.211,0.333,find me a burger restaurant nearby,find me a boaster nearby
+11_G_8.wav,3.8018125,3.43,0.444,what's the address of the nearest tesco score,was the address of the nearest tascosa
+11_H_1.wav,1.7891875,1.626,0.714,how many feet are in a mile,how many the enemy
+11_H_2.wav,2.8240625,2.543,0.833,what's seven times forty four,at seven times what he for
+11_H_3.wav,2.8333125,2.592,0.444,what's two hundred twenty five divided by five,what's two hundred twenty five to bite my side
+11_H_4.wav,4.2358125,3.828,0.444,what's fifteen percent of one hundred twenty eight,at fifteen per cent of one hundred twenty eight
+11_H_5.wav,3.437125,3.153,0.125,is three hundred thirty seven a prime number,is dree hundred thirty seven a prime number
+11_I_1.wav,2.5495,2.324,0.667,what's the definition of cat,was there nation of cat
+11_I_2.wav,2.3473125,2.105,0.6,what does to share mean,what as to sham men
+11_I_3.wav,2.577875,2.357,0.4,how do you spell date,how do you sell days
+11_I_4.wav,3.37425,3.055,0.625,tell me words that start with an a,some were as that star with a
+11_I_5.wav,3.7095625,3.294,0.667,which words contain c o n,which was contained sea o m
+11_I_6.wav,1.6566875,1.521,0.25,can you translate cat,can you translate care
+11_I_7.wav,1.9285625,1.727,0.2,what is dog in german,what is stock in german
+11_I_8.wav,4.4221875,3.985,0.333,set the number of words for translation to three,said the number of worth for translation to the
+11_I_9.wav,2.4943125,2.257,0.5,what's another word for dashboard,what's another word for a dash board
+11_J_1.wav,2.7665,2.484,0.571,turn on the living room lights please,ten on believing room lights place
+11_J_2.wav,3.5823125,3.289,0.2,set the temperature in the kitchen to twenty two degrees,set the temperate share in the kitchen to twenty two degrees
+11_J_3.wav,2.470375,2.232,0.333,set the shutters to fifty percent,that the shutters to fifty persons
+11_J_4.wav,2.29525,2.089,0.5,please lower the blinds by half,his lower lines by half
+11_K_1.wav,1.9460625,1.773,0.8,how old is queen elizabeth,how art is queen and as there
+11_K_10.wav,1.9071875,1.713,0.0,do you like to travel,do you like to travel
+11_K_11.wav,2.13775,1.947,0.0,what kind of music do you like,what kind of music do you like
+11_K_2.wav,2.0209375,1.86,0.0,how many people live in australia,how many people live in australia
+11_K_3.wav,2.997,2.714,0.375,what's the height of the eiffel tower,what's the high of the effeter
+11_K_4.wav,2.7970625,2.518,0.167,how long is the river danube,how long is the river gen
+11_K_5.wav,3.437125,3.095,0.556,how tall is the tallest mountain in the alp,a child is the talisman tain in the 
+11_K_6.wav,2.6913125,2.41,0.714,which movies did tom cruise play in,with my steps tom truth play on
+11_K_7.wav,2.074875,1.879,0.0,what do you dream about,what do you dream about
+11_K_8.wav,1.5718125,1.411,1.0,what's your favourite colour,was the favorite color
+11_K_9.wav,3.4790625,3.132,0.4,what do you do when i'm not at home,which to ride to when i am not at home
+12_A_1.wav,2.5516875,2.272,0.6,athena turn on the lights,a the nature on the lights
+12_A_2.wav,2.49,2.228,0.0,minerva turn on the lights,minerva turn on the lights
+12_A_3.wav,2.39,2.153,0.6,artemis turn on the lights,i to muster on the lights
+12_A_4.wav,2.2240625,1.982,0.4,freya turn on the lights,fray a turn on the lights
+12_A_5.wav,2.426875,2.175,0.0,james turn on the lights,james turn on the lights
+12_A_6.wav,2.5743125,2.331,0.0,computer turn on the lights,computer turn on the lights
+12_B_1.wav,2.567375,2.256,1.0,mute unmute,mute and mute
+12_B_2.wav,2.493,2.204,1.0,stop abort,stop a barge
+12_B_3.wav,2.7221875,2.407,1.0,pause resume,as christie
+12_B_4.wav,2.2765625,2.036,0.0,next back,next back
+12_B_5.wav,1.03,0.926,0.0,louder,louder
+12_B_6.wav,1.69,1.525,0.5,turn the volume down,turned a volume down
+12_B_7.wav,1.82,1.637,0.5,set volume to six,said william to six
+12_C_1.wav,2.45,2.202,0.333,play some music by bon jovi,play some music by concave
+12_C_2.wav,2.56,2.297,0.5,play my eighties rock playlist now,play my eighty surrealist now
+12_C_3.wav,2.36,2.134,0.6,what song is currently playing,what is current for playing
+12_C_4.wav,2.62,2.381,0.286,please add this song to my favourites,please at the song to my favourites
+12_C_5.wav,2.6,2.394,0.0,what can i do with the music skill,what can i do with the music skill
+12_D_1.wav,2.77,2.491,0.571,set an alarm for five am please,sudden alarm for five a m please
+12_D_2.wav,2.8,2.548,0.222,how much time is left on my pizza timer,how much time is left in my pizza time
+12_D_3.wav,3.21,2.911,0.444,remind me of the tennis training tonight at five,remind me half the tennis training to night of five
+12_D_4.wav,1.87,1.662,0.75,cancel all my timers,conceal my times
+12_D_5.wav,1.3,1.189,0.5,what's the date,what's to day
+12_D_6.wav,2.22,2.004,0.667,when is easter sunday this year,when i uster sunday to her
+12_E_1.wav,2.6,2.368,0.75,add milk and cheese to my shopping list,at milan she is to my shopping on us
+12_E_2.wav,1.89,1.689,0.25,create a new appointment,treat a new appointment
+12_E_3.wav,6.15,5.541,0.231,put doctor smith on my calendar for nineteenth of july at five pm,poor doctor smith on my calendar for nineteenth of july at five p m
+12_E_4.wav,3.9918125,3.572,0.5,remind me to mow the lawn next saturday,remind me to mortallone next see
+12_E_5.wav,3.10725,2.811,0.375,what reminders do i have for this weekend,at reminders do i have for this week end
+12_F_1.wav,2.51,2.263,0.0,give me articles about politics,give me articles about politics
+12_F_2.wav,1.4621875,1.328,0.0,tell me the news,tell me the news
+12_F_3.wav,1.9051875,1.71,0.667,what happened today,what happened to day
+12_F_4.wav,2.44,2.217,0.2,which news topics are available,which new topics are available
+12_F_5.wav,3.51,3.138,0.167,set business as preferred news category,sad business as preferred news category
+12_F_6.wav,1.89,1.699,0.167,how does the news skill work,how does the new skill work
+12_F_7.wav,2.28,2.075,1.0,will it rain today in manchester,would a drain to day in mentioner
+12_F_8.wav,2.59,2.395,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+12_F_9.wav,2.68,2.418,1.0,do i need an umbrella tomorrow,trained and umbrella to morrow
+12_G_1.wav,4.16,3.797,0.273,how long does it take from london to liverpool by car,how long does it take from london to live a pool by car
+12_G_2.wav,3.87,3.517,0.444,set my location to kennington road four in london,said mallow cation to kennington road for in london
+12_G_3.wav,2.24,2.016,0.2,i need help with navigation,i need help with the navigation
+12_G_4.wav,3.16,2.863,0.0,what restaurants are within five kilometres,what restaurants are within five kilometres
+12_G_5.wav,4.06,3.677,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+12_G_6.wav,4.84,4.418,0.214,how long does it take from buckingham palace to tower of london on foot,how long does it take from being in piles to tower of london on foot
+12_G_7.wav,2.31,2.097,0.667,find me a burger restaurant nearby,fright me a bergerat near by
+12_G_8.wav,3.03,2.763,0.222,what's the address of the nearest tesco store,what's the address of the nearest pescatore
+12_H_1.wav,2.74,2.484,0.143,how many feet are in a mile,how many feet are in a mild
+12_H_2.wav,2.41,2.176,0.167,what's seven times forty four,what seven times forty four
+12_H_3.wav,3.53,3.168,0.444,what's two hundred twenty five divided by five,what to untenty five divided by five
+12_H_4.wav,3.73,3.385,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+12_H_5.wav,3.67,3.312,0.375,is three hundred thirty seven a prime number,his three hundred thirty seven a primer
+12_I_1.wav,2.35,2.119,0.167,what's the definition of cat,what the definition of cat
+12_I_2.wav,2.45,2.194,0.2,what does to share mean,what does to share me
+12_I_3.wav,1.9,1.717,0.0,how do you spell date,how do you spell date
+12_I_4.wav,2.84,2.583,0.0,tell me words that start with an a,tell me words that start with an a
+12_I_5.wav,3.6704375,3.272,0.333,which words contain c o n,which words contain a o and
+12_I_6.wav,1.8,1.642,0.25,can you translate cat,can you translate cast
+12_I_7.wav,1.91,1.708,0.4,what is dog in german,what is talking german
+12_I_8.wav,3.54,3.242,0.111,set the number of words for translations to three,said the number of words for translations to three
+12_I_9.wav,2.33,2.123,0.333,what is another word for dashboard,what is another word for dash for
+12_J_1.wav,2.4583125,2.247,0.0,turn on the living room lights please,turn on the living room lights please
+12_J_2.wav,3.83,3.481,0.2,set the temperature in the kitchen to twenty two degrees,said the temperature and the kitchen to twenty two degrees
+12_J_3.wav,2.85,2.567,0.5,set the shutters to fifty percent,said the shutters to fifty per cent
+12_J_4.wav,2.36,2.14,0.0,please lower the blinds by half,please lower the blinds by half
+12_K_1.wav,2.08,1.872,0.4,how old is queen elizabeth,how old is quilibet
+12_K_10.wav,1.65,1.519,0.0,do you like to travel,do you like to travel
+12_K_11.wav,2.0,1.83,0.0,what kind of music do you like,what kind of music do you like
+12_K_2.wav,2.42,2.222,0.0,how many people live in australia,how many people live in australia
+12_K_3.wav,2.79,2.5,0.125,what's the height of the eiffel tower,what's the hide of the eiffel tower
+12_K_4.wav,1.94,1.797,0.167,how long is the river danube,how long is the river dee
+12_K_5.wav,3.23,2.918,0.444,how tall is the tallest mountain in the alps,how tall is to toll us mountain in the hope
+12_K_6.wav,2.99,2.693,0.429,which movies did tom cruise play in,which moves to tom crowe play in
+12_K_7.wav,1.78,1.623,0.0,what do you dream about,what do you dream about
+12_K_8.wav,1.76,1.6,0.0,what's your favourite colour,what's your favourite colour
+12_K_9.wav,2.38,2.181,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+13_A_1.wav,1.72,1.572,0.4,athena turn on the lights,a fine turn on the lights
+13_A_2.wav,1.88,1.706,0.8,minerva turn on the lights,up to mister on the lids
+13_A_3.wav,1.85,1.663,0.2,artemis turn on the lights,minerva turn on the lights
+13_A_4.wav,1.79,1.617,0.4,freya turn on the lights,prayer turn on the lad
+13_A_5.wav,1.93,1.728,0.0,james turn on the lights,james turn on the lights
+13_A_6.wav,2.02,1.838,0.0,computer turn on the lights,computer turn on the lights
+13_B_1.wav,2.2,1.95,1.0,mute unmute,mute and mute
+13_B_2.wav,1.6504375,1.48,1.0,stop abort,stop a boat
+13_B_3.wav,1.989625,1.777,1.0,pause resume,pass resumed
+13_B_4.wav,1.8439375,1.639,0.5,next back,next buck
+13_B_5.wav,0.921125,0.823,1.0,louder,loud
+13_B_6.wav,1.584125,1.407,1.0,turn the volume down,tone of olamon
+13_B_7.wav,1.84225,1.651,0.75,set volume to six,said mount six
+13_C_1.wav,2.16,1.948,0.667,play some music by bon jovi,please a music by punjabi
+13_C_2.wav,2.46,2.215,0.667,play my eighties rock playlist now,play my aeroplanes to
+13_C_3.wav,2.2,1.985,0.0,what song is currently playing,what song is currently playing
+13_C_4.wav,2.11,1.921,0.571,please add this song to my favourites,please at the sun to my favorites
+13_C_5.wav,2.1,1.947,0.125,what can i do with the music skill,what can i do with the music school
+13_D_1.wav,2.52,2.278,0.571,set an alarm for five am please,said an alarm or five implies
+13_D_2.wav,2.47,2.258,0.556,how much time is left on my pizza timer,how much time is let them a pit alter
+13_D_3.wav,3.358125,3.082,0.556,remind me of the tennis training tonight at five,remind me of the tennis raining to night a fire
+13_D_4.wav,1.750125,1.581,0.5,cancel all my timers,cancel all my time is
+13_D_5.wav,1.0500625,0.963,0.0,what's the date,what's the date
+13_D_6.wav,2.59,2.358,0.833,when is easter sunday this year,when the east a sunday is her
+13_E_1.wav,2.31,2.122,0.375,add milk and cheese to my shopping list,at modin cheese to my shopping list
+13_E_2.wav,1.82,1.645,0.0,create a new appointment,create a new appointment
+13_E_3.wav,4.59,4.181,0.462,put doctor smith on my calendar for nineteenth of july at five pm,put doctor's smooth on my calendar for nineteen july at five p m
+13_E_4.wav,2.9,2.644,0.375,remind me to mow the lawn next saturday,remind me to more along next saturday
+13_E_5.wav,2.47,2.257,0.75,what reminders do i have for this weekend,what remind us to i have for the week end
+13_F_1.wav,2.26,2.073,0.0,give me articles about politics,give me articles about politics
+13_F_2.wav,1.44,1.296,0.75,tell me the news,termite and news
+13_F_3.wav,1.59,1.429,0.667,what happened today,what happened to day
+13_F_4.wav,2.123125,1.931,0.0,which news topics are available,which news topics are available
+13_F_5.wav,2.9844375,2.698,0.333,set business as preferred news category,said business as preferred news cateley
+13_F_6.wav,2.01,1.817,0.667,how does the news skill work,how these new school work
+13_F_7.wav,2.0233125,1.837,1.0,will it rain today in manchester,what is ranadae tester
+13_F_8.wav,2.3396875,2.161,0.2,what's the weather going to be like on sunday,was the weather going to be like on sunday
+13_F_9.wav,2.03,1.842,0.833,do i need an umbrella tomorrow,during an umbrella to morrow
+13_G_1.wav,3.5675,3.29,0.273,how long does it take from london to liverpool by car,how long does it take from london to live a poacher
+13_G_2.wav,3.3160625,3.036,0.444,set my location to kennington road four in london,said my location to canning erode or in london
+13_G_3.wav,1.93,1.755,0.2,i need help with navigation,i need help of navigation
+13_G_4.wav,2.88,2.604,0.5,what restaurants are within five kilometres,what restaurants are will be five kilometers
+13_G_5.wav,3.05,2.761,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+13_G_6.wav,4.28,3.934,0.071,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tow of london on foot
+13_G_7.wav,2.1105,1.89,1.0,find me a burger restaurant nearby,friend my brain near by
+13_G_8.wav,2.75,2.503,0.444,what's the address of the nearest tesco store,what's the other ass of the nearest tester
+13_H_1.wav,2.08,1.901,0.0,how many feet are in a mile,how many feet are in a mile
+13_H_2.wav,2.28,2.083,0.167,what's seven times forty four,what seven times forty four
+13_H_3.wav,3.12,2.849,0.222,what's two hundred twenty five divided by five,was two hundred twenty five divided by five
+13_H_4.wav,3.01,2.757,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+13_H_5.wav,3.16,2.865,0.5,is three hundred thirty seven a prime number,this free hundred thirty seven of prime are
+13_I_1.wav,1.83,1.66,0.167,what's the definition of cat,what the definition of cat
+13_I_2.wav,1.9063125,1.712,0.0,what does to share mean,what does to share mean
+13_I_3.wav,1.5475,1.398,0.2,how do you spell date,how do you spell that
+13_I_4.wav,2.28,2.083,0.375,tell me words that start with an a,tell me words that startled and a
+13_I_5.wav,2.63,2.376,0.833,which words contain c o n,which beds contained sea all and
+13_I_6.wav,1.67,1.527,0.25,can you translate cat,can you translate kept
+13_I_7.wav,1.87,1.686,0.0,what is dog in german,what is dog in german
+13_I_8.wav,3.1586875,2.882,0.444,set the number of words for translations to three,said the number of words which translation to free
+13_I_9.wav,2.044875,1.882,0.167,what is another word for dashboard,what is another word for disport
+13_J_1.wav,2.95,2.697,0.0,turn on the living room lights please,turn on the living room lights please
+13_J_2.wav,4.05,3.68,0.1,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to twenty two degrees
+13_J_3.wav,2.53,2.284,0.5,set the shutters to fifty percent,said the shutters to fifty per cent
+13_J_4.wav,2.74,2.468,0.333,please lower the blinds by half,please lower a blind by half
+13_K_1.wav,1.84,1.666,0.0,how old is queen elizabeth,how old is queen elizabeth
+13_K_10.wav,1.62,1.488,0.0,do you like to travel,do you like to travel
+13_K_11.wav,2.02,1.869,0.0,what kind of music do you like,what kind of music do you like
+13_K_2.wav,2.29,2.093,0.0,how many people live in australia,how many people live in australia
+13_K_3.wav,1.98,1.831,0.25,what's the height of the eiffel tower,what's the height of the veto
+13_K_4.wav,2.2401875,2.026,0.667,how long is the river danube,how long has the river the new by
+13_K_5.wav,2.6128125,2.401,0.444,how tall is the tallest mountain in the alps,how tall as the tallest man and in the ups
+13_K_6.wav,2.41,2.182,0.714,which movies did tom cruise play in,which moves the tempers play and
+13_K_7.wav,1.64,1.514,0.0,what do you dream about,what do you dream about
+13_K_8.wav,1.400125,1.282,0.4,what's your favourite colour,what a favourite colour
+13_K_9.wav,1.805375,1.669,0.4,what do you do when i'm not at home,what do you do when another home
+14_A_1.wav,2.8925,2.61,0.8,athena turn on the lights,a fine turn on to that
+14_A_2.wav,2.2876875,2.068,0.4,minerva turn on the lights,i now turn on the lights
+14_A_3.wav,3.1291875,2.777,0.8,artemis turn on the lights,if he miss the one lights
+14_A_4.wav,2.3403125,2.103,0.2,freya turn on the lights,freya to on the lights
+14_A_5.wav,3.05025,2.706,0.6,james turn on the lights,sames to on the life
+14_A_6.wav,2.392875,2.152,0.6,computer turn on the lights,computer tenente lights
+14_B_1.wav,2.682125,2.372,1.5,mute unmute,es un but
+14_B_2.wav,2.4455,2.157,1.0,stop abort,stop a box
+14_B_3.wav,2.4191875,2.147,1.0,pause resume,cause riou
+14_B_4.wav,2.73475,2.423,0.0,next back,next back
+14_B_5.wav,1.2621875,1.119,0.0,louder,louder
+14_B_6.wav,1.9195625,1.712,0.5,turn the volume down,turn the boomtown
+14_B_7.wav,1.57775,1.432,0.5,set volume to six,said william to six
+14_C_1.wav,2.498125,2.243,0.5,play some music by bon jovi,play some music pipon shall be
+14_C_2.wav,2.761,2.483,0.667,play my eighties rock playlist now,ay my age is roofed now
+14_C_3.wav,2.235125,2.007,0.4,what song is currently playing,but so is currently playing
+14_C_4.wav,2.8399375,2.557,0.429,please add this song to my favourites,he said this song to my favorites
+14_C_5.wav,2.761,2.491,0.25,what can i do with the music skill,what can i do with a music score
+14_D_1.wav,3.812875,3.417,0.714,set an alarm for five am please,sudden alarm for five a m is
+14_D_2.wav,3.31325,3.02,0.333,how much time is left on my pizza timer,how much time is left on my pit a time
+14_D_3.wav,4.1546875,3.743,0.222,remind me of the tennis training tonight at five,remind me of the tennis trinight at five
+14_D_4.wav,1.6829375,1.539,1.0,cancel all my timers,cancer on my time as
+14_D_5.wav,1.3410625,1.224,0.0,what's the date,what's the date
+14_D_6.wav,3.024,2.719,0.333,when is easter sunday this year,when is he to sunday this year
+14_E_1.wav,2.4718125,2.239,0.625,add milk and cheese to my shopping list,said mike and sis to my shabbiness
+14_E_2.wav,1.867,1.671,1.0,create a new appointment,fred anointment
+14_E_3.wav,6.3371875,5.708,0.385,put doctor smith on my calendar for nineteenth of july at five pm,what doctor smith on my calendar for nineteen of truly at five p m
+14_E_4.wav,3.76025,3.386,0.25,remind me to mow the lawn next saturday,remind me to mow the lawn excited day
+14_E_5.wav,3.0503125,2.756,0.5,what reminders do i have for this weekend,what reminds us to i have for this been
+14_F_1.wav,2.945125,2.662,0.6,give me articles about politics,give me out to goods about politics
+14_F_2.wav,1.4988125,1.343,1.0,tell me the news,ten moves
+14_F_3.wav,1.7091875,1.54,1.0,what happened today,what's happened to day
+14_F_4.wav,2.6295625,2.365,0.2,which news topics are available,which nears topics are available
+14_F_5.wav,4.3650625,3.908,0.667,set business as preferred news category,said business as preference on us category
+14_F_6.wav,3.3395625,2.975,0.333,how does the new skills work,how does the new scope
+14_F_7.wav,2.5506875,2.279,1.333,will it rain today in manchester,but he drank a day and men ate
+14_F_8.wav,2.6821875,2.471,0.2,what's the weather going to be like on sunday,what's the metheglin to be like on sunday
+14_F_9.wav,2.15625,1.972,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+14_G_1.wav,3.3658125,3.098,0.364,how long does it take from london to liverpool by car,how long does it take from london to the effort i can
+14_G_2.wav,4.2861875,3.874,0.667,set my location to kennington road four in london,said my location to a candid road for and anton
+14_G_3.wav,2.0773125,1.911,0.6,i need help with navigation,in his head with navigation
+14_G_4.wav,3.1554375,2.846,0.667,what restaurants are within five kilometres,my dresser and are within five kilometers
+14_G_5.wav,2.8399375,2.555,0.143,how far is the university of oxford,how far the university of oxford
+14_G_6.wav,4.7331875,4.295,0.429,how long does it take from buckingham palace to tower of london on foot,a long thus i take from barkingham paris to tell of london on foot
+14_G_7.wav,2.91875,2.635,0.167,find me a burger restaurant nearby,find me a beggar restaurant nearby
+14_G_8.wav,3.8391875,3.451,0.333,what's the address of the nearest tesco store,but the address of the nearest tescar store
+14_H_1.wav,2.6295625,2.378,0.429,how many feets are in a mile,how many feet are in the mire
+14_H_2.wav,2.60325,2.352,0.167,what's seven times forty four,what seven times forty four
+14_H_3.wav,3.7339375,3.405,0.111,what's two hundred twenty five divided by five,what's two hundred twenty five died by five
+14_H_4.wav,3.7865,3.418,0.4,what's fifteen percent of one hundred and twenty eight,what's fifteen person upon hundreds and twenty eight
+14_H_5.wav,3.102875,2.81,0.375,is three hundred thirty seven a prime number,a free hundred thirty seven a prime one
+14_I_1.wav,2.8925,2.609,0.333,what's the definition of cat,what's the given mission of cat
+14_I_2.wav,2.524375,2.255,0.2,what does to share mean,what dost to share mean
+14_I_3.wav,2.4718125,2.203,0.2,how do you spell date,how do you spell that
+14_I_4.wav,3.681375,3.298,0.444,tell me the word that starts with an a,see the birds had starts with an a
+14_I_5.wav,4.9961875,4.423,0.667,which words contain c o n,but but contain s o and
+14_I_6.wav,2.524375,2.237,0.5,can you translate cat,cannot translate cat
+14_I_7.wav,2.2088125,1.961,0.2,what's dog in german,what's talk in german
+14_I_8.wav,4.78575,4.269,0.444,set the number of words for translation to three,said the number for as for translation to free
+14_I_9.wav,2.787375,2.503,0.667,what's another word for dashboard,what's enough of words for disport
+14_J_1.wav,3.05025,2.72,0.714,turn on the living room lights please,on on the dayroom light peace
+14_J_2.wav,4.5754375,4.136,0.5,set the temperature in the kitchen to twenty two degrees,said ford temper char and the kitchen to twenty two degrees
+14_J_3.wav,3.4184375,3.064,0.5,set the shutters to fifty percent,said the shades to fifty crescent
+14_J_4.wav,3.0503125,2.717,0.0,please lower the blinds by half,please lower the blinds by half
+14_K_1.wav,2.6295625,2.363,0.6,how old is queen elizabeth,how all this green elizabeth
+14_K_10.wav,1.788125,1.608,0.0,do you like to travel,do you like to travel
+14_K_11.wav,2.261375,2.069,0.0,what kind of music do you like,what kind of music do you like
+14_K_2.wav,2.9450625,2.657,0.333,how many people live in australia,how many people even australia
+14_K_3.wav,2.524375,2.274,0.286,what the height of the eiffel tower,but the highest of the eiffel tower
+14_K_4.wav,1.7355,1.585,0.6,how long is the river,as long as the wife
+14_K_5.wav,3.471,3.108,0.667,how tall is the tallest mountain in the alps,o tar at the tiamont in in the hope
+14_K_6.wav,3.1554375,2.812,0.857,which movies did tom cruise play in,the movies tis thomgreen
+14_K_7.wav,2.314,2.098,0.0,what do you dream about,what do you dream about
+14_K_8.wav,2.0510625,1.844,0.4,what's your favourite colour,what's your favorite color
+14_K_9.wav,3.260625,2.958,0.0,what do you do when i'm not at home,what do you do when i am not at home
+15_A_1.wav,2.5555625,2.287,0.6,athena turn on the lights,a then turned on the lights
+15_A_2.wav,2.5486875,2.273,0.0,minerva turn on the lights,minerva turn on the lights
+15_A_3.wav,2.5011875,2.227,0.2,artemis turn on the lights,artemis turn on the nice
+15_A_4.wav,2.3759375,2.141,0.2,freya turn on the lights,fra turn on the lights
+15_A_5.wav,2.5954375,2.347,0.0,james turn on the lights,james turn on the lights
+15_A_6.wav,2.5555625,2.293,0.0,computer turn on the lights,computer turn on the lights
+15_B_1.wav,2.306125,2.049,1.0,mute unmute,mute and not
+15_B_2.wav,2.747,2.43,1.0,stop abort,stop a board
+15_B_3.wav,2.3360625,2.08,0.5,pause resume,pause resumed
+15_B_4.wav,2.448875,2.173,0.5,next back,next to back
+15_B_5.wav,1.3383125,1.202,0.0,louder,louder
+15_B_6.wav,2.1365,1.923,0.5,turn the volume down,for in the volume down
+15_B_7.wav,1.927,1.714,0.5,set volume to six,said william to six
+15_C_1.wav,2.2761875,2.078,0.333,play some music by bon jovi,play some music by one job
+15_C_2.wav,2.3360625,2.12,0.5,play my eighties rock playlist now,play my eighty struck playest now
+15_C_3.wav,2.1664375,1.939,0.2,what song is currently playing,what song is currently paying
+15_C_4.wav,2.47575,2.252,0.286,please add this song to my favourites,please at the song to my favourites
+15_C_5.wav,2.405875,2.195,0.25,what can i do with the music skill,what can i do the music so
+15_D_1.wav,2.745125,2.483,0.429,set an alarm to five am please,set in alarm to five a m please
+15_D_2.wav,2.69525,2.467,0.222,how much time is left on my pizza timer,how much time is left on my piazza timber
+15_D_3.wav,3.084375,2.825,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+15_D_4.wav,1.877125,1.683,0.5,cancel all my timers,cancel all my time as
+15_D_5.wav,1.35825,1.234,0.0,what's the date,what's the date
+15_D_6.wav,2.296125,2.1,0.167,when is easter sunday this year,when is easter sunday the year
+15_E_1.wav,2.535625,2.293,0.125,add milk and cheese to my shopping list,at milk and cheese to my shopping list
+15_E_2.wav,1.966875,1.795,0.0,create a new appointment,create a new appointment
+15_E_3.wav,4.610875,4.185,0.462,put doctor smith on my calendar for nineteenth of july at five pm,but doctor smith only kilindo for nineteenth of july at five p m
+15_E_4.wav,2.844875,2.587,0.375,remind me to mow the lawn next saturday,remind me to move along next saturday
+15_E_5.wav,2.7251875,2.468,0.375,what reminders do i have for this weekend,what reminders do a half for the weekend
+15_F_1.wav,2.2861875,2.092,0.0,give me articles about politics,give me articles about politics
+15_F_2.wav,1.527875,1.378,0.0,tell me the news,tell me the news
+15_F_3.wav,1.478,1.345,0.667,what happened today,what happened to day
+15_F_4.wav,2.1664375,1.959,0.2,which news topics are available,which news topics are valuable
+15_F_5.wav,3.3138125,3.017,0.429,set business as a preferred news category,set business as i prefer new category
+15_F_6.wav,1.8371875,1.675,0.167,how does the news skill work,how does the new skill work
+15_F_7.wav,2.366,2.147,0.667,will it rain today in manchester,will it rain to day and mentor
+15_F_8.wav,2.6154375,2.424,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+15_F_9.wav,2.076625,1.876,0.833,do i need an umbrella tomorrow,do any eumerella to morrow
+15_G_1.wav,3.3736875,3.106,0.182,how long does it take from london to liverpool by car,how long was i take from london to liverpool by car
+15_G_2.wav,3.084375,2.813,0.444,set my location to kennington road four in london,said my location to kennicote for in london
+15_G_3.wav,1.877125,1.713,0.4,i need help with navigation,i need tell was navigation
+15_G_4.wav,2.8969375,2.653,0.5,what restaurants are within five kilometres,what restaurants are was in five kilometers
+15_G_5.wav,3.673,3.338,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+15_G_6.wav,4.3714375,3.993,0.143,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to to london on foot
+15_G_7.wav,2.25625,2.075,0.5,find me a burger restaurant nearby,find me a burgher restaurant near by
+15_G_8.wav,2.974625,2.705,0.333,what's the address of the nearest tesco store,what address of the nearest teso store
+15_H_1.wav,1.8870625,1.712,0.0,how many feet are in a mile,how many feet are in a mile
+15_H_2.wav,2.196375,1.989,0.167,what's seven times forty four,what seven times forty four
+15_H_3.wav,3.0344375,2.78,0.0,what's two hundred twenty five divided by five,what's two hundred twenty five divided by five
+15_H_4.wav,3.6430625,3.319,0.333,what's fifteen percent of one hundred twenty eight,what's to sting person of one hundred twenty eight
+15_H_5.wav,2.91475,2.676,0.0,is three hundred thirty seven a prime number,is three hundred thirty seven a prime number
+15_I_1.wav,1.966875,1.806,0.0,what's the definition of cat,what's the definition of cat
+15_I_2.wav,1.867125,1.681,0.4,what does to share mean,what does you share me
+15_I_3.wav,1.79725,1.634,0.0,how do you spell date,how do you spell date
+15_I_4.wav,2.4458125,2.233,0.0,tell me words that start with an a,tell me words that start with an a
+15_I_5.wav,3.4335625,3.062,0.667,which words contain c u n,which words contained see you and
+15_I_6.wav,2.1165625,1.912,0.0,can you translate cat,can you translate cat
+15_I_7.wav,1.8471875,1.666,0.2,what is dog in german,what is done in german
+15_I_8.wav,3.34375,3.046,0.111,set the number of words for translations to three,said the number of words for translations to three
+15_I_9.wav,2.306125,2.118,0.0,what is another word for dashboard,what is another word for dashboard
+15_J_1.wav,2.2761875,2.101,0.0,turn on the living room lights please,turn on the living room lights please
+15_J_2.wav,3.5464375,3.27,0.1,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to twenty two degrees
+15_J_3.wav,2.438125,2.207,0.333,set the shutters to fifty percent,said the shutters to fifty persons
+15_J_4.wav,2.0068125,1.823,0.5,please lower the blinds by half,the flowers of blinds by half
+15_K_1.wav,1.8271875,1.661,0.2,how old is queen elizabeth,how old is queen lizabeth
+15_K_10.wav,1.537875,1.396,0.2,do you like to travel,you like to travel
+15_K_11.wav,1.907,1.738,0.0,what kind of music do you like,what kind of music do you like
+15_K_2.wav,2.2861875,2.104,0.0,how many people live in australia,how many people live in australia
+15_K_3.wav,2.196375,1.993,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+15_K_4.wav,2.7051875,2.435,0.0,how long is the river danube,how long is the river danube
+15_K_5.wav,2.8748125,2.607,0.333,how tall is the tallest mountain in the alps,how tall is a tall is mountain in the alps
+15_K_6.wav,3.0149375,2.708,0.571,which movies did tom cruise play in,which mimi did tom crews plain
+15_K_7.wav,1.7075,1.549,0.0,what do you dream about,what do you dream about
+15_K_8.wav,1.6875,1.541,0.4,what's your favourite colour,what's your favorite color
+15_K_9.wav,1.9469375,1.816,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+16_A_1.wav,1.87725,1.683,0.8,athena turn on the lights,if he now told the lights
+16_A_2.wav,2.1265,1.884,1.0,minerva turn on the lights,i naturalists
+16_A_3.wav,1.9569375,1.783,0.4,artemis turn on the lights,artemis of the lights
+16_A_4.wav,1.7773125,1.6,1.0,freya turn on the lights,i am a onelight
+16_A_5.wav,1.657625,1.512,0.8,james turn on the lights,james to delights
+16_A_6.wav,2.0466875,1.84,1.0,computer turn on the lights,from feudation nights
+16_B_1.wav,1.9375625,1.743,1.5,mute unmute,you and your
+16_B_2.wav,1.729875,1.542,1.0,stop abort,stop the boat
+16_B_3.wav,2.048375,1.811,1.0,pause resume,has resumed
+16_B_4.wav,1.7518125,1.558,0.5,next back,next the
+16_B_5.wav,1.0850625,0.973,0.0,louder,louder
+16_B_6.wav,1.853625,1.666,0.75,turn the volume down,soon the way on down
+16_B_7.wav,1.5109375,1.36,0.5,set volume to six,said william to six
+16_C_1.wav,2.41325,2.187,0.5,play some music by bon jovi,play some music paper or be
+16_C_2.wav,2.6753125,2.427,0.833,play my eighties rock playlist now,they may eat his rug playlist now
+16_C_3.wav,2.5555625,2.292,0.0,what song is currently playing,what song is currently playing
+16_C_4.wav,2.6154375,2.376,0.571,please add this song to my favourites,yes it the song to my favorites
+16_C_5.wav,2.5555625,2.309,0.5,what can i do with the music skill,what can i do if tousie
+16_D_1.wav,3.8725625,3.459,0.857,set an alarm for five am please,said in a long for five a mis
+16_D_2.wav,3.303875,2.99,0.222,how much time is left on my pizza timer,how much time is left on my pitation
+16_D_3.wav,3.3238125,3.028,0.444,remind me on the tennis training tonight at five,remind me under tennis training to night at five
+16_D_4.wav,1.9369375,1.764,0.75,cancel all my timers,and all my time was
+16_D_5.wav,1.3383125,1.217,0.0,what's the date,what's the date
+16_D_6.wav,2.515625,2.267,0.333,when is easter sunday this year,when is easter sunday is her
+16_E_1.wav,2.5855,2.356,0.5,add milk and cheese to my shopping list,that murk and cheese to my sobbing less
+16_E_2.wav,2.6753125,2.39,1.0,create a new appointment,create in you a pointment
+16_E_3.wav,5.838125,5.255,0.769,put doctor smith on my calendar for nineteen of july at five pm,what talk to smith and make helene for nineteen o two lay at five per
+16_E_4.wav,3.742875,3.356,0.375,remind me to mow the lawn next saturday,remind me to more the long next holiday
+16_E_5.wav,3.4335625,3.092,0.5,what reminders do i have for this weekend,what remind us to i have for this week
+16_F_1.wav,2.8249375,2.539,1.0,give me articles about politics,if me i'll take about purities
+16_F_2.wav,1.527875,1.365,0.0,tell me the news,tell me the news
+16_F_3.wav,1.8271875,1.635,0.667,what happened today,what happened to day
+16_F_4.wav,3.074375,2.768,1.0,which news topics are available,which new topics of the way evil
+16_F_5.wav,3.683,3.302,0.333,set business as preferred news category,said business is preferred news category
+16_F_6.wav,2.4558125,2.189,0.833,how does the news skill work,it does deeper
+16_F_7.wav,2.515625,2.26,1.0,will it rain today in manchester,with grain to day and mention
+16_F_8.wav,3.184125,2.892,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+16_F_9.wav,2.3661875,2.147,0.5,do i need an umbrella tomorrow,who i need an umbrella to morrow
+16_G_1.wav,3.8725625,3.559,0.364,how long does it take from london to liverpool by car,how long does it take from london to live a holy calm
+16_G_2.wav,5.5575,4.967,1.0,set my location to kennington road four in london,said my look cation took a kenning who rode for in london
+16_G_3.wav,2.4856875,2.24,0.0,i need help with navigation,i need help with navigation
+16_G_4.wav,3.36375,3.038,0.167,what restaurants are within five kilometres,what restaurants are within five humidus
+16_G_5.wav,3.513375,3.169,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+16_G_6.wav,5.3053125,4.817,0.5,how long does it take from buckingham palace to tower of london on foot,how long does it take from taking him pallas to to flandin on food
+16_G_7.wav,3.246125,2.905,0.5,find me a burger restaurant nearby,find me a boresome
+16_G_8.wav,3.6568125,3.293,0.667,what's the address on the nearest tesco store,what a dress on the years has cost
+16_H_1.wav,2.47575,2.234,0.143,how many feet are in a mile,how many feet are in a mine
+16_H_2.wav,2.9246875,2.631,0.5,what's seven times forty four,what seven times for before
+16_H_3.wav,4.5410625,4.063,0.444,what's two hundred twenty five divided by five,what toinette ty five divided by five
+16_H_4.wav,4.5410625,4.075,0.444,what's fifteen percent of one hundred twenty eight,what's fifteen persons as one hand with twenty eight
+16_H_5.wav,3.403625,3.043,0.375,is three hundred thirty seven a prime number,is rendred forty seven a prime number
+16_I_1.wav,2.625375,2.362,0.167,what's the definition of cat,what's the definition of cedar
+16_I_2.wav,2.7051875,2.421,0.2,what does to share mean,what does to sham mean
+16_I_3.wav,2.8948125,2.574,0.8,how do you spell date,out you beat
+16_I_4.wav,2.9611875,2.657,0.375,tell me words that start with an a,to me words that start woven a
+16_I_5.wav,4.0920625,3.644,0.833,which words contain c o n,which but contains sea oh and
+16_I_6.wav,1.7405625,1.579,0.25,can you translate cat,can you translate it
+16_I_7.wav,1.9185625,1.722,0.6,what is dog in german,what is talking to men
+16_I_8.wav,3.1313125,2.83,0.222,set the number of words for translation of three,said the number of words for translation of free
+16_I_9.wav,2.5655625,2.318,0.333,what is another word for dashboard,what is another word for this war
+16_J_1.wav,2.46575,2.23,0.429,turn on the living room lights please,so under living room lights please
+16_J_2.wav,5.1795625,4.658,0.5,set the temperature in the kitchen to twenty two degrees,set a temperate indication to twenty two degrees
+16_J_3.wav,3.4635,3.091,0.5,set the shutters to fifty percent,said the shades to fifty persons
+16_J_4.wav,2.69525,2.426,0.5,please lower the blinds by half,his lord the blind by half
+16_K_1.wav,2.2861875,2.055,1.0,how old is queen elizabeth,oh orders green eizabeth
+16_K_10.wav,1.8394375,1.663,0.2,do you like to travel,do we like to travel
+16_K_11.wav,2.1564375,1.971,0.0,what kind of music do you like,what kind of music do you like
+16_K_2.wav,2.625375,2.398,0.0,how many people live in australia,how many people live in australia
+16_K_3.wav,3.633125,3.254,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+16_K_4.wav,2.755125,2.49,0.333,how long is the river danube,how long is the river then be
+16_K_5.wav,2.8349375,2.552,1.0,how tall is the tallest mountain in the alps,i told it to toll us money heaps
+16_K_6.wav,2.964625,2.667,0.571,which movies did tom cruise play in,which move to tom groslay in
+16_K_7.wav,2.525625,2.253,0.0,what do you dream about,what do you dream about
+16_K_8.wav,1.857125,1.679,0.4,what's your favourite colour,what's your favorite color
+16_K_9.wav,2.672875,2.451,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+17_A_1.wav,2.0061875,1.821,0.8,athena turn on the lights,as soon not to on the lights
+17_A_2.wav,2.0708125,1.872,0.4,minerva turn on the lights,i never turn on the lights
+17_A_3.wav,2.013875,1.831,0.6,artemis turn on the lights,at times on on the lights
+17_A_4.wav,1.861875,1.673,0.4,freya turn on the lights,fray or turn on the lights
+17_A_5.wav,2.108875,1.892,0.4,james turn on the lights,same to on the lights
+17_A_6.wav,1.956875,1.778,0.0,computer turn on the lights,computer turn on the lights
+17_B_1.wav,2.222875,1.962,2.0,mute unmute,you an you'd
+17_B_2.wav,2.279875,2.039,1.0,stop abort,stop a port
+17_B_3.wav,2.336875,2.087,1.0,pause resume,all resumed
+17_B_4.wav,2.24025,1.979,0.5,next back,next tack
+17_B_5.wav,1.1288125,1.013,0.0,louder,louder
+17_B_6.wav,1.6554375,1.506,0.25,turn the volume down,turn the william down
+17_B_7.wav,1.804875,1.615,0.5,set volume to six,said bollum to six
+17_C_1.wav,2.535625,2.273,0.5,play some music by bon jovi,play some music lay on shore
+17_C_2.wav,3.0226875,2.702,0.333,play my eighties rock playlist now,lay my eighties rock lyles now
+17_C_3.wav,2.306125,2.083,0.2,what song is currently playing,what son is currently playing
+17_C_4.wav,2.541125,2.298,0.571,please add this song to my favourites,please at this one for my favorites
+17_C_5.wav,2.602875,2.367,0.125,what can i do with the music skill,what can i do with the music there
+17_D_1.wav,2.897,2.63,0.571,set an alarm for five am please,said in alarm for five a m please
+17_D_2.wav,3.0045625,2.726,0.333,how much time is left on my pizza timer,how much time is left on my pit a time
+17_D_3.wav,3.7728125,3.426,0.333,remind me of the tennis training tonight at five,remind me of the tennis raining from thy at five
+17_D_4.wav,2.0068125,1.8,0.5,cancel all my timers,case all my times
+17_D_5.wav,1.318375,1.208,0.0,what the date,what the date
+17_D_6.wav,2.6553125,2.402,0.333,when is easter sunday this year,when is easter sunday the seer
+17_E_1.wav,2.796625,2.527,0.5,add milk and cheese to my shopping list,it moved and she is to my shopping list
+17_E_2.wav,2.583875,2.324,0.0,create a new appointment,create a new appointment
+17_E_3.wav,5.6685,5.078,0.692,put doctor smith on my calendar for ninetieth of july at five pm,two up the smiths on my calendar for nineties of curiatti pen
+17_E_4.wav,4.3515,3.899,0.125,remind me to mow the lawn next saturday,remind me to mow the lawn next holiday
+17_E_5.wav,3.303875,2.976,0.5,what reminders do i have for this weekend,what remind us to i have for the weekend
+17_F_1.wav,2.5954375,2.346,0.8,give me articles about politics,his optical politics
+17_F_2.wav,1.4125,1.287,0.25,tell me the news,send me the news
+17_F_3.wav,1.880875,1.69,0.667,what happened today,what happened to day
+17_F_4.wav,2.4888125,2.25,1.0,which news topics are available,which new topics of a well able
+17_F_5.wav,3.47675,3.131,0.167,set business as preferred news category,said business as preferred news category
+17_F_6.wav,2.323375,2.098,0.667,how does the news skill work,how does use silver
+17_F_7.wav,2.4919375,2.246,0.5,will it rain today in manchester,will it rain to day in menie
+17_F_8.wav,3.2678125,2.97,0.1,what's the weather going to be like on sunday,what the weather going to be like on sunday
+17_F_9.wav,2.69525,2.436,0.5,do i need an umbrella tomorrow,who i need an umbrella from morrow
+17_G_1.wav,3.9324375,3.594,0.364,how long does it take from london to liverpool by car,how long does it take from one to live a pool by car
+17_G_2.wav,4.551,4.09,0.333,set my location to kennington road five in london,said my location to pennicote five in london
+17_G_3.wav,2.3360625,2.142,0.0,i need help with navigation,i need help with navigation
+17_G_4.wav,3.832625,3.452,0.333,what restaurants are within five kilometres,what rest wrongs are within five kilometres
+17_G_5.wav,3.683,3.336,0.222,how far is it to the university of oxford,how far is it to the university of a sort
+17_G_6.wav,5.11975,4.625,0.214,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tower of onmanful
+17_G_7.wav,2.79,2.495,0.5,find me a burger restaurant nearby,find me a bergerron ye by
+17_G_8.wav,3.34375,3.022,0.556,what's the address of the nearest tesco store,what they had rest of the nearest his color
+17_H_1.wav,2.5205,2.262,0.0,how many feet are in a mile,how many feet are in a mile
+17_H_2.wav,2.745125,2.454,0.5,what's seven times forty four,what seventimes forty four
+17_H_3.wav,3.8825625,3.537,0.4,what's two hundred and twenty five divided by five,was two hundred and twenty five to widely five
+17_H_4.wav,2.76925,2.518,0.222,what's fifteen percent of one hundred twenty eight,what's fifty person of one hundred twenty eight
+17_H_5.wav,3.4046875,3.052,0.375,is three hundred thirty seven a prime number,i re hundred city seven a prime number
+17_I_1.wav,2.635375,2.393,0.0,what's the definition of cat,what's the definition of cat
+17_I_2.wav,2.019875,1.823,0.2,what does to share mean,what does to share in
+17_I_3.wav,1.7574375,1.6,0.4,how do you spell date,how do you tell jade
+17_I_4.wav,2.8023125,2.517,0.5,tell me words that start with an a,an you was that start with an ay
+17_I_5.wav,3.5718125,3.194,0.667,which words contain c o n,which that contain see oh and
+17_I_6.wav,1.9369375,1.767,0.0,can you translate cat,can you translate cat
+17_I_7.wav,1.9369375,1.764,0.2,what is dog in german,what is talk in german
+17_I_8.wav,3.9850625,3.594,0.444,set the number of words for translations to three,said the number of birds forwardation to three
+17_I_9.wav,2.8748125,2.578,0.167,what is another word for dashboard,what is another word for tachot
+17_J_1.wav,2.68525,2.433,0.143,turn on the living room lights please,turn on the living room lights place
+17_J_2.wav,4.89025,4.422,0.3,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to twenty two to greece
+17_J_3.wav,2.9905,2.674,0.5,set the shutters to fifty percent,said the shovels to fifty persons
+17_J_4.wav,2.3360625,2.142,0.333,please lower the blinds by half,please to all the blinds by half
+17_K_1.wav,2.2163125,2.011,0.8,how old is queen elizabeth,how old is created is a best
+17_K_10.wav,1.657625,1.519,0.2,do you like to travel,do you like to rather
+17_K_11.wav,2.0666875,1.88,0.143,what kind of music do you like,what kind of music you like
+17_K_2.wav,2.3859375,2.175,0.333,how many people live in australia,how many people live in all pride
+17_K_3.wav,2.795,2.519,0.429,what the high of the eiffel tower,what the higher of the ittoo
+17_K_4.wav,2.5455625,2.285,0.167,how long is the river danube,how long is the river any
+17_K_5.wav,2.8349375,2.534,0.444,how tall is the tallest mountain in the alps,how tall is the tallest man thus
+17_K_6.wav,3.0045625,2.694,0.857,which movies did tom cruise play in,which moves it tumble and
+17_K_7.wav,1.9569375,1.788,0.0,what do you dream about,what do you dream about
+17_K_8.wav,1.8471875,1.673,0.4,what's your favourite colour,what's your favorite color
+17_K_9.wav,3.6031875,3.24,0.1,what do you do when i'm not at home,what do you who when i'm not at home
+18_A_1.wav,2.306125,2.078,0.4,athena turn on the lights,a female turn on the lights
+18_A_2.wav,2.356,2.136,0.6,minerva turn on the lights,he never turned on the lights
+18_A_3.wav,2.6753125,2.421,0.8,artemis turn on the lights,at times to find the lights
+18_A_4.wav,2.1465,1.914,1.0,freya turn on the lights,free from an relights
+18_A_5.wav,2.5855,2.319,0.2,james turn on the lights,can turn on the lights
+18_A_6.wav,2.366,2.139,0.0,computer turn on the lights,computer turn on the lights
+18_B_1.wav,3.092375,2.734,1.5,mute unmute,not a mouthful
+18_B_2.wav,2.6088125,2.321,1.0,stop abort,stop a part
+18_B_3.wav,2.6125,2.332,0.5,pause resume,pause resumed
+18_B_4.wav,2.2704375,2.014,0.0,next back,next back
+18_B_5.wav,1.1088125,0.986,0.0,louder,louder
+18_B_6.wav,1.604,1.436,0.0,turn the volume down,turn the volume down
+18_B_7.wav,1.8371875,1.655,0.5,set volume to six,said william to six
+18_C_1.wav,2.3460625,2.114,0.5,play some music by bon jovi,play some music quite an joy
+18_C_2.wav,2.47575,2.222,0.5,play my eighties rock playlist now,play my age toppled now
+18_C_3.wav,2.3260625,2.102,0.0,what song is currently playing,what song is currently playing
+18_C_4.wav,2.7759375,2.518,0.429,please add this song to my favourites,please at the sun to my favourites
+18_C_5.wav,2.8249375,2.566,0.0,what can i do with the music skill,what can i do with the music skill
+18_D_1.wav,2.9346875,2.667,0.286,set an alarm for five am please,set an alarm for five a emplace
+18_D_2.wav,3.3736875,3.061,0.222,how much time is left on my pizza timer,how much time is left on my piazza time
+18_D_3.wav,3.9923125,3.637,0.333,remind me of the tennis training tonight at five,remind me all the tennis training to night at five
+18_D_4.wav,1.9369375,1.767,0.5,cancel all my timers,cancel all my time as
+18_D_5.wav,1.2284375,1.102,0.0,what's the date,what's the date
+18_D_6.wav,2.3460625,2.131,0.0,when is easter sunday this year,when is easter sunday this year
+18_E_1.wav,2.4956875,2.26,0.5,add milk and cheese to my shopping list,a merchant cheese to my shopping last
+18_E_2.wav,1.927,1.725,0.0,create a new appointment,create a new appointment
+18_E_3.wav,5.53875,5.011,0.308,put doctor smith on my calendar for nineteenth of july at five pm,but doctor smith on my colendo for nineteenth of july at five p m
+18_E_4.wav,3.065625,2.78,0.25,remind me to mow the lawn next saturday,remind me to move the long next saturday
+18_E_5.wav,3.0344375,2.751,0.5,what reminders do i have for this weekend,what reminders to i have for the weak and
+18_F_1.wav,2.3260625,2.126,0.2,give me articles about politics,give me optical about politics
+18_F_2.wav,1.5179375,1.375,0.0,tell me the news,tell me the news
+18_F_3.wav,1.5578125,1.409,0.667,what happened today,what happened to day
+18_F_4.wav,3.12425,2.8,0.2,which news topic are available,which ouse topic are available
+18_F_5.wav,3.3836875,3.032,0.167,set business as preferred news category,sad business as preferred news category
+18_F_6.wav,2.5455625,2.28,0.667,how does the news skill work,i'll dust the new skill work
+18_F_7.wav,2.306125,2.099,0.833,will it rain today in manchester,with a train to day in manchester
+18_F_8.wav,3.8625625,3.525,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+18_F_9.wav,2.356,2.15,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+18_G_1.wav,3.9823125,3.638,0.0,how long does it take from london to liverpool by car,how long does it take from london to liverpool by car
+18_G_2.wav,5.2295,4.697,0.444,set my location to kennington road four in london,said mike location to kennington road for london
+18_G_3.wav,2.206375,2.005,0.0,i need help with navigation,i need help with navigation
+18_G_4.wav,3.403625,3.081,0.167,what restaurants are within five kilometres,what restaurants are within five kilometers
+18_G_5.wav,3.184125,2.876,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+18_G_6.wav,4.2616875,3.895,0.286,how long does it take from buckingham palace to tower of london on foot,a long does it take from butting him palace to tow of london on foot
+18_G_7.wav,2.7151875,2.473,0.833,find me a burger restaurant nearby,find me a burgher est iron near by
+18_G_8.wav,3.9324375,3.567,0.111,what's the address of the nearest tesco store,what's the address of the nearest tesso store
+18_H_1.wav,2.8249375,2.535,0.0,how many feet are in a mile,how many feet are in a mile
+18_H_2.wav,3.116375,2.799,0.167,what's seven times forty four,what seven times forty four
+18_H_3.wav,3.693,3.366,0.0,what's two hundred and twenty five divided by five,what's two hundred and twenty five divided by five
+18_H_4.wav,3.0943125,2.828,0.333,what's fifteen percent of one hundred twenty eight,what's fifty per cent of one hundred twenty eight
+18_H_5.wav,3.842625,3.462,0.0,is three hundred thirty seven a prime number,is three hundred thirty seven a prime number
+18_I_1.wav,1.976875,1.821,0.0,what's the definition of cat,what's the definition of cat
+18_I_2.wav,2.296125,2.073,0.4,what does to share mean,what does to shame me
+18_I_3.wav,1.9469375,1.781,0.6,how do you spell date,i'll do you spell fate
+18_I_4.wav,2.5755,2.359,0.25,tell me words that start with an a,tell me works that start with a a
+18_I_5.wav,4.293125,3.834,0.667,which words contain c o n,which were contained sea o and
+18_I_6.wav,2.0566875,1.864,0.0,can you translate cat,can you translate cat
+18_I_7.wav,2.096625,1.896,0.2,what is dog in german,what is talk in german
+18_I_8.wav,3.513375,3.189,0.222,set the number of words for translations to three,set the number for it for translations to three
+18_I_9.wav,2.625375,2.398,0.333,what is another word for dashboard,what is another word for dash board
+18_J_1.wav,2.8848125,2.611,0.0,turn on the living room lights please,turn on the living room lights please
+18_J_2.wav,4.1519375,3.754,0.1,set the temperature in the kitchen to twenty two degrees,set the temperature in the kitchen to twenty two degree
+18_J_3.wav,2.8249375,2.551,0.5,set the shutters to fifty percent,set the shortest to fifty per cent
+18_J_4.wav,2.735125,2.465,0.0,please lower the blinds by half,please lower the blinds by half
+18_K_1.wav,2.1764375,1.978,0.0,how old is queen elizabeth,how old is queen elizabeth
+18_K_10.wav,1.8471875,1.668,0.0,do you like to travel,do you like to travel
+18_K_11.wav,2.086625,1.922,0.0,what kind of music do you like,what kind of music do you like 
+18_K_2.wav,2.7251875,2.462,0.333,how many people live in australia,oh many people let in australia
+18_K_3.wav,3.3138125,2.99,0.0,what's the hay of the eiffel tower,what's the hay of the eiffel tower
+18_K_4.wav,2.8149375,2.558,0.333,how long is the river danube,how long is the river don moving
+18_K_5.wav,3.58325,3.251,0.111,how tall is the tallest mountain in the alps,how tall is the tallest mountain in the out
+18_K_6.wav,2.69525,2.447,0.429,which movies did tom cruise play in,which moves that tom cruise play on
+18_K_7.wav,1.8970625,1.713,0.0,what do you dream about,what do you dream about
+18_K_8.wav,2.02675,1.829,0.4,what's your favourite colour,what's your favorite color
+18_K_9.wav,2.745125,2.493,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+19_A_1.wav,2.317375,2.098,0.4,athena turn on the lights,a female turn on the lights
+19_A_2.wav,2.28275,2.067,0.2,minerva turn on the lights,mine turn on the lights
+19_A_3.wav,1.96,1.786,1.0,artemis turn on the lights,a team is torn on the light
+19_A_4.wav,2.0139375,1.835,0.4,freya turn on the lights,i turn on the light
+19_A_5.wav,2.017875,1.826,1.0,james turn on the lights,came to an underlights
+19_A_6.wav,2.181875,1.959,0.2,computer turn on the lights,computer turn on me lights
+19_B_1.wav,1.9329375,1.745,1.5,mute unmute,you and you
+19_B_2.wav,1.816125,1.621,1.0,stop abort,stop a part
+19_B_3.wav,1.65,1.48,1.0,pause resume,pose presume
+19_B_4.wav,1.71,1.521,0.5,next back,take back
+19_B_5.wav,0.74,0.683,1.0,louder,lower
+19_B_6.wav,1.5593125,1.4,0.75,turn the volume down,and before one down
+19_B_7.wav,1.8861875,1.69,0.5,set volume to six,set more on to six
+19_C_1.wav,2.262625,2.047,0.667,play some music by bon jovi,lay some music upon toby
+19_C_2.wav,2.96,2.67,0.833,play my eighties rock playlist now,blame me eighty rock lay less now
+19_C_3.wav,2.28,2.073,0.0,what song is currently playing,what song is currently playing
+19_C_4.wav,2.26,2.07,0.429,please add this song to my favourites,please at the song to my favorite
+19_C_5.wav,2.41,2.189,0.375,what can i do with the music skill,what can i do with you you secure
+19_D_1.wav,3.367375,3.015,0.714,set an alarm for five am please,sit down alone for five a m please
+19_D_2.wav,2.812,2.575,0.222,how much time is left on my pizza timer,how much time is left on my pittie 
+19_D_3.wav,3.572125,3.262,0.333,remind me of the tennis training tonight at five,remind me of the tennis raining to night at five
+19_D_4.wav,1.6,1.443,0.5,cancel all my timers,cancel all my time of
+19_D_5.wav,1.05,0.955,0.75,what's the date,what for dat
+19_D_6.wav,2.28,2.08,0.0,when is easter sunday this year,when is easter sunday this year
+19_E_1.wav,2.63,2.395,0.5,add milk and cheese to my shopping list,at me and these to my shopping the
+19_E_2.wav,1.85,1.664,0.5,create a new appointment,great and new appointment
+19_E_3.wav,6.0621875,5.451,0.385,put doctor smith on my calendar for nineteenth of july at five pm,to doctor smith on my calendar for nineteenth of to lie at five p m
+19_E_4.wav,4.2656875,3.829,0.75,remind me to mow the lawn next saturday,remind me to me belong next to the day
+19_E_5.wav,3.10375,2.806,0.5,what reminders do i have for this weekend,what three minds to i have for the weekend
+19_F_1.wav,3.01425,2.731,0.0,give me articles about politics,give me articles about politics
+19_F_2.wav,1.432625,1.313,0.5,tell me the news,tell me in use
+19_F_3.wav,1.5726875,1.429,0.667,what happened today,what happened to day
+19_F_4.wav,2.86525,2.573,0.6,which news topics are available,which new topics are away then
+19_F_5.wav,3.506125,3.139,0.333,set business as preferred news category,sad business as preferred new category
+19_F_6.wav,2.1176875,1.908,0.833,how does the news skill work,how it does we newspaper
+19_F_7.wav,2.495875,2.259,1.0,will it rain today in manchester,when it rained to day and menester
+19_F_8.wav,3.3295,3.008,0.1,what's the weather going to be like on sunday,what's the ever going to be like on sunday
+19_F_9.wav,3.0268125,2.724,0.5,do i need an umbrella tomorrow,do i need an area to morrow
+19_G_1.wav,3.7456875,3.438,0.273,how long does it take from london to liverpool by car,how long does it take from london to live a political
+19_G_2.wav,4.02225,3.63,0.556,set my location to kennington road four in london,i set my location to keeper for a london
+19_G_3.wav,2.3520625,2.144,0.0,i need help with navigation,i need help with navigation
+19_G_4.wav,3.4605,3.109,0.833,what restaurants are within five kilometres,what rest around are misinformed as
+19_G_5.wav,3.455,3.127,0.111,how far is it to the university of oxford,how far is it to where university of oxford
+19_G_6.wav,4.428875,4.018,0.429,how long does it take from buckingham palace to tower of london on foot,how long does it take from a king him pallas to tow off london on foot
+19_G_7.wav,2.6488125,2.403,0.5,find me a burger restaurant nearby,find me a beggar restaurant near by
+19_G_8.wav,3.1719375,2.849,0.667,what's the address of the nearest tesco store,what's he a tress of her nearest test custom
+19_H_1.wav,2.227125,2.013,0.0,how many feet are in a mile,how many feet are in a mile
+19_H_2.wav,2.159125,1.946,0.167,what's seven times forty four,what seven times forty four
+19_H_3.wav,3.38,3.079,0.0,what's two hundred and twenty five divided by five,what's two hundred and twenty five divided by five
+19_H_4.wav,4.0051875,3.628,0.0,what's fifteen percent of two hundred and twenty eight,what's fifteen percent of two hundred and twenty eight
+19_H_5.wav,3.47,3.153,0.111,is three hundred and thirty seven a prime number,it is three hundred and thirty seven a prime number
+19_I_1.wav,2.02325,1.845,0.0,what's the definition of cat,what's the definition of cat
+19_I_2.wav,1.7215,1.56,0.4,what does to share mean,what thus to share me
+19_I_3.wav,1.56,1.41,0.4,how do you spell date,how do you speak tate
+19_I_4.wav,2.26,2.067,0.5,tell me words that start with an a,tell me betwixt with an 
+19_I_5.wav,3.12,2.777,1.0,which words contain c o n,the verses contained see oh an
+19_I_6.wav,1.919125,1.722,0.25,can you translate cat,can you translate kept
+19_I_7.wav,2.0053125,1.818,0.6,what is dog in german,what the stock and german
+19_I_8.wav,3.9853125,3.609,0.111,set the number of words for translation to three,set to the number of words for translation to three
+19_I_9.wav,2.8755,2.593,0.333,what is another word for dashboard,what is another bird for despot
+19_J_1.wav,2.3711875,2.168,0.0,turn on the living room lights please,turn on the living room lights please
+19_J_2.wav,3.741375,3.411,0.4,set the temperature in the kitchen to twenty two degrees,said to the temperature the kitchen to a twenty two degrees
+19_J_3.wav,2.87,2.583,0.667,set the shutters to fifty percent,set to his shutters to fifty per cent
+19_J_4.wav,2.15,1.947,0.0,please lower the blinds by half,please lower the blinds by half
+19_K_1.wav,1.9184375,1.715,0.8,how old is queen elizabeth,how or discrediteth
+19_K_10.wav,1.6800625,1.539,0.0,do you like to travel,do you like to travel
+19_K_11.wav,2.3584375,2.154,0.286,what kind of music do you like,what kind of use it do you like
+19_K_2.wav,2.23,2.02,0.167,how many people live in australia,how many people live in australian
+19_K_3.wav,2.5143125,2.272,0.5,what's the height of the eiffel tower,what's her height of them i vetoed
+19_K_4.wav,2.1940625,1.999,0.667,how long is the river danube,how long as river the lute
+19_K_5.wav,2.7679375,2.52,0.667,how tall is the tallest mountain in the alps,how it all is with tones mountain in viands
+19_K_6.wav,2.635875,2.379,0.857,which movies did tom cruise play in,which moves stick tombola and
+19_K_7.wav,1.9551875,1.788,0.0,what do you dream about,what do you dream about
+19_K_8.wav,1.790875,1.619,0.4,what's your favourite colour,what's your favorite color
+19_K_9.wav,2.1,1.935,0.2,what do you do when i'm not at home,what do you do when i look at home
+1_A_1.wav,2.074125,1.884,0.4,athena turn on the lights,a final turn on the lights
+1_A_2.wav,2.2230625,2.004,0.6,minerva turn on the lights,mine of a turn on the lights
+1_A_3.wav,2.0955,1.901,0.6,artemis turn on the lights,i do must turn on the lights
+1_A_4.wav,2.1655625,1.941,0.2,freya turn on the lights,fra turn on the lights
+1_A_5.wav,2.2999375,2.089,0.0,james turn on the lights,james turn on the lights
+1_A_6.wav,2.3104375,2.096,0.0,computer turn on the lights,computer turn on the lights
+1_B_1.wav,2.161625,1.915,0.5,mute unmute,mute unmuted
+1_B_2.wav,2.1781875,1.934,1.0,stop abort,stop a board
+1_B_3.wav,2.126625,1.891,0.5,pause resume,pause resumed
+1_B_4.wav,2.0955,1.86,0.0,next back,next back
+1_B_5.wav,0.8686875,0.775,0.0,louder,louder
+1_B_6.wav,1.41725,1.297,0.0,turn the volume down,turn the volume down
+1_B_7.wav,1.6695,1.507,0.25,set volume to six,said volume to six
+1_C_1.wav,1.959125,1.813,0.333,play some music by bon jovi,play some music by bonati
+1_C_2.wav,2.2608125,2.068,0.333,play my eighties rock playlist now,play my eighties rock play list now
+1_C_3.wav,1.82275,1.661,0.0,what song is currently playing,what song is currently playing
+1_C_4.wav,2.31875,2.114,0.143,please add this song to my favourites,please add the song to my favourites
+1_C_5.wav,1.916125,1.768,0.0,what can i do with the music skill,what can i do with the music skill
+1_D_1.wav,2.3905,2.176,0.429,set an alarm for five am please,set an alarm for five a m le
+1_D_2.wav,2.4149375,2.23,0.111,how much time is left on my pizza timer,how much time is left on my piazza timer
+1_D_3.wav,2.8040625,2.567,0.333,remind me of the tennis training tonight at five,reminds me of the tennis training to night at five
+1_D_4.wav,1.6068125,1.435,0.25,cancel all my timers,cancel all my times
+1_D_5.wav,0.8884375,0.803,0.0,what's the date,what's the date
+1_D_6.wav,1.8861875,1.716,0.167,when is easter sunday this year,when is easter sunday the year
+1_E_1.wav,2.4149375,2.201,0.125,add milk and cheese to my shopping list,add milk and cheese to my shopping less
+1_E_2.wav,1.517,1.386,0.0,create a new appointment,create a new appointment
+1_E_3.wav,4.4104375,4.023,0.154,put doctor smith on my calendar for nineteenth of july at five pm,put doctor smith on my calendar for nineteenth of july at five p m
+1_E_4.wav,2.345125,2.159,0.125,remind me to mow the lawn next saturday,reminds me to mow the lawn next saturday
+1_E_5.wav,2.125625,1.961,0.0,what reminders do i have for this weekend,what reminders do i have for this weekend
+1_F_1.wav,2.1196875,1.926,0.0,give me articles about politics,give me articles about politics
+1_F_2.wav,1.0946875,1.021,0.0,tell me the news,tell me the news
+1_F_3.wav,1.1079375,1.017,0.667,what happened today,what happened to day
+1_F_4.wav,1.896125,1.731,0.2,which news topics are available,which new topics are available
+1_F_5.wav,2.7143125,2.475,0.167,set business as preferred news category,said business as preferred news category
+1_F_6.wav,1.576875,1.442,0.167,how does the news skill work,how does the new skill work
+1_F_7.wav,1.9959375,1.858,0.5,will it rain today in manchester,will it rain to day and manchester
+1_F_8.wav,2.115625,2.002,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+1_F_9.wav,1.62675,1.519,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+1_G_1.wav,2.9238125,2.737,0.091,how long does it take from london to liverpool by car,how long is it take from london to liverpool by car
+1_G_2.wav,3.40275,3.103,0.222,set my location to kennington road four in london,said my location to kennington road for in london
+1_G_3.wav,1.7165625,1.603,0.2,i need help with navigation,i need hope with navigation
+1_G_4.wav,2.5346875,2.306,0.167,what restaurants are within five kilometres,what restaurants are within five kilometers
+1_G_5.wav,2.554625,2.355,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+1_G_6.wav,3.9015625,3.622,0.0,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tower of london on foot
+1_G_7.wav,1.9859375,1.834,0.0,find me a burger restaurant nearby,find me a burger restaurant nearby
+1_G_8.wav,2.345125,2.168,0.333,what's the address of the nearest tesco store,what's the address of the nearest tess coat or
+1_H_1.wav,1.5968125,1.467,0.0,how many feet are in a mile,how many feet are in a mile
+1_H_2.wav,1.8263125,1.663,0.333,what's seven times forty four,what seven times forty for
+1_H_3.wav,2.7541875,2.534,0.0,what's two hundred twenty five divided by five,what's two hundred twenty five divided by five
+1_H_4.wav,2.6444375,2.457,0.333,what's fifteen percent of one hundred twenty eight,what fifteen per cent of one hundred twenty eight
+1_H_5.wav,2.28525,2.117,0.0,is three hundred thirty seven a prime number,is three hundred thirty seven a prime number
+1_I_1.wav,1.6666875,1.543,0.0,what's the definition of cat,what's the definition of cat
+1_I_2.wav,1.796375,1.641,0.0,what does to share mean,what does to share mean
+1_I_3.wav,1.7165625,1.57,0.0,how do you spell date,how do you spell date
+1_I_4.wav,1.9460625,1.817,0.0,tell me words that start with an a,tell me words that start with an a
+1_I_5.wav,2.7903125,2.495,0.5,which words contain c o n,which words contained sea o and
+1_I_6.wav,1.544625,1.399,0.0,can you translate cat,can you translate cat
+1_I_7.wav,1.6493125,1.511,0.2,what is dog in german,what is a dog in german
+1_I_8.wav,2.9871875,2.752,0.0,set the number of words for translations to three,set the number of words for translations to three
+1_I_9.wav,1.9360625,1.859,0.333,what is another word for dashboard,what is another word for dash board
+1_J_1.wav,2.0956875,1.964,0.0,turn on the living room lights please,turn on the living room lights please
+1_J_2.wav,3.0834375,2.839,0.0,set the temperature in the kitchen to twenty two degrees,set the temperature in the kitchen to twenty two degrees
+1_J_3.wav,2.07575,1.911,0.333,set the shutters to fifty percent,set the shutters to fifty per cent
+1_J_4.wav,1.916125,1.75,0.0,please lower the blinds by half,please lower the blinds by half
+1_K_1.wav,1.6466875,1.514,0.0,how old is queen elizabeth,how old is queen elizabeth
+1_K_10.wav,1.2276875,1.133,0.0,do you like to travel,do you like to travel
+1_K_11.wav,1.6566875,1.552,0.0,what kind of music do you like,what kind of music do you like
+1_K_2.wav,2.06575,1.898,0.167,how many people live in australia,how many people he in australia
+1_K_3.wav,2.001625,1.845,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+1_K_4.wav,1.823,1.682,0.5,how long is the river danube,how long is the rivers and never
+1_K_5.wav,2.574625,2.378,0.0,how tall is the tallest mountain in the alps,how tall is the tallest mountain in the alps
+1_K_6.wav,2.1755,1.981,0.429,which movies did tom cruise play in,which moves to tom true play in
+1_K_7.wav,1.3738125,1.288,0.0,what do you dream about,what do you dream about
+1_K_8.wav,1.3274375,1.235,0.0,what's your favourite colour,what's your favourite colour
+1_K_9.wav,1.8163125,1.704,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+20_A_1.wav,2.28,2.067,0.4,athena turn on the lights,i then turn on the lights
+20_A_2.wav,2.64,2.387,0.8,minerva turn on the lights,me no mo turned on the lights
+20_A_3.wav,2.65,2.381,0.4,artemis turn on the lights,at times turn on the lights
+20_A_4.wav,2.5,2.228,0.2,freya turn on the lights,pray turn on the lights
+20_A_5.wav,2.44,2.19,0.0,james turn on the lights,james turn on the lights
+20_A_6.wav,2.61,2.346,0.0,computer turn on the lights,computer turn on the lights
+20_B_1.wav,2.39375,2.128,1.5,mute unmute,you and me
+20_B_2.wav,2.1388125,1.899,1.0,stop abort,stop a boat
+20_B_3.wav,2.16,1.919,0.5,pause resume,pause fate
+20_B_4.wav,2.2193125,1.962,0.5,next back,next beg
+20_B_5.wav,0.94,0.84,0.0,louder,louder
+20_B_6.wav,1.85,1.651,1.0,turn the volume down,to under vol him down
+20_B_7.wav,1.67,1.511,0.5,set volume to six,said william to six
+20_C_1.wav,2.58,2.336,0.333,play some music by bon jovi,play some music by upon
+20_C_2.wav,2.81,2.5,0.333,play my eighties rock playlist now,play my eighty walk playlist now
+20_C_3.wav,2.19,1.98,0.4,what song is currently playing,what on as currently playing
+20_C_4.wav,2.46,2.238,0.429,please add this song to my favourites,please it the song to my favourite
+20_C_5.wav,2.49,2.246,0.375,what can i do with the music skill,what can i do if tenui skill
+20_D_1.wav,3.0941875,2.781,0.571,set an alarm for five am please,said in alarm for five and peace
+20_D_2.wav,2.87,2.59,0.444,how much time is left on my pizza timer,how much time is lived on my pet a time
+20_D_3.wav,3.01,2.777,0.556,remind me of the tennis training tonight at five,with mind me of the tennis winning to night at five
+20_D_4.wav,1.94,1.763,0.75,cancel all my timers,kane all my time was
+20_D_5.wav,1.2153125,1.097,0.0,what's the date,what's the date
+20_D_6.wav,2.2,1.978,0.5,when is easter sunday this year,when is easter and native he
+20_E_1.wav,2.663125,2.428,0.25,add milk and cheese to my shopping list,it moved and cheese to my shopping list
+20_E_2.wav,1.99,1.796,0.5,create a new appointment,create a new lepont ment
+20_E_3.wav,5.31,4.838,0.308,put doctor smith on my calendar for nineteenth of july at five pm,put up to smith on my calendar for nineteenth of july at five p m
+20_E_4.wav,3.2335,2.946,0.5,remind me to mow the lawn next saturday,remind me to more along next satterday
+20_E_5.wav,2.7,2.464,0.75,what reminders do i have for this weekend,what we mind not to i have for this week end
+20_F_1.wav,2.3363125,2.136,0.0,give me articles about politics,give me articles about politics
+20_F_2.wav,1.533,1.382,0.75,tell me the news,to me in us
+20_F_3.wav,1.44,1.306,0.667,what happened today,what happened to day
+20_F_4.wav,2.39,2.154,0.4,which news topics are available,rich new topics are available
+20_F_5.wav,2.893625,2.651,0.167,set business as preferred news category,said business as preferred news category
+20_F_6.wav,2.37,2.125,1.0,how does the news skill work,hold us in use skiver
+20_F_7.wav,2.2,1.997,1.0,will it rain today in manchester,lilian to day and men cost
+20_F_8.wav,2.75,2.71,0.1,what's the weather going to be like on sunday,what's the matter going to be like on sunday
+20_F_9.wav,2.343,2.113,0.333,do i need an umbrella tomorrow,do i need an unpredatory
+20_G_1.wav,3.56,3.286,0.455,how long does it take from london to liverpool by car,how long does it take from yon on to live up willie
+20_G_2.wav,3.403,3.085,0.556,set my location to kennington road four in london,said my location to canning wrote for a london
+20_G_3.wav,2.04,1.879,0.2,i need help with navigation,i need her with navigation
+20_G_4.wav,3.1,2.799,0.0,what restaurants are within five kilometres,what restaurants are within five kilometres
+20_G_5.wav,2.95,2.709,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+20_G_6.wav,4.59,4.206,0.286,how long does it take from buckingham palace to tower of london on foot,how long does it take it from backing him peace to tower of london on foot
+20_G_7.wav,2.51,2.251,0.667,find me a burger restaurant nearby,find me a bog of estienne by
+20_G_8.wav,2.88,2.609,0.444,what's the address of the nearest tesco store,what's the atlas of the new testator
+20_H_1.wav,2.286625,2.076,0.143,how many feet are in a mile,how many feet in a mile
+20_H_2.wav,2.25,2.026,0.0,what's seven times forty four,what's seven times forty four
+20_H_3.wav,3.56,3.246,0.0,what's two hundred twenty five divided by five,what's two hundred twenty five divided by five
+20_H_4.wav,3.5351875,3.224,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+20_H_5.wav,3.29325,3.005,0.125,is three hundred thirty seven a prime number,his three hundred thirty seven a prime number
+20_I_1.wav,1.95,1.782,0.333,what's the definition of cat,what's a definition of kit
+20_I_2.wav,2.3319375,2.093,0.2,what does to share mean,what does to share me
+20_I_3.wav,2.0905,1.88,0.2,how do you spell date,how do you spell that
+20_I_4.wav,2.57,2.307,0.625,tell me words that start with an a,tommy rot that start within a
+20_I_5.wav,4.073,3.624,0.5,which words contain c o n,which words contained sea o an
+20_I_6.wav,1.85,1.671,0.25,can you translate cat,can you translate it
+20_I_7.wav,2.18,1.952,0.4,what is dog in german,what dark in german
+20_I_8.wav,3.70375,3.345,0.333,set the number of words for translations to three,set the number of reforming lations to three
+20_I_9.wav,2.26,2.098,0.333,what is another word for dashboard,what is another word for this port
+20_J_1.wav,2.44,2.219,0.143,turn on the living room lights please,turn on the living wound lights please
+20_J_2.wav,3.88,3.551,0.1,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to twenty two degrees
+20_J_3.wav,2.6,2.365,0.667,set the shutters to fifty percent,said the shadow to fifty per cent
+20_J_4.wav,2.15,1.937,0.5,please lower the blinds by half,please now at the plants by half
+20_K_1.wav,1.95,1.783,0.2,how old is queen elizabeth,how old is green elizabeth
+20_K_10.wav,1.75,1.596,0.0,do you like to travel,do you like to travel
+20_K_11.wav,2.38,2.167,0.0,what kind of music do you like,what kind of music do you like
+20_K_2.wav,2.45,2.227,0.333,how many people live in australia,how many people live in our train
+20_K_3.wav,2.52,2.289,0.0,what's the height of the eiffel tower,what is the height of the eiffel tower
+20_K_4.wav,2.19,1.971,0.333,how long is the river danube,how long is the river than i
+20_K_5.wav,2.9,2.656,0.333,how tall is the tallest mountain in the alps,how tall is the tallest mountain and that
+20_K_6.wav,2.8,2.516,0.857,which movies did tom cruise play in,which moves that tank was plain
+20_K_7.wav,1.8525625,1.684,0.0,what do you dream about,what do you dream about
+20_K_8.wav,1.76,1.608,0.0,what's your favourite colour,what's your favourite colour
+20_K_9.wav,2.38,2.204,0.0,what do you do when i'm not at home,what do you do when i am not at home
+21_A_1.wav,2.7675,2.49,0.8,athena turn on the lights,as he now turned on the lights
+21_A_2.wav,3.017,2.708,0.6,minerva turn on the lights,minerva turned on saline
+21_A_3.wav,3.08,2.768,0.8,artemis turn on the lights,i'll tell us turn on the lights
+21_A_4.wav,2.6095,2.346,0.2,freya turn on the lights,for turn on the lights
+21_A_5.wav,2.9804375,2.677,0.0,james turn on the lights,james turn on the lights
+21_A_6.wav,2.79,2.499,0.0,computer turn on the lights,computer turn on the lights
+21_B_1.wav,2.35,2.084,1.5,mute unmute,more and more
+21_B_2.wav,2.2678125,2.027,1.0,stop abort,stop a part
+21_B_3.wav,3.2465,2.874,1.5,pause resume,was it you
+21_B_4.wav,2.3345625,2.076,0.0,next back,next back
+21_B_5.wav,1.17,1.038,2.0,louder,lord a
+21_B_6.wav,2.10225,1.881,1.0,turn the volume down,turns a volume to an
+21_B_7.wav,1.74,1.58,0.25,set volume to six,said volume to six
+21_C_1.wav,2.46,2.21,0.667,play some music by bon jovi,place a music by on cove
+21_C_2.wav,2.74,2.462,0.5,play my eighties rock playlist now,play my eighty uplay now
+21_C_3.wav,2.46,2.213,0.0,what song is currently playing,what song is currently playing
+21_C_4.wav,3.187375,2.856,0.571,please add this song to my favourites,please at the song to my favor its
+21_C_5.wav,2.7003125,2.458,0.25,what can i do with the music skill,what can i do if some music skill
+21_D_1.wav,3.4168125,3.067,0.857,set an alarm for five am please,said in a long for five a m please
+21_D_2.wav,3.0,2.74,0.333,how much time is left on my pizza timer,how much time is left on my bit of time 
+21_D_3.wav,3.53,3.189,0.333,remind me of the tennis training tonight at five,remind me of the tennis straining to night at five
+21_D_4.wav,2.2728125,2.062,0.5,cancel all my timers,cancel all my time is
+21_D_5.wav,1.53,1.358,0.75,what's the date,what a day
+21_D_6.wav,2.2,1.998,0.5,when is easter sunday this year,when it is the sunday the year
+21_E_1.wav,2.64825,2.412,0.75,add milk and cheese to my shopping list,at meg unchaste my shopping this
+21_E_2.wav,2.1185,1.904,0.75,create a new appointment,great and new pointment
+21_E_3.wav,6.45,5.801,0.538,put doctor smith on my calendar for nineteenth of july of five pm,put dartois on my calendar for nineteen of two li of five p m
+21_E_4.wav,4.9666875,4.446,0.375,remind me to mow the lawn next saturday,remind me to more so long next saturday
+21_E_5.wav,2.96,2.701,0.75,what reminders do i have for this weekend,what remind us to have for a week and
+21_F_1.wav,2.5905625,2.372,0.6,give me articles about politics,give me all to go about politics
+21_F_2.wav,1.671,1.49,1.0,tell me the news,turn misenus
+21_F_3.wav,1.5993125,1.444,0.667,what happened today,what happened to day
+21_F_4.wav,2.62,2.362,0.2,which news topics are available,which news topics are warble
+21_F_5.wav,3.88,3.481,0.333,set business as preferred news category,said business as reverent news category
+21_F_6.wav,2.393625,2.158,0.5,how does the news skills work,how does the new schools were
+21_F_7.wav,2.17,1.937,1.0,will it rain today in manchester,we litteralement on sir
+21_F_8.wav,3.443625,3.088,0.4,what's the weather going to be like on sunday,was the valooin to be like on sunday
+21_F_9.wav,2.16,1.962,1.0,do i need an umbrella tomorrow,during his number at a morrow
+21_G_1.wav,3.38,3.111,0.273,how long does it take from london to liverpool by car,how long does it take from london to live we by call
+21_G_2.wav,3.76,3.413,0.556,set my location to kennington road four in london,said my location to cannon and rode for in london
+21_G_3.wav,2.35,2.129,0.4,i need help with navigation,i need have a navigation
+21_G_4.wav,3.2253125,2.92,0.5,what restaurants are within five kilometres,what restaurants are we find five kilometers
+21_G_5.wav,3.0,2.744,0.222,how far is it to the university of oxford,how far is it was a university of oxford
+21_G_6.wav,4.3475,3.959,0.214,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to toll of london food
+21_G_7.wav,3.033625,2.729,0.5,find me a burger restaurant nearby,find me a baggering nor by
+21_G_8.wav,3.35,3.003,0.778,what's the address of the nearest tesco store,what a tress of sinners testator
+21_H_1.wav,2.29,2.082,0.286,how many feet are in a mile,how many feet or a mile
+21_H_2.wav,2.59,2.336,0.167,what's seven times forty four,what seven times forty four
+21_H_3.wav,3.36875,3.042,0.556,what's two hundred twenty five divided by five,what to handle twenty five to vice by five
+21_H_4.wav,5.58825,4.974,0.111,what's fifteen percent of one hundred twenty eight,what's fifteen persons of one hundred twenty eight
+21_H_5.wav,4.45,3.954,0.625,is three hundred thirty seven a prime number,his sore hands certain a prime number
+21_I_1.wav,2.17,1.957,0.167,what's the definition of cat,what the definition of cat
+21_I_2.wav,1.76,1.606,1.0,what does to share mean,how do you spell dat
+21_I_3.wav,2.0,1.817,1.0,how do you spell date,what does to share mean
+21_I_4.wav,2.72,2.452,0.75,tell me words that start with an a,time was a start with a name
+21_I_5.wav,4.22,3.749,0.667,which words contain c o n,which words contained see all and
+21_I_6.wav,1.91,1.72,0.0,can you translate cat,can you translate cat
+21_I_7.wav,1.96,1.779,0.6,what is dog in german,what is stock and charming
+21_I_8.wav,3.28,3.006,0.333,set the number of words for translations to three,said a number of words for translation to three
+21_I_9.wav,2.53,2.287,0.5,what is another word for dashboard,what is another good for dish part
+21_J_1.wav,2.59,2.368,0.0,turn on the living room lights please,turn on the living room lights please
+21_J_2.wav,4.32,3.919,0.6,set the temperature in the kitchen to twenty two degrees,said september a chart and a kitchen to twenty two degrees
+21_J_3.wav,2.59,2.351,0.833,set the shutters to fifteen percent,said socrates to fifteen per cent
+21_J_4.wav,2.48,2.229,0.333,please lower the blinds by half,please lower appliance by half
+21_K_1.wav,2.0,1.819,0.4,how old is queen elizabeth,how old screen elizabeth
+21_K_10.wav,1.68,1.542,0.0,do you like to travel,do you like to travel
+21_K_11.wav,2.21,2.01,0.0,what kind of music do you like,what kind of music do you like
+21_K_2.wav,2.34,2.148,0.333,how many people live in australia,how many people live in a stream
+21_K_3.wav,2.54,2.282,0.625,what's the height of the eiffel tower,what a hide of the itherto
+21_K_4.wav,1.99,1.821,0.667,how long is the river danube,how along the arrival
+21_K_5.wav,3.01,2.73,0.333,how tall is the tallest mountain in the alps,how tall as the tallest mountain in oils
+21_K_6.wav,2.92,2.627,0.714,which movies did tom cruise play in,which moves the tombola in
+21_K_7.wav,1.8964375,1.714,0.0,what do you dream about,what do you dream about
+21_K_8.wav,1.9,1.714,0.4,what's your favourite colour,what's your favorite color
+21_K_9.wav,3.1264375,2.824,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+22_A_1.wav,1.9418125,1.775,0.4,athena turn on the lights,a feat turn on the lights
+22_A_2.wav,2.1458125,1.913,0.4,minerva turn on the lights,noatun on the lights
+22_A_3.wav,2.1845,1.962,0.6,artemis turn on the lights,i to miss turn on the lights
+22_A_4.wav,2.0951875,1.891,0.4,freya turn on the lights,pray a turn on the lights
+22_A_5.wav,2.1844375,1.963,0.2,james turn on the lights,james turn on the lads
+22_A_6.wav,2.4358125,2.197,0.0,computer turn on the lights,computer turn on the lights
+22_B_1.wav,2.2308125,1.962,1.0,mute unmute,mute and mute
+22_B_2.wav,2.4965625,2.218,1.0,stop abort,stop a part
+22_B_3.wav,2.3906875,2.109,0.5,pause resume,pass resume
+22_B_4.wav,2.1458125,1.898,0.0,next back,next back
+22_B_5.wav,1.17,1.036,0.0,louder,louder
+22_B_6.wav,1.6281875,1.481,0.25,turn the volume down,turn the room down
+22_B_7.wav,1.6431875,1.488,0.5,set volume to six,said manon to six
+22_C_1.wav,2.22,1.996,0.333,play some music by bon jovi,play some music by on shore
+22_C_2.wav,2.41,2.168,0.5,play my eighties rock playlist now,play my eighty truceless now
+22_C_3.wav,2.14,1.932,0.2,what song is currently playing,what song was currently playing
+22_C_4.wav,2.53,2.284,0.286,please add this song to my favourites,please at the song to my favourites
+22_C_5.wav,2.18,1.999,0.0,what can i do with the music skill,what can i do with the music skill
+22_D_1.wav,2.89,2.582,0.429,set an alarm for five am please,said an alarm for five amples
+22_D_2.wav,2.77,2.528,0.333,how much time is left on my pizza timer,how much time is left on my pit a time
+22_D_3.wav,3.13,2.85,0.333,remind me of the tennis training tonight at five,remind me of the tennis rending to neither five
+22_D_4.wav,2.1691875,1.942,0.5,cancel all my timers,cancel all my time as
+22_D_5.wav,1.159875,1.053,0.0,what's the date,what's the date
+22_D_6.wav,2.35,2.106,0.667,when is easter sunday this year,when his essondale year
+22_E_1.wav,2.281875,2.085,0.5,add milk and cheese to my shopping list,at milan she to my shopping list
+22_E_2.wav,1.8945,1.698,0.0,create a new appointment,create a new appointment
+22_E_3.wav,5.367875,4.86,0.231,put doctor smith on my calendar for nineteenth of july at five pm,put doctor smith on my calendar for nineteen of july at five p m
+22_E_4.wav,3.45,3.131,0.75,remind me to mow the lawn next saturday,and cap remind me to more than long next seat
+22_E_5.wav,2.93,2.66,0.125,what reminders do i have for this weekend,what reminders to i have for this weekend
+22_F_1.wav,2.4164375,2.195,0.2,give me articles about politics,give me artifice about politics
+22_F_2.wav,1.4111875,1.279,0.0,tell me the news,tell me the news
+22_F_3.wav,1.4885625,1.355,0.667,what happened today,what happened to day
+22_F_4.wav,2.58,2.363,0.2,which news topics are available,which new topics are available
+22_F_5.wav,2.97,2.696,0.5,set business as preferred news category,said bisness as preferred new category
+22_F_6.wav,2.01,1.825,0.667,how does the news skill work,how just the use giltwork
+22_F_7.wav,2.165125,1.955,0.667,will it rain today in manchester,we had rain a day in manchester
+22_F_8.wav,2.687125,2.471,0.1,what's the weather going to be like on sunday,what the weather going to be like on sunday
+22_F_9.wav,2.0,1.837,1.0,do i need an umbrella tomorrow,to any that umbrella to morrow
+22_G_1.wav,3.4,3.09,0.273,how long does it take from london to liverpool by car,how long does it ate from london to live wood by car
+22_G_2.wav,3.54,3.214,0.667,set my location to kennington road four in london,said medication to kingroad for in london
+22_G_3.wav,1.94,1.799,0.6,i need help with navigation,i need with the rogation
+22_G_4.wav,3.25,2.928,0.5,what restaurants are within five kilometres,at restaurants i within five climates
+22_G_5.wav,2.754375,2.542,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+22_G_6.wav,4.0,3.676,0.143,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to to london on foot
+22_G_7.wav,2.46,2.223,0.5,find me a burger restaurant nearby,find me a boar as soon nearby
+22_G_8.wav,2.78,2.533,0.222,what's the address of the nearest tesco store,what's the address of the nearest testator
+22_H_1.wav,1.8611875,1.707,0.143,how many feet are in a mile,how many feet are in a mid
+22_H_2.wav,2.1748125,1.981,0.667,what's seven times forty four,what seven times for te for
+22_H_3.wav,3.11,2.834,0.0,what's two hundred twenty five divided by five,what's two hundred twenty five divided by five
+22_H_4.wav,2.99,2.733,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+22_H_5.wav,3.2225,2.932,0.375,is three hundred thirty seven a prime number,is the real iterate seven a prime number
+22_I_1.wav,1.74,1.595,0.167,what's the definition of cat,what the definition of cat
+22_I_2.wav,2.18,1.965,0.4,what does to share mean,what dust to share me
+22_I_3.wav,1.83,1.66,0.2,how do you spell date,how do you spell that
+22_I_4.wav,2.6040625,2.379,0.5,tell me words that start with an a,tell me worse that star was in a
+22_I_5.wav,3.2090625,2.854,0.333,which words contain c o n,which words contained s o n
+22_I_6.wav,1.75,1.59,0.25,can you translate cat,can you translate the cat
+22_I_7.wav,1.89,1.697,0.6,what is dog in german,what is dark and sherman
+22_I_8.wav,3.79,3.435,0.0,set the number of words for translations to three,set the number of words for translations to three
+22_I_9.wav,2.35,2.149,0.333,what is another word for dashboard,what is another word for dash for
+22_J_1.wav,2.592125,2.393,0.0,turn on the living room lights please,turn on the living room lights please
+22_J_2.wav,3.615,3.325,0.0,set the temperature in the kitchen to twenty two degrees,set the temperature in the kitchen to twenty two degrees
+22_J_3.wav,2.412625,2.207,0.5,sets the shutters to fifty percent,set the shutters to fifty per cent
+22_J_4.wav,2.13,1.933,0.0,please lower the blinds by half,please lower the blinds by half
+22_K_1.wav,2.53,2.259,0.6,how old is queen elizabeth,how how old is creative
+22_K_10.wav,1.4015625,1.284,0.4,do you like to travel,to like to travel
+22_K_11.wav,1.797875,1.661,0.0,what kind of music do you like,what kind of music do you like
+22_K_2.wav,2.29,2.099,0.167,how many people live in australia,how many people live in australian
+22_K_3.wav,2.29,2.105,0.5,what's the height of the eiffel tower,what the hide of the avatara
+22_K_4.wav,2.49,2.24,0.167,how long is the river danube,how long the river danube
+22_K_5.wav,2.6476875,2.41,0.444,how tall is the tallest mountain in the alps,he told of the tallest mountain in the hope
+22_K_6.wav,2.397125,2.176,0.571,which movies did tom cruise play in,which movies dictum crews play and
+22_K_7.wav,1.4743125,1.358,0.0,what do you dream about,what do you dream about
+22_K_8.wav,1.623875,1.486,0.8,what's your favourite colour,what a favorite color
+22_K_9.wav,2.1405,1.974,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+23_A_1.wav,2.021875,1.843,0.8,athena turn on the lights,at the nature on the night
+23_A_2.wav,2.755,2.483,0.6,minerva turn on the lights,minature on the night
+23_A_3.wav,2.6604375,2.396,0.2,artemis turn on the lights,tis turn on the lights
+23_A_4.wav,2.03375,1.844,0.2,freya turn on the lights,far turn on the lights
+23_A_5.wav,1.7263125,1.556,0.8,james turn on the lights,same channel the light
+23_A_6.wav,1.951,1.762,0.0,computer turn on the lights,computer turn on the lights
+23_B_1.wav,1.8090625,1.599,1.5,mute unmute,you and ned
+23_B_2.wav,1.773625,1.592,1.0,stop abort,stop and poured
+23_B_3.wav,2.175625,1.93,0.5,pause resume,pas resume
+23_B_4.wav,1.7263125,1.531,0.0,next back,next back
+23_B_5.wav,1.0641875,0.96,0.0,louder,louder
+23_B_6.wav,1.655375,1.516,0.0,turn the volume down,turn the volume down
+23_B_7.wav,1.8445625,1.652,0.5,set volume to six,said odium to six
+23_C_1.wav,2.8023125,2.518,0.667,play some music by bon jovi,place a music by bunco
+23_C_2.wav,2.695875,2.446,0.667,play my eighties rock playlist now,play my aid this rock play list now
+23_C_3.wav,2.3648125,2.138,0.0,what song is currently playing,what song is currently playing
+23_C_4.wav,3.1451875,2.821,0.429,please add this song to my favourites,please at the song to my favorite
+23_C_5.wav,2.967875,2.692,0.125,what can i do with the music skill,what can i do with the music score
+23_D_1.wav,3.771875,3.357,0.429,set an alarm for five am please,said an alarm for five dances
+23_D_2.wav,3.358,3.041,0.444,how much time is left on my pizza timer,how much time is left on my pit at time of
+23_D_3.wav,5.0015625,4.501,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+23_D_4.wav,1.951,1.757,0.5,cancel all my timers,cancel all my time is
+23_D_5.wav,1.59625,1.428,0.0,what's the date,what's the date
+23_D_6.wav,2.6013125,2.358,0.333,when is easter sunday this year,when as easter sunday the year
+23_E_1.wav,2.90875,2.636,0.25,add milk and cheese to my shopping list,at meg and cheese to my shopping list
+23_E_2.wav,2.3648125,2.11,0.5,create a new appointment,create and new apintment
+23_E_3.wav,7.4136875,6.663,0.308,put doctor smith on my calendar for nineteenth of july at five pm,but doctor men on my calendar for nineteenth of july at five p m
+23_E_4.wav,5.19075,4.63,0.375,remind me to mow the lawn next saturday,remind me to me the long next sugary
+23_E_5.wav,3.03875,2.754,0.625,what reminders do i have for this weekend,what remind us to have for this week and
+23_F_1.wav,2.6485625,2.394,0.4,give me articles about politics,give me articles and both politics
+23_F_2.wav,1.4898125,1.33,0.5,tell me the news,to me the use
+23_F_3.wav,1.619875,1.492,0.667,what happened today,what happened to day
+23_F_4.wav,2.6840625,2.419,0.4,which news topics are available,which new topics are alive
+23_F_5.wav,3.6654375,3.287,0.167,set business as preferred news category,said business as preferred news category
+23_F_6.wav,3.2634375,2.922,0.333,how does the news skill work,how does the new scale work
+23_F_7.wav,2.6485625,2.395,0.333,will it rain today in manchester,will it rain to day in manchester
+23_F_8.wav,3.5471875,3.256,0.3,what's the weather going to be like on sunday,what's the weather going to be like and some day
+23_F_9.wav,2.3293125,2.124,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+23_G_1.wav,3.3935,3.121,0.545,how long does it take from london to liverpool by car,how long does it take from long and to live a pop i car
+23_G_2.wav,4.256625,3.85,0.333,set my location to kennington road four in london,set man occasion to kennington road for in london
+23_G_3.wav,3.4053125,3.044,0.2,i need help with navigation,i need have with navigation
+23_G_4.wav,4.0793125,3.644,0.833,what restaurants are within five kilometres,what rest on i ween five kilometers
+23_G_5.wav,4.15025,3.736,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+23_G_6.wav,5.2971875,4.819,0.071,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tell of london on foot
+23_G_7.wav,2.47125,2.225,0.5,find me a burger restaurant nearby,find me a begeistern me by
+23_G_8.wav,2.932375,2.697,0.222,what's the address of the nearest tesco store,what's the address of the nearest testator
+23_H_1.wav,2.861375,2.56,0.0,how many feet are in a mile,how many feet are in a mile
+23_H_2.wav,2.554,2.294,0.167,what's seven times forty four,what seven times forty four
+23_H_3.wav,3.937375,3.569,0.111,what's two hundred twenty five divided by five,what two hundred twenty five divided by five
+23_H_4.wav,3.0860625,2.82,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+23_H_5.wav,3.736375,3.374,0.0,is three hundred thirty seven a prime number,is three hundred thirty seven a prime number
+23_I_1.wav,1.974625,1.817,0.0,what's the definition of cat,what's the definition of cat
+23_I_2.wav,2.1638125,1.936,0.2,what does to share mean,what does to share me
+23_I_3.wav,1.9628125,1.785,0.6,how do you spell date,how old do you palate
+23_I_4.wav,2.648625,2.391,0.375,tell me words that start with an a,tell you words that start with the 
+23_I_5.wav,3.2043125,2.855,0.667,which words contain c o n,which words contained sea on
+23_I_6.wav,1.6435625,1.509,0.25,can you translate cat,can you translate it
+23_I_7.wav,1.88,1.689,0.6,what is dog in german,what a turk and german
+23_I_8.wav,4.292125,3.878,0.333,set the number of words for translation to three,said the number of words fortune lation to three
+23_I_9.wav,3.050625,2.763,0.333,what is another word for dashboard,what is another word for dash part
+23_J_1.wav,3.0860625,2.787,0.0,turn on the living room lights please,turn on the living room lights please
+23_J_2.wav,3.606375,3.317,0.1,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to twenty two degrees
+23_J_3.wav,3.251625,2.936,0.5,set the shutters to fifty percent,said the shutters to fifty per cent
+23_J_4.wav,2.7668125,2.487,0.333,please lower the blinds by half,please know that blinds by half
+23_K_1.wav,2.1283125,1.924,0.6,how old is queen elizabeth,how old is queen a little bit
+23_K_10.wav,1.3656875,1.271,0.0,do you like to travel,do you like to travel
+23_K_11.wav,1.8031875,1.658,0.0,what kind of music do you like,what kind of music do you like
+23_K_2.wav,2.376625,2.167,0.5,how many people live in australia,how many people have enough tralia
+23_K_3.wav,2.9441875,2.657,0.143,what the height of the eiffel tower,but the height of the eiffel tower
+23_K_4.wav,2.2701875,2.061,0.5,how long is the river danube,how long is the rumour to you
+23_K_5.wav,2.932375,2.675,0.444,how tall is the tallest mountain in the alps,how aristoteles mountain in the alps
+23_K_6.wav,2.4475625,2.198,0.714,which movies did tom cruise play in,which movie star tom crisply and
+23_K_7.wav,1.673125,1.528,0.0,what do you dream about,what do you dream about
+23_K_8.wav,1.5785,1.425,0.4,what's your favourite colour,what's your favorite color
+23_K_9.wav,2.5835625,2.379,0.2,what do you do when i'm not at home,what do you do when i'm not a town
+24_A_1.wav,2.311375,2.085,0.6,athena turn on the lights,as the unturned on the lights
+24_A_2.wav,2.4765,2.22,0.4,minerva turn on the lights,we now turn on the lights
+24_A_3.wav,2.452875,2.213,0.0,artemis turn on the lights,artemis turn on the lights
+24_A_4.wav,2.17775,1.948,0.2,freya turn on the lights,prayer turn on the lights
+24_A_5.wav,2.4371875,2.182,0.0,james turn on the lights,james turn on the lights
+24_A_6.wav,2.618,2.362,0.0,computer turn on the lights,computer turn on the lights
+24_B_1.wav,2.2720625,2.032,1.0,mute unmute,mute and not
+24_B_2.wav,2.0598125,1.838,1.0,stop abort,stop a board
+24_B_3.wav,2.169875,1.913,1.0,pause resume,pass thou
+24_B_4.wav,2.0598125,1.834,0.0,next back,next back
+24_B_5.wav,1.03775,0.941,0.0,louder,louder
+24_B_6.wav,1.8239375,1.646,0.5,turn the volume down,turn the william town
+24_B_7.wav,1.8396875,1.651,0.5,set volume to six,said moran to six
+24_C_1.wav,2.3428125,2.128,0.333,play some music by bon jovi,play some music by one we
+24_C_2.wav,2.3743125,2.159,0.333,play my eighties rock playlist now,play my eighties for a playlist now
+24_C_3.wav,2.311375,2.078,0.0,what song is currently playing,what song is currently playing
+24_C_4.wav,2.5315,2.279,0.286,please add this song to my favourites,please at this song to my favorites
+24_C_5.wav,2.767375,2.498,0.25,what can i do with the music skill,what can i do was the music skip
+24_D_1.wav,2.6730625,2.422,0.286,set an alarm for five am please,set an alarm for five implies
+24_D_2.wav,3.3176875,3.018,0.222,how much time is left on my pizza timer,how much time is left on my peter time
+24_D_3.wav,3.3334375,3.063,0.444,remind me of the tennis training tonight at five,remind me of the tennis raining to night i five
+24_D_4.wav,1.8396875,1.654,0.75,cancel all my timers,cancel or my time as
+24_D_5.wav,1.147875,1.037,0.0,what's the date,what's the date
+24_D_6.wav,2.39,2.148,0.167,when is easter sunday this year,when is easter sunday the year
+24_E_1.wav,2.54725,2.303,0.375,add milk and cheese to my shopping list,at me and these to my shopping list
+24_E_2.wav,1.9969375,1.814,0.0,create a new appointment,create a new appointment
+24_E_3.wav,5.4875625,4.963,0.231,put doctor smith on my calendar for nineteenth of july at five pm,put doctor smith on my calendar for nineteen of july at five p m
+24_E_4.wav,2.594375,2.4,0.5,remind me to mow the lawn next saturday,remind me to more alone next tetety
+24_E_5.wav,2.54725,2.312,0.75,what reminders do i have for this weekend,wat remind us do i have for the week end
+24_F_1.wav,2.311375,2.107,0.4,give me articles about politics,give me one goes about politics
+24_F_2.wav,1.4465625,1.3,0.0,tell me the news,tell me the news
+24_F_3.wav,1.7610625,1.599,0.667,what happened today,what happened to day
+24_F_4.wav,2.2799375,2.076,0.4,which news topics are available,rich new topics are available
+24_F_5.wav,2.563,2.33,0.333,set business as preferred news category,said business as preferred news kitchen 
+24_F_6.wav,2.6573125,2.408,0.5,how does the news skill work,how has the new skill worked
+24_F_7.wav,2.23275,2.022,0.833,will it rain today in manchester,where it ran to day in ventose
+24_F_8.wav,2.7988125,2.573,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+24_F_9.wav,2.0755625,1.899,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+24_G_1.wav,3.585,3.31,0.0,how long does it take from london to liverpool by car,how long does it take from london to liverpool by car
+24_G_2.wav,3.74225,3.378,0.111,set my location to kennington road four in london,set my location to kennington road for in london
+24_G_3.wav,2.154125,1.981,0.0,i need help with navigation,i need help with navigation
+24_G_4.wav,2.86175,2.58,1.0,what restaurants are within five kilometres,what rest runs out in five to tommies
+24_G_5.wav,2.846,2.596,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+24_G_6.wav,4.402625,4.03,0.214,how long does it take from buckingham palace to tower of london on foot,how long does it take from backing and pallas to tower of london on foot
+24_G_7.wav,2.3428125,2.124,0.167,find me a burger restaurant nearby,find me a burger estrant nearby
+24_G_8.wav,3.207625,2.9,0.222,what's the address of the nearest tesco store,what's the address of the nearest testator
+24_H_1.wav,1.9811875,1.816,0.0,how many feet are in a mile,how many feet are in a mile
+24_H_2.wav,2.185625,1.962,0.5,what's seven times forty four,what seven times or before
+24_H_3.wav,2.8774375,2.626,0.222,what's two hundred twenty five divided by five,what's two hundred dandified divided by five
+24_H_4.wav,3.0189375,2.765,0.111,what's fifteen percent of one hundred twenty eight,what's fifteen present of one hundred twenty eight
+24_H_5.wav,3.74225,3.379,0.25,is three hundred thirty seven a prime number,his three hundred to seven a prime number
+24_I_1.wav,1.855375,1.701,0.0,what's the definition of cat,what's the definition of cat
+24_I_2.wav,2.2485,2.009,0.0,what does to share mean,what does to share mean
+24_I_3.wav,1.7453125,1.585,0.2,how do you spell date,how do you spell that
+24_I_4.wav,2.86175,2.579,0.125,tell me words that start with an a,tell me words that start with an 
+24_I_5.wav,3.1761875,2.831,0.5,which words contain c o n,which words contained sea o and
+24_I_6.wav,1.9183125,1.727,0.0,can you translate cat,can you translate cat
+24_I_7.wav,1.9654375,1.782,0.6,what is dog in german,what a stark and german
+24_I_8.wav,3.7579375,3.415,0.111,set the number of words for translations to three,said the number of words for translations to three
+24_I_9.wav,2.7045,2.454,0.5,what is another word for dashboard,what is the other word for disport
+24_J_1.wav,2.3743125,2.181,0.0,turn on the living room lights please,turn on the living room lights please
+24_J_2.wav,3.663625,3.353,0.1,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to twenty two degrees
+24_J_3.wav,2.7988125,2.544,0.5,set the shutters to fifty percent,said the shutters to fifty per cent
+24_J_4.wav,2.5158125,2.265,0.0,please lower the blinds by half,please lower the blinds by half
+24_K_1.wav,2.012625,1.838,0.0,how old is queen elizabeth,how old is queen elizabeth
+24_K_10.wav,1.572375,1.429,0.0,do you like to travel,do you like to travel
+24_K_11.wav,2.169875,1.966,0.0,what kind of music do you like,what kind of music do you like
+24_K_2.wav,2.3743125,2.167,0.0,how many people live in australia,how many people live in australia
+24_K_3.wav,2.39,2.168,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+24_K_4.wav,2.2956875,2.107,0.5,how long is the river danube,how long is the other the new
+24_K_5.wav,3.129,2.831,0.333,how tall is the tallest mountain in the alps,how tall is the tallest man in dis
+24_K_6.wav,2.9875,2.692,0.571,which movies did tom cruise play in,which moves did tom grows plain
+24_K_7.wav,1.934,1.776,0.0,what do you dream about,what do you dream about
+24_K_8.wav,1.7925,1.629,0.4,what's your favourite colour,what's your favorite color
+24_K_9.wav,2.4214375,2.215,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+25_A_1.wav,1.774375,1.622,1.0,athena turn on the lights,a female eternal life
+25_A_2.wav,2.3169375,2.105,0.2,minerva turn on the lights,never turn on the lights
+25_A_3.wav,2.47825,2.201,1.0,artemis turn on the lights,ah shemus ternate
+25_A_4.wav,1.58375,1.416,0.8,freya turn on the lights,creation the light
+25_A_5.wav,2.0676875,1.847,0.8,james turn on the lights,james channel ice
+25_A_6.wav,1.9650625,1.79,0.2,computer turn on the lights,computer turn on the life
+25_B_1.wav,2.3169375,2.065,1.5,mute unmute,but i use
+25_B_2.wav,2.6835625,2.379,1.0,stop abort,stop the porch
+25_B_3.wav,2.507625,2.214,0.5,pause resume,as resume
+25_B_4.wav,2.6395625,2.342,0.5,next back,max back
+25_B_5.wav,0.77725,0.719,2.0,louder,about a
+25_B_6.wav,1.8770625,1.67,0.25,turn the volume down,turn the volume on
+25_B_7.wav,1.906375,1.704,0.25,set volume to six,said volume to six
+25_C_1.wav,2.3023125,2.09,0.667,play some music by bon jovi,the same music by monjoie
+25_C_2.wav,2.9035625,2.614,0.667,play my eighties rock playlist now,the yatis rock lay now
+25_C_3.wav,2.8155,2.522,0.4,what song is currently playing,what song is curate than
+25_C_4.wav,3.0061875,2.703,0.286,please add this song to my favourites,please at this song to my favorites
+25_C_5.wav,2.712875,2.487,0.25,what can i do with the music skill,what can i do with music so
+25_D_1.wav,4.53125,4.045,0.286,set an alarm for five am please,set an alarm for five fame
+25_D_2.wav,3.68075,3.299,0.222,how much time is left on my pizza timer,how much time is left on my petatin
+25_D_3.wav,4.5019375,4.1,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+25_D_4.wav,2.2143125,1.971,0.75,cancel all my timers,chance or my times
+25_D_5.wav,1.4664375,1.309,0.5,what's the date,at the date
+25_D_6.wav,2.273,2.072,0.667,when is easter sunday this year,when is it to sunday i see
+25_E_1.wav,3.6660625,3.285,0.5,add milk and cheese to my shopping list,a mite and she to my shopping less
+25_E_2.wav,2.0676875,1.859,0.75,create a new appointment,crete and new appointments
+25_E_3.wav,6.877625,6.185,0.308,put doctor smith on my calendar for nineteenth of july at five pm,he thought a smith on my calendar for nineteenth of july at five per
+25_E_4.wav,3.871375,3.504,0.625,remind me to mow the lawn next sunday,remind me to be more though long makanda
+25_E_5.wav,3.783375,3.403,0.625,what reminders do i have for this weekend,what reminders to a half for this week and
+25_F_1.wav,3.2115,2.872,0.8,give me articles about politics,give me i'll take a about politics
+25_F_2.wav,1.642375,1.493,0.75,tell me the news,tell me is in use
+25_F_3.wav,2.097,1.889,1.0,what happened today,what happens to day
+25_F_4.wav,3.064875,2.745,0.4,which news topics are available,which new topics are liable
+25_F_5.wav,4.8245625,4.323,0.333,set business as preferred news category,sad business as referred news category
+25_F_6.wav,2.5809375,2.329,0.5,how does the news skill work,how does in us kill work
+25_F_7.wav,1.8184375,1.657,1.0,will it rain today in manchester,he ran to day and mentioned
+25_F_8.wav,5.2498125,4.698,0.2,what's the weather going to be like on sunday,was the weather going to be like on sunday
+25_F_9.wav,2.6249375,2.382,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+25_G_1.wav,4.61925,4.18,0.0,how long does it take from london to liverpool by car,how long does it take from london to liverpool by car
+25_G_2.wav,5.235125,4.689,0.556,set my location to kennington road four in london,certainly location to kennington road for i long
+25_G_3.wav,2.463625,2.229,0.0,i need help with navigation,i need help with navigation
+25_G_4.wav,4.3113125,3.868,0.333,what restaurant are within five kilometres,what restaurant or within five miles
+25_G_5.wav,4.032625,3.645,0.111,how far is it to the university of oxford,how far is it to a university of oxford
+25_G_6.wav,6.3203125,5.706,0.143,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tower london on fushan
+25_G_7.wav,2.243625,2.025,0.667,find me a burger restaurant nearby,finally a verger estrant nearby
+25_G_8.wav,3.68075,3.314,0.444,what's the address of the nearest tesco store,what the dress of the nearest testator
+25_H_1.wav,2.69825,2.427,0.0,how many feet are in a mile,how many feet are in a mile
+25_H_2.wav,3.1528125,2.822,0.167,what's seven times forty four,what seven times forty four
+25_H_3.wav,3.77975,3.415,0.333,what's two hundred twenty five divided by five,what too under twenty five divided by five
+25_H_4.wav,3.6734375,3.333,0.556,what's fifteen percent of one hundred twenty eight,at fifteen per cent of one and twenty eight
+25_H_5.wav,3.9520625,3.564,0.5,is three hundred thirty seven a prime number,his friend at forty seven a prime number
+25_I_1.wav,2.5369375,2.258,0.667,what's the definition of cats,outside finish of cats
+25_I_2.wav,2.7129375,2.433,0.4,what does to share mean,what thus to share me
+25_I_3.wav,2.1556875,1.945,0.2,how do you spell date,how do you spell that
+25_I_4.wav,2.7495625,2.47,0.5,tell me words that start with an a,some words he stared with an a
+25_I_5.wav,3.7320625,3.328,0.5,which words contain c o n,which words contain the a and
+25_I_6.wav,1.833,1.666,0.25,can you translate cat,can you translate that
+25_I_7.wav,1.642375,1.504,0.6,what is dog in german,while i talk in german
+25_I_8.wav,4.384625,3.936,0.333,set the number of words for translation to tree,catatumbo of words for translation to tree
+25_I_9.wav,2.8815625,2.574,0.333,what is another word for dashboard,what another word for despite
+25_J_1.wav,2.9255625,2.661,0.143,turn on the living room lights please,turn on the living room lights his
+25_J_2.wav,4.59725,4.178,0.1,set the temperature of the kitchen to twenty two degrees,set of temperature of the kitchen to twenty two degrees
+25_J_3.wav,3.578125,3.23,0.333,set the shutters to fifty percent,set the shutters to fifty per cent
+25_J_4.wav,3.1161875,2.789,0.667,please lower the blinds by half,for these lower the lines by horse
+25_K_1.wav,2.4635625,2.22,0.2,how old is queen elizabeth,how all is queen elizabeth
+25_K_10.wav,1.305125,1.202,0.8,do you like to travel,the elect travel
+25_K_11.wav,2.141,1.97,0.0,what kind of music do you like,what kind of music do you like
+25_K_2.wav,2.229,2.032,0.5,how many people live in australia,how many people they have in stralia
+25_K_3.wav,2.617625,2.386,0.5,what's the height of the eiffel tower,what the hides of the effete
+25_K_4.wav,3.1235,2.81,0.333,how long is the river danube,how long is the river than be
+25_K_5.wav,3.4314375,3.086,0.444,how tall is the tallest mountain in the alps,total is the tallest mountain in off
+25_K_6.wav,3.0941875,2.777,0.857,which movies did tom cruise play in,which moves the tumbrel and
+25_K_7.wav,1.8770625,1.703,0.4,what do you dream about,what to her dream about
+25_K_8.wav,1.5250625,1.387,0.4,what's your favourite colour,what's your favorite color
+25_K_9.wav,2.331625,2.125,0.2,what do you do when i'm not at home,what i do when i'm not at home
+26_A_1.wav,2.5199375,2.253,0.4,athena turn on the lights,a final turn on the lights
+26_A_2.wav,3.3599375,2.999,0.2,minerva turn on the lights,miner turn on the lights
+26_A_3.wav,2.9999375,2.678,0.2,artemis turn on the lights,arnes turn on the lights
+26_A_4.wav,2.6399375,2.367,0.4,freya turn on the lights,fra a turn on the lights
+26_A_5.wav,2.4799375,2.219,0.0,james turn on the lights,james turn on the lights
+26_A_6.wav,2.839875,2.54,0.0,computer turn on the lights,computer turn on the lights
+26_B_1.wav,2.679875,2.386,1.5,mute unmute,ned on you
+26_B_2.wav,2.3799375,2.12,0.5,stop abort,stop aboard
+26_B_3.wav,2.6599375,2.356,0.5,pause resume,as resume
+26_B_4.wav,2.419875,2.146,0.0,next back,next back
+26_B_5.wav,1.0799375,0.978,0.0,louder,louder
+26_B_6.wav,1.6599375,1.51,0.25,turn the volume down,turn the moon down
+26_B_7.wav,1.9999375,1.797,0.5,set volume to six,said allan to six
+26_C_1.wav,2.699875,2.433,0.167,play some music by bon jovi,play some music by bon jove
+26_C_2.wav,3.419875,3.059,0.167,play my eighties rock playlist now,play my aides rock playlist now
+26_C_3.wav,2.1799375,1.967,0.0,what song is currently playing,what song is currently playing
+26_C_4.wav,2.939875,2.656,0.286,please add this song to my favourites,please at the song to my favourites
+26_C_5.wav,2.4999375,2.289,0.0,what can i do with the music skill,what can i do with the music skill
+26_D_1.wav,3.219875,2.912,0.571,set an alarm for five am please,said in alarm for five a m please
+26_D_2.wav,2.9599375,2.723,0.222,how much time is left on my pizza timer,how much time is left on my piazza time
+26_D_3.wav,3.639875,3.318,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+26_D_4.wav,2.1399375,1.917,1.0,cancel all my timers,can flow all my time is
+26_D_5.wav,1.2199375,1.104,0.0,what's the date,what's the date
+26_D_6.wav,2.4199375,2.203,0.333,when is easter sunday this year,when his is to sunday this year
+26_E_1.wav,3.059875,2.767,0.0,add milk and cheese to my shopping list,add milk and cheese to my shopping list
+26_E_2.wav,2.1599375,1.941,0.5,create a new appointment,create in you appointment
+26_E_3.wav,5.61975,5.085,0.538,put doctor smith on my calendar for nineteenth of july at five pm,hoped doctor smith on my calendar for nineteen or to lie had five pin
+26_E_4.wav,3.419875,3.115,0.125,remind me to mow the lawn next saturday,remind me to mow the lawn next city
+26_E_5.wav,2.8799375,2.606,0.875,what reminders do i have for this weekend,what remind us to a head for this week end
+26_F_1.wav,2.719875,2.469,0.4,give me articles about politics,give me or till about politics
+26_F_2.wav,1.6799375,1.536,0.0,tell me the news,tell me the news
+26_F_3.wav,1.5799375,1.424,0.667,what happened today,what happened to day
+26_F_4.wav,2.539875,2.297,0.6,which news topics are available,which nears topics are away able
+26_F_5.wav,3.319875,3.0,0.333,set business as preferred news category,said business as preferred mus category
+26_F_6.wav,2.639875,2.387,0.167,how does the news skill work,how does the news still work
+26_F_7.wav,2.1199375,1.926,0.667,will it rain today in london,in a rain to day in london
+26_F_8.wav,2.9399375,2.706,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+26_F_9.wav,2.1599375,1.945,1.0,do i need an umbrella tomorrow,who anyambe to morrow
+26_G_1.wav,3.879875,3.555,0.273,how long does it take from london to liverpool by car,how long does it take from london to live a cool by car
+26_G_2.wav,4.4398125,3.989,0.667,set my location to kennington road four in london,said manducation to kenning rode for in london
+26_G_3.wav,2.2199375,2.026,0.4,i need help with navigation,i need help with any cation
+26_G_4.wav,3.299875,2.998,0.167,what restaurants are within five kilometres,what restaurants are within five kilometers
+26_G_5.wav,3.439875,3.131,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+26_G_6.wav,4.159875,3.825,0.0,how long does it take from buckingham palace to the tower of london,how long does it take from buckingham palace to the tower of london
+26_G_7.wav,2.8999375,2.637,0.667,find me a burger restaurant nearby,find me a barest urant near by
+26_G_8.wav,2.939875,2.696,0.333,what's the address of the nearest tesco store,what's the address of the nearest tess was tore
+26_H_1.wav,2.3999375,2.171,0.0,how many feet are in one mile,how many feet are in one mile
+26_H_2.wav,2.4599375,2.21,0.167,what's seven times forty four,what seven times forty four
+26_H_3.wav,4.3998125,3.968,0.1,what's two hundred and twenty five divided by five,what two hundred and twenty five divided by five
+26_H_4.wav,4.259875,3.856,0.3,what's fifteen percent of one hundred and twenty eight,what fifteen per cent of one hundred and twenty eight
+26_H_5.wav,3.419875,3.096,0.125,is three hundred thirty seven a prime number,his three hundred thirty seven a prime number
+26_I_1.wav,2.1999375,1.985,0.167,what's the definition of cat,what the definition of cat
+26_I_2.wav,2.4399375,2.194,0.4,what does to share mean,what as to share me
+26_I_3.wav,2.2599375,2.042,0.2,how do you spell date,how do you spell that
+26_I_4.wav,2.539875,2.296,0.25,tell me words that start with an a,tell me word that dog with an a
+26_I_5.wav,3.6998125,3.3,0.333,which words contain c o n,which words contain sea o and
+26_I_6.wav,2.1599375,1.957,0.0,can you translate cat,can you translate cat
+26_I_7.wav,2.0599375,1.847,0.2,what is dog in german,what dog in german
+26_I_8.wav,3.659875,3.313,0.444,set the number of words for translation to three,said the lombards for translation to three
+26_I_9.wav,2.5799375,2.362,0.333,what is another word for dashboard,what is another word for dash board
+26_J_1.wav,2.6799375,2.433,0.143,turn on the living room lights please,heron on the living room lights please
+26_J_2.wav,3.9798125,3.637,0.2,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to a twenty two degrees
+26_J_3.wav,2.519875,2.302,0.5,set the shutters to fifty percent,said the shutters to fifty per cent
+26_J_4.wav,2.3399375,2.149,0.0,please lower the blinds by half,please lower the blinds by half
+26_K_1.wav,2.0599375,1.879,0.4,how old is queen elizabeth,hold is queen elizabeth
+26_K_10.wav,1.5199375,1.377,0.6,do you like to travel,he liked to travel
+26_K_11.wav,2.0599375,1.897,0.0,what kind of music do you like,what kind of music do you like
+26_K_2.wav,2.4399375,2.224,0.0,how many people live in australia,how many people live in australia
+26_K_3.wav,2.4199375,2.201,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+26_K_4.wav,2.0599375,1.888,0.333,how long is the river danube,how long is the river then you
+26_K_5.wav,3.219875,2.936,0.222,how tall is the tallest mountain in the alps,how tall is the tallest mountain in deals
+26_K_6.wav,2.9999375,2.706,0.0,which movies did tom cruise play in,which movies did tom cruise play in
+26_K_7.wav,1.5799375,1.44,0.0,what do you dream about,what do you dream about
+26_K_8.wav,1.6999375,1.55,0.0,what's your favourite colour,what's your favourite colour
+26_K_9.wav,2.2199375,2.018,0.4,what do you do when i'm not at home,what you do with him not at home
+27_A_1.wav,2.0004375,1.815,0.4,athena turn on the lights,i then turn on the lights
+27_A_2.wav,2.8400625,2.534,0.4,minerva turn on the lights,nero turned on the lights
+27_A_3.wav,2.9881875,2.659,0.6,artemis turn on the lights,o times turned on the lights
+27_A_4.wav,2.4943125,2.238,0.2,freya turn on the lights,frau turn on the lights
+27_A_5.wav,2.975875,2.663,0.2,james turn on the lights,james turned on the lights
+27_A_6.wav,2.914125,2.631,0.0,computer turn on the lights,computer turn on the lights
+27_B_1.wav,3.1116875,2.737,1.5,mute unmute,not a note
+27_B_2.wav,3.30925,2.926,1.0,stop abort,stop a boat
+27_B_3.wav,3.087,2.712,0.5,pause resume,pause resumed
+27_B_4.wav,3.1116875,2.735,0.0,next back,next back
+27_B_5.wav,1.185375,1.058,0.0,louder,louder
+27_B_6.wav,2.222625,1.977,0.0,turn the volume down,turn the volume down
+27_B_7.wav,2.469625,2.19,0.5,set volume to six,said william to six
+27_C_1.wav,2.0004375,1.828,0.667,play some music by bon jovi,place a music by bungo
+27_C_2.wav,2.61775,2.369,0.0,play my eighties rock playlist now,play my eighties rock playlist now
+27_C_3.wav,2.3708125,2.131,0.0,what song is currently playing,what song is currently playing
+27_C_4.wav,2.98825,2.701,0.143,please add this song to my favourites,please that this song to my favourites
+27_C_5.wav,2.519,2.293,0.0,what can i do with the music skill,what can i do with the music skill
+27_D_1.wav,2.9635625,2.676,0.429,set an alarm for five am please,said in alarm for five in please
+27_D_2.wav,2.272,2.109,0.556,how much time is left on my pizza timer,much time is left on a piece of timber
+27_D_3.wav,2.8894375,2.642,0.333,remind me of the tennis training tonight at five,remind me of the tennis raining to night at five
+27_D_4.wav,2.4449375,2.183,0.5,cancel all my timers,cancel all my time ere
+27_D_5.wav,1.8028125,1.614,0.0,what's the date,what's the date
+27_D_6.wav,2.0250625,1.854,0.167,when is easter sunday this year,when is easter sunday the year
+27_E_1.wav,2.54375,2.3,0.125,add milk and cheese to my shopping list,add milk and she to my shopping list
+27_E_2.wav,2.1979375,1.968,0.0,create a new appointment,create a new appointment
+27_E_3.wav,4.865125,4.414,0.385,put doctor smith on my calendar for nineteenth of july at five pm,but doctor smith on the calendar for nineteen of july at five p m
+27_E_4.wav,3.2105,2.89,0.25,remind me to mow the lawn next saturday,remind me to mother lawn next saturday
+27_E_5.wav,3.2105,2.891,0.25,what reminders do i have for this weekend,what reminders do i have for this week end
+27_F_1.wav,2.2226875,2.012,0.4,give me articles about politics,give me articles so that politics
+27_F_2.wav,1.2841875,1.165,0.0,tell me the news,tell me the news
+27_F_3.wav,1.7286875,1.564,0.667,what happened today,what happened to day
+27_F_4.wav,2.568375,2.309,0.6,which news topics are available,which new topics are away able
+27_F_5.wav,2.8400625,2.564,0.167,set business as preferred news category,said business as preferred news category
+27_F_6.wav,2.42025,2.184,0.167,how does the news skill work,how does the new skill work
+27_F_7.wav,2.568375,2.3,0.667,will it rain today in manchester,villa range to day in manchester
+27_F_8.wav,3.2845625,3.003,0.2,what's the weather going to be like on sunday,what is the weather going to be like contend
+27_F_9.wav,2.3214375,2.128,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+27_G_1.wav,3.7538125,3.421,0.091,how long does it take from london to liverpool by car,how long does it take from london to liverpool like car
+27_G_2.wav,4.0748125,3.705,0.222,set my location to kennington road four in london,said my location to kennington road for in london
+27_G_3.wav,2.0250625,1.852,0.2,i need help with navigation,i i help with navigation
+27_G_4.wav,3.1610625,2.852,0.333,what restaurants are within five kilometres,what restaurants are within platometer
+27_G_5.wav,3.506875,3.164,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+27_G_6.wav,5.13675,4.688,0.143,how long does it take from buckingham palace to tower of london on foot,long does it take from buckingham palace to tower of london and foot
+27_G_7.wav,2.444875,2.206,1.0,find me a burger restaurant nearby,like a beggar a throng near by
+27_G_8.wav,3.358625,3.06,0.222,what's the address of the nearest tesco store,what is the address of the nearest test costor
+27_H_1.wav,2.444875,2.214,0.0,how many feet are in a mile,how many feet are in a mile
+27_H_2.wav,2.914125,2.639,0.0,what's seven times forty four,what is seven times forty four
+27_H_3.wav,3.827875,3.455,0.333,what's two hundred twenty five divided by five,what is two hundred twenty five you vite my five
+27_H_4.wav,2.914125,2.677,0.375,what's fifteen percent of hundred twenty eight,what a fifteen per cent of hundred twenty eight
+27_H_5.wav,3.4080625,3.086,0.0,is three hundred thirty seven a prime number,is three hundred thirty seven a prime number
+27_I_1.wav,2.469625,2.232,0.0,what is the definition of cat,what is the definition of cat
+27_I_2.wav,2.3955,2.17,0.0,what does to share mean,what does to share mean
+27_I_3.wav,1.8521875,1.672,0.2,how do you spell date,how do you spell that
+27_I_4.wav,2.8153125,2.573,0.375,tell me words that start with an a,tell me where to start with an ay
+27_I_5.wav,5.0133125,4.446,0.333,which words contain c o n,which words contain sea o and
+27_I_6.wav,1.951,1.772,0.0,can you translate cat,can you translate cat
+27_I_7.wav,2.0744375,1.869,0.0,what is dog in german,what is dog in german
+27_I_8.wav,3.8525625,3.536,0.111,set the number of words for translations to three,said the number of words for translations to three
+27_I_9.wav,2.222625,2.033,0.167,what is another word for dashboard,what is another word for despard
+27_J_1.wav,2.247375,2.05,0.143,turn on the living room lights please,turn on the living room lights place
+27_J_2.wav,3.9760625,3.632,0.1,set the temperature in the kitchen to twenty two degrees,said the temperature in the kitchen to twenty two degrees
+27_J_3.wav,2.5436875,2.303,0.667,set the shutters to fifty percent,said the shutter to fifty per cent
+27_J_4.wav,2.0744375,1.9,0.167,please lower the blinds by half,please lower the blind by half
+27_K_1.wav,2.42025,2.187,0.2,how old is queen elizabeth,how old is queen lizabeth
+27_K_10.wav,1.4570625,1.325,0.2,do you like to travel,do you like travel
+27_K_11.wav,1.9015625,1.746,0.143,what kind of music do you lik,what kind of music do you like
+27_K_2.wav,3.1858125,2.873,0.0,how many people live in australia,how many people live in australia
+27_K_3.wav,3.0623125,2.775,0.0,what's the height of the eiffel tower,what is the height of the eiffel tower
+27_K_4.wav,3.2105,2.859,0.0,how long is the river danube,how long is the river danube
+27_K_5.wav,3.43275,3.12,0.0,how tall is the tallest mountain in the alps,how tall is the tallest mountain in the alps
+27_K_6.wav,2.914125,2.631,0.286,which movies did tom cruise play in,which movies de ton cruise play in
+27_K_7.wav,1.654625,1.52,0.0,what do you dream about,what do you dream about
+27_K_8.wav,2.1979375,1.989,0.4,what's your favourite colour,what is your favorite color
+27_K_9.wav,2.716625,2.508,0.0,what do you do when i'm not at home,what do you do when i am not at home
+2_A_1.wav,2.1189375,1.903,1.0,athena turn on the lights,no son underlies
+2_A_2.wav,2.488625,2.245,1.0,minerva turn on the lights,you know for so underlights
+2_A_3.wav,2.673375,2.412,1.0,artemis turn on the lights,oftenest to unbelt
+2_A_4.wav,2.3305,2.092,0.6,freya turn on the lights,for so in on the lights
+2_A_5.wav,2.022125,1.825,0.6,james turn on the lights,jane too on the life
+2_A_6.wav,2.428,2.161,1.0,computer turn on the lights,compute an under light
+2_B_1.wav,2.5541875,2.266,1.5,mute unmute,you and you
+2_B_2.wav,1.6020625,1.425,1.0,stop abort,stop a board
+2_B_3.wav,2.472625,2.195,0.5,pause resume,as resume
+2_B_4.wav,2.335875,2.082,0.0,next back,next back
+2_B_5.wav,0.7496875,0.681,0.0,louder,louder
+2_B_6.wav,1.3539375,1.24,0.75,turn the volume down,on the london
+2_B_7.wav,1.467125,1.331,0.75,set volume to six,said mount six
+2_C_1.wav,1.976875,1.8,1.0,play some music by bon jovi,place a musician tory
+2_C_2.wav,1.8695625,1.685,0.667,play my eighties rock playlist now,lay my ages rough felt now
+2_C_3.wav,1.8646875,1.671,0.6,what song is currently playing,what sin is peneplain
+2_C_4.wav,2.527875,2.284,0.286,please add this song to my favourites,lee at this song to my favourites
+2_C_5.wav,2.2544375,2.065,0.75,what can i do with a music skill,what did our wash in music still
+2_D_1.wav,2.7641875,2.499,0.286,set an alarm for five am please,set an alarm for five an his
+2_D_2.wav,2.5179375,2.312,0.222,how much time is left on my pizza timer,how much time is left on my pet hatim
+2_D_3.wav,2.8020625,2.578,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+2_D_4.wav,1.507,1.366,0.5,cancel all my timers,cancel all my time is
+2_D_5.wav,0.8685,0.791,0.0,what's the date,what's the date
+2_D_6.wav,1.83725,1.671,0.667,when is easter sunday this year,when is easter and it is our
+2_E_1.wav,2.270125,2.074,0.375,add milk and cheese to my shopping list,a mile and ceased to my shopping list
+2_E_2.wav,1.674625,1.525,0.25,create a new appointment,read a new appointment
+2_E_3.wav,4.7178125,4.251,0.615,put doctor smith on my calendar for nineteenth of july at five pm,but doc as myth on my calendar ninety of july at five p m
+2_E_4.wav,3.705875,3.329,0.375,remind me to mow the lawn next saturday,remind me to mold the long let saturday
+2_E_5.wav,2.5703125,2.322,0.5,what reminders do i have for this weekend,what in mind as i have for this recent
+2_F_1.wav,2.1428125,1.919,0.8,give me articles about politics,if me atalanta gets
+2_F_2.wav,1.068,0.979,0.0,tell me the news,tell me the news
+2_F_3.wav,1.1939375,1.087,1.0,what happened today,what happens to day
+2_F_4.wav,2.150375,1.943,0.2,which new topics are available,which the topics are available
+2_F_5.wav,2.8114375,2.534,0.833,set business as preferred news category,said a business of prefer use category
+2_F_6.wav,1.5569375,1.41,0.667,how does the news skill work,how does of us killed
+2_F_7.wav,1.8335,1.667,0.167,will it rain today in manchester,will it rain they in manchester
+2_F_8.wav,2.5303125,2.299,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+2_F_9.wav,1.707875,1.567,0.667,do i need an umbrella tomorrow,when it an umbrella more
+2_G_1.wav,3.267625,2.993,0.455,how long does it take from london to liverpool by car,how long does it take for one to live a burial
+2_G_2.wav,3.1875,2.876,0.667,set my location to kennington road four in london,said my location to pennicote for it lampon
+2_G_3.wav,1.7018125,1.56,0.8,i need help with navigation,i need to it never gazed
+2_G_4.wav,2.644875,2.414,0.333,what restaurants are within five kilometres,what restaurants are within the five cometas
+2_G_5.wav,3.22225,2.957,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+2_G_6.wav,4.1160625,3.761,0.357,how long does it take from buckingham palace to tower of london on foot,how long does it take for packing and palace and tower of london on whose
+2_G_7.wav,2.02825,1.829,0.667,find me a burger restaurant nearby,find me buggenheim
+2_G_8.wav,2.4333125,2.252,0.222,what's the address of the nearest tesco store,what's the address of the nearest tess tore
+2_H_1.wav,1.877125,1.716,0.143,how many feet are in a mile,how many feet out in a mile
+2_H_2.wav,1.9360625,1.773,0.5,what's seven times forty four,what's seven times or i for
+2_H_3.wav,2.98,2.735,0.222,what's two hundred twenty five divided by five,rocks two hundred twenty five divided by five
+2_H_4.wav,3.240375,2.976,0.333,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred forty eight
+2_H_5.wav,2.9066875,2.677,0.125,is three hundred thirty seven a prime number,is three hundred thirty seven a prime member
+2_I_1.wav,1.69875,1.566,0.0,what's the definition of cat,what's the definition of cat
+2_I_2.wav,1.9859375,1.807,0.2,what does to share mean,what does to share me
+2_I_3.wav,1.5295,1.374,0.8,how do you spell date,how the pole that
+2_I_4.wav,2.35775,2.146,0.25,tell me words that start with an a,tell me bout that thar with an a
+2_I_5.wav,2.771875,2.487,0.5,which words contain c o n,which words contain a e o and
+2_I_6.wav,1.56575,1.414,0.25,can you translate cat,can you translate that
+2_I_7.wav,1.9829375,1.786,0.6,what is dog in german,what is to examine
+2_I_8.wav,3.0898125,2.825,0.222,set the number of words for translations to three,said the number of words or translations to three
+2_I_9.wav,2.0724375,1.917,0.333,what is another word for dashboard,what is another word for des forts
+2_J_1.wav,1.9043125,1.745,0.286,turn on the living room lights please,so on the living room lights place
+2_J_2.wav,2.95925,2.732,0.4,set the temperature in the kitchen to twenty two degrees,such a hamper or in the kitchen to twenty two degrees
+2_J_3.wav,2.0604375,1.878,0.667,set the shutters to fifty percent,set me alas to fifty per cent
+2_J_4.wav,1.9349375,1.786,0.5,please lower the blinds by half,lies low the blind by half
+2_K_1.wav,1.8179375,1.649,0.4,how old is queen elizabeth,how old is realizable
+2_K_10.wav,1.215125,1.112,0.0,do you like to travel,do you like to travel
+2_K_11.wav,1.647375,1.542,0.0,what kind of music do you like,what kind of music do you like
+2_K_2.wav,2.0506875,1.87,0.5,how many people live in australia,how many people the intra
+2_K_3.wav,2.0251875,1.854,0.5,what's the height of the eiffel tower,what's he hired of the affair
+2_K_4.wav,1.9799375,1.825,0.333,how long is the river danube,how long is the river that never
+2_K_5.wav,2.6539375,2.424,0.444,how tall is the tallest mountain in the alps,he told it the tallest mountain in the arts
+2_K_6.wav,2.5310625,2.272,0.857,which movies did tom cruise play in,which moves et ton crossly and
+2_K_7.wav,1.3965,1.285,0.0,what do you dream about,what do you dream about
+2_K_8.wav,1.2876875,1.17,0.4,what's your favourite colour,what's your favorite color
+2_K_9.wav,1.907375,1.76,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+3_A_1.wav,1.671875,1.538,0.8,athena turn on the lights,as the nature of the lights
+3_A_2.wav,1.729875,1.588,0.4,minerva turn on the lights,we never turn on the lights
+3_A_3.wav,2.004125,1.807,1.0,artemis turn on the lights,at the miss tenantries
+3_A_4.wav,1.793125,1.612,1.0,freya turn on the lights,threatened it
+3_A_5.wav,1.70875,1.546,0.4,james turn on the lights,trains turn on lights
+3_A_6.wav,1.9725,1.802,0.8,computer turn on the lights,computer to underlights
+3_B_1.wav,2.4033125,2.129,1.0,mute unmute,mute and mute
+3_B_2.wav,2.0251875,1.809,1.0,stop abort,stop a pot
+3_B_3.wav,1.7931875,1.61,0.5,pause resume,pause resumed
+3_B_4.wav,1.70875,1.531,0.0,next back,next back
+3_B_5.wav,1.075875,0.972,0.0,louder,louder
+3_B_6.wav,1.4455625,1.308,1.0,turn the volume down,turned to odenton
+3_B_7.wav,1.48725,1.349,0.5,set volume to six,said william to six
+3_C_1.wav,2.004125,1.813,0.5,play some music by bon jovi,play some music upon troy
+3_C_2.wav,1.82,1.662,0.833,play my eighties rock playlist now,am i at his replies now
+3_C_3.wav,1.66925,1.533,0.6,what song is currently playing,what on this current playing
+3_C_4.wav,1.9830625,1.831,0.571,please add this song to my favourites,please at the sun to my favourite
+3_C_5.wav,2.1306875,1.936,0.5,what can i do with the music skill,but can i do is to music school
+3_D_1.wav,2.1623125,1.964,0.714,set an alarm for five am please,said another for five and peace
+3_D_2.wav,2.4155,2.254,0.444,how much time is left on my pizza timer,how much time is left in my pistol a time
+3_D_3.wav,2.8585,2.621,0.333,remind me of the tennis training tonight at five,remind me of the tennis raining to night at five
+3_D_4.wav,1.613875,1.483,1.0,cancel all my timers,cancer on my time is
+3_D_5.wav,0.9493125,0.863,0.0,what's the date,what's the date
+3_D_6.wav,2.056875,1.865,0.667,when is easter sunday this year,venice is to sunday
+3_E_1.wav,2.3521875,2.154,0.75,add milk and cheese to my shopping list,at milan cheese to messalines
+3_E_2.wav,1.508375,1.358,0.25,create a new appointment,great a new appointment
+3_E_3.wav,4.4406875,4.049,0.462,put doctor smith on my calendar for nineteenth of july at five pm,put to to smith on my calendar for nineteen of juliet five pan
+3_E_4.wav,2.8479375,2.583,0.75,remind me to mow the lawn next saturday,remind me to more along next to the day
+3_E_5.wav,2.2880625,2.114,0.875,what reminders do i have for this weekend,what remind us to a half for the beacon
+3_F_1.wav,2.002875,1.843,0.4,give me articles about politics,give me autographo politics
+3_F_2.wav,1.2025,1.088,0.25,tell me the news,to me the news
+3_F_3.wav,1.26575,1.147,1.0,what happened today,what haven to day
+3_F_4.wav,2.0990625,1.895,0.4,which news topics are available,much news topics are
+3_F_5.wav,2.70025,2.462,0.5,set business as preferred news category,sit business as prefer a news category
+3_F_6.wav,1.782625,1.61,0.5,how does the news skill work,how does a news kirk
+3_F_7.wav,1.867,1.692,1.0,will it rain today in manchester,villain to day menteuse
+3_F_8.wav,2.521,2.286,0.3,what's the weather going to be like on sunday,what the watering to be like on sunday
+3_F_9.wav,1.782625,1.606,1.0,do i need an umbrella tomorrow,to intenerate morrow
+3_G_1.wav,3.12825,2.877,0.273,how long does it take from london to liverpool by car,how long does it take from london to live a pool by car
+3_G_2.wav,3.8921875,3.515,0.667,set my location to kennington road four in london,said medication to a canning road for in london
+3_G_3.wav,1.6560625,1.556,1.0,i need help with navigation,i need to be in the rogation
+3_G_4.wav,2.6070625,2.378,0.667,what restaurants are within five kilometres,but restores are in five kilometers
+3_G_5.wav,3.135375,2.87,0.778,how far is it to the university of oxford,how far is it to do you need was it he of oxon
+3_G_6.wav,3.57575,3.283,0.786,how long does it take from buckingham palace to tower of london on foot,or under a take from originales to toooooo
+3_G_7.wav,2.120125,1.922,0.333,find me a burger restaurant nearby,find me a burger astronomy
+3_G_8.wav,3.0589375,2.758,0.889,what's the address of the nearest tesco store,what duress oftenest testator
+3_H_1.wav,2.2995,2.107,0.0,how many feet are in a mile,how many feet are in a mile
+3_H_2.wav,2.734625,2.472,0.667,what's seven times forty four,what seven times for a poor
+3_H_3.wav,2.708875,2.48,0.556,what's two hundred twenty five divided by five,for to hundred twenty five to vimy five
+3_H_4.wav,3.2065625,2.911,0.444,what's fifteen percent of one hundred twenty eight,what's fifteen persons of one hundred ten i ate
+3_H_5.wav,2.91125,2.642,0.875,is three hundred thirty seven a prime number,is rene at that he sat in a prim number
+3_I_1.wav,1.782625,1.643,0.333,what's the definition of cat,what the definition of kit
+3_I_2.wav,2.124,1.902,0.4,what does to share mean,what does to shame men
+3_I_3.wav,1.6033125,1.455,0.0,how do you spell date,how do you spell date
+3_I_4.wav,1.9619375,1.799,0.75,tell me words that start with an a,o you were to start with a may
+3_I_5.wav,2.7635625,2.477,0.5,which words contain c o n,which words contain the sea o in
+3_I_6.wav,1.4109375,1.289,0.25,can you translate cat,can you translate it
+3_I_7.wav,1.5610625,1.412,0.2,what is dog in german,what is talk in german
+3_I_8.wav,3.3964375,3.083,0.556,set the number of words for translation to three,said an amber of words for crenation to free
+3_I_9.wav,1.9900625,1.833,0.167,what is another word for dashboard,what is another word for tabor
+3_J_1.wav,2.1306875,1.951,0.0,turn on the living room lights please,turn on the living room lights please
+3_J_2.wav,3.375375,3.096,0.6,set the temperature in the kitchen to twenty two degrees,said a timber toned to kitchen to tony two degrees
+3_J_3.wav,1.951375,1.773,0.833,set the shutters to fifty percent,said i shatisfy percent
+3_J_4.wav,1.91975,1.732,0.167,please lower the blinds by half,please lower the blind by half
+3_K_1.wav,1.7404375,1.59,0.4,how old is queen elizabeth,how old is counterfeit
+3_K_10.wav,1.3501875,1.235,0.6,do you like to travel,to elect to travel
+3_K_11.wav,1.8564375,1.706,0.0,what kind of music do you like,what kind of music do you like
+3_K_2.wav,2.331125,2.138,0.0,how many people live in australia,how many people live in australia
+3_K_3.wav,1.8036875,1.658,0.375,what's the height of the eiffel tower,what's the night of the orator
+3_K_4.wav,1.5610625,1.413,1.0,how long is the river danube,along astride
+3_K_5.wav,2.2425625,2.018,0.778,how tall is the tallest mountain in the alps,oh tollerators mountain and the lips
+3_K_6.wav,2.066125,1.881,0.857,which movies did tom cruise play in,which moves the tontos plain
+3_K_7.wav,1.6349375,1.531,0.0,what do you dream about,what do you dream about
+3_K_8.wav,1.3696875,1.271,0.4,what's your favourite colour,what's your favorite color
+3_K_9.wav,1.9935625,1.859,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+4_A_1.wav,1.8548125,1.677,0.4,athena turn on the lights,a final turn on the lights
+4_A_2.wav,2.1904375,1.971,0.0,minerva turn on the lights,minerva turn on the lights
+4_A_3.wav,2.261125,2.055,0.6,artemis turn on the lights,a tea miss turn on the lights
+4_A_4.wav,2.1595625,1.943,0.4,freya turn on the lights,for you turn on the lights
+4_A_5.wav,2.2169375,1.986,0.0,james turn on the lights,james turn on the lights
+4_A_6.wav,2.1374375,1.966,0.0,computer turn on the lights,computer turn on the lights
+4_B_1.wav,1.7795,1.645,0.5,mute unmute,mute anne
+4_B_2.wav,1.8945625,1.689,0.5,stop abort,stop aboard
+4_B_3.wav,1.8945625,1.693,0.5,pause resume,pause risu
+4_B_4.wav,1.7135,1.536,0.0,next back,next back
+4_B_5.wav,1.086375,0.975,1.0,louder,lona
+4_B_6.wav,1.3734375,1.263,0.25,turn the volume down,turned the volume down
+4_B_7.wav,1.4396875,1.315,0.5,set volume to six,said mornin to six
+4_C_1.wav,1.8725,1.697,0.667,play some music by bon jovi,place of music by andre
+4_C_2.wav,2.1330625,1.95,0.833,play my eighties rock playlist now,plainly it is rob playest now
+4_C_3.wav,1.7620625,1.611,0.2,what song is currently playing,what so is currently playing
+4_C_4.wav,2.1065625,1.92,0.429,please add this song to my favourites,please and the song to my favorite
+4_C_5.wav,2.1595625,1.982,0.0,what can i do with the music skill,what can i do with the music skill
+4_D_1.wav,2.5260625,2.265,0.857,set an alarm for five am please,side along for a five a m please
+4_D_2.wav,2.49075,2.27,0.111,how much time is left on my pizza timer,how much time is left on my pizza time 
+4_D_3.wav,3.01625,2.773,0.556,remind me of the tennis training tonight at five,reminds me of of the tennis raining to night at five
+4_D_4.wav,1.523625,1.381,1.0,cancel all my timers,can an my time must
+4_D_5.wav,0.9539375,0.867,0.0,what's the date,what's the date
+4_D_6.wav,2.0734375,1.905,0.5,when is easter sunday this year,when this is the sunday the year
+4_E_1.wav,2.2258125,2.02,0.875,add milk and cheese to my shopping list,and moonshees too much happiness
+4_E_2.wav,1.695875,1.549,0.0,create a new appointment,create a new appointment
+4_E_3.wav,4.4206875,4.007,0.615,put doctor smith on my calendar for nineteenth of july at five pm,doctor miss amy clamouring to s of july at five pin
+4_E_4.wav,3.02075,2.744,0.25,remind me to mow the lawn next saturday,remind me to move the law next saturday
+4_E_5.wav,2.3229375,2.129,1.0,what reminders do i have for this weekend,what remind us to a half a week and
+4_F_1.wav,2.1595625,1.946,0.0,give me articles about politics,give me articles about politics
+4_F_2.wav,1.2100625,1.093,0.0,tell me the news,tell me the news
+4_F_3.wav,1.4485625,1.319,0.667,what happened today,what happened to day
+4_F_4.wav,2.274375,2.088,0.6,which news topics are available,which new topics are way able
+4_F_5.wav,2.64975,2.406,0.333,set business as preferred news category,set business as preferred musketry
+4_F_6.wav,2.035875,1.846,0.167,how does the news skill work,how does a news skill work
+4_F_7.wav,2.1241875,1.923,0.5,will it rain today in manchester,will a rain to day manchester
+4_F_8.wav,2.6895,2.475,0.1,what's the weather going to be like on sunday,the what's the weather going to be like on sunday
+4_F_9.wav,1.9873125,1.818,0.5,do i need an umbrella tomorrow,go i need an umbrella to morrow
+4_G_1.wav,3.4446875,3.155,0.545,how long does it take from london to liverpool by car,how long does it take a wrong un to live a good by car
+4_G_2.wav,3.4446875,3.126,0.333,set my location to kennington road four in london,set my location to kenningford before in london
+4_G_3.wav,1.8195,1.662,0.6,i need help with navigation,i no tell was navigation
+4_G_4.wav,3.1885,2.879,0.167,what restaurants are within five kilometres,what restaurants are within five kilometers
+4_G_5.wav,3.7803125,3.415,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+4_G_6.wav,4.52225,4.14,0.5,how long does it take from buckingham palace to tower of london on foot,how long does it take from backing and palace to tall long manhood
+4_G_7.wav,2.15075,1.964,0.5,find me a burger restaurant nearby,find me a book a restaurant there
+4_G_8.wav,2.8794375,2.606,0.444,what's the address of the nearest tesco store,what's the dress of the news testator
+4_H_1.wav,1.9873125,1.819,0.0,how many feet are in a mile,how many feet are in a mile
+4_H_2.wav,2.526125,2.258,0.333,what's seven times forty four,what's seven times for for
+4_H_3.wav,4.0320625,3.638,0.444,what's two hundred twenty five divided by five,at two hundred twenty five two wide by five
+4_H_4.wav,3.7670625,3.401,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+4_H_5.wav,3.104625,2.793,0.25,is three hundred thirty seven a prime number,is re hundred thirty seven prime number
+4_I_1.wav,2.1993125,1.984,0.0,what's the definition of cat,what's the definition of cat
+4_I_2.wav,1.5500625,1.397,0.4,what does to share mean,what does the sham mean
+4_I_3.wav,1.523625,1.382,0.2,how do you spell date,how do you spell dat
+4_I_4.wav,2.6409375,2.419,0.25,tell me words that start with an a,tell me words that start with the name
+4_I_5.wav,2.9544375,2.677,0.667,which words contain c o n,to which words contain sea or an
+4_I_6.wav,1.4220625,1.307,0.0,can you translate cat,can you translate cat
+4_I_7.wav,1.5456875,1.406,0.4,what is dog in german,what is talking german
+4_I_8.wav,3.223875,2.96,0.333,set the number of words for translations to three,said the number of words for trans lations to three
+4_I_9.wav,2.2169375,2.016,0.333,what is another word for dashboard,what is another word for the pot
+4_J_1.wav,2.075625,1.913,0.0,turn on the living room lights please,turn on the living room lights please
+4_J_2.wav,3.48,3.18,0.3,set the temperature in the kitchen to twenty two degrees,so the temper than the kitchen to twenty two degrees
+4_J_3.wav,2.786625,2.517,0.333,set the shutters to fifty percent,set the shutters to fifty per cent
+4_J_4.wav,1.9696875,1.803,0.167,please lower the blinds by half,please lower the blinds by hard
+4_K_1.wav,1.581,1.426,1.0,how old is queen elizabeth,oh orders been alive
+4_K_10.wav,1.351375,1.235,0.2,do you like to travel,to you like to travel
+4_K_11.wav,1.9078125,1.728,0.0,what kind of music do you like,what kind of music do you like
+4_K_2.wav,2.327375,2.125,0.5,how many people live in australia,how many people live in all stray you
+4_K_3.wav,2.1771875,1.977,0.375,what's the height of the eiffel tower,what's the hight of the overture
+4_K_4.wav,2.3318125,2.115,0.333,how long is the river danube,how long is the river the low
+4_K_5.wav,2.7248125,2.473,0.333,how tall is the tallest mountain in the alps,hal told is the tallest mountain in the abs
+4_K_6.wav,2.3759375,2.155,0.571,which movies did tom cruise play in,which moves the tontos play in
+4_K_7.wav,1.444125,1.329,0.0,what do you dream about,what do you dream about
+4_K_8.wav,1.5059375,1.364,0.0,what's your favourite colour,what's your favourite colour
+4_K_9.wav,2.239,2.051,0.0,what do you do when i'm not at home,what do you do when i am not at home
+5_A_1.wav,2.0726875,1.886,0.6,athena turn on the lights,i see a turn on the lights
+5_A_2.wav,1.896375,1.709,0.4,minerva turn on the lights,my nerve turn on the lights
+5_A_3.wav,2.268,2.049,0.2,artemis turn on the light,times turn on the light
+5_A_4.wav,2.0440625,1.84,0.4,freya turn on the lights,freyer turned on the lights
+5_A_5.wav,1.7629375,1.593,0.2,james turn on the lights,james turn on the light
+5_A_6.wav,2.3680625,2.13,0.0,computer turn on the lights,computer turn on the lights
+5_B_1.wav,2.2108125,1.942,1.0,mute unmute,mute and nut
+5_B_2.wav,2.2585,2.026,1.0,stop abort,stop a board
+5_B_3.wav,2.0393125,1.833,1.0,pause resume,paul resumed
+5_B_4.wav,2.063125,1.834,0.0,next back,next back
+5_B_5.wav,1.053,0.963,0.0,louder,louder
+5_B_6.wav,1.9535625,1.78,0.25,turn the volume down,down the volume down
+5_B_7.wav,1.8296875,1.647,0.5,set volume to six,said roland to six
+5_C_1.wav,2.2918125,2.062,0.5,play some music by bon jovi,plac some music by on jove
+5_C_2.wav,2.539625,2.287,0.167,play my eighties rock playlist now,play my eyes rock playlist now
+5_C_3.wav,2.067875,1.867,0.0,what song is currently playing,what song is currently playing
+5_C_4.wav,2.3109375,2.11,0.286,please add this song to my favourites,please at the song to my favourites
+5_C_5.wav,2.291875,2.114,0.125,what can i do with the music skill,what can i do with a music skill
+5_D_1.wav,2.592,2.374,0.143,set an alarm for five am please,set an alarm for five and please
+5_D_2.wav,2.4490625,2.258,0.333,how much time is left on my pizza timer,how much time is left on my pit a time
+5_D_3.wav,2.9065,2.675,0.444,remind me of the tennis training tonight at five,remind me of the tennis training to night at the fire
+5_D_4.wav,1.6009375,1.437,0.75,cancel all my timers,cancel my time is
+5_D_5.wav,1.1149375,1.021,0.0,what's the date,what's the date
+5_D_6.wav,2.10125,1.913,0.333,when is easter sunday this year,when is he to sunday this year
+5_E_1.wav,2.6539375,2.421,0.625,add milk and cheese to my shopping list,at milan cheese to my chopping less
+5_E_2.wav,1.7058125,1.543,0.5,create a new appointment,great in new appointment
+5_E_3.wav,5.3174375,4.826,0.385,put doctor smith on my calendar for nineteenth of july at five pm,but doctor smith on my collana for nineteen of july at five p m
+5_E_4.wav,2.7635625,2.511,0.625,remind me to mow the lawn next saturday,remind me to mar the long next set of day
+5_E_5.wav,3.111375,2.801,0.375,what reminders do i have for this weekend,what reminds do i have for this week end
+5_F_1.wav,2.2870625,2.094,0.6,give me articles about politics,give me out o girls about politics
+5_F_2.wav,1.410375,1.283,0.0,tell me the news,tell me the news
+5_F_3.wav,1.6056875,1.439,0.667,what happened today,what happened to day
+5_F_4.wav,2.8779375,2.59,0.0,which news topics are available,which news topics are available
+5_F_5.wav,3.2400625,2.941,0.167,set business as preferred news category,sad business as preferred news category
+5_F_6.wav,2.0298125,1.857,0.333,how does the news skill work,how does he use skill work
+5_F_7.wav,2.18225,1.991,1.0,will it rain today in manchester,with a train to day and manchester
+5_F_8.wav,2.701625,2.49,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+5_F_9.wav,2.4824375,2.245,0.333,do i need an umbrella tomorrow,do i need an umbrella to morrow
+5_G_1.wav,2.9303125,2.707,0.091,how long does it take from london to liverpool by car,how long does it take from long to liverpool by car
+5_G_2.wav,2.978,2.73,0.333,set my location to kennington road four in london,set my location to canninge rode for in london
+5_G_3.wav,1.84875,1.692,0.0,i need help with navigation,i need help with navigation
+5_G_4.wav,2.9065,2.658,0.167,what restaurants are within five kilometres,what restaurants are within five kilometers
+5_G_5.wav,2.6635,2.437,0.0,how far is it to university of oxford,how far is it to university of oxford
+5_G_6.wav,4.073875,3.765,0.0,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tower of london on foot
+5_G_7.wav,2.301375,2.117,0.667,find me a burger restaurant nearby,find me a bag a restaurant near by
+5_G_8.wav,3.1685625,2.847,0.222,what's the address of the nearest tesco store,what's the address of the nearest tedcastle
+5_H_1.wav,2.387125,2.169,0.143,how many feet are in a mile,how many feet or in a mile
+5_H_2.wav,2.25375,2.062,0.667,what's seven times forty four,what seven times for the full
+5_H_3.wav,3.0113125,2.754,0.333,what's two hundred twenty five divided by five,at two hundred and twenty five divided by five
+5_H_4.wav,2.696875,2.495,0.444,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of hundred and twenty eight
+5_H_5.wav,3.79275,3.432,0.125,is three hundred thirty seven a prime number,is three hundred and thirty seven a prime number
+5_I_1.wav,1.9630625,1.795,0.0,what's the definition of cat,what's the definition of cat
+5_I_2.wav,1.6676875,1.495,0.5,what does share mean,what a sham mean
+5_I_3.wav,1.69625,1.563,0.2,how do you spell date,how do you spell dat
+5_I_4.wav,2.634875,2.414,0.375,tell me words that start with an a,tell me words that starts with a new
+5_I_5.wav,4.3025625,3.842,0.667,which words contain c o n,which words contained s a and
+5_I_6.wav,1.782,1.622,0.25,can you translate cat,can you translate kept
+5_I_7.wav,1.977375,1.807,0.2,what is dog in german,what isn't dog in german
+5_I_8.wav,3.363875,3.073,0.111,set the number of words for translations to three,so the number of words for translations to three
+5_I_9.wav,2.735,2.493,0.333,what is another word for dashboard,what is another word for dash for
+5_J_1.wav,2.3109375,2.131,0.0,turn on the living room lights please,turn on the living room lights please
+5_J_2.wav,3.511625,3.214,0.2,set the temperature in the kitchen to twenty two degrees,so the temperature in the kitchen took twenty two degrees
+5_J_3.wav,2.25375,2.079,0.5,set the shutters to fifty percent,so the shutters to fifty per cent
+5_J_4.wav,2.296625,2.11,0.167,please lower the blinds by half,please now the blinds by half
+5_K_1.wav,2.1108125,1.905,0.4,how old is queen elizabeth,how old is queen little beth
+5_K_10.wav,1.658125,1.511,0.2,do you like to travel,do like to travel
+5_K_11.wav,2.4014375,2.187,0.0,what kind of music do you like,what kind of music do you like
+5_K_2.wav,2.382375,2.182,0.0,how many people live in australia,how many people live in australia
+5_K_3.wav,2.025,1.841,0.125,what's the height of the eiffel tower,what's the hate of the eiffel tower
+5_K_4.wav,1.8773125,1.718,0.4,how long is river danube,how long is river to new
+5_K_5.wav,2.787375,2.535,0.333,how tall is the tallest mountain in the alps,how tall as the tallest mountain in years
+5_K_6.wav,2.8016875,2.526,0.143,which movies did tom cruise play in,which movies did to cruise play in
+5_K_7.wav,2.025,1.834,0.0,what do you dream about,what do you dream about
+5_K_8.wav,1.5199375,1.382,0.0,what's your favourite colour,what's your favourite colour
+5_K_9.wav,2.5920625,2.395,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+6_A_1.wav,1.903375,1.704,0.8,athena turn on the lights,i fear to onthe lights
+6_A_2.wav,2.060875,1.844,1.0,minerva turn on the lights,a tea cornudet
+6_A_3.wav,2.0799375,1.863,1.0,artemis turn on the lights,a times tarantulae
+6_A_4.wav,2.008375,1.803,0.0,freya turn on the lights,freya turn on the lights
+6_A_5.wav,2.2850625,2.041,0.8,james turn on the lights,james tomtits
+6_A_6.wav,1.9225625,1.733,0.0,computer turn on the lights,computer turn on the lights
+6_B_1.wav,1.87,1.654,0.5,mute unmute,mute amused
+6_B_2.wav,1.68875,1.516,0.5,stop abort,stop aboard
+6_B_3.wav,1.8318125,1.613,0.5,pause resume,pause resumed
+6_B_4.wav,1.8318125,1.62,0.0,next back,next back
+6_B_5.wav,0.9254375,0.822,0.0,louder,louder
+6_B_6.wav,1.393,1.277,0.5,turn the volume down,send the mariam down
+6_B_7.wav,1.8509375,1.651,0.75,set volume to six,said well william to six
+6_C_1.wav,2.1466875,1.933,0.333,play some music by bon jovi,play some music by one shove
+6_C_2.wav,2.5569375,2.295,0.667,play my eighties rock playlist now,lay my eighty ruleless now
+6_C_3.wav,1.8795625,1.69,0.2,what song is currently playing,what son is currently playing
+6_C_4.wav,2.28025,2.09,0.286,please add this song to my favourites,these and this song to my favourites
+6_C_5.wav,2.1944375,2.008,0.125,what can i do with the music skill,what can i do if the music skill
+6_D_1.wav,2.6905,2.426,0.571,set an alarm for five am please,said the alarm for five it implies
+6_D_2.wav,2.85275,2.59,0.222,how much time is left on my pizza timer,how much time is left on my pitaties
+6_D_3.wav,3.2820625,3.005,0.667,remind me of the tennis training tonight at five,he reminded me of the time straining to night at five
+6_D_4.wav,1.4788125,1.34,1.0,cancel all my timers,kensal my time is
+6_D_5.wav,1.0113125,0.916,0.0,what's the date,what's the date
+6_D_6.wav,2.84325,2.545,0.333,what is easter sunday this year,what is he so sunday this year
+6_E_1.wav,2.6619375,2.414,0.625,add milk and cheese to my shopping list,it met in these to my shopping less
+6_E_2.wav,2.013125,1.832,0.5,create a new appointment,great and new appointment
+6_E_3.wav,5.495625,4.993,0.231,put doctor smith on my calendar for nineteenth of july at five pm,but doctor smith on my calendar for nineteenth of july at five p m
+6_E_4.wav,2.881375,2.62,0.125,remind me to mow the lawn next saturday,remind me to mount the lawn next saturday
+6_E_5.wav,2.547375,2.314,0.5,what reminders do i have for this weekend,what remind us do i have for this week end
+6_F_1.wav,2.184875,1.973,0.0,give me articles about politics,give me articles about politics
+6_F_2.wav,1.2594375,1.131,0.0,tell me the news,tell me the news
+6_F_3.wav,1.364375,1.253,0.667,what happened today,what happened to day
+6_F_4.wav,2.4615625,2.231,0.2,which news topics are available,which new topics are available
+6_F_5.wav,2.9004375,2.636,0.5,set business as preferred news category,said business as proper muse category
+6_F_6.wav,2.118125,1.907,0.333,how does the news skill work,how does in new skill work
+6_F_7.wav,2.4329375,2.194,0.333,will it rain today in manchester,will it rain they in mentioner
+6_F_8.wav,2.9195625,2.693,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+6_F_9.wav,2.0513125,1.872,0.667,do i need a umbrella tomorrow,do i need a number on it morrow
+6_G_1.wav,3.463375,3.163,0.273,how long does it take from london to liverpool by car,how long does it take from london to live a go by car
+6_G_2.wav,3.825875,3.443,0.556,set my location to kennington road four in london,said my location to coming to odford london
+6_G_3.wav,2.15625,1.973,0.2,i need help with navigation,i need have with navigation
+6_G_4.wav,2.91,2.648,0.5,what restaurants are within five kilometres,what dress around are within five kilometers
+6_G_5.wav,3.3011875,2.989,0.111,how far is it to the university of oxford,o far is it to the university of oxford
+6_G_6.wav,5.858125,5.303,0.071,how long does it take for buckingham palace to tower of london on foot,how long does it take for buckingham palace the tower of london on foot
+6_G_7.wav,2.27075,2.069,0.667,find me a burger restaurant nearby,find me a big orestean near by
+6_G_8.wav,3.263,2.962,0.444,what's the address of the nearest tesco store,what address of the nearest testator
+6_H_1.wav,2.4615625,2.225,0.143,how many feet are in a mile,how many feet are in a mine
+6_H_2.wav,2.2135,2.0,0.167,what's seven times forty four,what seven times forty four
+6_H_3.wav,3.19625,2.89,0.667,what's two hundred twenty five divided by five,what to under twenty five to wit a by five
+6_H_4.wav,3.0149375,2.771,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+6_H_5.wav,3.1294375,2.823,0.375,is three hundred thirty seven a prime number,his free handed thirty seven a prime number
+6_I_1.wav,1.5646875,1.421,0.167,what's the definition of cat,what's a definition of cat
+6_I_2.wav,1.5646875,1.413,0.2,what does to share mean,what does to share
+6_I_3.wav,1.774625,1.626,0.0,how do you spell date,how do you spell date
+6_I_4.wav,2.27075,2.071,0.625,tell me words that start with an a,tell me worse at such within a
+6_I_5.wav,3.3584375,2.997,0.833,which words contain c o n,which reads contains sea oh and
+6_I_6.wav,1.6410625,1.505,0.0,can you translate cat,can you translate cat
+6_I_7.wav,2.04175,1.84,0.4,what is dog in german,what is stock in turn
+6_I_8.wav,3.492,3.185,0.222,set the number of words for translations to three,said the number of words for translations to free
+6_I_9.wav,2.49975,2.262,0.167,what is another word for dashboard,what is another word for despot
+6_J_1.wav,2.1180625,1.95,0.143,turn on the living room lights please,then on the living room lights please
+6_J_2.wav,3.8640625,3.529,0.3,set the temperature in the kitchen to twenty two degrees,said the timber there in the kitchen to twenty two degrees
+6_J_3.wav,2.2898125,2.1,0.833,set the shutters to fifty percent,said the shades through fifty per cent
+6_J_4.wav,2.49975,2.251,0.167,please lower the blinds by half,please lower the blind by half
+6_K_1.wav,1.91775,1.749,0.4,how old is queen elizabeth,how all the queen elizabeth
+6_K_10.wav,1.57425,1.436,0.2,do you like to travel,do you like to drive
+6_K_11.wav,1.774625,1.642,0.0,what kind of music do you like,what kind of music do you like
+6_K_2.wav,2.2039375,2.006,0.0,how many people live in australia,how many people live in australia
+6_K_3.wav,2.6715,2.413,0.125,what's the height of the eiffel tower,what's the height of the eiffel hour
+6_K_4.wav,2.6333125,2.398,0.0,how long is the river danube,how long is the river danube
+6_K_5.wav,2.85275,2.588,0.111,how tall is the tallest mountain in the alps,how tall is the tallest man in the alps
+6_K_6.wav,2.3470625,2.119,0.857,which movies did tom cruise play in,which moves the sun crosland
+6_K_7.wav,1.57425,1.438,0.0,what do you dream about,what do you dream about
+6_K_8.wav,1.5265,1.381,0.4,what's your favourite colour,what's your favorite color
+6_K_9.wav,1.8128125,1.693,0.0,what do you do when i'm not at home,what do you do when i am not at home
+7_A_1.wav,1.949125,1.764,0.2,athena turn on the lights,athena than on the lights
+7_A_2.wav,2.275625,2.061,0.4,minerva turn on the lights,we never turn on the lights
+7_A_3.wav,2.3389375,2.115,0.4,artemis turn on the lights,at times turn on the lights
+7_A_4.wav,2.3486875,2.106,0.4,freya turn on the lights,why so on the lights
+7_A_5.wav,2.4071875,2.151,0.4,james turn on the lights,james town on the ice
+7_A_6.wav,2.29025,2.058,0.4,computer turn on the lights,who beacon on the lights
+7_B_1.wav,2.2901875,2.036,1.0,mute unmute,mute a mute
+7_B_2.wav,2.3,2.049,1.0,stop abort,stop a bit
+7_B_3.wav,2.29025,2.038,1.5,pause resume,has miss you
+7_B_4.wav,2.3681875,2.09,0.5,next back,next tack
+7_B_5.wav,0.779625,0.711,1.0,louder,loud
+7_B_6.wav,1.510625,1.355,1.0,turn the volume down,to under all um down
+7_B_7.wav,2.013125,1.831,1.0,set volume to six,great and new appointment
+7_C_1.wav,2.19275,1.974,0.5,play some music by bon jovi,laying some music by encore
+7_C_2.wav,2.1538125,1.953,0.5,play my eighties rock playlist now,play my eighty spacefleet now
+7_C_3.wav,2.25125,2.005,0.4,what song is currently playing,what one is comely playing
+7_C_4.wav,2.1635625,1.95,0.714,please add this song to my favourites,for at the song to madame
+7_C_5.wav,1.900375,1.735,0.5,what can i do with the music skill,what can i do refuse excel
+7_D_1.wav,2.6605625,2.404,0.714,set an alarm for five am please,sudden alone for five agencies
+7_D_2.wav,3.118625,2.822,0.222,how much time is left on my pizzas timer,how much time is left on my petals time 
+7_D_3.wav,2.8456875,2.611,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+7_D_4.wav,1.949125,1.76,0.25,cancel all my timers,cancel all my time
+7_D_5.wav,1.15,1.044,0.0,what is the date,what is the date
+7_D_6.wav,2.1830625,1.982,0.333,when is easter sunday this year,when is easter sunday the you
+7_E_1.wav,2.3389375,2.146,0.625,add milk and cheese to my shopping list,at mood and she to me shopping this
+7_E_2.wav,1.832125,1.649,0.25,create a new appointment,what a new appointment
+7_E_3.wav,4.794875,4.366,0.462,put doctor smith on my calendar for nineteenth of july at five pm,but to us north on my calendar for nineteenth of july at five p m
+7_E_4.wav,2.494875,2.271,0.625,remind me to mow the lawn next saturday,remind me to not alone that it
+7_E_5.wav,2.533875,2.301,0.25,what reminders do i have for this weekend,what reminders to i have for this can
+7_F_1.wav,2.1830625,1.974,1.2,give me articles about politics,if we ought to come out politics
+7_F_2.wav,1.2669375,1.136,0.0,tell me the news,tell me the news
+7_F_3.wav,1.3059375,1.195,0.667,what happened today,what happened with the
+7_F_4.wav,2.3584375,2.128,0.4,which news topic are available,which new topic are little
+7_F_5.wav,3.2745625,2.957,0.333,set business as preferred news category,a business as preferred new category
+7_F_6.wav,1.7931875,1.63,0.833,how does the news skill work,out of the new cigar
+7_F_7.wav,1.929625,1.734,1.0,will it rain today in manchester,we ran to the menester
+7_F_8.wav,2.553375,2.35,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+7_F_9.wav,2.0075625,1.83,0.5,do i need an umbrella tomorrow,you i need an umbrella for a
+7_G_1.wav,3.2160625,2.966,0.545,how long does it take from london to liverpool by car,how long does it take for long and to live a mohican
+7_G_2.wav,2.9236875,2.679,0.556,set my location to kennington road four in london,said my location to connect for a london
+7_G_3.wav,2.533875,2.3,0.2,i need help with navigation,i need help in navigation
+7_G_4.wav,3.3135,2.999,0.833,what restaurants are within five kilometres,what weston i will in five colonies
+7_G_5.wav,3.3135,3.016,0.0,how far is it to the university of oxford,how far is it to the university of oxford
+7_G_6.wav,4.190625,3.83,0.357,how long does it take from buckingham palace to tower of london on foot,how long does it take from bucking and palace to tow of london
+7_G_7.wav,2.475375,2.251,0.5,find me a burger restaurant nearby,find me a better western
+7_G_8.wav,3.78125,3.391,0.444,what's the address of the nearest tesco store,what's in address of the newest testator
+7_H_1.wav,2.1830625,1.978,0.143,how many feet are in a mile,how many feet or in a mile
+7_H_2.wav,2.027125,1.834,0.5,what's seven times forty four,what seven times playful
+7_H_3.wav,2.3389375,2.158,0.222,what's two hundred twenty five divided by five,what's two hundred forty five tied by five
+7_H_4.wav,3.1965625,2.912,0.222,what's fifteen percent of one hundred twenty eight,what's fifteen per cent of one hundred twenty eight
+7_H_5.wav,3.021125,2.746,0.5,is three hundred thirty seven a prime number,at three hundred forty seven upon number
+7_I_1.wav,1.929625,1.748,0.167,what's the definition of cat,what's the differentiation of cat
+7_I_2.wav,2.494875,2.226,0.6,what does to share mean,what thus to shame me
+7_I_3.wav,1.8516875,1.659,0.4,how do you spell date,how do you sell that
+7_I_4.wav,2.0660625,1.893,0.5,tell me words that start with an a,tell me what that tabitha a
+7_I_5.wav,3.87875,3.47,0.667,which words contain c o n,which must contain see oh and
+7_I_6.wav,1.63725,1.514,0.0,can you translate cat,can you translate cat
+7_I_7.wav,1.9101875,1.699,0.2,what is dog in german,what is talk in german
+7_I_8.wav,3.1575625,2.887,0.222,set the number of words for translation to three,such the number of beds for translation to three
+7_I_9.wav,2.4559375,2.237,0.333,what is another word for dashboard,what is another word for dash for
+7_J_1.wav,2.84575,2.548,0.571,turn on the living room lights please,fun on the living light is
+7_J_2.wav,3.7813125,3.439,0.3,set the temperature in the kitchen to twenty two degrees,such totem erasure in the kitchen to twenty two degrees
+7_J_3.wav,2.533875,2.286,0.333,set the shutters to fifty percent,such the shutters to fifteen percent
+7_J_4.wav,2.6508125,2.387,0.667,please lower the blinds by half,place now at the line by half
+7_K_1.wav,1.949125,1.756,0.4,how old is queen elizabeth,how old is creative
+7_K_10.wav,1.500875,1.357,0.4,do you like to travel,i like to travel
+7_K_11.wav,2.2415,2.028,0.0,what kind of music do you like,what kind of music do you like
+7_K_2.wav,2.1245625,1.94,0.0,how many people live in australia,how many people live in australia
+7_K_3.wav,2.6703125,2.414,0.5,what's the height of the eiffel tower,what's the hight of the i for tale
+7_K_4.wav,2.3389375,2.121,0.333,how long is the river danube,how long is the routine
+7_K_5.wav,2.6898125,2.447,0.222,how tall is the tallest mountain in the alps,how old is the tallest mountain in the old
+7_K_6.wav,2.261,2.058,0.857,which movies did tom cruise play in,which moves the tunes playing
+7_K_7.wav,1.5398125,1.388,0.4,what do you dream about,what a dream about
+7_K_8.wav,1.75425,1.598,0.4,what's your favourite colour,what's your favorite color
+7_K_9.wav,2.2999375,2.11,0.0,what do you do when i'm not at home,what do you do when i'm not at home
+8_A_1.wav,1.7311875,1.569,0.4,athena turn on the lights,a tea turn on the lights
+8_A_2.wav,1.8094375,1.637,0.0,minerva turn on the lights,minerva turn on the lights
+8_A_3.wav,1.4523125,1.347,0.2,artemis turn on the lights,aramis turn on the lights
+8_A_4.wav,1.605375,1.452,0.2,freya turn on the lights,pray turn on the lights
+8_A_5.wav,1.673375,1.538,0.0,james turn on the lights,james turn on the lights
+8_A_6.wav,1.5645625,1.425,0.0,computer turn on the lights,computer turn on the lights
+8_B_1.wav,2.0543125,1.837,1.5,mute unmute,note on mute
+8_B_2.wav,1.7618125,1.575,1.0,stop abort,stop a board
+8_B_3.wav,1.897875,1.685,1.0,pause resume,has resumed
+8_B_4.wav,1.6869375,1.503,0.0,next back,next back
+8_B_5.wav,0.619,0.556,0.0,louder,louder
+8_B_6.wav,1.1155625,1.036,0.0,turn the volume down,turn the volume down
+8_B_7.wav,1.3876875,1.255,0.5,set volume to six,set mouneto six
+8_C_1.wav,1.78225,1.621,0.667,play some music by bon jovi,place a music by monday
+8_C_2.wav,2.224375,1.986,0.833,play my eighties rock playlist now,we might at israelis now
+8_C_3.wav,1.5509375,1.41,0.0,what song is currently playing,what song is currently playing
+8_C_4.wav,1.6461875,1.509,0.714,please add this song to my favourites,the ape son to my favorite
+8_C_5.wav,1.605375,1.474,0.25,what can i do with the music skill,workin i do with the music skill
+8_D_1.wav,1.7958125,1.666,0.429,set an alarm for five am please,set in alarm for five a m please
+8_D_2.wav,1.965875,1.847,0.333,how much time is left on my pizza timer,how much time is left on my pea to her
+8_D_3.wav,2.4420625,2.268,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+8_D_4.wav,1.2924375,1.205,0.5,cancel all my timers,cancel all my time ers
+8_D_5.wav,0.7686875,0.704,0.5,what's the date,the date
+8_D_6.wav,1.605375,1.471,0.0,when is easter sunday this year,when is easter sunday this year
+8_E_1.wav,2.163125,1.968,0.0,add milk and cheese to my shopping list,add milk and cheese to my shopping list
+8_E_2.wav,1.33325,1.239,0.25,create a new appointment,cried a new appointment
+8_E_3.wav,3.89775,3.6,0.231,put doctor smith on my calendar for nineteenth of july at five pm,but doctor smith on my calendar for nineteenth of july at five p m
+8_E_4.wav,2.17675,2.009,0.25,remind me to mow the lawn next saturday,remind me to more the long next saturday
+8_E_5.wav,2.2311875,2.027,0.375,what reminders do i have for this weekend,what reminders to i have for this week end
+8_F_1.wav,1.62575,1.502,0.0,give me articles about politics,give me articles about politics
+8_F_2.wav,0.81625,0.772,0.5,tell me the news,taming the news
+8_F_3.wav,0.897875,0.821,0.667,what happened today,what happened to day
+8_F_4.wav,1.6801875,1.55,0.2,which news topics are available,which news topics are avail
+8_F_5.wav,2.7005,2.471,0.167,set business as preferred news category,sad business as preferred news category
+8_F_6.wav,1.5305,1.367,1.0,how does the news skill work,a new steward
+8_F_7.wav,1.7481875,1.585,1.0,will it rain today in manchester,he ran to the end manister
+8_F_8.wav,2.1971875,2.041,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+8_F_9.wav,1.380875,1.268,0.833,do i need an umbrella tomorrow,who i knew umbrellow
+8_G_1.wav,2.6596875,2.495,0.0,how long does it take from london to liverpool by car,how long does it take from london to liverpool by car
+8_G_2.wav,3.271875,2.97,0.333,set my location to kennington road four in london,set my location to kenny rode for in london
+8_G_3.wav,1.5849375,1.455,0.0,i need help with navigation,i need help with navigation
+8_G_4.wav,2.0679375,1.905,0.333,what restaurants are within five kilometres,at restaurants are within five kilometers
+8_G_5.wav,2.061125,1.898,0.111,how far is it to the university of oxford,how far is it to university of oxford
+8_G_6.wav,3.652875,3.386,0.0,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to tower of london on foot
+8_G_7.wav,1.88425,1.718,0.333,find me a burger restaurant nearby,find me a burger restaurant near by
+8_G_8.wav,2.0135,1.88,0.444,what's the address of the nearest tesco store,as the address of the nearest testator
+8_H_1.wav,1.612125,1.508,0.0,how many feet are in a mile,how many feet are in a mile
+8_H_2.wav,1.768625,1.601,0.333,what's seven times forty four,at seven times forty four
+8_H_3.wav,2.46925,2.259,0.222,what's two hundred twenty five divided by five,at two hundred twenty five divided by five
+8_H_4.wav,2.5916875,2.396,0.556,what's fifteen percent of one hundred twenty eight,at fifteen per cent of one hundred and twenty eight
+8_H_5.wav,2.21075,2.022,0.125,is three hundred thirty seven a prime number,three hundred thirty seven a prime number
+8_I_1.wav,1.62575,1.504,0.0,what's the definition of cat,what's the definition of cat
+8_I_2.wav,1.5645625,1.414,0.2,what does to share mean,what does to share me
+8_I_3.wav,1.3128125,1.229,0.0,how do you spell date,how do you spell date
+8_I_4.wav,1.7481875,1.622,0.0,tell me words that start with an a,tell me words that start with an a
+8_I_5.wav,3.0610625,2.735,0.5,which words contain c o n,which words contained sea o an
+8_I_6.wav,1.319625,1.229,0.25,can you translate cat,and you translate cat
+8_I_7.wav,1.380875,1.266,0.0,what is dog in german,what is dog in german
+8_I_8.wav,2.680125,2.478,0.0,set the number of words for translations to three,set the number of words for translations to three
+8_I_9.wav,1.8434375,1.687,0.333,what is another word for dashboard,what is another word for dash board
+8_J_1.wav,1.5509375,1.437,0.143,turn on the living room lights please,turn on the living room lights place
+8_J_2.wav,2.408,2.253,0.0,set the temperature in the kitchen to twenty two degrees,set the temperature in the kitchen to twenty two degrees
+8_J_3.wav,1.823,1.689,0.333,set the shutters to fifty percent,set the shutters to fifty per cent
+8_J_4.wav,1.7005625,1.585,0.0,please lower the blinds by half,please lower the blinds by half
+8_K_1.wav,1.646125,1.518,0.0,how old is queen elizabeth,how old is queen elizabeth
+8_K_10.wav,0.993125,0.926,0.6,do you like to travel,to act to travel
+8_K_11.wav,1.217625,1.144,0.143,what kind of music do you like,a kind of music do you like
+8_K_2.wav,1.448875,1.358,0.0,how many people live in australia,how many people live in australia
+8_K_3.wav,1.7141875,1.59,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+8_K_4.wav,1.3740625,1.296,0.667,how long is the river danube,along as the river denue
+8_K_5.wav,2.067875,1.931,0.444,how tall is the tallest mountain in the alps,how to all was the tallest mountain in the hope
+8_K_6.wav,1.85025,1.682,0.571,which movies did tom cruise play in,which moves the tom crisply in
+8_K_7.wav,0.9795,0.934,0.0,what do you dream about,what do you dream about
+8_K_8.wav,1.122375,1.029,0.8,what's your favourite colour,at your favorite color
+8_K_9.wav,1.4080625,1.313,0.0,what do you do when i'm not home,what do you do when i'm not home
+9_A_1.wav,2.16075,1.923,1.0,athena turn on the lights,i then geradheit
+9_A_2.wav,2.215125,1.983,0.2,minerva turn on the lights,manava turn on the lights
+9_A_3.wav,2.3604375,2.132,0.4,artemis turn on the lights,as themis turn on the lights
+9_A_4.wav,2.3604375,2.106,1.0,freya turn on the lights,fra geradheit
+9_A_5.wav,2.2696875,2.035,0.0,james turn on the lights,james turn on the lights
+9_A_6.wav,2.560125,2.294,0.0,computer turn on the lights,computer turn on the lights
+9_B_1.wav,1.979125,1.773,1.0,mute unmute,mute and mute
+9_B_2.wav,2.4149375,2.14,1.0,stop abort,step aboard
+9_B_3.wav,2.10625,1.864,1.0,pause resume,has ou
+9_B_4.wav,2.45125,2.161,0.0,next back,next back
+9_B_5.wav,1.0349375,0.947,0.0,louder,louder
+9_B_6.wav,1.3618125,1.24,0.5,turn the volume down,turned a volume down
+9_B_7.wav,1.797625,1.616,0.5,set volume to six,said aram to six
+9_C_1.wav,2.124375,1.921,0.333,play some music by bon jovi,play some music by undue
+9_C_2.wav,2.7599375,2.481,0.833,play my eighties rock playlist now,they may at the rock cradles now
+9_C_3.wav,1.8520625,1.684,0.6,what song is currently playing,what songs can be playing
+9_C_4.wav,2.2151875,2.008,0.714,please add this song to my favourites,these at the sun to my papers
+9_C_5.wav,2.124375,1.966,0.0,what can i do with the music skill,what can i do with the music skill
+9_D_1.wav,3.2683125,2.948,0.429,set an alarm for five am please,said an alarm for five amply
+9_D_2.wav,2.324125,2.141,0.444,how much time is left on my pizza timer,how much time is left them a piece time
+9_D_3.wav,2.74175,2.532,0.222,remind me of the tennis training tonight at five,remind me of the tennis training to night at five
+9_D_4.wav,1.99725,1.809,1.0,cancel all my timers,chance or my time is
+9_D_5.wav,1.3073125,1.196,0.0,what's the date,what's the date
+9_D_6.wav,2.4330625,2.224,0.333,when is easter sunday this year,when this is a sunday this year
+9_E_1.wav,2.2515,2.016,0.875,add milk and cheese to my shopping list,at merganeeta shopping ness
+9_E_2.wav,1.9065,1.713,1.0,create a new appointment,great in your appointments
+9_E_3.wav,4.4666875,4.057,0.231,put doctor smith on my calendar for nineteenth of july at five pm,a doctor smith on my calendar for nineteenth of july at five p m
+9_E_4.wav,2.74175,2.481,0.625,remind me to mow the lawn next saturday,i need to madelon next saturday
+9_E_5.wav,2.34225,2.155,0.625,what reminders do i have for this weekend,let her mind is to i have for this weekend
+9_F_1.wav,2.2333125,2.021,0.0,give me articles about politics,give me articles about politics
+9_F_2.wav,1.3073125,1.205,0.0,tell me the news,tell me the news
+9_F_3.wav,1.616,1.475,0.667,what happened today,what happened to day
+9_F_4.wav,2.5056875,2.259,0.2,which news topics are available,which new topics are available
+9_F_5.wav,2.7961875,2.527,0.5,set business as preferred news category,sad business as treherne category
+9_F_6.wav,1.688625,1.534,0.5,how does the news skill work,how does one to work
+9_F_7.wav,2.1061875,1.92,1.0,will it rain today in manchester,word ran to day and mention
+9_F_8.wav,2.39675,2.211,0.0,what's the weather going to be like on sunday,what's the weather going to be like on sunday
+9_F_9.wav,2.0154375,1.816,1.0,do i need an umbrella tomorrow,janie and ebremar
+9_G_1.wav,3.104875,2.866,0.273,how long does it take from london to liverpool by car,how long does it take from london to live a good by car
+9_G_2.wav,3.3409375,3.025,0.444,set my location to kennington road four in london,said bilocation to kennington road for in london
+9_G_3.wav,1.8520625,1.703,0.0,i need help with navigation,i need help with navigation
+9_G_4.wav,3.123,2.812,0.667,what restaurants are within five kilometres,but restaurants have been five colonus
+9_G_5.wav,2.542,2.314,0.111,how far is it to the university of oxford,how far is it to university of oxford
+9_G_6.wav,3.7766875,3.47,0.143,how long does it take from buckingham palace to tower of london on foot,how long does it take from buckingham palace to call off london on foot
+9_G_7.wav,1.924625,1.723,1.0,find me a burger restaurant nearby,i m p agaston near by
+9_G_8.wav,2.9051875,2.642,0.222,what's the address of the nearest tesco store,what's the address of the nearest testator
+9_H_1.wav,2.197,1.984,0.143,how many feet are in a mile,how many feet in a mile
+9_H_2.wav,2.1061875,1.909,0.167,what's seven times forty four,what seven times forty four
+9_H_3.wav,3.32275,3.053,0.333,what's two hundred twenty five divided by five,what through hundreds twenty five divided by five
+9_H_4.wav,2.9233125,2.699,0.444,what's fifteen percent of one hundred twenty eight,was fifteen per cent of one hundred twenty eight
+9_H_5.wav,2.7780625,2.533,0.5,is three hundred thirty seven a prime number,his free handed there seven a prime number
+9_I_1.wav,1.434375,1.337,0.167,what's the definition of cat,what's a definition of cat
+9_I_2.wav,1.5251875,1.383,0.8,what does to share mean,were this to shamming
+9_I_3.wav,1.3618125,1.256,0.2,how do you spell date,how do you spell dates
+9_I_4.wav,1.9790625,1.813,0.5,tell me words that start with an a,tell me words i started a
+9_I_5.wav,3.26825,2.92,0.5,which words contain c o n,which read contain s o and
+9_I_6.wav,1.5615625,1.412,0.0,can you translate cat,can you translate cat
+9_I_7.wav,1.5251875,1.389,0.2,what is dog in german,what is dark in german
+9_I_8.wav,3.159375,2.883,0.111,set the number of words for translation to three,said the number of words for translation to three
+9_I_9.wav,2.2696875,2.083,0.167,what is another word for dashboard,what is another word for passport
+9_J_1.wav,2.523875,2.267,0.0,turn on the living room lights please,turn on the living room lights please
+9_J_2.wav,3.5769375,3.264,0.4,set the temperature in the kitchen to twenty two degrees,sent a temperature in the kitchen to twenty the degree
+9_J_3.wav,2.2151875,2.019,0.5,set the shutters to fifty percent,said the shutters to fifty per cent
+9_J_4.wav,2.05175,1.859,0.5,please lower the blinds by half,this lowered the blind by half
+9_K_1.wav,1.7794375,1.62,0.4,how old is queen elizabeth,how old is greensheve
+9_K_10.wav,1.053125,0.975,0.4,do you like to travel,do like travel
+9_K_11.wav,1.570625,1.429,0.286,what kind of music do you like,what kind of music i like
+9_K_2.wav,2.0154375,1.87,0.0,how many people live in australia,how many people live in australia
+9_K_3.wav,2.1425625,1.942,0.0,what's the height of the eiffel tower,what's the height of the eiffel tower
+9_K_4.wav,1.6795625,1.561,1.0,how long is the river danube,along the river then you were
+9_K_5.wav,2.3876875,2.171,0.778,how tall is the tallest mountain in the alps,i'll talk is the tales mountain and yet
+9_K_6.wav,1.942875,1.798,0.714,which movies did tom cruise play in,which moves the sun grows play and
+9_K_7.wav,1.0894375,1.017,0.0,what do you dream about,what do you dream about
+9_K_8.wav,1.171125,1.073,0.8,what's your favourite colour,what a favorite color
+9_K_9.wav,1.734,1.623,0.3,what do you do when i'm not at home,what do you do when not a home
+AvgProcTime (sec/second of audio),0.9065244212179439
+AvgWER,0.37302317554240555
