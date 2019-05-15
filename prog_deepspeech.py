@@ -20,7 +20,7 @@ from timeit import default_timer as timer
  
 IS_GLOBAL_DIRECTORIES = True
 USING_GPU = False
-USE_LANGUAGE_MODEL = False
+USE_LANGUAGE_MODEL = True
 VERBOSE = True
 ##############################################################################
 # ------------------------Documenting Machine ID
@@ -159,6 +159,7 @@ current_audio_number = 1
 for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
     audio_group.sort()
     audio_transcripts = open(audio_text_group_path[0], 'r').readlines()
+    audio_transcripts.sort()
     for audio_path, audio_transcript in zip(audio_group, audio_transcripts):
         
         print("\n=> Progress = " + "{0:.2f}".format((current_audio_number/num_of_audiofiles)*100) + "%\n" )
