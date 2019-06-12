@@ -75,8 +75,8 @@ N_CONTEXT = 9
     
 output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
-lm_path = "models/v" + DEEPSPEECH_VERSION + "lm.binary"
-trie_path = "models/v" + DEEPSPEECH_VERSION + "trie"
+lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
+trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
 
 print('Loading inference model from files {}'.format(output_graph_path),
           file=sys.stderr)
