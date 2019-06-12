@@ -63,7 +63,7 @@ def prepare_pathes(directory, exten = '', global_dir=False):
     updated_pathes.sort()
     return updated_pathes
 
-def get_meta_pathes(platform_meta_path):
+def get_metafiles_pathes(platform_meta_path):
     localtime = time.strftime("%Y%m%d-%H%M%S")
     log_filepath = platform_meta_path  +"/logs_" + localtime + ".txt"
     benchmark_filepath = platform_meta_path  +"/deepspeech041_benchmark_ " + localtime + ".csv"

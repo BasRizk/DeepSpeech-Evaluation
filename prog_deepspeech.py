@@ -23,7 +23,7 @@ DEEPSPEECH_VERSION="0.5.0"
 TEST_PATH="tests/LibriSpeech/test-clean"
 IS_GLOBAL_DIRECTORIES = True
 USING_GPU = False
-USE_LANGUAGE_MODEL = False
+USE_LANGUAGE_MODEL = True
 VERBOSE = True
 AUDIO_INPUT = "flac"
 TS_INPUT = "txt"
@@ -37,7 +37,7 @@ platform_meta_path = "logs/" + platform_id
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
     
-document_machine()
+document_machine(platform_meta_path, USING_GPU)
 
 ##############################################################################
 # ------------------------------Preparing pathes
