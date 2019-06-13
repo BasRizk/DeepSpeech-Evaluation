@@ -117,7 +117,7 @@ for text_path in all_text_pathes:
         sample_dir = "/".join(text_path.split("/")[:-1])
         sample_cut = sample[:-1].split(" ")
         sample_audio_path = sample_dir + "/" + sample_cut[0] + "." + AUDIO_INPUT
-        sample_transcript = sample_cut[:-1]
+        sample_transcript = sample_cut[1:]
         
         print("\n=> Progress = " + "{0:.2f}".format((current_audio_number/num_of_audiofiles)*100) + "%\n" )
         current_audio_number+=1
