@@ -32,7 +32,7 @@ TS_INPUT = "txt"
 ##############################################################################
 
 platform_id = get_platform_id()
-platform_meta_path = "logs/" + platform_id
+platform_meta_path = "logs/" + DEEPSPEECH_VERSION + "/" + platform_id
 
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
