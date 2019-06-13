@@ -9,96 +9,50 @@ Created on Tue Mar 26 14:32:43 2019
 """
 
 from deepspeech import Model
-from os import listdir, path, makedirs
+from os import path, makedirs
 from jiwer import wer    
 import soundfile as sf
-import time
-import platform, os, sys
+import sys
 
 from timeit import default_timer as timer
-
+from utils import get_platform_id, document_machine
+from utils import prepare_pathes, get_metafiles_pathes
  
+
+DEEPSPEECH_VERSION="0.5.0"
+TEST_PATH="tests/LibriSpeech/test-clean"
 IS_GLOBAL_DIRECTORIES = True
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
 VERBOSE = True
+AUDIO_INPUT = "flac"
+TS_INPUT = "txt"
 ##############################################################################
 # ------------------------Documenting Machine ID
 ##############################################################################
 
-def cpu_info():
-    if platform.system() == 'Windows':
-        return platform.processor()
-    elif platform.system() == 'Darwin':
-        command = '/usr/sbin/sysctl -n machdep.cpu.brand_string'
-        return os.popen(command).read().strip()
-    elif platform.system() == 'Linux':
-        command = 'cat /proc/cpuinfo'
-        return os.popen(command).read().strip()
-    return 'platform not identified'
-
-def gpu_info():
-    if platform.system() == 'Linux':
-        command = 'nvidia-smi'
-        return os.popen(command).read().strip()
-    return 'platform not identified'
-
-localtime = time.strftime("%Y%m%d-%H%M%S")
-platform_id = platform.machine() + "_" + platform.system() + "_" +\
-                platform.node() + "_" + localtime
+platform_id = get_platform_id()
 platform_meta_path = "logs/" + platform_id
 
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
-
-if(USING_GPU):
-    with open(os.path.join(platform_meta_path,"gpu_info.txt"), 'w') as f:
-        f.write(gpu_info())
-else:
-    with open(os.path.join(platform_meta_path,"cpu_info.txt"), 'w') as f:
-        f.write(cpu_info())
-
+    
+document_machine(platform_meta_path, USING_GPU)
 
 ##############################################################################
 # ------------------------------Preparing pathes
 ##############################################################################
-def prepare_pathes(directory, exten = '', global_dir=False):
-    updated_pathes = list()
-    if(global_dir):
-        subdirectories = listdir(directory)
-        subdirectories.sort()
-        for subdirectory in subdirectories:
-            subdirectory = path.join(directory, subdirectory)
-            filenames = listdir(subdirectory)
-            filenames.sort()
-            for filename in filenames:
-                if(filename.endswith(exten)):
-                    updated_pathes.append(path.join(subdirectory, filename))
-            updated_pathes.sort()
-    else:
-        filenames = listdir(directory)
-        for filename in filenames:
-            if(filename.endswith(exten)):
-                updated_pathes.append(path.join(directory, filename))
-    updated_pathes.sort()
-    return updated_pathes
 
-localtime = time.strftime("%Y%m%d-%H%M%S")
-log_filepath = platform_meta_path  +"/logs_" + localtime + ".txt"
-benchmark_filepath = platform_meta_path  +"/deepspeech041_benchmark_ " + localtime + ".csv"
-test_directories = prepare_pathes("tests/current_tests")
+log_filepath, benchmark_filepath = get_metafiles_pathes(platform_meta_path)
+
+test_directories = prepare_pathes(TEST_PATH)
 audio_pathes = list()
 text_pathes = list()
 for d in test_directories:
-    audio_pathes.append(prepare_pathes(d, "flac", global_dir=IS_GLOBAL_DIRECTORIES))
-    text_pathes.append(prepare_pathes(d, "txt", global_dir=IS_GLOBAL_DIRECTORIES))
+    audio_pathes.append(prepare_pathes(d, AUDIO_INPUT, global_dir=IS_GLOBAL_DIRECTORIES))
+    text_pathes.append(prepare_pathes(d, TS_INPUT, global_dir=IS_GLOBAL_DIRECTORIES))
 audio_pathes.sort()
 text_pathes.sort()    
-    
-#    audio_pathes = prepare_pathes("tests/audio", "flac")
-#    audio_pathes.sort()
-#    text_path = prepare_pathes("tests/text", "txt")
-#    audio_transcripts = open(text_path[0], 'r').readlines()
 
 ##############################################################################
 # ----------------------------- Model Loading 
@@ -118,11 +72,11 @@ LM_BETA = 1.85
 N_FEATURES = 26
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
-
-output_graph_path = "models/output_graph.pb"
-alphabet_path = "models/alphabet.txt"
-lm_path = "models/lm.binary"
-trie_path = "models/trie"
+    
+output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
+alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
+lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
+trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
 
 print('Loading inference model from files {}'.format(output_graph_path),
           file=sys.stderr)
