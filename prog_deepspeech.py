@@ -133,7 +133,7 @@ for text_path in all_text_pathes:
         proc_time = round(inference_end, 3)
 
         # Processing WORD ERROR RATE (WER)
-        actual_text = " ".join(sample_transcript[1:]).lower()
+        actual_text = " ".join(sample_transcript).lower()
         current_wer = wer(actual_text, processed_text, standardize=True)
         current_wer = round(current_wer,3)
         
