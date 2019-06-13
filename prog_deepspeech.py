@@ -32,7 +32,7 @@ TS_INPUT = "txt"
 ##############################################################################
 
 platform_id = get_platform_id()
-platform_meta_path = "logs/" + DEEPSPEECH_VERSION + "/" + platform_id
+platform_meta_path = "logs/v" + DEEPSPEECH_VERSION + "/" + platform_id
 
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
@@ -110,33 +110,30 @@ avg_wer = 0
 avg_proc_time = 0
 num_of_audiofiles = len([item for sublist in audio_pathes for item in sublist])
 current_audio_number = 1
-for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
-    audio_group.sort()
-    audio_transcripts = open(audio_text_group_path[0], 'r').readlines()
-    audio_transcripts.sort()
-    for audio_path, audio_transcript in zip(audio_group, audio_transcripts):
+all_text_pathes = [item for sublist in text_pathes for item in sublist]
+for text_path in all_text_pathes:
+    audio_transcripts = open(text_path, 'r').readlines()
+    for sample in audio_transcripts:    
+        sample_dir = "/".join(text_path.split("/")[:-1])
+        sample_cut = sample[:-1].split(" ")
+        sample_audio_path = sample_dir + "/" + sample_cut[0] + "." + AUDIO_INPUT
+        sample_transcript = sample_cut[:-1]
         
         print("\n=> Progress = " + "{0:.2f}".format((current_audio_number/num_of_audiofiles)*100) + "%\n" )
         current_audio_number+=1
-        
-        audio, fs = sf.read(audio_path, dtype='int16')
-        audio_len = len(audio)/fs 
 
-        #start_proc = time.time()
+        audio, fs = sf.read(sample_audio_path, dtype='int16')
+        audio_len = len(audio)/fs 
+            
         print('Running inference.', file=sys.stderr)
         inference_start = timer()
         processed_text = ds.stt(audio, fs)
         inference_end = timer() - inference_start
-        print('Inference took %0.3fs for %0.3fs audio file.' % (inference_end, audio_len))
-        #end = time.time()
-       
-        proc_time = inference_end
-        proc_time = round(proc_time,3)
+        print('Inference took %0.3fs for %0.3fs audio file.' % (inference_end, audio_len))       
+        proc_time = round(inference_end, 3)
 
-    
         # Processing WORD ERROR RATE (WER)
-        audio_transcript = audio_transcript[:-1].split(" ")
-        actual_text = " ".join(audio_transcript[1:]).lower()
+        actual_text = " ".join(sample_transcript[1:]).lower()
         current_wer = wer(actual_text, processed_text, standardize=True)
         current_wer = round(current_wer,3)
         
@@ -144,20 +141,18 @@ for audio_group, audio_text_group_path in zip(audio_pathes, text_pathes):
         avg_proc_time += (proc_time/(audio_len))
         avg_wer += current_wer
         
-        
-        audio_path = audio_path.split("/")[-1]
-        progress_row = audio_path + "," + str(audio_len) + "," + str(proc_time)  + "," +\
+        progress_row = sample_audio_path + "," + str(audio_len) + "," + str(proc_time)  + "," +\
                         str(current_wer) + "," + actual_text + "," + processed_text
                          
         if(VERBOSE):
-            print("# File (" + audio_path + "):\n" +\
+            print("# File (" + sample_audio_path + "):\n" +\
                   "# - " + str(audio_len) + " seconds long.\n"+\
                   "# - actual    text: '" + actual_text + "'\n" +\
                   "# - processed text: '" + processed_text + "'\n" +\
                   "# - processed in "  + str(proc_time) + " seconds.\n"
                   "# - WER = "  + str(current_wer) + "\n")
                   
-        log_file.write("# File (" + audio_path + "):\n" +\
+        log_file.write("# File (" + sample_audio_path + "):\n" +\
               "# - " + str(audio_len) + " seconds long.\n"+\
               "# - actual    text: '" + actual_text + "'\n" +\
               "# - processed text: '" + processed_text + "'\n" +\
@@ -178,8 +173,8 @@ if(VERBOSE):
 log_file.write("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
 log_file.close()
-processed_data+= "AvgProcTime (sec/second of audio)," + str(avg_proc_time) + "\n"
-processed_data+= "AvgWER," + str(avg_wer) + "\n"
+processed_data+= "AvgProcTime (sec/second of audio)," + str(avg_proc_time) + ",,,," + "\n"
+processed_data+= "AvgWER," + str(avg_wer) + ",,,,,"+ "\n"
 
 
 with open(benchmark_filepath, 'w') as f:
