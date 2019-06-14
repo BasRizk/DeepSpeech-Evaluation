@@ -42,13 +42,40 @@ def document_machine(platform_meta_path, USING_GPU):
 ##############################################################################
 # ------------------------------Preparing pathes
 ##############################################################################
-def prepare_pathes(directory, exten = '', global_dir=False):
+#def prepare_pathes(directory, exten = '', global_dir=False):
+#    updated_pathes = list()
+#    if(global_dir):
+#        subdirectories = listdir(directory)
+#        subdirectories.sort()
+#        for subdirectory in subdirectories:
+#            subdirectory = path.join(directory, subdirectory)
+#            filenames = listdir(subdirectory)
+#            filenames.sort()
+#            for filename in filenames:
+#                if(filename.endswith(exten)):
+#                    updated_pathes.append(path.join(subdirectory, filename))
+#            updated_pathes.sort()
+#    else:
+#        filenames = listdir(directory)
+#        for filename in filenames:
+#            if(filename.endswith(exten)):
+#                updated_pathes.append(path.join(directory, filename))
+#    updated_pathes.sort()
+#    return updated_pathes
+
+def prepare_pathes(directory, exten = '', recursive=True):
+    if not path.isdir(directory):
+        print(directory + " is not a directory.")
+        return
     updated_pathes = list()
-    if(global_dir):
+    if recursive:
         subdirectories = listdir(directory)
         subdirectories.sort()
         for subdirectory in subdirectories:
             subdirectory = path.join(directory, subdirectory)
+            if not path.isdir(subdirectory):
+                print(subdirectory + " is not a directory.")
+                continue
             filenames = listdir(subdirectory)
             filenames.sort()
             for filename in filenames:
@@ -56,10 +83,15 @@ def prepare_pathes(directory, exten = '', global_dir=False):
                     updated_pathes.append(path.join(subdirectory, filename))
             updated_pathes.sort()
     else:
-        filenames = listdir(directory)
-        for filename in filenames:
-            if(filename.endswith(exten)):
-                updated_pathes.append(path.join(directory, filename))
+        # filenames or sub directories
+        subdirectories = listdir(directory)
+        for subdir in subdirectories:
+            subdir = path.join(directory, subdir)
+            if (path.isdir(subdir) and exten == ''):
+                updated_pathes.append(subdir)
+            elif(subdir.endswith(exten) and not exten == ''):
+                updated_pathes.append(subdir)
+                
     updated_pathes.sort()
     return updated_pathes
 

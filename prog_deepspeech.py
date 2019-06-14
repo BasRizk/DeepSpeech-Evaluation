@@ -20,13 +20,21 @@ from utils import prepare_pathes, get_metafiles_pathes
  
 
 DEEPSPEECH_VERSION="0.5.0"
-TEST_PATH="tests/LibriSpeech/test-clean"
-IS_GLOBAL_DIRECTORIES = True
+TEST_PATH="tests/iisys_tests"
+assert(path.exists(TEST_PATH))
+IS_TSV = True
+IS_RECURSIVE_DIRECTORIES = False
+#IS_GLOBAL_DIRECTORIES = False
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
 VERBOSE = True
-AUDIO_INPUT = "flac"
-TS_INPUT = "txt"
+if IS_TSV:
+    TS_INPUT = "tsv"
+    AUDIO_INPUT = "wav"
+else:
+    TS_INPUT = "txt"
+    AUDIO_INPUT = "flac"
+
 ##############################################################################
 # ------------------------Documenting Machine ID
 ##############################################################################
@@ -45,12 +53,12 @@ document_machine(platform_meta_path, USING_GPU)
 
 log_filepath, benchmark_filepath = get_metafiles_pathes(platform_meta_path)
 
-test_directories = prepare_pathes(TEST_PATH)
+test_directories = prepare_pathes(TEST_PATH, recursive = IS_RECURSIVE_DIRECTORIES)
 audio_pathes = list()
 text_pathes = list()
 for d in test_directories:
-    audio_pathes.append(prepare_pathes(d, AUDIO_INPUT, global_dir=IS_GLOBAL_DIRECTORIES))
-    text_pathes.append(prepare_pathes(d, TS_INPUT, global_dir=IS_GLOBAL_DIRECTORIES))
+    audio_pathes.append(prepare_pathes(d, AUDIO_INPUT, recursive = False))
+    text_pathes.append(prepare_pathes(d, TS_INPUT, recursive = False))
 audio_pathes.sort()
 text_pathes.sort()    
 
@@ -115,7 +123,10 @@ for text_path in all_text_pathes:
     audio_transcripts = open(text_path, 'r').readlines()
     for sample in audio_transcripts:    
         sample_dir = "/".join(text_path.split("/")[:-1])
-        sample_cut = sample[:-1].split(" ")
+        if IS_TSV:
+            sample_cut = sample[:-1].split("\t")
+        else:
+            sample_cut = sample[:-1].split(" ")
         sample_audio_path = sample_dir + "/" + sample_cut[0] + "." + AUDIO_INPUT
         sample_transcript = sample_cut[1:]
         
