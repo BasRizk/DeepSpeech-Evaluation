@@ -21,7 +21,11 @@ from utils import prepare_pathes, get_metafiles_pathes
 #DEEPSPEECH_VERSION="0.4.1"
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
-TEST_PATH="tests/iisys/Sprecher"
+TEST_PATH="tests/LibriSpeech/test-clean"
+USING_GPU = False
+USE_LANGUAGE_MODEL = True
+USE_MEMORY_MAPPED_MODEL = True
+VERBOSE = True
 assert(path.exists(TEST_PATH))
 
 try:
@@ -35,10 +39,7 @@ if  TEST_CORPUS == "iisys":
 else:
     TS_TSV = False
     IS_RECURSIVE_DIRECTORIES = True
-        
-USING_GPU = False
-USE_LANGUAGE_MODEL = True
-VERBOSE = True
+    
 if IS_TSV:
     TS_INPUT = "tsv"
     AUDIO_INPUT = "wav"
@@ -56,16 +57,24 @@ except:
 ##############################################################################
 
 platform_id = get_platform_id()
-platform_meta_path = "logs/v" + DEEPSPEECH_VERSION + "/" + platform_id
 
 if USE_LANGUAGE_MODEL:
-    platform_meta_path += "_use_lm"
+    platform_id += "_use_lm"
+    
+if USE_MEMORY_MAPPED_MODEL:
+    platform_id += "_use_pbmmm"
     
 if USING_GPU:
-    platform_meta_path += "_use_gpu"
+    platform_id += "_use_gpu"
 
 if TEST_CORPUS:
-    platform_meta_path = TEST_CORPUS + "_" + platform_meta_path
+    platform_id = TEST_CORPUS + "_" + platform_id
+    
+
+    
+platform_meta_path = "logs/v" + DEEPSPEECH_VERSION + "/" + platform_id
+
+
     
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
@@ -105,8 +114,10 @@ LM_BETA = 1.85
 N_FEATURES = 26
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
-    
+
 output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
+if USE_MEMORY_MAPPED_MODEL:
+    output_graph_path += "mm"
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
 lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
 trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
