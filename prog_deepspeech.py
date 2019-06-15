@@ -21,11 +21,21 @@ from utils import prepare_pathes, get_metafiles_pathes
 #DEEPSPEECH_VERSION="0.4.1"
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
-TEST_PATH="tests/LibriSpeech/test-clean"
+TEST_PATH="tests/iisys/Sprecher"
 assert(path.exists(TEST_PATH))
-IS_TSV = False
-IS_RECURSIVE_DIRECTORIES = True
-#IS_GLOBAL_DIRECTORIES = False
+
+try:
+    TEST_CORPUS = TEST_PATH.split("/")[1]
+except:
+    print("WARNING: Path 2nd index does not exist.\n")
+
+if  TEST_CORPUS == "iisys":
+    IS_TSV = True
+    IS_RECURSIVE_DIRECTORIES = False
+else:
+    TS_TSV = False
+    IS_RECURSIVE_DIRECTORIES = True
+        
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
 VERBOSE = True
@@ -36,6 +46,11 @@ else:
     TS_INPUT = "txt"
     AUDIO_INPUT = "flac"
 
+try:
+    if TEST_PATH.split("/")[2] == "Sprecher":
+        AUDIO_INPUT="flac"
+except:
+    print("WARNING: Path 3rd index does not exist.\n")
 ##############################################################################
 # ------------------------Documenting Machine ID
 ##############################################################################
@@ -43,6 +58,15 @@ else:
 platform_id = get_platform_id()
 platform_meta_path = "logs/v" + DEEPSPEECH_VERSION + "/" + platform_id
 
+if USE_LANGUAGE_MODEL:
+    platform_meta_path += "_use_lm"
+    
+if USING_GPU:
+    platform_meta_path += "_use_gpu"
+
+if TEST_CORPUS:
+    platform_meta_path = TEST_CORPUS + "_" + platform_meta_path
+    
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
     
