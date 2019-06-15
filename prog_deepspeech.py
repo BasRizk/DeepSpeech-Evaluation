@@ -21,7 +21,7 @@ from utils import prepare_pathes, get_metafiles_pathes
 #DEEPSPEECH_VERSION="0.4.1"
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
-TEST_PATH="tests/iisys/Sprecher"
+TEST_PATH="tests/iisys"
 assert(path.exists(TEST_PATH))
 
 try:
