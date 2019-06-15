@@ -37,7 +37,7 @@ if  TEST_CORPUS == "iisys":
     IS_TSV = True
     IS_RECURSIVE_DIRECTORIES = False
 else:
-    TS_TSV = False
+    IS_TSV = False
     IS_RECURSIVE_DIRECTORIES = True
     
 if IS_TSV:
