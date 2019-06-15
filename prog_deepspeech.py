@@ -18,12 +18,13 @@ from timeit import default_timer as timer
 from utils import get_platform_id, document_machine
 from utils import prepare_pathes, get_metafiles_pathes
  
-
-DEEPSPEECH_VERSION="0.5.0"
-TEST_PATH="tests/iisys_tests"
+#DEEPSPEECH_VERSION="0.4.1"
+#DEEPSPEECH_VERSION="0.5.0"
+DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
+TEST_PATH="tests/LibriSpeech/test-clean"
 assert(path.exists(TEST_PATH))
-IS_TSV = True
-IS_RECURSIVE_DIRECTORIES = False
+IS_TSV = False
+IS_RECURSIVE_DIRECTORIES = True
 #IS_GLOBAL_DIRECTORIES = False
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
