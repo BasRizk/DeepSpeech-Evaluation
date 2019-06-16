@@ -25,7 +25,7 @@ TEST_PATH="tests/LibriSpeech/test-clean"
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
 USE_MEMORY_MAPPED_MODEL = False
-USE_TF_LITE = True
+USE_TFLITE = True
 VERBOSE = True
 assert(path.exists(TEST_PATH))
 
@@ -118,10 +118,10 @@ N_FEATURES = 26
 N_CONTEXT = 9
 
 output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
-if USE_MEMORY_MAPPED_MODEL and not USE_TF_LITE:
+if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
     print("Using MEMORY MAPPED 'pbmm' model.")
     output_graph_path += ".pbmm"
-elif USE_TF_LIE:
+elif USE_TFLIE:
     print("Using TF LITE 'tflite' model.")
     output_graph_path += ".tflite"
 else:
