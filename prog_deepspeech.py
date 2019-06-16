@@ -62,9 +62,10 @@ platform_id = get_platform_id()
 if USE_LANGUAGE_MODEL:
     platform_id += "_use_lm"
     
-if USE_MEMORY_MAPPED_MODEL:
-    platform_id += "_use_pbmmm"
-    
+if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
+    platform_id += "_use_pbmm"
+elif USE_TFLITE:
+    platform_id += "_use_tflite"
 if USING_GPU:
     platform_id += "_use_gpu"
 
@@ -117,7 +118,7 @@ N_FEATURES = 26
 N_CONTEXT = 9
 
 output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
-if USE_MEMORY_MAPPED_MODEL && not USE_TF_LITE:
+if USE_MEMORY_MAPPED_MODEL and not USE_TF_LITE:
     print("Using MEMORY MAPPED 'pbmm' model.")
     output_graph_path += ".pbmm"
 elif USE_TF_LIE:
