@@ -24,8 +24,8 @@ DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
 TEST_PATH="tests/LibriSpeech/test-clean"
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
-USE_MEMORY_MAPPED_MODEL = False
-USE_TFLITE = True
+USE_TFLITE = False
+USE_MEMORY_MAPPED_MODEL = True
 VERBOSE = True
 assert(path.exists(TEST_PATH))
 
