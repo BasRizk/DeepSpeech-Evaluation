@@ -121,7 +121,7 @@ output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
 if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
     print("Using MEMORY MAPPED 'pbmm' model.")
     output_graph_path += ".pbmm"
-elif USE_TFLIE:
+elif USE_TFLITE:
     print("Using TF LITE 'tflite' model.")
     output_graph_path += ".tflite"
 else:
