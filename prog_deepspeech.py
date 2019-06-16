@@ -24,7 +24,8 @@ DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
 TEST_PATH="tests/LibriSpeech/test-clean"
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
-USE_MEMORY_MAPPED_MODEL = True
+USE_MEMORY_MAPPED_MODEL = False
+USE_TF_LITE = True
 VERBOSE = True
 assert(path.exists(TEST_PATH))
 
@@ -115,9 +116,17 @@ N_FEATURES = 26
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
 
-output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
-if USE_MEMORY_MAPPED_MODEL:
-    output_graph_path += "mm"
+output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
+if USE_MEMORY_MAPPED_MODEL && not USE_TF_LITE:
+    print("Using MEMORY MAPPED 'pbmm' model.")
+    output_graph_path += ".pbmm"
+elif USE_TF_LIE:
+    print("Using TF LITE 'tflite' model.")
+    output_graph_path += ".tflite"
+else:
+    print("Using Regular 'pb' model.")
+    output_graph_path += ".pb"
+
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
 lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
 trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
