@@ -31,7 +31,7 @@ assert(path.exists(TEST_PATH))
 
 try:
     TEST_CORPUS = TEST_PATH.split("/")[1]
-    if TEST_CORPUS == "librispeech":
+    if TEST_CORPUS.lower() == "librispeech":
         TEST_CORPUS += "_" + TEST_PATH.split("/")[2]
 except:
     print("WARNING: Path 2nd index does not exist.\n")
