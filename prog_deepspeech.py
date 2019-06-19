@@ -21,15 +21,18 @@ from utils import prepare_pathes, get_metafiles_pathes
 #DEEPSPEECH_VERSION="0.4.1"
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
-TEST_PATH="tests/LibriSpeech/test-clean"
+TEST_PATH="tests/LibriSpeech/test-other"
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
+USE_TFLITE = False
 USE_MEMORY_MAPPED_MODEL = True
 VERBOSE = True
 assert(path.exists(TEST_PATH))
 
 try:
     TEST_CORPUS = TEST_PATH.split("/")[1]
+    if TEST_CORPUS.lower() == "librispeech":
+        TEST_CORPUS += "_" + TEST_PATH.split("/")[2]
 except:
     print("WARNING: Path 2nd index does not exist.\n")
 
@@ -61,9 +64,10 @@ platform_id = get_platform_id()
 if USE_LANGUAGE_MODEL:
     platform_id += "_use_lm"
     
-if USE_MEMORY_MAPPED_MODEL:
-    platform_id += "_use_pbmmm"
-    
+if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
+    platform_id += "_use_pbmm"
+elif USE_TFLITE:
+    platform_id += "_use_tflite"
 if USING_GPU:
     platform_id += "_use_gpu"
 
@@ -115,9 +119,17 @@ N_FEATURES = 26
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
 
-output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
-if USE_MEMORY_MAPPED_MODEL:
-    output_graph_path += "mm"
+output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
+if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
+    print("Using MEMORY MAPPED 'pbmm' model.")
+    output_graph_path += ".pbmm"
+elif USE_TFLITE:
+    print("Using TF LITE 'tflite' model.")
+    output_graph_path += ".tflite"
+else:
+    print("Using Regular 'pb' model.")
+    output_graph_path += ".pb"
+
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
 lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
 trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
