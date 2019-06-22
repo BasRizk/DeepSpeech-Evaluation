@@ -22,7 +22,7 @@ from utils import prepare_pathes, get_metafiles_pathes
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
 TEST_PATH="tests/LibriSpeech/test-clean"
-USING_GPU = False
+USING_GPU = True
 USE_LANGUAGE_MODEL = True
 USE_MEMORY_MAPPED_MODEL = True
 VERBOSE = True
@@ -117,6 +117,7 @@ N_CONTEXT = 9
 
 output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
 if USE_MEMORY_MAPPED_MODEL:
+    print("Using MEMORY MAPPED 'pbmm' model\n")
     output_graph_path += "mm"
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
 lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"

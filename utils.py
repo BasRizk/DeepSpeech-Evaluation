@@ -22,7 +22,9 @@ def cpu_info():
 def gpu_info():
     if platform.system() == 'Linux':
         command = 'nvidia-smi'
-        return os.popen(command).read().strip()
+        if not os.popen(command).read().strip() == "":
+            return os.popen(command).read().strip()
+        return "Probably running on Jetson NANO with Nvidia MaxWel GPU - Tegra"
     return 'platform not identified'
 
 
