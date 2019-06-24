@@ -21,7 +21,10 @@ from utils import prepare_pathes, get_metafiles_pathes
 #DEEPSPEECH_VERSION="0.4.1"
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
-TEST_PATH="tests/LibriSpeech/test-clean"
+
+#TEST_PATH="tests/LibriSpeech/test-clean"
+TEST_PATH="tests/LibriSpeech/test-other"
+
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
 USE_TFLITE = False
@@ -119,6 +122,12 @@ N_FEATURES = 26
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
 
+<<<<<<< HEAD
+output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
+if USE_MEMORY_MAPPED_MODEL:
+    print("Using MEMORY MAPPED 'pbmm' model\n")
+    output_graph_path += "mm"
+=======
 output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
 if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
     print("Using MEMORY MAPPED 'pbmm' model.")
@@ -130,6 +139,7 @@ else:
     print("Using Regular 'pb' model.")
     output_graph_path += ".pb"
 
+>>>>>>> cb5cfc1b0c2b56e9dbb08954d95306450244f154
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
 lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
 trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
