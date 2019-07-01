@@ -23,7 +23,8 @@ from utils import prepare_pathes, get_metafiles_pathes
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
 
 #TEST_PATH="tests/LibriSpeech/test-clean"
-TEST_PATH="tests/LibriSpeech/test-other"
+#TEST_PATH="tests/LibriSpeech/test-other"
+TEST_PATH="tests/iisys"
 
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
