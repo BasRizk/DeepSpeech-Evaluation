@@ -208,14 +208,16 @@ for text_path in all_text_pathes:
                         str(current_wer) + "," + actual_text + "," + processed_text
                          
         if(VERBOSE):
-            print("# File (" + sample_audio_path + "):\n" +\
+            print("# Audio number " + str(current_audio_number) + "/" + str(num_of_audiofiles) +"\n" +\
+                  "# File (" + sample_audio_path + "):\n" +\
                   "# - " + str(audio_len) + " seconds long.\n"+\
                   "# - actual    text: '" + actual_text + "'\n" +\
                   "# - processed text: '" + processed_text + "'\n" +\
                   "# - processed in "  + str(proc_time) + " seconds.\n"
                   "# - WER = "  + str(current_wer) + "\n")
                   
-        log_file.write("# File (" + sample_audio_path + "):\n" +\
+        log_file.write("# Audio number " + str(current_audio_number) + "/" + str(num_of_audiofiles) +"\n" +\
+              "# File (" + sample_audio_path + "):\n" +\
               "# - " + str(audio_len) + " seconds long.\n"+\
               "# - actual    text: '" + actual_text + "'\n" +\
               "# - processed text: '" + processed_text + "'\n" +\
@@ -228,8 +230,8 @@ for text_path in all_text_pathes:
 ##############################################################################
 # ---------------Finalizing processed data and Saving Logs
 ##############################################################################
-avg_proc_time /= num_of_audiofiles
-avg_wer /= num_of_audiofiles
+avg_proc_time /= current_audio_number
+avg_wer /= current_audio_number
 if(VERBOSE):
     print("Avg. Proc. time (sec/second of audio) = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
