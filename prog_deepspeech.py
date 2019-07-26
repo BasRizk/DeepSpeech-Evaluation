@@ -22,9 +22,11 @@ from utils import prepare_pathes, get_metafiles_pathes
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
 
-TEST_PATH="tests/LibriSpeech/test-other"
-USING_GPU = True
+#TEST_PATH="tests/LibriSpeech/test-clean"
+#TEST_PATH="tests/LibriSpeech/test-other"
+TEST_PATH="tests/iisys"
 
+USING_GPU = False
 USE_LANGUAGE_MODEL = True
 USE_TFLITE = False
 USE_MEMORY_MAPPED_MODEL = True
@@ -50,7 +52,7 @@ if IS_TSV:
     AUDIO_INPUT = "wav"
 else:
     TS_INPUT = "txt"
-    AUDIO_INPUT = "flac"
+    AUDIO_INPUT = "wav"
 
 try:
     if TEST_PATH.split("/")[2] == "Sprecher":
@@ -74,7 +76,7 @@ if USING_GPU:
     platform_id += "_use_gpu"
 
 if TEST_CORPUS:
-    platform_id = TEST_CORPUS + "_" + platform_id
+    platform_id = TEST_CORPUS + "_" + AUDIO_INPUT + "_" + platform_id
     
 
     
@@ -121,24 +123,18 @@ N_FEATURES = 26
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
 
-<<<<<<< HEAD
-output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
-if USE_MEMORY_MAPPED_MODEL:
-    print("Using MEMORY MAPPED 'pbmm' model\n")
-    output_graph_path += "mm"
-=======
+
 output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
 if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
-    print("Using MEMORY MAPPED 'pbmm' model.")
+    print("Using MEMORY MAPPED 'pbmm' model.\n")
     output_graph_path += ".pbmm"
 elif USE_TFLITE:
-    print("Using TF LITE 'tflite' model.")
+    print("Using TF LITE 'tflite' model.\n")
     output_graph_path += ".tflite"
 else:
-    print("Using Regular 'pb' model.")
+    print("Using Regular 'pb' model.\n")
     output_graph_path += ".pb"
 
->>>>>>> cb5cfc1b0c2b56e9dbb08954d95306450244f154
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
 lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
 trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
@@ -213,14 +209,16 @@ for text_path in all_text_pathes:
                         str(current_wer) + "," + actual_text + "," + processed_text
                          
         if(VERBOSE):
-            print("# File (" + sample_audio_path + "):\n" +\
+            print("# Audio number " + str(current_audio_number) + "/" + str(num_of_audiofiles) +"\n" +\
+                  "# File (" + sample_audio_path + "):\n" +\
                   "# - " + str(audio_len) + " seconds long.\n"+\
                   "# - actual    text: '" + actual_text + "'\n" +\
                   "# - processed text: '" + processed_text + "'\n" +\
                   "# - processed in "  + str(proc_time) + " seconds.\n"
                   "# - WER = "  + str(current_wer) + "\n")
                   
-        log_file.write("# File (" + sample_audio_path + "):\n" +\
+        log_file.write("# Audio number " + str(current_audio_number) + "/" + str(num_of_audiofiles) +"\n" +\
+              "# File (" + sample_audio_path + "):\n" +\
               "# - " + str(audio_len) + " seconds long.\n"+\
               "# - actual    text: '" + actual_text + "'\n" +\
               "# - processed text: '" + processed_text + "'\n" +\
@@ -233,8 +231,8 @@ for text_path in all_text_pathes:
 ##############################################################################
 # ---------------Finalizing processed data and Saving Logs
 ##############################################################################
-avg_proc_time /= num_of_audiofiles
-avg_wer /= num_of_audiofiles
+avg_proc_time /= current_audio_number
+avg_wer /= current_audio_number
 if(VERBOSE):
     print("Avg. Proc. time (sec/second of audio) = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
