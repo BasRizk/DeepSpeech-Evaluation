@@ -20,12 +20,14 @@ from utils import prepare_pathes, get_metafiles_pathes
 
 #DEEPSPEECH_VERSION="0.4.1"
 #DEEPSPEECH_VERSION="0.5.0"
-DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
+#DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
+DEEPSPEECH_VERSION="0.5.1"
 
 #TEST_PATH="tests/LibriSpeech/test-clean"
 TEST_PATH="tests/LibriSpeech/test-other"
 #TEST_PATH="tests/iisys"
 
+IS_GLOBAL_DIRECTORIES = True
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
 USE_TFLITE = False

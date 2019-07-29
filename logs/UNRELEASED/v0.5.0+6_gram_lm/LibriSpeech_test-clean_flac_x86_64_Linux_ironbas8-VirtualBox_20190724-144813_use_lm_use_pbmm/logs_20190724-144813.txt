@@ -1,0 +1,14 @@
+Loading inference model from files models/v0.5.0+6_gram_lm/output_graph.pbmmLoaded inference model in 0.0344s.Loading language model from files models/v0.5.0+6_gram_lm/alphabet.txt models/v0.5.0+6_gram_lm/trieLoaded language model in 0.0954s.# Audio number 2/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac):
+# - 10.435 seconds long.
+# - actual    text: 'he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce'
+# - processed text: 'he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce'
+# - processed in 12.893 seconds.
+# - WER = 0.0
+# Audio number 3/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0001.flac):
+# - 3.275 seconds long.
+# - actual    text: 'stuff it into you his belly counselled him'
+# - processed text: 'stuff it into you his belly counselled him'
+# - processed in 2.302 seconds.
+# - WER = 0.0
