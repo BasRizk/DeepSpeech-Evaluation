@@ -22,7 +22,7 @@ from utils import prepare_pathes, get_metafiles_pathes
 DEEPSPEECH_VERSION="0.5.0"
 TEST_PATH="tests/LibriSpeech/test-clean"
 IS_GLOBAL_DIRECTORIES = True
-USING_GPU = False
+USING_GPU = True
 USE_LANGUAGE_MODEL = True
 VERBOSE = True
 AUDIO_INPUT = "flac"
