@@ -18,22 +18,74 @@ from timeit import default_timer as timer
 from utils import get_platform_id, document_machine
 from utils import prepare_pathes, get_metafiles_pathes
  
+#DEEPSPEECH_VERSION="0.4.1"
+#DEEPSPEECH_VERSION="0.5.0"
+#DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
+DEEPSPEECH_VERSION="0.5.1"
 
-DEEPSPEECH_VERSION="0.5.0"
-TEST_PATH="tests/LibriSpeech/test-clean"
+#TEST_PATH="tests/LibriSpeech/test-clean"
+TEST_PATH="tests/LibriSpeech/test-other"
+#TEST_PATH="tests/iisys"
+
 IS_GLOBAL_DIRECTORIES = True
-USING_GPU = True
+USING_GPU = False
 USE_LANGUAGE_MODEL = True
+USE_TFLITE = False
+USE_MEMORY_MAPPED_MODEL = True
 VERBOSE = True
-AUDIO_INPUT = "flac"
-TS_INPUT = "txt"
+assert(path.exists(TEST_PATH))
+
+try:
+    TEST_CORPUS = TEST_PATH.split("/")[1]
+    if TEST_CORPUS.lower() == "librispeech":
+        TEST_CORPUS += "_" + TEST_PATH.split("/")[2]
+except:
+    print("WARNING: Path 2nd index does not exist.\n")
+
+if  TEST_CORPUS == "iisys":
+    IS_TSV = True
+    IS_RECURSIVE_DIRECTORIES = False
+else:
+    IS_TSV = False
+    IS_RECURSIVE_DIRECTORIES = True
+    
+if IS_TSV:
+    TS_INPUT = "tsv"
+    AUDIO_INPUT = "wav"
+else:
+    TS_INPUT = "txt"
+    AUDIO_INPUT = "wav"
+
+try:
+    if TEST_PATH.split("/")[2] == "Sprecher":
+        AUDIO_INPUT="flac"
+except:
+    print("WARNING: Path 3rd index does not exist.\n")
 ##############################################################################
 # ------------------------Documenting Machine ID
 ##############################################################################
 
 platform_id = get_platform_id()
+
+if USE_LANGUAGE_MODEL:
+    platform_id += "_use_lm"
+    
+if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
+    platform_id += "_use_pbmm"
+elif USE_TFLITE:
+    platform_id += "_use_tflite"
+if USING_GPU:
+    platform_id += "_use_gpu"
+
+if TEST_CORPUS:
+    platform_id = TEST_CORPUS + "_" + AUDIO_INPUT + "_" + platform_id
+    
+
+    
 platform_meta_path = "logs/v" + DEEPSPEECH_VERSION + "/" + platform_id
 
+
+    
 if not path.exists(platform_meta_path):
     makedirs(platform_meta_path)
     
@@ -45,12 +97,12 @@ document_machine(platform_meta_path, USING_GPU)
 
 log_filepath, benchmark_filepath = get_metafiles_pathes(platform_meta_path)
 
-test_directories = prepare_pathes(TEST_PATH)
+test_directories = prepare_pathes(TEST_PATH, recursive = IS_RECURSIVE_DIRECTORIES)
 audio_pathes = list()
 text_pathes = list()
 for d in test_directories:
-    audio_pathes.append(prepare_pathes(d, AUDIO_INPUT, global_dir=IS_GLOBAL_DIRECTORIES))
-    text_pathes.append(prepare_pathes(d, TS_INPUT, global_dir=IS_GLOBAL_DIRECTORIES))
+    audio_pathes.append(prepare_pathes(d, AUDIO_INPUT, recursive = False))
+    text_pathes.append(prepare_pathes(d, TS_INPUT, recursive = False))
 audio_pathes.sort()
 text_pathes.sort()    
 
@@ -72,8 +124,19 @@ LM_BETA = 1.85
 N_FEATURES = 26
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
-    
-output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph.pb"
+
+
+output_graph_path = "models/v" + DEEPSPEECH_VERSION + "/output_graph"
+if USE_MEMORY_MAPPED_MODEL and not USE_TFLITE:
+    print("Using MEMORY MAPPED 'pbmm' model.\n")
+    output_graph_path += ".pbmm"
+elif USE_TFLITE:
+    print("Using TF LITE 'tflite' model.\n")
+    output_graph_path += ".tflite"
+else:
+    print("Using Regular 'pb' model.\n")
+    output_graph_path += ".pb"
+
 alphabet_path = "models/v" + DEEPSPEECH_VERSION + "/alphabet.txt"
 lm_path = "models/v" + DEEPSPEECH_VERSION + "/lm.binary"
 trie_path = "models/v" + DEEPSPEECH_VERSION + "/trie"
@@ -115,7 +178,10 @@ for text_path in all_text_pathes:
     audio_transcripts = open(text_path, 'r').readlines()
     for sample in audio_transcripts:    
         sample_dir = "/".join(text_path.split("/")[:-1])
-        sample_cut = sample[:-1].split(" ")
+        if IS_TSV:
+            sample_cut = sample[:-1].split("\t")
+        else:
+            sample_cut = sample[:-1].split(" ")
         sample_audio_path = sample_dir + "/" + sample_cut[0] + "." + AUDIO_INPUT
         sample_transcript = sample_cut[1:]
         
@@ -145,14 +211,16 @@ for text_path in all_text_pathes:
                         str(current_wer) + "," + actual_text + "," + processed_text
                          
         if(VERBOSE):
-            print("# File (" + sample_audio_path + "):\n" +\
+            print("# Audio number " + str(current_audio_number) + "/" + str(num_of_audiofiles) +"\n" +\
+                  "# File (" + sample_audio_path + "):\n" +\
                   "# - " + str(audio_len) + " seconds long.\n"+\
                   "# - actual    text: '" + actual_text + "'\n" +\
                   "# - processed text: '" + processed_text + "'\n" +\
                   "# - processed in "  + str(proc_time) + " seconds.\n"
                   "# - WER = "  + str(current_wer) + "\n")
                   
-        log_file.write("# File (" + sample_audio_path + "):\n" +\
+        log_file.write("# Audio number " + str(current_audio_number) + "/" + str(num_of_audiofiles) +"\n" +\
+              "# File (" + sample_audio_path + "):\n" +\
               "# - " + str(audio_len) + " seconds long.\n"+\
               "# - actual    text: '" + actual_text + "'\n" +\
               "# - processed text: '" + processed_text + "'\n" +\
@@ -165,8 +233,8 @@ for text_path in all_text_pathes:
 ##############################################################################
 # ---------------Finalizing processed data and Saving Logs
 ##############################################################################
-avg_proc_time /= num_of_audiofiles
-avg_wer /= num_of_audiofiles
+avg_proc_time /= current_audio_number
+avg_wer /= current_audio_number
 if(VERBOSE):
     print("Avg. Proc. time (sec/second of audio) = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
