@@ -1,0 +1,14 @@
+Loading inference model from files models/v0.5.0+6_gram_lm/output_graph.pbmmLoaded inference model in 0.0154s.Loading language model from files models/v0.5.0+6_gram_lm/alphabet.txt models/v0.5.0+6_gram_lm/trieLoaded language model in 0.0693s.# Audio number 2/2939
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0000.wav):
+# - 15.0 seconds long.
+# - actual    text: 'there's iron they say in all our blood and a grain or two perhaps is good but his he makes me harshly feel has got a little too much of steel anon'
+# - processed text: 'theres iron they say in all our blood and a grown or two perhaps is good but his he makes me harshly feel has got a little too much of steel and on'
+# - processed in 13.928 seconds.
+# - WER = 0.152
+# Audio number 3/2939
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0001.wav):
+# - 12.625 seconds long.
+# - actual    text: 'margaret said mister hale as he returned from showing his guest downstairs i could not help watching your face with some anxiety when mister thornton made his confession of having been a shop boy'
+# - processed text: 'margaret said mister hale as he returned from showing his guest downstairs i could not help what on your face with some anxiety when mister thornton made his confession of having been a shop boy'
+# - processed in 11.953 seconds.
+# - WER = 0.059

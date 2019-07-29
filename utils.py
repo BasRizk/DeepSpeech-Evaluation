@@ -100,5 +100,6 @@ def prepare_pathes(directory, exten = '', recursive=True):
 def get_metafiles_pathes(platform_meta_path):
     localtime = time.strftime("%Y%m%d-%H%M%S")
     log_filepath = platform_meta_path  +"/logs_" + localtime + ".txt"
+    summ_filepath = platform_meta_path  +"/summ" + localtime + ".txt"
     benchmark_filepath = platform_meta_path  +"/deepspeech041_benchmark_ " + localtime + ".csv"
-    return log_filepath, benchmark_filepath
+    return log_filepath, benchmark_filepath, summ_filepath

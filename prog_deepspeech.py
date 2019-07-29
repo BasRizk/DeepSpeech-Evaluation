@@ -17,14 +17,14 @@ import sys
 from timeit import default_timer as timer
 from utils import get_platform_id, document_machine
 from utils import prepare_pathes, get_metafiles_pathes
- 
+
 #DEEPSPEECH_VERSION="0.4.1"
 #DEEPSPEECH_VERSION="0.5.0"
 DEEPSPEECH_VERSION="0.5.0+6_gram_lm"
 
 #TEST_PATH="tests/LibriSpeech/test-clean"
-#TEST_PATH="tests/LibriSpeech/test-other"
-TEST_PATH="tests/iisys"
+TEST_PATH="tests/LibriSpeech/test-other"
+#TEST_PATH="tests/iisys"
 
 USING_GPU = False
 USE_LANGUAGE_MODEL = True
@@ -93,7 +93,7 @@ document_machine(platform_meta_path, USING_GPU)
 # ------------------------------Preparing pathes
 ##############################################################################
 
-log_filepath, benchmark_filepath = get_metafiles_pathes(platform_meta_path)
+log_filepath, benchmark_filepath, summ_filepath = get_metafiles_pathes(platform_meta_path)
 
 test_directories = prepare_pathes(TEST_PATH, recursive = IS_RECURSIVE_DIRECTORIES)
 audio_pathes = list()
@@ -108,6 +108,7 @@ text_pathes.sort()
 # ----------------------------- Model Loading 
 ##############################################################################
 log_file = open(log_filepath, "w")
+summ_file = open(summ_filepath, "w")
 
 # These constants control the beam search decoder
 # Beam width used in the CTC decoder when building candidate transcriptions
@@ -119,7 +120,8 @@ LM_BETA = 1.85
 
 # These constants are tied to the shape of the graph used
 # Number of MFCC features to use
-N_FEATURES = 26
+#N_FEATURES = 26
+N_FEATURES = 2600
 # Size of the context window used for producing timesteps in the input vector
 N_CONTEXT = 9
 
@@ -151,7 +153,7 @@ ds = Model(output_graph_path,
 inf_model_load_end = timer() - inf_model_load_start
 print('Loaded inference model in {:.3}s.'.format(inf_model_load_end))
 log_file.write('Loaded inference model in {:.3}s.'.format(inf_model_load_end))
-
+summ_file.write('Loaded inference model in,{:.3}s.'.format(inf_model_load_end))
 if USE_LANGUAGE_MODEL:
     print('Loading language model from files {} {}'.format(alphabet_path, trie_path),
           file=sys.stderr)
@@ -162,6 +164,7 @@ if USE_LANGUAGE_MODEL:
     lm_load_end = timer() - lm_load_start
     print('Loaded language model in {:.3}s.'.format(lm_load_end))
     log_file.write('Loaded language model in {:.3}s.'.format(lm_load_end))
+    summ_file.write('Loaded language model in,{:.3}s.'.format(lm_load_end))
 
 ##############################################################################
 # ---Running the DeepSpeech STT Engine by running through the audio files
@@ -238,7 +241,10 @@ if(VERBOSE):
           "Avg. WER = " + str(avg_wer))
 log_file.write("Avg. Proc. time/sec = " + str(avg_proc_time) + "\n" +\
           "Avg. WER = " + str(avg_wer))
+summ_file.write("Avg. Proc. time/sec," + str(avg_proc_time) + "\n" +\
+          "Avg. WER," + str(avg_wer))
 log_file.close()
+summ_file.close()
 processed_data+= "AvgProcTime (sec/second of audio)," + str(avg_proc_time) + ",,,," + "\n"
 processed_data+= "AvgWER," + str(avg_wer) + ",,,,,"+ "\n"
 
