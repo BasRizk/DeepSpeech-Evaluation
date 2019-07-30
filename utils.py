@@ -41,6 +41,7 @@ def document_machine(platform_meta_path, USING_GPU):
     else:
         with open(os.path.join(platform_meta_path,"cpu_info.txt"), 'w') as f:
             f.write(cpu_info())
+            
 ##############################################################################
 # ------------------------------Preparing pathes
 ##############################################################################
