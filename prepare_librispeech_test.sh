@@ -7,7 +7,7 @@ then
 	tar -xzvf test-clean.tar.gz
 	rm -f test-clean.tar.gz
 
-	mv test-clean/LibriSpeech/test-clean tests/LibriSpeech/test-clean
+	mv LibriSpeech/test-clean tests/LibriSpeech/test-clean
 	rm -rf test-clean
 	echo "LibriSpeech Clean test set imported successfully."
 fi
@@ -17,7 +17,7 @@ then
 	wget --no-check-certificate http://www.openslr.org/resources/12/test-other.tar.gz
 	tar -xzvf test-other.tar.gz
 	rm -rf test-other.tar.gz
-	mv test-other/LibriSpeech/test-other tests/LibriSpeech/test-other
+	mv LibriSpeech/test-other tests/LibriSpeech/test-other
 	rm -rf test-other
 	echo "LibriSpeech Other test set imported successfully."
 fi
