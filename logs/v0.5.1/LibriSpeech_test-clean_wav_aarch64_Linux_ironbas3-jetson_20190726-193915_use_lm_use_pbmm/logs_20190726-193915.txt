@@ -1,0 +1,63 @@
+Loading inference model from files models/v0.5.1/output_graph.pbmmLoaded inference model in 2.26s.Loading language model from files models/v0.5.1/alphabet.txt models/v0.5.1/trieLoaded language model in 23.9s.# Audio number 2/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0000.wav):
+# - 10.435 seconds long.
+# - actual    text: 'he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce'
+# - processed text: 'he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flower fattened sauce'
+# - processed in 61.666 seconds.
+# - WER = 0.036
+# Audio number 3/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0001.wav):
+# - 3.275 seconds long.
+# - actual    text: 'stuff it into you his belly counselled him'
+# - processed text: 'stuff it into you his belly counselled him'
+# - processed in 9.85 seconds.
+# - WER = 0.0
+# Audio number 4/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0002.wav):
+# - 6.625 seconds long.
+# - actual    text: 'after early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels'
+# - processed text: 'after early nightfall the yellow lamps would light up here and there the squalid quarter of the bravos'
+# - processed in 27.139 seconds.
+# - WER = 0.056
+# Audio number 5/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0003.wav):
+# - 2.68 seconds long.
+# - actual    text: 'hello bertie any good in your mind'
+# - processed text: 'a party and he good in your mind'
+# - processed in 6.892 seconds.
+# - WER = 0.571
+# Audio number 6/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0004.wav):
+# - 5.2150625 seconds long.
+# - actual    text: 'number ten fresh nelly is waiting on you good night husband'
+# - processed text: 'number ten fresh nelly is waiting on you good night husband'
+# - processed in 20.141 seconds.
+# - WER = 0.0
+# Audio number 7/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0005.wav):
+# - 9.635 seconds long.
+# - actual    text: 'the music came nearer and he recalled the words the words of shelley's fragment upon the moon wandering companionless pale for weariness'
+# - processed text: 'the music came nearer and he recalled the words the words of shelley's fragment upon the moon wandering companionless pale for weariness'
+# - processed in 43.937 seconds.
+# - WER = 0.0
+# Audio number 8/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0006.wav):
+# - 10.555 seconds long.
+# - actual    text: 'the dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad its widening tail'
+# - processed text: 'the dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad its widening tail'
+# - processed in 38.044 seconds.
+# - WER = 0.0
+# Audio number 9/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0007.wav):
+# - 4.275 seconds long.
+# - actual    text: 'a cold lucid indifference reigned in his soul'
+# - processed text: 'a cold lucid indifference reigned in his soul'
+# - processed in 9.993 seconds.
+# - WER = 0.0
+# Audio number 10/2620
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0008.wav):
+# - 6.73 seconds long.
+# - actual    text: 'the chaos in which his ardour extinguished itself was a cold indifferent knowledge of himself'
+# - processed text: 'the chaos in which his ardor extinguished itself was a cold indifferent knowledge of himself'
+# - processed in 21.399 seconds.
+# - WER = 0.067
