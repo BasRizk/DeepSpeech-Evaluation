@@ -19,8 +19,8 @@ from utils import get_platform_id, document_machine
 from utils import prepare_pathes, get_metafiles_pathes
 
 
-#DEEPSPEECH_VERSION="0.5.1+6_gram_lm"
-DEEPSPEECH_VERSION="0.5.1+4_gram_lm"
+DEEPSPEECH_VERSION="0.5.1+6_gram_lm"
+#DEEPSPEECH_VERSION="0.5.1+4_gram_lm"
 
 #TEST_PATH="tests/LibriSpeech/test-clean"
 TEST_PATH="tests/LibriSpeech/test-other"

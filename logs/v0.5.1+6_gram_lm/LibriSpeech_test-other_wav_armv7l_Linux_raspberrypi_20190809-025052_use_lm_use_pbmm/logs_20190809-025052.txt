@@ -1,0 +1,2536 @@
+Loading inference model from files models/v0.5.1+6_gram_lm/output_graph.pbmmLoaded inference model in 0.101s.Loading language model from files models/v0.5.1+6_gram_lm/alphabet.txt models/v0.5.1+6_gram_lm/trieLoaded language model in 14.9s.# Audio number 2/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0000.wav):
+# - 15.0 seconds long.
+# - actual    text: 'there's iron they say in all our blood and a grain or two perhaps is good but his he makes me harshly feel has got a little too much of steel anon'
+# - processed text: 'theres iron they say in all our blood and a grown or two perhaps is good but his he makes me harshly feel has got a little too much of steel and on'
+# - processed in 366.041 seconds.
+# - WER = 0.152
+# Audio number 3/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0001.wav):
+# - 12.625 seconds long.
+# - actual    text: 'margaret said mister hale as he returned from showing his guest downstairs i could not help watching your face with some anxiety when mister thornton made his confession of having been a shop boy'
+# - processed text: 'margaret said mister hale as he returned from showing his guest downstairs i could not help what on your face with some anxiety when mister thornton made his confession of having been a shop boy'
+# - processed in 296.567 seconds.
+# - WER = 0.059
+# Audio number 4/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0002.wav):
+# - 2.835 seconds long.
+# - actual    text: 'you don't mean that you thought me so silly'
+# - processed text: 'he don't mean that you thought me so silly'
+# - processed in 60.886 seconds.
+# - WER = 0.1
+# Audio number 5/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0003.wav):
+# - 5.06 seconds long.
+# - actual    text: 'i really liked that account of himself better than anything else he said'
+# - processed text: 'i really liked tat account of himself better than anything else he said'
+# - processed in 106.548 seconds.
+# - WER = 0.077
+# Audio number 6/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0004.wav):
+# - 4.475 seconds long.
+# - actual    text: 'his statement of having been a shop boy was the thing i liked best of all'
+# - processed text: 'his statement of having been a shop boy was the thing i liked best of all'
+# - processed in 94.836 seconds.
+# - WER = 0.0
+# Audio number 7/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0005.wav):
+# - 4.3 seconds long.
+# - actual    text: 'you who were always accusing people of being shoppy at helstone'
+# - processed text: 'you who are always accusing people of being shoppy at tilton'
+# - processed in 90.522 seconds.
+# - WER = 0.182
+# Audio number 8/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0006.wav):
+# - 8.14 seconds long.
+# - actual    text: 'i don't think mister hale you have done quite right in introducing such a person to us without telling us what he had been'
+# - processed text: 'i don't think mister hale you have done quite right introducing such a person to us without telling us what he had been'
+# - processed in 171.76 seconds.
+# - WER = 0.04
+# Audio number 9/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0007.wav):
+# - 7.06 seconds long.
+# - actual    text: 'i really was very much afraid of showing him how much shocked i was at some parts of what he said'
+# - processed text: 'i really was very much afraid of showing him how much shocked i was at some parts of what he said'
+# - processed in 150.103 seconds.
+# - WER = 0.0
+# Audio number 10/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0008.wav):
+# - 4.135 seconds long.
+# - actual    text: 'his father dying in miserable circumstances'
+# - processed text: 'his father dying in miserable circumstances'
+# - processed in 87.632 seconds.
+# - WER = 0.0
+# Audio number 11/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0009.wav):
+# - 3.535 seconds long.
+# - actual    text: 'why it might have been in the workhouse'
+# - processed text: 'why it might have been in the workhouse'
+# - processed in 75.074 seconds.
+# - WER = 0.0
+# Audio number 12/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0010.wav):
+# - 7.67 seconds long.
+# - actual    text: 'his father speculated wildly failed and then killed himself because he could not bear the disgrace'
+# - processed text: 'his father speculated wildly failed and then killed himself because he could not bear the disgrace'
+# - processed in 161.665 seconds.
+# - WER = 0.0
+# Audio number 13/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0011.wav):
+# - 14.05 seconds long.
+# - actual    text: 'all his former friends shrunk from the disclosures that had to be made of his dishonest gambling wild hopeless struggles made with other people's money to regain his own moderate portion of wealth'
+# - processed text: 'all his former friends share from the disclosures that had to be made of his dishonest gambling wild hopeless struggles made with un people's money to jan his own moderate portion of wealth'
+# - processed in 297.286 seconds.
+# - WER = 0.088
+# Audio number 14/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0012.wav):
+# - 3.32 seconds long.
+# - actual    text: 'no one came forwards to help the mother and this boy'
+# - processed text: 'no one came forwards to help the mother and this boy'
+# - processed in 70.948 seconds.
+# - WER = 0.0
+# Audio number 15/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0013.wav):
+# - 10.18 seconds long.
+# - actual    text: 'at least no friend came forwards immediately and missus thornton is not one i fancy to wait till tardy kindness comes to find her out'
+# - processed text: 'at least no friend came forwards to me adele and miss thornton is not one i fancy to wait till tardy kindness comes to find her out'
+# - processed in 214.971 seconds.
+# - WER = 0.16
+# Audio number 16/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0014.wav):
+# - 2.07 seconds long.
+# - actual    text: 'so they left milton'
+# - processed text: 'so the list milton'
+# - processed in 43.746 seconds.
+# - WER = 0.5
+# Audio number 17/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0015.wav):
+# - 2.91 seconds long.
+# - actual    text: 'how tainted asked her father'
+# - processed text: 'how tainted asked her father'
+# - processed in 61.205 seconds.
+# - WER = 0.0
+# Audio number 18/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0016.wav):
+# - 4.84 seconds long.
+# - actual    text: 'oh papa by that testing everything by the standard of wealth'
+# - processed text: 'oh papa by tat testing everything by the standard of wealth'
+# - processed in 102.146 seconds.
+# - WER = 0.091
+# Audio number 19/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0017.wav):
+# - 8.38 seconds long.
+# - actual    text: 'when he spoke of the mechanical powers he evidently looked upon them only as new ways of extending trade and making money'
+# - processed text: 'when he spoke of the mechanical powers he evidently looked upon them only as new ways of extending trade and making money'
+# - processed in 177.878 seconds.
+# - WER = 0.0
+# Audio number 20/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0018.wav):
+# - 12.79 seconds long.
+# - actual    text: 'and the poor men around him they were poor because they were vicious out of the pale of his sympathies because they had not his iron nature and the capabilities that it gives him for being rich'
+# - processed text: 'and the poor men around him they were poor because they were vicious out of the pale of his sympathies because they had not his iron nature and the capabilities that it gives him for being rich'
+# - processed in 271.972 seconds.
+# - WER = 0.0
+# Audio number 21/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0019.wav):
+# - 3.19 seconds long.
+# - actual    text: 'not vicious he never said that'
+# - processed text: 'not fishes he never said that'
+# - processed in 67.344 seconds.
+# - WER = 0.167
+# Audio number 22/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0020.wav):
+# - 3.57 seconds long.
+# - actual    text: 'improvident and self indulgent were his words'
+# - processed text: 'improvident and self indulgent words words'
+# - processed in 75.075 seconds.
+# - WER = 0.286
+# Audio number 23/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0021.wav):
+# - 5.21 seconds long.
+# - actual    text: 'margaret was collecting her mother's working materials and preparing to go to bed'
+# - processed text: 'margaret was collecting her mothers working materials and preparing to go to bed'
+# - processed in 110.687 seconds.
+# - WER = 0.143
+# Audio number 24/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0022.wav):
+# - 13.865 seconds long.
+# - actual    text: 'just as she was leaving the room she hesitated she was inclined to make an acknowledgment which she thought would please her father but which to be full and true must include a little annoyance'
+# - processed text: 'just ass she was leaving the room she hesitated she was inclined to make an movement which she thought would please her father but which to be full and true must include a little annoyance'
+# - processed in 292.228 seconds.
+# - WER = 0.057
+# Audio number 25/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0023.wav):
+# - 2.585 seconds long.
+# - actual    text: 'however out it came'
+# - processed text: 'however out it came'
+# - processed in 54.569 seconds.
+# - WER = 0.0
+# Audio number 26/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0024.wav):
+# - 9.015 seconds long.
+# - actual    text: 'papa i do think mister thornton a very remarkable man but personally i don't like him at all'
+# - processed text: 'papa i do think missus thornton a very remarkable man but personally i don't like him at all'
+# - processed in 189.134 seconds.
+# - WER = 0.053
+# Audio number 27/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0025.wav):
+# - 3.4 seconds long.
+# - actual    text: 'and i do said her father laughing'
+# - processed text: 'and i do said her father laughing'
+# - processed in 71.01 seconds.
+# - WER = 0.0
+# Audio number 28/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0026.wav):
+# - 3.585 seconds long.
+# - actual    text: 'personally as you call it and all'
+# - processed text: 'personally as he call it and all'
+# - processed in 75.556 seconds.
+# - WER = 0.143
+# Audio number 29/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0027.wav):
+# - 4.16 seconds long.
+# - actual    text: 'i don't set him up for a hero or anything of that kind'
+# - processed text: 'i dont set him up for a hero or anything of that kind'
+# - processed in 87.193 seconds.
+# - WER = 0.143
+# Audio number 30/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0028.wav):
+# - 1.94 seconds long.
+# - actual    text: 'but good night child'
+# - processed text: 'but could not child'
+# - processed in 40.801 seconds.
+# - WER = 0.5
+# Audio number 31/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0029.wav):
+# - 4.55 seconds long.
+# - actual    text: 'there were several other signs of something wrong about missus hale'
+# - processed text: 'there were several other signs of something wrong about missis hale'
+# - processed in 95.908 seconds.
+# - WER = 0.091
+# Audio number 32/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0030.wav):
+# - 12.3 seconds long.
+# - actual    text: 'she and dixon held mysterious consultations in her bedroom from which dixon would come out crying and cross as was her custom when any distress of her mistress called upon her sympathy'
+# - processed text: 'she and dixon held mysterious consultations in a bedroom from which dixon would come out crying and cross as was a custom when any distress of her mistress called upon her sympathy'
+# - processed in 259.012 seconds.
+# - WER = 0.062
+# Audio number 33/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0031.wav):
+# - 16.8 seconds long.
+# - actual    text: 'once margaret had gone into the chamber soon after dixon left it and found her mother on her knees and as margaret stole out she caught a few words which were evidently a prayer for strength and patience to endure severe bodily suffering'
+# - processed text: 'once margaret had gone into the chamber soon after dixon lifted and found her mother on her knees and as margaret stole out she caught a few words which were evenly a prayer for strength and patience to endure severe bodily suffering'
+# - processed in 357.057 seconds.
+# - WER = 0.07
+# Audio number 34/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0032.wav):
+# - 16.85 seconds long.
+# - actual    text: 'but though she received caresses and fond words back again in such profusion as would have gladdened her formerly yet she felt that there was a secret withheld from her and she believed it bore serious reference to her mother's health'
+# - processed text: 'but though she received her uses and form words back again in such profusion as would have gladdened her formerly yet she felt that there was a secret withheld from her and she believed it more serious reference to her mother's health'
+# - processed in 356.411 seconds.
+# - WER = 0.095
+# Audio number 35/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0033.wav):
+# - 8.685 seconds long.
+# - actual    text: 'she lay awake very long this night planning how to lessen the evil influence of their milton life on her mother'
+# - processed text: 'she lay awake very long this night planning how to lessen the evil influence of their milton life on her mother'
+# - processed in 184.288 seconds.
+# - WER = 0.0
+# Audio number 36/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0034.wav):
+# - 15.1649375 seconds long.
+# - actual    text: 'a servant to give dixon permanent assistance should be got if she gave up her whole time to the search and then at any rate her mother might have all the personal attention she required and had been accustomed to her whole life'
+# - processed text: 'a servant to give dixon permanent racism should be got if she gave up the whole time in research and then at any rate her mother might have all the personal attention she required and had been accustomed to her whole life'
+# - processed in 320.693 seconds.
+# - WER = 0.116
+# Audio number 37/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0035.wav):
+# - 10.9 seconds long.
+# - actual    text: 'visiting register offices seeing all manner of unlikely people and very few in the least likely absorbed margaret's time and thoughts for several days'
+# - processed text: 'visiting register offices seeing all manner of unlikely people and very few in the least likely absorbed margarets time and thoughts for several days'
+# - processed in 230.627 seconds.
+# - WER = 0.08
+# Audio number 38/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0036.wav):
+# - 5.165 seconds long.
+# - actual    text: 'one afternoon she met bessy higgins in the street and stopped to speak to her'
+# - processed text: 'one afternoon she met bessy he can in the street and stopped the pig to her'
+# - processed in 108.847 seconds.
+# - WER = 0.267
+# Audio number 39/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0037.wav):
+# - 2.075 seconds long.
+# - actual    text: 'well bessy how are you'
+# - processed text: 'well bessy how are you'
+# - processed in 43.78 seconds.
+# - WER = 0.0
+# Audio number 40/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0038.wav):
+# - 4.17 seconds long.
+# - actual    text: 'better and not better if yo know what that means'
+# - processed text: 'better and not better you you know what that means'
+# - processed in 86.985 seconds.
+# - WER = 0.2
+# Audio number 41/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0039.wav):
+# - 3.94 seconds long.
+# - actual    text: 'not exactly replied margaret smiling'
+# - processed text: 'not exactly replied margaret smiling'
+# - processed in 83.775 seconds.
+# - WER = 0.0
+# Audio number 42/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0040.wav):
+# - 20.05 seconds long.
+# - actual    text: 'i'm better in not being torn to pieces by coughing o'nights but i'm weary and tired o milton and longing to get away to the land o beulah and when i think i'm farther and farther off my heart sinks and i'm no better i'm worse'
+# - processed text: 'i met her not being taunt pieces my coughing a night but i'm weary and tired of milton and longing to get away to the lenape and will i think im farther and farther off my heart sinks and im no better im worse'
+# - processed in 424.935 seconds.
+# - WER = 0.373
+# Audio number 43/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0041.wav):
+# - 6.94 seconds long.
+# - actual    text: 'margaret turned round to walk alongside of the girl in her feeble progress homeward'
+# - processed text: 'margaret turned round to walk one side of the girl in her feeble progress homeward'
+# - processed in 145.42 seconds.
+# - WER = 0.143
+# Audio number 44/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0042.wav):
+# - 3.26 seconds long.
+# - actual    text: 'but for a minute or two she did not speak'
+# - processed text: 'but for mineral two she did not speak'
+# - processed in 69.267 seconds.
+# - WER = 0.3
+# Audio number 45/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0043.wav):
+# - 3.425 seconds long.
+# - actual    text: 'at last she said in a low voice'
+# - processed text: 'at last she said in a low voice'
+# - processed in 71.617 seconds.
+# - WER = 0.0
+# Audio number 46/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0044.wav):
+# - 3.405 seconds long.
+# - actual    text: 'bessy do you wish to die'
+# - processed text: 'this i do wish to die'
+# - processed in 71.238 seconds.
+# - WER = 0.5
+# Audio number 47/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0045.wav):
+# - 5.81 seconds long.
+# - actual    text: 'bessy was silent in her turn for a minute or two then she replied'
+# - processed text: 'bessy was silent in her turn for a minute or two then she replied'
+# - processed in 122.378 seconds.
+# - WER = 0.0
+# Audio number 48/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0046.wav):
+# - 2.795 seconds long.
+# - actual    text: 'nought worse than many others i reckon'
+# - processed text: 'not worse than many others are econ'
+# - processed in 58.954 seconds.
+# - WER = 0.429
+# Audio number 49/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0047.wav):
+# - 1.76 seconds long.
+# - actual    text: 'but what was it'
+# - processed text: 'but what was it'
+# - processed in 37.409 seconds.
+# - WER = 0.0
+# Audio number 50/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0048.wav):
+# - 8.25 seconds long.
+# - actual    text: 'you know i'm a stranger here so perhaps i'm not so quick at understanding what you mean as if i'd lived all my life at milton'
+# - processed text: 'you know i m a strange a here so perhaps i'm not so quick at i'm a standing what you mean as if i lived all my life in milton'
+# - processed in 176.062 seconds.
+# - WER = 0.31
+# Audio number 51/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0049.wav):
+# - 5.08 seconds long.
+# - actual    text: 'i had forgotten what i said for the time continued margaret quietly'
+# - processed text: 'i had forgotten what i said for the time continued margaret quietly'
+# - processed in 107.429 seconds.
+# - WER = 0.0
+# Audio number 52/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0050.wav):
+# - 5.45 seconds long.
+# - actual    text: 'i should have thought of it again when i was less busy may i go with you now'
+# - processed text: 'i should have thought of it again when i was less busy margo with you now'
+# - processed in 115.065 seconds.
+# - WER = 0.167
+# Audio number 53/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0051.wav):
+# - 6.625 seconds long.
+# - actual    text: 'the sharpness in her eye turned to a wistful longing as she met margaret's soft and friendly gaze'
+# - processed text: 'the shop does in her eye turned to wistful line as she met margarets soft and friendly gaze'
+# - processed in 141.037 seconds.
+# - WER = 0.316
+# Audio number 54/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0052.wav):
+# - 7.08 seconds long.
+# - actual    text: 'as they turned up into a small court opening out of a squalid street bessy said'
+# - processed text: 'as they turned up into a small court opening out into a squalid street bessy said'
+# - processed in 150.889 seconds.
+# - WER = 0.062
+# Audio number 55/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0053.wav):
+# - 5.81 seconds long.
+# - actual    text: 'yo'll not be daunted if father's at home and speaks a bit gruffish at first'
+# - processed text: 'you will not be done to defy posit him and spanks and bit raffish at first'
+# - processed in 121.005 seconds.
+# - WER = 0.588
+# Audio number 56/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0054.wav):
+# - 3.14 seconds long.
+# - actual    text: 'but nicholas was not at home when they entered'
+# - processed text: 'but nicholas was not at home when they entered'
+# - processed in 66.463 seconds.
+# - WER = 0.0
+# Audio number 57/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0055.wav):
+# - 2.39 seconds long.
+# - actual    text: 'gasped bessy at last'
+# - processed text: 'ass best he had last'
+# - processed in 50.317 seconds.
+# - WER = 1.0
+# Audio number 58/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0056.wav):
+# - 6.79 seconds long.
+# - actual    text: 'bessy took a long and feverish draught and then fell back and shut her eyes'
+# - processed text: 'price took a long and feverish draught and then fell back and shut her eyes'
+# - processed in 142.915 seconds.
+# - WER = 0.067
+# Audio number 59/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0057.wav):
+# - 8.885 seconds long.
+# - actual    text: 'margaret bent over and said bessy don't be impatient with your life whatever it is or may have been'
+# - processed text: 'well giant over and said bessy dont be impatient with your life whatever it is or may have been'
+# - processed in 186.076 seconds.
+# - WER = 0.2
+# Audio number 60/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0058.wav):
+# - 3.885 seconds long.
+# - actual    text: 'remember who gave it you and made it what it is'
+# - processed text: 'remember who gave it to you and made it what it is'
+# - processed in 82.17 seconds.
+# - WER = 0.091
+# Audio number 61/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0059.wav):
+# - 3.56 seconds long.
+# - actual    text: 'now i'll not have my wench preached to'
+# - processed text: 'now i'll not have my wine peach to'
+# - processed in 75.432 seconds.
+# - WER = 0.222
+# Audio number 62/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0060.wav):
+# - 9.78 seconds long.
+# - actual    text: 'but surely said margaret facing round you believe in what i said that god gave her life and ordered what kind of life it was to be'
+# - processed text: 'but surely said margaret facing round you believe in what i said tat god gave her life and ordered what kind of left it was to be'
+# - processed in 206.477 seconds.
+# - WER = 0.074
+# Audio number 63/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0061.wav):
+# - 3.13 seconds long.
+# - actual    text: 'i believe what i see and no more'
+# - processed text: 'i believe what i see a normal'
+# - processed in 66.009 seconds.
+# - WER = 0.375
+# Audio number 64/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0062.wav):
+# - 2.775 seconds long.
+# - actual    text: 'that's what i believe young woman'
+# - processed text: 'that's what i believe young woman'
+# - processed in 58.621 seconds.
+# - WER = 0.0
+# Audio number 65/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0063.wav):
+# - 4.85 seconds long.
+# - actual    text: 'i don't believe all i hear no not by a big deal'
+# - processed text: 'i don't believe all i hear no not by big deal'
+# - processed in 101.973 seconds.
+# - WER = 0.077
+# Audio number 66/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0064.wav):
+# - 7.73 seconds long.
+# - actual    text: 'but hoo's come at last and hoo's welcome as long as hoo'll keep from preaching on what hoo knows nought about'
+# - processed text: 'but whose comment last and whose welcome as long as who ll keep from preaching on what it who knows not about'
+# - processed in 163.627 seconds.
+# - WER = 0.458
+# Audio number 67/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0065.wav):
+# - 4.17 seconds long.
+# - actual    text: 'it's simple and not far to fetch nor hard to work'
+# - processed text: 'it simple and not far to fish nor had to work'
+# - processed in 87.757 seconds.
+# - WER = 0.25
+# Audio number 68/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0066.wav):
+# - 3.135 seconds long.
+# - actual    text: 'but the girl only pleaded the more with margaret'
+# - processed text: 'but the girl and you pleaded the more with margaret'
+# - processed in 66.798 seconds.
+# - WER = 0.222
+# Audio number 69/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0067.wav):
+# - 3.845 seconds long.
+# - actual    text: 'don't think hardly on him he's a good man he is'
+# - processed text: 'don't think hardly on him he's a good man he is'
+# - processed in 80.299 seconds.
+# - WER = 0.0
+# Audio number 70/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0068.wav):
+# - 6.7 seconds long.
+# - actual    text: 'i sometimes think i shall be moped wi sorrow even in the city of god if father is not there'
+# - processed text: 'i sometimes think i shall be more with sorrow even in the city of good if other is not there'
+# - processed in 142.048 seconds.
+# - WER = 0.2
+# Audio number 71/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0069.wav):
+# - 5.255 seconds long.
+# - actual    text: 'the feverish colour came into her cheek and the feverish flame into her eye'
+# - processed text: 'the feverish color came into a cheek and the feverish flame into her eye'
+# - processed in 110.094 seconds.
+# - WER = 0.143
+# Audio number 72/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0070.wav):
+# - 4.13 seconds long.
+# - actual    text: 'but you will be there father you shall oh my heart'
+# - processed text: 'but you will be there father you shall oh my heart'
+# - processed in 87.044 seconds.
+# - WER = 0.0
+# Audio number 73/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0071.wav):
+# - 3.865 seconds long.
+# - actual    text: 'she put her hand to it and became ghastly pale'
+# - processed text: 'she put her on to it and became ghastly pale'
+# - processed in 81.861 seconds.
+# - WER = 0.1
+# Audio number 74/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0072.wav):
+# - 5.85 seconds long.
+# - actual    text: 'margaret held her in her arms and put the weary head to rest upon her bosom'
+# - processed text: 'margaret told her in her arms and put the weary head to rest upon her bosom'
+# - processed in 123.691 seconds.
+# - WER = 0.062
+# Audio number 75/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0073.wav):
+# - 7.46 seconds long.
+# - actual    text: 'presently the spasm that foreshadowed death had passed away and bessy roused herself and said'
+# - processed text: 'presently the spasm that foreshadowed death had passed away and busy roused the sultan said'
+# - processed in 156.287 seconds.
+# - WER = 0.2
+# Audio number 76/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0074.wav):
+# - 11.13 seconds long.
+# - actual    text: 'i'll go to bed it's best place but catching at margaret's gown yo'll come again i know yo will but just say it'
+# - processed text: 'i'll go to bed it's best place but catching that margarets con you ll come again i know you well but just say '
+# - processed in 235.826 seconds.
+# - WER = 0.333
+# Audio number 77/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0075.wav):
+# - 2.89 seconds long.
+# - actual    text: 'i will come to morrow said margaret'
+# - processed text: 'oh come to morrow said margaret'
+# - processed in 61.057 seconds.
+# - WER = 0.286
+# Audio number 78/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0076.wav):
+# - 3.84 seconds long.
+# - actual    text: 'margaret went away very sad and thoughtful'
+# - processed text: 'margaret went away very sad and thoughtful'
+# - processed in 81.607 seconds.
+# - WER = 0.0
+# Audio number 79/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0077.wav):
+# - 2.6 seconds long.
+# - actual    text: 'she was late for tea at home'
+# - processed text: 'she was late for tea at home'
+# - processed in 55.267 seconds.
+# - WER = 0.0
+# Audio number 80/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0078.wav):
+# - 2.69 seconds long.
+# - actual    text: 'have you met with a servant dear'
+# - processed text: 'have you met with a servant dear'
+# - processed in 56.673 seconds.
+# - WER = 0.0
+# Audio number 81/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0079.wav):
+# - 3.83 seconds long.
+# - actual    text: 'no mamma that anne buckley would never have done'
+# - processed text: 'no mamma tat anne buckley would never have done'
+# - processed in 80.816 seconds.
+# - WER = 0.111
+# Audio number 82/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0080.wav):
+# - 3.48 seconds long.
+# - actual    text: 'suppose i try said mister hale'
+# - processed text: 'spose try said mister hale'
+# - processed in 72.981 seconds.
+# - WER = 0.333
+# Audio number 83/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0081.wav):
+# - 5.9 seconds long.
+# - actual    text: 'everybody else has had their turn at this great difficulty now let me try'
+# - processed text: 'everybody else has had tat turn up this great difficulty now let me try'
+# - processed in 125.461 seconds.
+# - WER = 0.143
+# Audio number 84/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0082.wav):
+# - 3.47 seconds long.
+# - actual    text: 'i may be the cinderella to put on the slipper after all'
+# - processed text: 'i may be the sinner to put on the slipper after all'
+# - processed in 73.908 seconds.
+# - WER = 0.083
+# Audio number 85/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0083.wav):
+# - 4.21 seconds long.
+# - actual    text: 'what would you do papa how would you set about it'
+# - processed text: 'what would you do papa how would you set about it'
+# - processed in 88.737 seconds.
+# - WER = 0.0
+# Audio number 86/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0084.wav):
+# - 7.71 seconds long.
+# - actual    text: 'why i would apply to some good house mother to recommend me one known to herself or her servants'
+# - processed text: 'well i would applied to some good house mother de command me one on to a self foreseen'
+# - processed in 162.129 seconds.
+# - WER = 0.474
+# Audio number 87/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0085.wav):
+# - 3.98 seconds long.
+# - actual    text: 'very good but we must first catch our house mother'
+# - processed text: 'for good but we must first catch our house mother'
+# - processed in 84.192 seconds.
+# - WER = 0.1
+# Audio number 88/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0086.wav):
+# - 3.31 seconds long.
+# - actual    text: 'the mother of whom he spoke to us said margaret'
+# - processed text: 'the mother of whom he spoke to us said margaret'
+# - processed in 69.833 seconds.
+# - WER = 0.0
+# Audio number 89/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0087.wav):
+# - 6.82 seconds long.
+# - actual    text: 'missus thornton the only mother he has i believe said mister hale quietly'
+# - processed text: 'mister thornton the only mother he has i believe said mister hale quietly'
+# - processed in 144.099 seconds.
+# - WER = 0.077
+# Audio number 90/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0088.wav):
+# - 6.32 seconds long.
+# - actual    text: 'i shall like to see her she must be an uncommon person her mother added'
+# - processed text: 'i shall like to see her she must be an uncommon person her mother added'
+# - processed in 133.957 seconds.
+# - WER = 0.0
+# Audio number 91/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0089.wav):
+# - 5.48 seconds long.
+# - actual    text: 'perhaps she may have a relation who might suit us and be glad of our place'
+# - processed text: 'perhaps she may have a relation who might suit us and be glad about place'
+# - processed in 116.659 seconds.
+# - WER = 0.125
+# Audio number 92/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0090.wav):
+# - 7.96 seconds long.
+# - actual    text: 'she sounded to be such a careful economical person that i should like any one out of the same family'
+# - processed text: 'she sounded to be such a careful economical person that i should like any one out of the same family'
+# - processed in 168.054 seconds.
+# - WER = 0.0
+# Audio number 93/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0091.wav):
+# - 5.455 seconds long.
+# - actual    text: 'my dear said mister hale alarmed pray don't go off on that idea'
+# - processed text: 'my dear said mister hale alarmed i don't go off on tat idea'
+# - processed in 115.543 seconds.
+# - WER = 0.143
+# Audio number 94/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0092.wav):
+# - 4.67 seconds long.
+# - actual    text: 'i am sure at any rate she would not like strangers to know anything about it'
+# - processed text: 'i am sure at any rate she would not like strangers to know anything about it'
+# - processed in 99.289 seconds.
+# - WER = 0.0
+# Audio number 95/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0093.wav):
+# - 9.68 seconds long.
+# - actual    text: 'take notice that is not my kind of haughtiness papa if i have any at all which i don't agree to though you're always accusing me of it'
+# - processed text: 'take notice of this is not my kind of hating ass papa if i have any at all which i only greed to though you always accusing me of it'
+# - processed in 204.679 seconds.
+# - WER = 0.267
+# Audio number 96/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0094.wav):
+# - 7.38 seconds long.
+# - actual    text: 'i don't know positively that it is hers either but from little things i have gathered from him i fancy so'
+# - processed text: 'i don't know positively that it is his either or from little things i have gathered from him i fancy sir'
+# - processed in 155.417 seconds.
+# - WER = 0.136
+# Audio number 97/362
+# File (tests/LibriSpeech/test-other/1688/142285/1688-142285-0095.wav):
+# - 5.23 seconds long.
+# - actual    text: 'they cared too little to ask in what manner her son had spoken about her'
+# - processed text: 'the cure to it were to ask in what manner her son had spoken about her'
+# - processed in 110.761 seconds.
+# - WER = 0.333
+# Audio number 98/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0000.wav):
+# - 13.315 seconds long.
+# - actual    text: 'if called to a case supposed or suspected to be one of poisoning the medical man has two duties to perform to save the patient's life and to place himself in a position to give evidence if called on to do so'
+# - processed text: 'if care to occas supposed he suspected to be one of his anin the medical man is too duties to perform to save the patient life and to place himself in a position to is evidence of cod and to do so'
+# - processed in 283.598 seconds.
+# - WER = 0.302
+# Audio number 99/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0001.wav):
+# - 6.025 seconds long.
+# - actual    text: 'he should make inquiries as to symptoms and time at which food or medicine was last taken'
+# - processed text: 'he shook make inquiries as to them time and time at which rode a man one was last taken'
+# - processed in 127.082 seconds.
+# - WER = 0.412
+# Audio number 100/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0002.wav):
+# - 9.11 seconds long.
+# - actual    text: 'he should notice the position and temperature of the body the condition of rigor mortis marks of violence appearance of lips and mouth'
+# - processed text: 'he should notice the position a temperature of the body the condition of regard mortis marks the fire an appearance of lips and most'
+# - processed in 191.995 seconds.
+# - WER = 0.261
+# Audio number 101/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0003.wav):
+# - 7.25 seconds long.
+# - actual    text: 'in making a post mortem examination the alimentary canal should be removed and preserved for further investigation'
+# - processed text: 'in making up his madam examination the alimentary kanal should be removed and reserved for further investigation'
+# - processed in 153.909 seconds.
+# - WER = 0.294
+# Audio number 102/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0004.wav):
+# - 8.31 seconds long.
+# - actual    text: 'the gut and the gullet being cut across between these ligatures the stomach may be removed entire without spilling its contents'
+# - processed text: 'the gotten to garner been cut across between these legacies the stomach may be removed in tire without being as contents'
+# - processed in 174.659 seconds.
+# - WER = 0.476
+# Audio number 103/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0005.wav):
+# - 8.37 seconds long.
+# - actual    text: 'if the medical practitioner is in doubt on any point he should obtain technical assistance from someone who has paid attention to the subject'
+# - processed text: 'if the medical practitioners in tat on any point he should obtain technical assistance from some one who has paid attention to the subtract'
+# - processed in 177.495 seconds.
+# - WER = 0.25
+# Audio number 104/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0006.wav):
+# - 6.43 seconds long.
+# - actual    text: 'in a case of attempted suicide by poisoning is it the duty of the doctor to inform the police'
+# - processed text: 'in a case of attempted to the side of his in is it that out of the doctors he informed the puts'
+# - processed in 135.462 seconds.
+# - WER = 0.632
+# Audio number 105/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0007.wav):
+# - 3.17 seconds long.
+# - actual    text: 'the best emetic is that which is at hand'
+# - processed text: 'the best a magic is that which is at hand'
+# - processed in 66.956 seconds.
+# - WER = 0.222
+# Audio number 106/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0008.wav):
+# - 2.945 seconds long.
+# - actual    text: 'the dose for an adult is ten minims'
+# - processed text: 'the other a dog is ten minutes'
+# - processed in 63.059 seconds.
+# - WER = 0.625
+# Audio number 107/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0009.wav):
+# - 7.555 seconds long.
+# - actual    text: 'apomorphine is not allied in physiological action to morphine and may be given in cases of narcotic poisoning'
+# - processed text: 'at the most senior alien physiological action to morphine and may be given in cases of narcotic poisoning'
+# - processed in 159.591 seconds.
+# - WER = 0.278
+# Audio number 108/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0010.wav):
+# - 4.375 seconds long.
+# - actual    text: 'tickling the fauces with a feather may excite vomiting'
+# - processed text: 'taking the forces with a feather make side omitting'
+# - processed in 92.679 seconds.
+# - WER = 0.556
+# Audio number 109/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0011.wav):
+# - 11.785 seconds long.
+# - actual    text: 'in using the elastic stomach tube some fluid should be introduced into the stomach before attempting to empty it or a portion of the mucous membrane may be sucked into the aperture'
+# - processed text: 'in using the elastic stomach tube some fleetwood be introduced into the stomach before attempting to empty it or a portion of the mucous membrane may be a sect into the aperture'
+# - processed in 250.527 seconds.
+# - WER = 0.125
+# Audio number 110/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0012.wav):
+# - 7.865 seconds long.
+# - actual    text: 'the tube should be examined to see that it is not broken or cracked as accidents have happened from neglecting this precaution'
+# - processed text: 'the two should be examined to see that it is not broken a crack as accident had happened from neglecting this precaution'
+# - processed in 166.775 seconds.
+# - WER = 0.227
+# Audio number 111/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0013.wav):
+# - 6.485 seconds long.
+# - actual    text: 'antidotes are usually given hypodermically or if by mouth in the form of tablets'
+# - processed text: 'and he does he usually given her be demic ally or it the mouth in the form of tenders'
+# - processed in 136.452 seconds.
+# - WER = 0.786
+# Audio number 112/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0014.wav):
+# - 5.63 seconds long.
+# - actual    text: 'in the absence of a hypodermic syringe the remedy may be given by the rectum'
+# - processed text: 'in the absence of the hypodermics avenge the remedy may be given by the rectum'
+# - processed in 118.333 seconds.
+# - WER = 0.2
+# Audio number 113/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0015.wav):
+# - 5.42 seconds long.
+# - actual    text: 'notice the smell colour and general appearance of the matter submitted for examination'
+# - processed text: 'noticed the smirk haleran general appearance of the matter admitted for examination'
+# - processed in 114.019 seconds.
+# - WER = 0.385
+# Audio number 114/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0016.wav):
+# - 5.175 seconds long.
+# - actual    text: 'for the separation of an alkaloid the following is the process of stas otto'
+# - processed text: 'for the separation of arcelor the following as the process of stars or to'
+# - processed in 110.732 seconds.
+# - WER = 0.429
+# Audio number 115/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0017.wav):
+# - 8.65 seconds long.
+# - actual    text: 'this process is based upon the principle that the salts of the alkaloids are soluble in alcohol and water and insoluble in ether'
+# - processed text: 'this process is based upon the principle that the salt of the agila as soluble agent water and insoluble in ease'
+# - processed in 182.583 seconds.
+# - WER = 0.304
+# Audio number 116/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0018.wav):
+# - 6.51 seconds long.
+# - actual    text: 'the pure alkaloids with the exception of morphine in its crystalline form are soluble in ether'
+# - processed text: 'the pure acolytes was the exception of morphine in its christine form a soviet'
+# - processed in 137.71 seconds.
+# - WER = 0.438
+# Audio number 117/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0019.wav):
+# - 7.615 seconds long.
+# - actual    text: 'two cool the mixture and filter wash the residue with strong alcohol and mix the filtrates'
+# - processed text: 'to quote the extent voter what the residues ron alcohol and mix the third rate'
+# - processed in 160.158 seconds.
+# - WER = 0.688
+# Audio number 118/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0020.wav):
+# - 9.42 seconds long.
+# - actual    text: 'the residue may be set aside for the detection of the metallic poisons if suspected expel the alcohol by careful evaporation'
+# - processed text: 'the residue may be set aside for the detection of them italic poisons of suspected expel the arcola careful ever portion'
+# - processed in 199.213 seconds.
+# - WER = 0.333
+# Audio number 119/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0021.wav):
+# - 4.785 seconds long.
+# - actual    text: 'on the evaporation of the alcohol the resinous and fatty matters separate'
+# - processed text: 'one the place at the arch the veins and fatima is separate'
+# - processed in 100.811 seconds.
+# - WER = 0.583
+# Audio number 120/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0022.wav):
+# - 6.2050625 seconds long.
+# - actual    text: 'evaporate the filtrate to a syrup and extract with successive portions of absolute alcohol'
+# - processed text: 'at that rate the pirate to asia and extract with successive portions of absolute alcohol'
+# - processed in 132.197 seconds.
+# - WER = 0.429
+# Audio number 121/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0023.wav):
+# - 3.465 seconds long.
+# - actual    text: 'separate the ethereal solution and evaporate'
+# - processed text: 'said ruth the a serious solution and a report'
+# - processed in 72.818 seconds.
+# - WER = 1.0
+# Audio number 122/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0024.wav):
+# - 6.895 seconds long.
+# - actual    text: 'five a part of this ethereal solution is poured into a watch glass and allowed to evaporate'
+# - processed text: 'five a part of this serial solution is poured into watch last and allowed to report'
+# - processed in 145.763 seconds.
+# - WER = 0.235
+# Audio number 123/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0025.wav):
+# - 11.805 seconds long.
+# - actual    text: 'to purify it add a small quantity of dilute sulphuric acid and after evaporating to three quarters of its bulk add a saturated solution of carbonate of potash or soda'
+# - processed text: 'to purify it eisma quantity of dilute or her asset and after tat writing to the three quarts of its big at situated solution of carbonate of potash soda'
+# - processed in 248.874 seconds.
+# - WER = 0.5
+# Audio number 124/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0026.wav):
+# - 11.55 seconds long.
+# - actual    text: 'boil the finely divided substance with about one eighth its bulk of pure hydrochloric acid add from time to time potassic chlorate until the solids are reduced to a straw yellow fluid'
+# - processed text: 'boy the finely divide substance with about one eighth its big of pure hydrologic ed from time to time patesi coverage until the solid aides to stroll of fluid'
+# - processed in 243.258 seconds.
+# - WER = 0.438
+# Audio number 125/362
+# File (tests/LibriSpeech/test-other/1998/15444/1998-15444-0027.wav):
+# - 9.205 seconds long.
+# - actual    text: 'the residue of the material after digestion with hydrochloric acid and potassium chlorate may have to be examined for silver lead and barium'
+# - processed text: 'the residue of the material after ejection was had to look after and protesting flowed may have to be examined for server led and bowing'
+# - processed in 194.453 seconds.
+# - WER = 0.478
+# Audio number 126/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0000.wav):
+# - 2.36 seconds long.
+# - actual    text: 'a thousand blessings from a grateful heart'
+# - processed text: 'a thousand gushing from a great for hard'
+# - processed in 50.455 seconds.
+# - WER = 0.571
+# Audio number 127/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0001.wav):
+# - 3.905 seconds long.
+# - actual    text: 'perusal said the pawnbroker that's the way to pernounce it'
+# - processed text: 'to rise said the pond that's the way to pronounce it'
+# - processed in 83.356 seconds.
+# - WER = 0.364
+# Audio number 128/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0002.wav):
+# - 8.125 seconds long.
+# - actual    text: 'his books told him that treasure is best hidden under loose boards unless of course your house has a secret panel which his had not'
+# - processed text: 'his books told him the treasures best hidden on her with boards and as of course the house has a secret panel which has had not'
+# - processed in 173.158 seconds.
+# - WER = 0.4
+# Audio number 129/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0003.wav):
+# - 7.735 seconds long.
+# - actual    text: 'he got it up and pushed his treasures as far in as he could along the rough crumbly surface of the lath and plaster'
+# - processed text: 'he got it up and pushed his treasures as far in her she could along the rush fambly surface of the last and plaster'
+# - processed in 164.621 seconds.
+# - WER = 0.208
+# Audio number 130/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0004.wav):
+# - 6.55 seconds long.
+# - actual    text: 'when dickie came down his aunt slightly slapped him and he took the halfpenny and limped off obediently'
+# - processed text: 'when did he came down his aunt sat his rapt him and he took the half tenant limp of obediently'
+# - processed in 138.602 seconds.
+# - WER = 0.5
+# Audio number 131/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0005.wav):
+# - 4.08 seconds long.
+# - actual    text: 'he had never seen one before and it interested him extremely'
+# - processed text: 'he had never seen one before and it interested him extremely'
+# - processed in 86.968 seconds.
+# - WER = 0.0
+# Audio number 132/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0006.wav):
+# - 4.09 seconds long.
+# - actual    text: 'he looked about him and knew that he did not at all know where he was'
+# - processed text: 'he looked about him and knew that he did not at all know where he was'
+# - processed in 86.741 seconds.
+# - WER = 0.0
+# Audio number 133/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0007.wav):
+# - 4.3 seconds long.
+# - actual    text: 'what's up matey lost your way dickie explained'
+# - processed text: 'what's up mate of the way dickie exclaimed'
+# - processed in 90.698 seconds.
+# - WER = 0.444
+# Audio number 134/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0008.wav):
+# - 2.925 seconds long.
+# - actual    text: 'when he said ave i bin asleep'
+# - processed text: 'when he said ever been asleep'
+# - processed in 61.999 seconds.
+# - WER = 0.429
+# Audio number 135/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0009.wav):
+# - 1.89 seconds long.
+# - actual    text: 'here we are said the man'
+# - processed text: 'he reached the man'
+# - processed in 39.966 seconds.
+# - WER = 0.667
+# Audio number 136/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0010.wav):
+# - 2.865 seconds long.
+# - actual    text: 'not exackly said the man but it's all right'
+# - processed text: 'it exactly said the man let us all right'
+# - processed in 60.574 seconds.
+# - WER = 0.5
+# Audio number 137/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0011.wav):
+# - 8.585 seconds long.
+# - actual    text: 'when it was over the man asked dickie if he could walk a little way and when dickie said he could they set out in the most friendly way side by side'
+# - processed text: 'when it was over the man asked the key if he could walk a little way and when dick he said he could they said out in the most friendly way i preside'
+# - processed in 183.196 seconds.
+# - WER = 0.25
+# Audio number 138/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0012.wav):
+# - 2.64 seconds long.
+# - actual    text: 'and the tea and all an the egg'
+# - processed text: 'and the tea and the '
+# - processed in 56.209 seconds.
+# - WER = 0.375
+# Audio number 139/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0013.wav):
+# - 2.635 seconds long.
+# - actual    text: 'and this is the prettiest place ever i see'
+# - processed text: 'and this is the prettiest place ever i see'
+# - processed in 56.043 seconds.
+# - WER = 0.0
+# Audio number 140/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0014.wav):
+# - 2.28 seconds long.
+# - actual    text: 'i shall catch it a fair treat as it is'
+# - processed text: 'as you catch it offer tree it is'
+# - processed in 47.726 seconds.
+# - WER = 0.6
+# Audio number 141/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0015.wav):
+# - 4.46 seconds long.
+# - actual    text: 'she was waitin for the wood to boil the kettle when i come out mother'
+# - processed text: 'she was waiting for the work to be the case when he came out mother'
+# - processed in 94.003 seconds.
+# - WER = 0.4
+# Audio number 142/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0016.wav):
+# - 2.46 seconds long.
+# - actual    text: 'ain't bad when she's in a good temper'
+# - processed text: 'and bad when she said a good temper'
+# - processed in 52.279 seconds.
+# - WER = 0.4
+# Audio number 143/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0017.wav):
+# - 2.665 seconds long.
+# - actual    text: 'that ain't what she'll be in when you gets back'
+# - processed text: 'that and batavian when you get back'
+# - processed in 56.272 seconds.
+# - WER = 0.667
+# Audio number 144/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0018.wav):
+# - 5.15 seconds long.
+# - actual    text: 'i got to stick it said dickie sadly i'd best be getting home'
+# - processed text: 'i got a tiger said her digg is sadly i spectating home'
+# - processed in 108.921 seconds.
+# - WER = 0.714
+# Audio number 145/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0019.wav):
+# - 3.09 seconds long.
+# - actual    text: 'i wouldn't go ome not if i was you said the man'
+# - processed text: 'i wouldn't go not as far as you said the man'
+# - processed in 65.3 seconds.
+# - WER = 0.308
+# Audio number 146/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0020.wav):
+# - 3.75 seconds long.
+# - actual    text: 'no said dickie oh no no i never'
+# - processed text: 'no said dickie oh no no i never'
+# - processed in 79.27 seconds.
+# - WER = 0.0
+# Audio number 147/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0021.wav):
+# - 2.62 seconds long.
+# - actual    text: 'i ain't it yer have i like what yer aunt do'
+# - processed text: 'i under or have i like what you are to'
+# - processed in 55.78 seconds.
+# - WER = 0.583
+# Audio number 148/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0022.wav):
+# - 2.915 seconds long.
+# - actual    text: 'well that'll show you the sort of man i am'
+# - processed text: 'well then shall use out of man i am'
+# - processed in 61.291 seconds.
+# - WER = 0.545
+# Audio number 149/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0023.wav):
+# - 7.91 seconds long.
+# - actual    text: 'the man's manner was so kind and hearty the whole adventure was so wonderful and new is it country where you going'
+# - processed text: 'the man manner was so kind and tat the whole adventure so wonderful and new is a country where you going'
+# - processed in 165.728 seconds.
+# - WER = 0.174
+# Audio number 150/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0024.wav):
+# - 3.535 seconds long.
+# - actual    text: 'the sun shot long golden beams through the gaps in the hedge'
+# - processed text: 'the sun had longer and beams through the gabon the hedge'
+# - processed in 75.228 seconds.
+# - WER = 0.417
+# Audio number 151/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0025.wav):
+# - 4.635 seconds long.
+# - actual    text: 'a bird paused in its flight on a branch quite close and clung there swaying'
+# - processed text: 'a bird passed in its side under branch quite cloth and clung there sprang'
+# - processed in 98.464 seconds.
+# - WER = 0.4
+# Audio number 152/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0026.wav):
+# - 6.66 seconds long.
+# - actual    text: 'he took out of his pocket a new envelope a new sheet of paper and a new pencil ready sharpened by machinery'
+# - processed text: 'he took out of his pocket and the envelope and you she is paper and a new pencil ready sharpened the machinery'
+# - processed in 140.617 seconds.
+# - WER = 0.318
+# Audio number 153/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0027.wav):
+# - 3.755 seconds long.
+# - actual    text: 'an i asks you let me come alonger you got that'
+# - processed text: 'and i ask you let me come and only you got that'
+# - processed in 79.652 seconds.
+# - WER = 0.364
+# Audio number 154/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0028.wav):
+# - 2.325 seconds long.
+# - actual    text: 'get it wrote down then done'
+# - processed text: 'canister down then done'
+# - processed in 49.038 seconds.
+# - WER = 0.5
+# Audio number 155/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0029.wav):
+# - 3.025 seconds long.
+# - actual    text: 'then he folded it and put it in his pocket'
+# - processed text: 'then he folded it and put it in his pocket'
+# - processed in 63.767 seconds.
+# - WER = 0.0
+# Audio number 156/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0030.wav):
+# - 1.93 seconds long.
+# - actual    text: 'now we're square he said'
+# - processed text: 'now is quaid'
+# - processed in 40.603 seconds.
+# - WER = 0.833
+# Audio number 157/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0031.wav):
+# - 2.74 seconds long.
+# - actual    text: 'they could put a man away for less than that'
+# - processed text: 'they could put him in a way for less than that'
+# - processed in 58.071 seconds.
+# - WER = 0.4
+# Audio number 158/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0032.wav):
+# - 2.805 seconds long.
+# - actual    text: 'i see that there in a book said dickie charmed'
+# - processed text: 'i see that then a book had to ashamed'
+# - processed in 58.972 seconds.
+# - WER = 0.5
+# Audio number 159/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0033.wav):
+# - 5.115 seconds long.
+# - actual    text: 'he reward the wake the last of the english and i wunnered what it stood for'
+# - processed text: 'he reword the wake the last of thinness and a one at tat had sector'
+# - processed in 108.588 seconds.
+# - WER = 0.562
+# Audio number 160/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0034.wav):
+# - 2.54 seconds long.
+# - actual    text: 'wild ones ain't alf the size i lay'
+# - processed text: 'while one and a half sight a la'
+# - processed in 54.057 seconds.
+# - WER = 1.0
+# Audio number 161/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0035.wav):
+# - 2.81 seconds long.
+# - actual    text: 'adventures i should think so'
+# - processed text: 'that ventures i should think so'
+# - processed in 59.488 seconds.
+# - WER = 0.4
+# Audio number 162/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0036.wav):
+# - 4.22 seconds long.
+# - actual    text: 'ah said dickie and a full silence fell between them'
+# - processed text: 'ah said dickie and a food identity in them'
+# - processed in 89.435 seconds.
+# - WER = 0.4
+# Audio number 163/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0037.wav):
+# - 5.465 seconds long.
+# - actual    text: 'that was charming but it was pleasant too to wash the mud off on the wet grass'
+# - processed text: 'he was charming but it was pleasant to to or the madoff one wet ground'
+# - processed in 115.446 seconds.
+# - WER = 0.471
+# Audio number 164/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0038.wav):
+# - 2.5 seconds long.
+# - actual    text: 'dickie always remembered that moment'
+# - processed text: 'dicky always remembered that moment'
+# - processed in 53.129 seconds.
+# - WER = 0.2
+# Audio number 165/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0039.wav):
+# - 6.59 seconds long.
+# - actual    text: 'so you shall said mister beale a reg'ler wash all over this very night i always like a wash meself'
+# - processed text: 'so you shall said mister deer a regular wash all over the speight i always like a wash myself'
+# - processed in 139.465 seconds.
+# - WER = 0.3
+# Audio number 166/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0040.wav):
+# - 3.765 seconds long.
+# - actual    text: 'some blokes think it pays to be dirty but it don't'
+# - processed text: 'some not think it pact to be dirty but it don't'
+# - processed in 79.454 seconds.
+# - WER = 0.167
+# Audio number 167/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0041.wav):
+# - 6.19 seconds long.
+# - actual    text: 'if you're clean they say honest poverty an if you're dirty they say serve you right'
+# - processed text: 'if you clean they say ones puberty and if you dirty they say serve you right'
+# - processed in 130.805 seconds.
+# - WER = 0.278
+# Audio number 168/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0042.wav):
+# - 3.31 seconds long.
+# - actual    text: 'you are good said dickie i do like you'
+# - processed text: 'you are good said dicky i do like you'
+# - processed in 70.625 seconds.
+# - WER = 0.111
+# Audio number 169/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0043.wav):
+# - 5.15 seconds long.
+# - actual    text: 'i know you will said dickie with enthusiasm i know ow good you are'
+# - processed text: 'i know you will said the girl was in silvia i know a good you are'
+# - processed in 109.22 seconds.
+# - WER = 0.429
+# Audio number 170/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0044.wav):
+# - 3.635 seconds long.
+# - actual    text: 'bless me said mister beale uncomfortably well there'
+# - processed text: 'bless me said mister bell and comfortably well there'
+# - processed in 77.345 seconds.
+# - WER = 0.375
+# Audio number 171/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0045.wav):
+# - 3.655 seconds long.
+# - actual    text: 'step out sonny or we'll never get there this side christmas'
+# - processed text: 'season or we never got there the iroquois'
+# - processed in 77.461 seconds.
+# - WER = 0.667
+# Audio number 172/362
+# File (tests/LibriSpeech/test-other/1998/29454/1998-29454-0046.wav):
+# - 3.275 seconds long.
+# - actual    text: 'well you'll know all about it presently'
+# - processed text: 'well you know all about it presently'
+# - processed in 69.669 seconds.
+# - WER = 0.125
+# Audio number 173/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0000.wav):
+# - 11.62 seconds long.
+# - actual    text: 'the singing and laughing went on long after he had fallen asleep and if later in the evening there were loud voiced arguments or quarrels even dickie did not hear them'
+# - processed text: 'the singing and laughing went on long after he had family and if late in the evening there were loud boatmen or crowed even decided not hear them'
+# - processed in 245.267 seconds.
+# - WER = 0.258
+# Audio number 174/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0001.wav):
+# - 9.015 seconds long.
+# - actual    text: 'what's all that there dickie asked pointing to the odd knobbly bundles of all sorts and shapes tied on to the perambulator's front'
+# - processed text: 'what's on that their deceased pointing through the art nobly bundle of all sorts and shapes tied on to the prom relates front'
+# - processed in 190.424 seconds.
+# - WER = 0.4
+# Audio number 175/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0002.wav):
+# - 3.89 seconds long.
+# - actual    text: 'tell yer what mate looks to me as if i'd took a fancy to you'
+# - processed text: 'tell you what to mate looks to me as if i too offence to you'
+# - processed in 82.496 seconds.
+# - WER = 0.375
+# Audio number 176/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0003.wav):
+# - 2.21 seconds long.
+# - actual    text: 'swelp me he said helplessly'
+# - processed text: 'some he said helplessly'
+# - processed in 46.598 seconds.
+# - WER = 0.4
+# Audio number 177/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0004.wav):
+# - 2.88 seconds long.
+# - actual    text: 'oh look said dickie the flowers'
+# - processed text: 'one said dickie the flowers'
+# - processed in 60.355 seconds.
+# - WER = 0.333
+# Audio number 178/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0005.wav):
+# - 2.49 seconds long.
+# - actual    text: 'they're only weeds said beale'
+# - processed text: 'there only reads said bell'
+# - processed in 52.164 seconds.
+# - WER = 0.667
+# Audio number 179/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0006.wav):
+# - 6.115 seconds long.
+# - actual    text: 'but i shall have them while they're alive said dickie as he had said to the pawnbroker about the moonflowers'
+# - processed text: 'but i should have them whether a line that they as he had said to the ponderous moon flower'
+# - processed in 130.25 seconds.
+# - WER = 0.524
+# Audio number 180/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0007.wav):
+# - 1.995 seconds long.
+# - actual    text: 'hi there goes a rabbit'
+# - processed text: 'hi there was a rabbit'
+# - processed in 42.5 seconds.
+# - WER = 0.2
+# Audio number 181/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0008.wav):
+# - 2.895 seconds long.
+# - actual    text: 'see im crost the road there see him'
+# - processed text: 'seem questo si'
+# - processed in 60.266 seconds.
+# - WER = 1.0
+# Audio number 182/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0009.wav):
+# - 3.735 seconds long.
+# - actual    text: 'how beautiful said dickie wriggling with delight'
+# - processed text: 'how beautiful the doggie reading was light'
+# - processed in 79.347 seconds.
+# - WER = 0.714
+# Audio number 183/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0010.wav):
+# - 7.675 seconds long.
+# - actual    text: 'this life of the rabbit as described by mister beale was the child's first glimpse of freedom i'd like to be a rabbit'
+# - processed text: 'the life of the rabbit as this crab tat mister bell was the this first limp of freedom i like to be a rabbit'
+# - processed in 163.042 seconds.
+# - WER = 0.36
+# Audio number 184/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0011.wav):
+# - 4.64 seconds long.
+# - actual    text: 'ow'm i to wheel the bloomin pram if you goes on like as if you was a bag of eels'
+# - processed text: 'all my to be of the room and prime in you go to like a if you was a big of fields'
+# - processed in 99.549 seconds.
+# - WER = 0.667
+# Audio number 185/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0012.wav):
+# - 3.695 seconds long.
+# - actual    text: 'i like you nexter my own daddy and mister baxter next door'
+# - processed text: 'i like you next to my own daddy and mister baxter extort'
+# - processed in 79.359 seconds.
+# - WER = 0.333
+# Audio number 186/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0013.wav):
+# - 3.09 seconds long.
+# - actual    text: 'that's all right said mister beale awkwardly'
+# - processed text: 'as a right said mister bell party'
+# - processed in 66.115 seconds.
+# - WER = 0.625
+# Audio number 187/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0014.wav):
+# - 2.83 seconds long.
+# - actual    text: 'dickie quick to imitate touched his'
+# - processed text: 'dickie quite imitate touched his'
+# - processed in 59.328 seconds.
+# - WER = 0.333
+# Audio number 188/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0015.wav):
+# - 4.01 seconds long.
+# - actual    text: 'poor little man said the lady you miss your mother don't you'
+# - processed text: 'the little man said the lady you must hum of a duty'
+# - processed in 84.74 seconds.
+# - WER = 0.538
+# Audio number 189/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0016.wav):
+# - 3.57 seconds long.
+# - actual    text: 'oh well done little un said mister beale to himself'
+# - processed text: 'a world under the one said mister bethel'
+# - processed in 75.946 seconds.
+# - WER = 0.8
+# Audio number 190/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0017.wav):
+# - 7.98 seconds long.
+# - actual    text: 'the two travellers were left facing each other the richer by a penny and oh wonderful good fortune a whole half crown'
+# - processed text: 'the two frames we left the in each other the richer by penny and a wonderfully good fortune a whole half crown'
+# - processed in 167.247 seconds.
+# - WER = 0.318
+# Audio number 191/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0018.wav):
+# - 3.68 seconds long.
+# - actual    text: 'no i never said dickie ere's the steever'
+# - processed text: 'no i never said to go yes the steven'
+# - processed in 78.117 seconds.
+# - WER = 0.444
+# Audio number 192/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0019.wav):
+# - 7.57 seconds long.
+# - actual    text: 'you stick to that said beale radiant with delight you're a fair masterpiece you are you earned it honest if ever a kid done'
+# - processed text: 'you stick to that said bear radiant was delight you are far master these you are you under honest of ever kid don'
+# - processed in 159.377 seconds.
+# - WER = 0.4
+# Audio number 193/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0020.wav):
+# - 4.31 seconds long.
+# - actual    text: 'they went on up the hill as happy as any one need wish to be'
+# - processed text: 'they went on up the hill as happy as anyone need wished to be'
+# - processed in 91.594 seconds.
+# - WER = 0.2
+# Audio number 194/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0021.wav):
+# - 1.96 seconds long.
+# - actual    text: 'please do not be too shocked'
+# - processed text: 'please i attacked'
+# - processed in 41.355 seconds.
+# - WER = 0.833
+# Audio number 195/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0022.wav):
+# - 3.245 seconds long.
+# - actual    text: 'remember that neither of them knew any better'
+# - processed text: 'remember that neither of them knew any better'
+# - processed in 68.175 seconds.
+# - WER = 0.0
+# Audio number 196/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0023.wav):
+# - 4.715 seconds long.
+# - actual    text: 'to the elder tramp lies and begging were natural means of livelihood'
+# - processed text: 'to the item is and begging when natural means of livelihood'
+# - processed in 99.833 seconds.
+# - WER = 0.333
+# Audio number 197/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0024.wav):
+# - 4.03 seconds long.
+# - actual    text: 'but you said the bed with the green curtains urged dickie'
+# - processed text: 'but you said the bed was the wind in attiki'
+# - processed in 84.68 seconds.
+# - WER = 0.455
+# Audio number 198/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0025.wav):
+# - 2.72 seconds long.
+# - actual    text: 'which this ain't not by no means'
+# - processed text: 'which this and not by no means'
+# - processed in 58.066 seconds.
+# - WER = 0.25
+# Audio number 199/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0026.wav):
+# - 12.84 seconds long.
+# - actual    text: 'the night is full of interesting little sounds that will not at first let you sleep the rustle of little wild things in the hedges the barking of dogs in distant farms the chirp of crickets and the croaking of frogs'
+# - processed text: 'the night is full of interesting little son said will not adverse that i sleep the rustle of the white things in the hatches the barking of dogs and distant finds the chirp of crickets and the creaking of rocks'
+# - processed in 272.486 seconds.
+# - WER = 0.317
+# Audio number 200/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0027.wav):
+# - 17.02 seconds long.
+# - actual    text: 'the new game of begging and inventing stories to interest the people from whom it was worth while to beg went on gaily day by day and week by week and dickie by constant practice grew so clever at taking his part in the acting that mister beale was quite dazed with admiration'
+# - processed text: 'the new game of begging and inventing stories to interest the people from whom it was worthwhile bag when angeli dave day and week by week and dick the constant practice grew so clever taking his part in the acting that mister bell was quite dazed with admiration'
+# - processed in 361.356 seconds.
+# - WER = 0.245
+# Audio number 201/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0028.wav):
+# - 4.77 seconds long.
+# - actual    text: 'blessed if i ever see such a nipper he said over and over again'
+# - processed text: 'bless her for ever see such a lover he said i went over again'
+# - processed in 100.377 seconds.
+# - WER = 0.429
+# Audio number 202/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0029.wav):
+# - 3.86 seconds long.
+# - actual    text: 'clever as a traindawg e is an all outer is own ead'
+# - processed text: 'clever a trained or is in on others own at'
+# - processed in 81.723 seconds.
+# - WER = 0.667
+# Audio number 203/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0030.wav):
+# - 5.535 seconds long.
+# - actual    text: 'i ain't sure as i adn't better stick to the road and keep away from old ands like you jim'
+# - processed text: 'i enter as i am better dick to the road and keep away from old and like you in'
+# - processed in 117.735 seconds.
+# - WER = 0.364
+# Audio number 204/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0031.wav):
+# - 4.96 seconds long.
+# - actual    text: 'i ope e's clever enough to do wot e's told keep is mug shut that's all'
+# - processed text: 'i opus love enough to do what i told give us make that's all'
+# - processed in 105.829 seconds.
+# - WER = 0.579
+# Audio number 205/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0032.wav):
+# - 4.32 seconds long.
+# - actual    text: 'if e's straight e'll do for me and if he ain't i'll do for im see'
+# - processed text: 'if you straight you do for me and he and i do for him see'
+# - processed in 92.481 seconds.
+# - WER = 0.45
+# Audio number 206/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0033.wav):
+# - 4.475 seconds long.
+# - actual    text: 'see that bloke just now said mister beale yuss said dickie'
+# - processed text: 'see that loose snow and mister bell yes said dickie'
+# - processed in 94.17 seconds.
+# - WER = 0.545
+# Audio number 207/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0034.wav):
+# - 1.81 seconds long.
+# - actual    text: 'well you never see im'
+# - processed text: 'well you never see him'
+# - processed in 38.482 seconds.
+# - WER = 0.2
+# Audio number 208/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0035.wav):
+# - 5.86 seconds long.
+# - actual    text: 'if any one arsts you if you ever see im you never set eyes on im in all your born not to remember im'
+# - processed text: 'if any one asks you if you ever see him you never said eyes on him in our born not to remember him'
+# - processed in 124.66 seconds.
+# - WER = 0.292
+# Audio number 209/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0036.wav):
+# - 3.94 seconds long.
+# - actual    text: 'dickie was full of questions but mister beale had no answers for them'
+# - processed text: 'to us would have questions but mister belet no answers were them'
+# - processed in 84.398 seconds.
+# - WER = 0.538
+# Audio number 210/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0037.wav):
+# - 6.65 seconds long.
+# - actual    text: 'nor was it sunday on which they took a rest and washed their shirts according to mister beale's rule of life'
+# - processed text: 'nor was it sunday and which they took her ass and wash their shirts according to mister bees roll of life'
+# - processed in 140.3 seconds.
+# - WER = 0.318
+# Audio number 211/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0038.wav):
+# - 11.05 seconds long.
+# - actual    text: 'they did not stay there but walked out across the downs where the skylarks were singing and on a dip of the downs came upon great stone walls and towers very strong and gray'
+# - processed text: 'let it had stay there but what our across the done with a skillet were singing and on a dip of the dance came upon great stone walls and towers were strong and gray'
+# - processed in 234.77 seconds.
+# - WER = 0.324
+# Audio number 212/362
+# File (tests/LibriSpeech/test-other/1998/29455/1998-29455-0039.wav):
+# - 2.365 seconds long.
+# - actual    text: 'what's that there said dickie'
+# - processed text: 'was that there said dei'
+# - processed in 50.348 seconds.
+# - WER = 0.5
+# Audio number 213/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0000.wav):
+# - 2.365 seconds long.
+# - actual    text: 'lobsters and lobsters'
+# - processed text: 'lobsters and losers'
+# - processed in 49.602 seconds.
+# - WER = 0.333
+# Audio number 214/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0001.wav):
+# - 4.38 seconds long.
+# - actual    text: 'when is a lobster not a lobster when it is a crayfish'
+# - processed text: 'when is a lobster not a lobster when it is a grayish'
+# - processed in 93.07 seconds.
+# - WER = 0.083
+# Audio number 215/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0002.wav):
+# - 11.28 seconds long.
+# - actual    text: 'this question and answer might well go into the primer of information for those who come to san francisco from the east for what is called a lobster in san francisco is not a lobster at all but a crayfish'
+# - processed text: 'this question and answer my will go into the paranormal for those who come the sentences of east for what is called a lobster and sensitive is not a lobster at all but a crayfish'
+# - processed in 239.909 seconds.
+# - WER = 0.325
+# Audio number 216/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0003.wav):
+# - 15.005 seconds long.
+# - actual    text: 'the pacific crayfish however serves every purpose and while many contend that its meat is not so delicate in flavor as that of its eastern cousin the californian will as strenuously insist that it is better but of course something must always be allowed for the patriotism of the californian'
+# - processed text: 'the pacific crayfish horses every purpose in one many contented its meat is not so delicate player as that of the eastern cousin the california was strenuously insist in is better but of course something was always be allowed to the patriotism of a california'
+# - processed in 316.588 seconds.
+# - WER = 0.36
+# Audio number 217/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0004.wav):
+# - 5.875 seconds long.
+# - actual    text: 'a book could be written about this restaurant and then all would not be told for all its secrets can never be known'
+# - processed text: 'a book could be written about this restaurant and that all would not be told for all its secrets can never be known'
+# - processed in 125.118 seconds.
+# - WER = 0.043
+# Audio number 218/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0005.wav):
+# - 15.555 seconds long.
+# - actual    text: 'it was here that most magnificent dinners were arranged it was here that extraordinary dishes were concocted by chefs of world wide fame it was here that lobster a la newberg reached its highest perfection and this is the recipe that was followed when it was prepared in the delmonico'
+# - processed text: 'it was here that most magnificent dinners rearranged it was here that extraordinary dishes were contacted by chefs of worldwide fame it was here the lobster ellen newburg reached its highest perfection and this was the recipe that was followed when he was prepared in the domenico'
+# - processed in 332.468 seconds.
+# - WER = 0.24
+# Audio number 219/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0006.wav):
+# - 2.35 seconds long.
+# - actual    text: 'lobster a la newberg'
+# - processed text: 'lobster newburg'
+# - processed in 50.03 seconds.
+# - WER = 0.75
+# Audio number 220/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0007.wav):
+# - 9.785 seconds long.
+# - actual    text: 'one pound of lobster meat one teaspoonful of butter one half pint of cream yolks of four eggs one wine glass of sherry lobster fat'
+# - processed text: 'one kind of lobster in one teaspoonful butter one half pint of cream you lofar eggs one in less of sherry lobster fat'
+# - processed in 208.226 seconds.
+# - WER = 0.32
+# Audio number 221/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0008.wav):
+# - 4.295 seconds long.
+# - actual    text: 'put this in a double boiler and let cook until thick stirring constantly'
+# - processed text: 'but this in a tower ler and let cook it so thick stirring constantly'
+# - processed in 91.55 seconds.
+# - WER = 0.385
+# Audio number 222/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0009.wav):
+# - 3.765 seconds long.
+# - actual    text: 'serve in a chafing dish with thin slices of dry toast'
+# - processed text: 'serving the chief in dish with line place dry test'
+# - processed in 79.408 seconds.
+# - WER = 0.727
+# Audio number 223/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0010.wav):
+# - 1.935 seconds long.
+# - actual    text: 'king of shell fish'
+# - processed text: 'king of shellfish'
+# - processed in 41.205 seconds.
+# - WER = 0.5
+# Audio number 224/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0011.wav):
+# - 5.71 seconds long.
+# - actual    text: 'one has to come to san francisco to partake of the king of shell fish the mammoth pacific crab'
+# - processed text: 'one has to come is sentences go to partake of the king of shawfish the mammoth pacific crap'
+# - processed in 120.298 seconds.
+# - WER = 0.316
+# Audio number 225/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0012.wav):
+# - 8.44 seconds long.
+# - actual    text: 'i say come to san francisco advisedly for while the crab is found all along the coast it is prepared nowhere so deliciously as in san francisco'
+# - processed text: 'i say come to san francisco advisedly for while the crab is thought all along the coast it is prepared no where so deliciously as intent of cisco'
+# - processed in 179.62 seconds.
+# - WER = 0.222
+# Audio number 226/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0013.wav):
+# - 8.7 seconds long.
+# - actual    text: 'gobey's passed with the fire and the little restaurant bearing his name and in charge of his widow in union square avenue has not attained the fame of the old place'
+# - processed text: 'go be's pass with the fire and the little restaurant bearing his name and in charge of his widow in union square up a new has not attained the same of the old place'
+# - processed in 186.518 seconds.
+# - WER = 0.219
+# Audio number 227/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0014.wav):
+# - 8.61 seconds long.
+# - actual    text: 'it is possible that she knows the secret of preparing crab as it was prepared in the gobey's of before the fire but his prestige did not descend to her'
+# - processed text: 'it is possible that she knows the secret preparing crab as it was to per tonne goes on before the fire but his preceded this not descend to her'
+# - processed in 182.707 seconds.
+# - WER = 0.29
+# Audio number 228/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0015.wav):
+# - 2.28 seconds long.
+# - actual    text: 'gobey's crab stew'
+# - processed text: 'to these crops to'
+# - processed in 48.47 seconds.
+# - WER = 1.0
+# Audio number 229/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0016.wav):
+# - 4.69 seconds long.
+# - actual    text: 'take the meat of one large crab scraping out all of the fat from the shell'
+# - processed text: 'take the meat of one large crab skipping up all the back from the shop'
+# - processed in 99.467 seconds.
+# - WER = 0.312
+# Audio number 230/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0017.wav):
+# - 3.805 seconds long.
+# - actual    text: 'soak the crab meat in the sherry two hours before cooking'
+# - processed text: 'soak the crab me in the share two hours before cooking'
+# - processed in 81.07 seconds.
+# - WER = 0.182
+# Audio number 231/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0018.wav):
+# - 4.215 seconds long.
+# - actual    text: 'chop fine the onion sweet pepper and tomato with the rosemary'
+# - processed text: 'chop fine onion sweep perpetrator with the rosemary'
+# - processed in 89.773 seconds.
+# - WER = 0.455
+# Audio number 232/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0019.wav):
+# - 7.795 seconds long.
+# - actual    text: 'heat this in a stewpan and when simmering add the sherry and crab meat and let all cook together with a slow fire for eight minutes'
+# - processed text: 'he is in a stupid and when severing at the sherry and crab me and let all cook together with a slow fire for eight minutes'
+# - processed in 165.291 seconds.
+# - WER = 0.231
+# Audio number 233/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0020.wav):
+# - 4.57 seconds long.
+# - actual    text: 'serve in a chafing dish with toasted crackers or thin slices of toasted bread'
+# - processed text: 'servis chafing dish with toast a crackers or thin slices of tiered'
+# - processed in 97.294 seconds.
+# - WER = 0.5
+# Audio number 234/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0021.wav):
+# - 2.46 seconds long.
+# - actual    text: 'lobster in miniature'
+# - processed text: 'lobster in miniature'
+# - processed in 51.031 seconds.
+# - WER = 0.0
+# Audio number 235/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0022.wav):
+# - 7.45 seconds long.
+# - actual    text: 'so far it has been used mostly for garnishment of other dishes and it is only recently that the hof brau has been making a specialty of them'
+# - processed text: 'so far has a us may for guardsmen of other dishes and in his only recently that the whole row has been making a specialty of them'
+# - processed in 158.974 seconds.
+# - WER = 0.321
+# Audio number 236/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0023.wav):
+# - 4.255 seconds long.
+# - actual    text: 'all of the better class restaurants however will serve them if you order them'
+# - processed text: 'all the better class restaurants however will serve the monte order them'
+# - processed in 90.344 seconds.
+# - WER = 0.286
+# Audio number 237/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0024.wav):
+# - 6.18 seconds long.
+# - actual    text: 'this is the recipe for eight people and it is well worth trying if you are giving a dinner of importance'
+# - processed text: 'this is the rest for eight people and it is well worth trying if you are giving a dinner of importance'
+# - processed in 132.487 seconds.
+# - WER = 0.048
+# Audio number 238/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0025.wav):
+# - 2.15 seconds long.
+# - actual    text: 'bisque of crawfish'
+# - processed text: 'this of cloth is'
+# - processed in 45.535 seconds.
+# - WER = 1.0
+# Audio number 239/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0026.wav):
+# - 18.52 seconds long.
+# - actual    text: 'take thirty crawfish from which remove the gut containing the gall in the following manner take firm hold of the crawfish with the left hand so as to avoid being pinched by its claws with the thumb and forefinger of the right hand pinch the extreme end of the central fin of the tail and with a sudden jerk the gut will be withdrawn'
+# - processed text: 'take thirty clothes from which removed he got containing the gall in the falling manner take firm hold of the clothes of the left hand so as to avoid being pinched by its class with the summit fore finger of the right hand hence the extreme end of the central thin of the tail and with a sudden jerk that got will be withdrawn'
+# - processed in 395.163 seconds.
+# - WER = 0.234
+# Audio number 240/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0027.wav):
+# - 13.21 seconds long.
+# - actual    text: 'mince or cut into small dice a carrot an onion one head of celery and a few parsley roots and to these add a bay leaf a sprig of thyme a little minionette pepper and two ounces of butter'
+# - processed text: 'then sir cut into small dice a carrot and union one had a salary and a few party rooms and to these at a balearic of time a little maneater and two un subeta'
+# - processed in 278.631 seconds.
+# - WER = 0.513
+# Audio number 241/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0028.wav):
+# - 8.6 seconds long.
+# - actual    text: 'put these ingredients into a stewpan and fry them ten minutes then throw in the crawfish and pour on them half a bottle of french white wine'
+# - processed text: 'but these ingredients into a stupid and firemen minutes then throw in the crop ish and pour on them half a bottle of french white wine'
+# - processed in 180.265 seconds.
+# - WER = 0.259
+# Audio number 242/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0029.wav):
+# - 6.25 seconds long.
+# - actual    text: 'allow this to boil and then add a quart of strong consomme and let all continue boiling for half an hour'
+# - processed text: 'allow us to boil and then out a court of strong consent and let all continue boiling for half an hour'
+# - processed in 133.639 seconds.
+# - WER = 0.19
+# Audio number 243/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0030.wav):
+# - 8.21 seconds long.
+# - actual    text: 'pick out the crawfish and strain the broth through a napkin by pressure into a basin in order to extract all the essence from the vegetables'
+# - processed text: 'pick out the crawfish and strain the broth through a napkin by pressure into a basin and orator strict all the essence from the vegetables'
+# - processed in 174.834 seconds.
+# - WER = 0.154
+# Audio number 244/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0031.wav):
+# - 6.77 seconds long.
+# - actual    text: 'pick the shells off twenty five of the crawfish tails trim them neatly and set them aside until wanted'
+# - processed text: 'pick the shells of twenty five in the coffee tales trimmed and kneeling and set them aside into once a'
+# - processed in 142.557 seconds.
+# - WER = 0.526
+# Audio number 245/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0032.wav):
+# - 6.67 seconds long.
+# - actual    text: 'reserve some of the spawn also half of the body shells with which to make the crawfish butter to finish the soup'
+# - processed text: 'return some of the span of half the body shows with which to make the codfish butter to finish the so'
+# - processed in 140.603 seconds.
+# - WER = 0.318
+# Audio number 246/362
+# File (tests/LibriSpeech/test-other/367/130732/367-130732-0033.wav):
+# - 15.91 seconds long.
+# - actual    text: 'this butter is made as follows place the shells on a baking sheet in the oven to dry let the shells cool and then pound them in a mortar with a little lobster coral and four ounces of fresh butter thoroughly bruising the whole together so as to make a fine paste'
+# - processed text: 'this butter is made as follows place the shells in a big in shit in the oven to dry let the shells cool and then pound them in a mortar with a little lobster cornflour ounces of fresh butter there only bruising the whole together trust i make a fine paste'
+# - processed in 338.154 seconds.
+# - WER = 0.231
+# Audio number 247/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0000.wav):
+# - 2.215 seconds long.
+# - actual    text: 'i swear it answered sancho'
+# - processed text: 'i swear answered some show'
+# - processed in 47.019 seconds.
+# - WER = 0.6
+# Audio number 248/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0001.wav):
+# - 4.96 seconds long.
+# - actual    text: 'i say so continued don quixote because i hate taking away anyone's good name'
+# - processed text: 'i say so continued don quixote because i hate taking away any one's good need'
+# - processed in 105.676 seconds.
+# - WER = 0.2
+# Audio number 249/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0002.wav):
+# - 8.2 seconds long.
+# - actual    text: 'i say replied sancho that i swear to hold my tongue about it till the end of your worship's days and god grant i may be able to let it out tomorrow'
+# - processed text: 'i say replied sancho that i swear to hold my tongue about it till the end of your worship days and gone grant i may be able to let it out tomorrow'
+# - processed in 175.678 seconds.
+# - WER = 0.061
+# Audio number 250/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0003.wav):
+# - 9.575 seconds long.
+# - actual    text: 'though your worship was not so badly off having in your arms that incomparable beauty you spoke of but i what did i have except the heaviest whacks i think i had in all my life'
+# - processed text: 'though your worship was not so badly or having on your arm to any of terrible beauty you spoke of but i what did i have except the heaviest was that i think i had in all my life'
+# - processed in 204.384 seconds.
+# - WER = 0.25
+# Audio number 251/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0004.wav):
+# - 2.325 seconds long.
+# - actual    text: 'unlucky me and the mother that bore me'
+# - processed text: 'unlucky me in the mother tat bore me'
+# - processed in 50.387 seconds.
+# - WER = 0.25
+# Audio number 252/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0005.wav):
+# - 3.445 seconds long.
+# - actual    text: 'didn't i say so worse luck to my line said sancho'
+# - processed text: 'did i say so worth look to my mind said sancho'
+# - processed in 72.998 seconds.
+# - WER = 0.333
+# Audio number 253/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0006.wav):
+# - 6.175 seconds long.
+# - actual    text: 'it cannot be the moor answered don quixote for those under enchantment do not let themselves be seen by anyone'
+# - processed text: 'it cannot be the more answered don quixote to those under enchantment in tat lesson selves be seen by anyone'
+# - processed in 133.034 seconds.
+# - WER = 0.3
+# Audio number 254/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0007.wav):
+# - 6.37 seconds long.
+# - actual    text: 'if they don't let themselves be seen they let themselves be felt said sancho if not let my shoulders speak to the point'
+# - processed text: 'if they do not let themselves be seen they let themselves be felt said sancho a lot let my shoulder speak to the point'
+# - processed in 135.515 seconds.
+# - WER = 0.125
+# Audio number 255/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0008.wav):
+# - 6.76 seconds long.
+# - actual    text: 'mine could speak too said don quixote but that is not a sufficient reason for believing that what we see is the enchanted moor'
+# - processed text: 'my had speak too said don quixote but that is not especial reason for believing that what we see is the enchanted more'
+# - processed in 143.712 seconds.
+# - WER = 0.208
+# Audio number 256/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0009.wav):
+# - 3.295 seconds long.
+# - actual    text: 'the officer turned to him and said well how goes it good man'
+# - processed text: 'the officer turned to him and said well how goes a good man'
+# - processed in 70.648 seconds.
+# - WER = 0.077
+# Audio number 257/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0010.wav):
+# - 22.765 seconds long.
+# - actual    text: 'sancho got up with pain enough in his bones and went after the innkeeper in the dark and meeting the officer who was looking to see what had become of his enemy he said to him senor whoever you are do us the favour and kindness to give us a little rosemary oil salt and wine for it is wanted to cure one of the best knights errant on earth who lies on yonder bed wounded by the hands of the enchanted moor that is in this inn'
+# - processed text: 'sancho got up with pain in us in his bones and went after the inept in the dark in meeting the officer who was looking to see what had become of his enemy he said to him signor whoever you are do as to favour a kind as to give us a little rosemary oil salt and white for it is water to care whatever best night eranet who lies on yonder bed wouldn't by the hands of the intended more than is in this in'
+# - processed in 487.341 seconds.
+# - WER = 0.295
+# Audio number 258/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0011.wav):
+# - 9.505 seconds long.
+# - actual    text: 'to be brief he took the materials of which he made a compound mixing them all and boiling them a good while until it seemed to him they had come to perfection'
+# - processed text: 'to be briefly took the matters of which he made a compound mixing them all boiling them a good while it until it seemed him they had come to perfection'
+# - processed in 202.152 seconds.
+# - WER = 0.188
+# Audio number 259/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0012.wav):
+# - 8.11 seconds long.
+# - actual    text: 'sancho panza who also regarded the amendment of his master as miraculous begged him to give him what was left in the pigskin which was no small quantity'
+# - processed text: 'such a posse who also regard the amendment of his master s miraculous begin to give a lot was let in a pickin which was no small quantity'
+# - processed in 172.168 seconds.
+# - WER = 0.429
+# Audio number 260/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0013.wav):
+# - 7.96 seconds long.
+# - actual    text: 'don quixote consented and he taking it with both hands in good faith and with a better will gulped down and drained off very little less than his master'
+# - processed text: 'donkey hood i had said and he taking it with both hands and good faith and with a better well but to down and during a very little lessons master'
+# - processed in 170.219 seconds.
+# - WER = 0.483
+# Audio number 261/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0014.wav):
+# - 6.745 seconds long.
+# - actual    text: 'if your worship knew that returned sancho woe betide me and all my kindred why did you let me taste it'
+# - processed text: 'if your worship knew that returned sancho will be tied me in all my centre why did you let me taste it'
+# - processed in 143.349 seconds.
+# - WER = 0.238
+# Audio number 262/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0015.wav):
+# - 11.06 seconds long.
+# - actual    text: 'search your memory and if you find anything of this kind you need only tell me of it and i promise you by the order of knighthood which i have received to procure you satisfaction and reparation to the utmost of your desire'
+# - processed text: 'search memory and if you find anything of this kind you need only tell me of it in a promise by the order i heard which i have received so procure you satisfaction in reparation to the utmost of your desire'
+# - processed in 235.928 seconds.
+# - WER = 0.186
+# Audio number 263/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0016.wav):
+# - 3.11 seconds long.
+# - actual    text: 'then this is an inn said don quixote'
+# - processed text: 'then this is an i said don quixote'
+# - processed in 65.942 seconds.
+# - WER = 0.125
+# Audio number 264/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0017.wav):
+# - 2.91 seconds long.
+# - actual    text: 'and a very respectable one said the innkeeper'
+# - processed text: 'and a very respectable one said the innkeeper'
+# - processed in 61.628 seconds.
+# - WER = 0.0
+# Audio number 265/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0018.wav):
+# - 12.3 seconds long.
+# - actual    text: 'the cries of the poor blanketed wretch were so loud that they reached the ears of his master who halting to listen attentively was persuaded that some new adventure was coming until he clearly perceived that it was his squire who uttered them'
+# - processed text: 'the cries of the poor blanket and breath were so loud that they reached the ears of his master who pausing to listen attended to flee was persuaded that some new venturous coming until he could be perceived tat it was the squire who are them'
+# - processed in 262.594 seconds.
+# - WER = 0.326
+# Audio number 266/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0019.wav):
+# - 7.09 seconds long.
+# - actual    text: 'he saw him rising and falling in the air with such grace and nimbleness that had his rage allowed him it is my belief he would have laughed'
+# - processed text: 'he saw him rising and falling in the air with such grace and timeliness that had his rage loud or is my belief he would have left'
+# - processed in 150.311 seconds.
+# - WER = 0.179
+# Audio number 267/362
+# File (tests/LibriSpeech/test-other/367/293981/367-293981-0020.wav):
+# - 17.29 seconds long.
+# - actual    text: 'sancho took it and as he was raising it to his mouth he was stopped by the cries of his master exclaiming sancho my son drink not water drink it not my son for it will kill thee see here i have the blessed balsam and he held up the flask of liquor and with drinking two drops of it thou wilt certainly be restored'
+# - processed text: 'sancho took it in as he was raising it to his mouth he stop by the crime of his master exclaiming sancho my son drink not water drinkin not my son for it will kill me see here i had the blessed balsam and he held up the pasko locker and with drinking two jobs with that walter ainly be restored'
+# - processed in 365.966 seconds.
+# - WER = 0.262
+# Audio number 268/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0000.wav):
+# - 2.55 seconds long.
+# - actual    text: 'when churchyards yawn'
+# - processed text: 'when those are on'
+# - processed in 53.306 seconds.
+# - WER = 1.0
+# Audio number 269/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0001.wav):
+# - 9.17 seconds long.
+# - actual    text: 'i knew well enough that he might be carried thousands of miles in the box car locked in perhaps without water or food'
+# - processed text: 'i knew well enough tat he might be carried out in a mouse and box car locked in perhaps without water or food'
+# - processed in 193.616 seconds.
+# - WER = 0.261
+# Audio number 270/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0002.wav):
+# - 9.29 seconds long.
+# - actual    text: 'i am sure i kissed liddy and i have had terrible moments since when i seem to remember kissing mister jamieson too in the excitement'
+# - processed text: 'i am sure i guess leave and i've had terrible moment since when i seem to remember kissing mister jameson too with the excitement'
+# - processed in 194.93 seconds.
+# - WER = 0.2
+# Audio number 271/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0003.wav):
+# - 5.83 seconds long.
+# - actual    text: 'fortunately warner and the detectives were keeping bachelor hall in the lodge'
+# - processed text: 'fortunately water and attack to working basler how and lodge'
+# - processed in 122.309 seconds.
+# - WER = 0.75
+# Audio number 272/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0004.wav):
+# - 9.02 seconds long.
+# - actual    text: 'out of deference to liddy they washed their dishes once a day and they concocted queer messes according to their several abilities'
+# - processed text: 'all of that ruled the wash the dishes was to day and he comforted queernesses according to their several abilities'
+# - processed in 189.967 seconds.
+# - WER = 0.591
+# Audio number 273/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0005.wav):
+# - 9.02 seconds long.
+# - actual    text: 'miss innes he said stopping me as i was about to go to my room up stairs how are your nerves tonight'
+# - processed text: 'miss is he said stocking me as i was about to go to my room upstairs how are your nurse to night'
+# - processed in 190.439 seconds.
+# - WER = 0.318
+# Audio number 274/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0006.wav):
+# - 3.795 seconds long.
+# - actual    text: 'i have none i said happily'
+# - processed text: 'i have none i said happily'
+# - processed in 79.784 seconds.
+# - WER = 0.0
+# Audio number 275/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0007.wav):
+# - 8.32 seconds long.
+# - actual    text: 'i mean he persisted do you feel as though you could go through with something rather unusual'
+# - processed text: 'i mean he persisted do you feel as though you could go through with something rather unusual'
+# - processed in 175.227 seconds.
+# - WER = 0.0
+# Audio number 276/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0008.wav):
+# - 5.0500625 seconds long.
+# - actual    text: 'the most unusual thing i can think of would be a peaceful night'
+# - processed text: 'the most unusual seeing i can think of would be a title night'
+# - processed in 106.955 seconds.
+# - WER = 0.154
+# Audio number 277/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0009.wav):
+# - 3.98 seconds long.
+# - actual    text: 'something is going to occur he said'
+# - processed text: 'something is going to occur he said'
+# - processed in 85.133 seconds.
+# - WER = 0.0
+# Audio number 278/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0010.wav):
+# - 6.78 seconds long.
+# - actual    text: 'put on heavy shoes and some old dark clothes and make up your mind not to be surprised at anything'
+# - processed text: 'put on heavy shoes and some all our clothes and take appear mind not to be surprised at anything'
+# - processed in 144.758 seconds.
+# - WER = 0.25
+# Audio number 279/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0011.wav):
+# - 6.95 seconds long.
+# - actual    text: 'liddy was sleeping the sleep of the just when i went up stairs and i hunted out my things cautiously'
+# - processed text: 'let in a sleeping slip of a just and i went up stairs and i handed out my things cautiously'
+# - processed in 146.115 seconds.
+# - WER = 0.4
+# Audio number 280/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0012.wav):
+# - 5.215 seconds long.
+# - actual    text: 'they were talking confidentially together but when i came down they ceased'
+# - processed text: 'do we talk in confidence her but when they came down they seized'
+# - processed in 111.321 seconds.
+# - WER = 0.667
+# Audio number 281/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0013.wav):
+# - 16.335 seconds long.
+# - actual    text: 'there were a few preparations to be made the locks to be gone over winters to be instructed as to renewed vigilance and then after extinguishing the hall light we crept in the darkness through the front door and into the night'
+# - processed text: 'there were a few preparations to be made blocked to be gone over winter spine rugged as to a new vigilant and then after his singing the whole light regret in the agnes through the front door and into the night'
+# - processed in 343.58 seconds.
+# - WER = 0.357
+# Audio number 282/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0014.wav):
+# - 2.47 seconds long.
+# - actual    text: 'i asked no questions'
+# - processed text: 'i ask no questions'
+# - processed in 51.834 seconds.
+# - WER = 0.25
+# Audio number 283/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0015.wav):
+# - 9.35 seconds long.
+# - actual    text: 'once only somebody spoke and then it was an emphatic bit of profanity from doctor stewart when he ran into a wire fence'
+# - processed text: 'was only somebody spoke and then he doesn't insecticide profanity from doctor steward when he ran into the wire fence'
+# - processed in 197.87 seconds.
+# - WER = 0.391
+# Audio number 284/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0016.wav):
+# - 2.495 seconds long.
+# - actual    text: 'i hardly know what i expected'
+# - processed text: 'i i i know what i expected'
+# - processed in 52.814 seconds.
+# - WER = 0.333
+# Audio number 285/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0017.wav):
+# - 5.48 seconds long.
+# - actual    text: 'the doctor was puffing somewhat when we finally came to a halt'
+# - processed text: 'the vote was puffing somewhat will finally came to a halt'
+# - processed in 116.058 seconds.
+# - WER = 0.25
+# Audio number 286/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0018.wav):
+# - 5.92 seconds long.
+# - actual    text: 'i confess that just at that minute even sunnyside seemed a cheerful spot'
+# - processed text: 'i confess said just at tat minute even sunnyside simple cheerful spot'
+# - processed in 124.704 seconds.
+# - WER = 0.308
+# Audio number 287/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0019.wav):
+# - 4.305 seconds long.
+# - actual    text: 'in spite of myself i drew my breath in sharply'
+# - processed text: 'in spite of myself i do a breath in sharply'
+# - processed in 91.105 seconds.
+# - WER = 0.2
+# Audio number 288/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0020.wav):
+# - 4.605 seconds long.
+# - actual    text: 'it was alex armed with two long handled spades'
+# - processed text: 'it was all under two long handled spate'
+# - processed in 97.421 seconds.
+# - WER = 0.444
+# Audio number 289/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0021.wav):
+# - 4.345 seconds long.
+# - actual    text: 'the doctor kept a keen lookout but no one appeared'
+# - processed text: 'the captain look out the tough and appeared'
+# - processed in 91.376 seconds.
+# - WER = 0.8
+# Audio number 290/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0022.wav):
+# - 5.425 seconds long.
+# - actual    text: 'there's one thing sure i'll not be suspected of complicity'
+# - processed text: 'there's one thing sure i'll make this aspect of the complexity'
+# - processed in 114.982 seconds.
+# - WER = 0.417
+# Audio number 291/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0023.wav):
+# - 6.275 seconds long.
+# - actual    text: 'a doctor is generally supposed to be handier at burying folks than at digging them up'
+# - processed text: 'though the is generally supposed to be a hanger at varying folks then a singing them up'
+# - processed in 131.798 seconds.
+# - WER = 0.5
+# Audio number 292/362
+# File (tests/LibriSpeech/test-other/533/1066/533-1066-0024.wav):
+# - 6.05 seconds long.
+# - actual    text: 'i held on to him frantically and somehow i got there and looked down'
+# - processed text: 'i held on to him frantically and somehow i got ter and looked down'
+# - processed in 126.858 seconds.
+# - WER = 0.071
+# Audio number 293/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0000.wav):
+# - 6.205 seconds long.
+# - actual    text: 'but how am i to get over the ten or twelve days that must yet elapse before they go'
+# - processed text: 'then how am i to get over the ten or twelve days that must yet to have before they go'
+# - processed in 132.853 seconds.
+# - WER = 0.158
+# Audio number 294/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0001.wav):
+# - 3.505 seconds long.
+# - actual    text: 'for none could injure me as he has done oh'
+# - processed text: 'for none could endure me as he has done a'
+# - processed in 74.536 seconds.
+# - WER = 0.2
+# Audio number 295/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0002.wav):
+# - 7.965 seconds long.
+# - actual    text: 'the word stares me in the face like a guilty confession but it is true i hate him i hate him'
+# - processed text: 'no word tears me in the faith like a guilty of fashion but it is true i hate him i hate him'
+# - processed in 168.147 seconds.
+# - WER = 0.238
+# Audio number 296/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0003.wav):
+# - 12.125 seconds long.
+# - actual    text: 'i sometimes think i ought to give him credit for the good feeling he simulates so well and then again i think it is my duty to suspect him under the peculiar circumstances in which i am placed'
+# - processed text: 'i sent them think i oughta give him credit for the good feeling he seemly iso well and then again i think it is my beauty to suspect him under the peculiar circumstances in which i am placed'
+# - processed in 257.041 seconds.
+# - WER = 0.184
+# Audio number 297/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0004.wav):
+# - 2.815 seconds long.
+# - actual    text: 'i have done well to record them so minutely'
+# - processed text: 'and then well to record in some in are'
+# - processed in 59.656 seconds.
+# - WER = 0.778
+# Audio number 298/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0005.wav):
+# - 10.125 seconds long.
+# - actual    text: 'they had betaken themselves to their work i less to divert my mind than to deprecate conversation had provided myself with a book'
+# - processed text: 'the year had taken themselves to their work i let her my mind than to the recite conversation as vidreel with the book'
+# - processed in 213.767 seconds.
+# - WER = 0.522
+# Audio number 299/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0006.wav):
+# - 11.12 seconds long.
+# - actual    text: 'i am too well acquainted with your character and conduct to feel any real friendship for you and as i am without your talent for dissimulation i cannot assume the appearance of it'
+# - processed text: 'i am too eloquent i do chartering come back to feel any real friend for you and those i am without your talent would simulation i cannot resume your peers of it'
+# - processed in 235.991 seconds.
+# - WER = 0.424
+# Audio number 300/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0007.wav):
+# - 4.105 seconds long.
+# - actual    text: 'upon perusing this she turned scarlet and bit her lip'
+# - processed text: 'i on perusing this he turned scarlet and better let'
+# - processed in 86.312 seconds.
+# - WER = 0.6
+# Audio number 301/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0008.wav):
+# - 5.29 seconds long.
+# - actual    text: 'you may go milicent and she'll follow in a while milicent went'
+# - processed text: 'it may go million until following a while million went'
+# - processed in 111.384 seconds.
+# - WER = 0.615
+# Audio number 302/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0009.wav):
+# - 3.93 seconds long.
+# - actual    text: 'will you oblige me helen continued she'
+# - processed text: 'oblige me ellen continued she'
+# - processed in 82.827 seconds.
+# - WER = 0.429
+# Audio number 303/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0010.wav):
+# - 2.795 seconds long.
+# - actual    text: 'ah you are suspicious'
+# - processed text: 'ah you are suspicious'
+# - processed in 58.907 seconds.
+# - WER = 0.0
+# Audio number 304/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0011.wav):
+# - 6.56 seconds long.
+# - actual    text: 'if i were suspicious i replied i should have discovered your infamy long before'
+# - processed text: 'if i was suspicious i replied i shall have discovered your affirming before'
+# - processed in 138.84 seconds.
+# - WER = 0.286
+# Audio number 305/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0012.wav):
+# - 11.93 seconds long.
+# - actual    text: 'i enjoy a moonlight ramble as well as you i answered steadily fixing my eyes upon her and the shrubbery happens to be one of my favourite resorts'
+# - processed text: 'i enjoy a likeable well as you i answered steadily she see my eyes up an ear and fever happens to be one of my favorites resorts'
+# - processed in 250.805 seconds.
+# - WER = 0.393
+# Audio number 306/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0013.wav):
+# - 7.475 seconds long.
+# - actual    text: 'she coloured again excessively and remained silent pressing her finger against her teeth and gazing into the fire'
+# - processed text: 'she coloured again excessively and remained silent resider finger against her teeth and gazing into the fire'
+# - processed in 158.544 seconds.
+# - WER = 0.111
+# Audio number 307/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0014.wav):
+# - 9.665 seconds long.
+# - actual    text: 'i watched her a few moments with a feeling of malevolent gratification then moving towards the door i calmly asked if she had anything more to say'
+# - processed text: 'i was her few moment to the feeling of malevolent red fiction then moving towards the door i came as if she had anything more to say'
+# - processed in 205.626 seconds.
+# - WER = 0.333
+# Audio number 308/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0015.wav):
+# - 2.25 seconds long.
+# - actual    text: 'yes yes'
+# - processed text: 'yes yes'
+# - processed in 46.555 seconds.
+# - WER = 0.0
+# Audio number 309/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0016.wav):
+# - 1.99 seconds long.
+# - actual    text: 'suppose i do'
+# - processed text: 'suppose i do'
+# - processed in 42.245 seconds.
+# - WER = 0.0
+# Audio number 310/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0017.wav):
+# - 6.42 seconds long.
+# - actual    text: 'she paused in evident disconcertion and perplexity mingled with anger she dared not show'
+# - processed text: 'she was in evidence escalation and propriety nigel anger she had not show'
+# - processed in 135.091 seconds.
+# - WER = 0.5
+# Audio number 311/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0018.wav):
+# - 6.505 seconds long.
+# - actual    text: 'i cannot renounce what is dearer than life she muttered in a low hurried tone'
+# - processed text: 'i cannot renounce that is dear then wife chimed in a low hermione'
+# - processed in 136.478 seconds.
+# - WER = 0.533
+# Audio number 312/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0019.wav):
+# - 15.22 seconds long.
+# - actual    text: 'if you are generous here is a fitting opportunity for the exercise of your magnanimity if you are proud here am i your rival ready to acknowledge myself your debtor for an act of the most noble forbearance'
+# - processed text: 'if you are ten as he is a fleeting opportunity for the exercise if you have meaning it if you are proud he remi arrival radical nose myself so that for act of most noble from barons'
+# - processed in 322.006 seconds.
+# - WER = 0.605
+# Audio number 313/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0020.wav):
+# - 2.04 seconds long.
+# - actual    text: 'i shall not tell him'
+# - processed text: 'i shall not tell him'
+# - processed in 43.785 seconds.
+# - WER = 0.0
+# Audio number 314/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0021.wav):
+# - 4.1 seconds long.
+# - actual    text: 'give me no thanks it is not for your sake that i refrain'
+# - processed text: 'give me nothing it is not for your sake i refrain'
+# - processed in 87.401 seconds.
+# - WER = 0.231
+# Audio number 315/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0022.wav):
+# - 2.68 seconds long.
+# - actual    text: 'and milicent will you tell her'
+# - processed text: 'and milton will tell her'
+# - processed in 56.612 seconds.
+# - WER = 0.333
+# Audio number 316/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0023.wav):
+# - 4.725 seconds long.
+# - actual    text: 'i would not for much that she should know the infamy and disgrace of her relation'
+# - processed text: 'i would not for much section the ionian disgrace of relation'
+# - processed in 100.258 seconds.
+# - WER = 0.438
+# Audio number 317/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0024.wav):
+# - 4.38 seconds long.
+# - actual    text: 'you use hard words missus huntingdon but i can pardon you'
+# - processed text: 'you use our force missus huntington but i can pardon you'
+# - processed in 92.691 seconds.
+# - WER = 0.273
+# Audio number 318/362
+# File (tests/LibriSpeech/test-other/533/131556/533-131556-0025.wav):
+# - 2.71 seconds long.
+# - actual    text: 'how dare you mention his name to me'
+# - processed text: 'how do i made any name to me'
+# - processed in 57.838 seconds.
+# - WER = 0.5
+# Audio number 319/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0000.wav):
+# - 18.64 seconds long.
+# - actual    text: 'it seems very interesting love said he lifting his head and turning to where i stood wringing my hands in silent rage and anguish but it's rather long i'll look at it some other time and meanwhile i'll trouble you for your keys my dear what keys'
+# - processed text: 'it sounds very interesting was said he lifting his head and curing to a rice to wring my hands and sound rising uashi bit render long i look at it some other time and meanwhile i'll travel you for your case my dear what case'
+# - processed in 394.028 seconds.
+# - WER = 0.38
+# Audio number 320/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0001.wav):
+# - 8.45 seconds long.
+# - actual    text: 'the keys of your cabinet desk drawers and whatever else you possess said he rising and holding out his hand'
+# - processed text: 'in a case as your cabinet desk drawer and whatever else he possessed the said he rising in the holding are hand'
+# - processed in 179.258 seconds.
+# - WER = 0.6
+# Audio number 321/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0002.wav):
+# - 6.11 seconds long.
+# - actual    text: 'the key of my desk in fact was at that moment in the lock and the others were attached to it'
+# - processed text: 'the keys my vest and tat was at that moment into law and the others were attached to it'
+# - processed in 129.261 seconds.
+# - WER = 0.381
+# Audio number 322/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0003.wav):
+# - 5.75 seconds long.
+# - actual    text: 'now then sneered he we must have a confiscation of property'
+# - processed text: 'now then sneered he we must have a confiscation of property'
+# - processed in 120.158 seconds.
+# - WER = 0.0
+# Audio number 323/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0004.wav):
+# - 4.285 seconds long.
+# - actual    text: 'and putting the keys into his pocket he walked into the library'
+# - processed text: 'and putting the keys into his face he walked into the library'
+# - processed in 90.595 seconds.
+# - WER = 0.083
+# Audio number 324/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0005.wav):
+# - 5.58 seconds long.
+# - actual    text: 'that and all replied the master and the things were cleared away'
+# - processed text: 'that and all replied the master and things were cleared away'
+# - processed in 117.963 seconds.
+# - WER = 0.083
+# Audio number 325/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0006.wav):
+# - 3.145 seconds long.
+# - actual    text: 'mister huntingdon then went up stairs'
+# - processed text: 'mister hanson dunstan went and stars'
+# - processed in 64.905 seconds.
+# - WER = 0.667
+# Audio number 326/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0007.wav):
+# - 4.66 seconds long.
+# - actual    text: 'muttered he starting back she's the very devil for spite'
+# - processed text: 'mother he thought him back is very devil for a spice'
+# - processed in 98.41 seconds.
+# - WER = 0.636
+# Audio number 327/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0008.wav):
+# - 4.59 seconds long.
+# - actual    text: 'i didn't say i'd broken it did i returned he'
+# - processed text: 'i then say erin it see thy returned he'
+# - processed in 96.217 seconds.
+# - WER = 0.583
+# Audio number 328/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0009.wav):
+# - 14.805 seconds long.
+# - actual    text: 'i shall put you upon a small monthly allowance in future for your own private expenses and you needn't trouble yourself any more about my concerns i shall look out for a steward my dear i won't expose you to the temptation'
+# - processed text: 'it will put you up in a small mostly alow within shooter for her own proved expenses i e even travel yourself any more about my concerns i shall look out for a steward my dear i won't expose it to temptation'
+# - processed in 313.759 seconds.
+# - WER = 0.386
+# Audio number 329/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0010.wav):
+# - 9.18 seconds long.
+# - actual    text: 'and as for the household matters missus greaves must be very particular in keeping her accounts we must go upon an entirely new plan'
+# - processed text: 'and as for the household matters missus greeley very precise and keeping her account we must go up in an italian i plan'
+# - processed in 192.981 seconds.
+# - WER = 0.417
+# Audio number 330/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0011.wav):
+# - 3.625 seconds long.
+# - actual    text: 'what great discovery have you made now mister huntingdon'
+# - processed text: 'what great discovery made now mister huntin'
+# - processed in 76.765 seconds.
+# - WER = 0.333
+# Audio number 331/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0012.wav):
+# - 2.395 seconds long.
+# - actual    text: 'have i attempted to defraud you'
+# - processed text: 'ever tasted to the free'
+# - processed in 50.548 seconds.
+# - WER = 0.833
+# Audio number 332/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0013.wav):
+# - 7.13 seconds long.
+# - actual    text: 'not in money matters exactly it seems but it's best to keep out of the way of temptation'
+# - processed text: 'not in my mail exactly seems but is pesticide of the way of cantation'
+# - processed in 149.543 seconds.
+# - WER = 0.474
+# Audio number 333/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0014.wav):
+# - 13.31 seconds long.
+# - actual    text: 'here benson entered with the candles and there followed a brief interval of silence i sitting still in my chair and he standing with his back to the fire silently triumphing in my despair'
+# - processed text: 'here but an enter the candles and there follow the roof interval silence i fingering my chair and he s standing with his back to fire silence or trying to singing my despair'
+# - processed in 279.898 seconds.
+# - WER = 0.5
+# Audio number 334/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0015.wav):
+# - 4.89 seconds long.
+# - actual    text: 'i know that day after day such feelings will return upon me'
+# - processed text: 'i know that they are today such cheering to return up on me'
+# - processed in 103.747 seconds.
+# - WER = 0.583
+# Audio number 335/362
+# File (tests/LibriSpeech/test-other/533/131562/533-131562-0016.wav):
+# - 6.26 seconds long.
+# - actual    text: 'i try to look to him and raise my heart to heaven but it will cleave to the dust'
+# - processed text: 'a tree looked at him and read my heart to have men but it will quite to the dust'
+# - processed in 131.26 seconds.
+# - WER = 0.474
+# Audio number 336/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0000.wav):
+# - 2.01 seconds long.
+# - actual    text: 'vain hope i fear'
+# - processed text: 'they hope i fear'
+# - processed in 42.098 seconds.
+# - WER = 0.25
+# Audio number 337/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0001.wav):
+# - 16.065 seconds long.
+# - actual    text: 'mister and missus hattersley have been staying at the grove a fortnight and as mister hargrave is still absent and the weather was remarkably fine i never passed a day without seeing my two friends milicent and esther either there or here'
+# - processed text: 'missus missus hastily as in seeing at the girl before night and as missus hargraves still absent and water was remarkably fine and everest day without seeing my two friends melanin asher even there are here'
+# - processed in 338.152 seconds.
+# - WER = 0.548
+# Audio number 338/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0002.wav):
+# - 3.935 seconds long.
+# - actual    text: 'no unless you can tell me when to expect him home'
+# - processed text: 'no unless i can tell you what to expect him home'
+# - processed in 83.435 seconds.
+# - WER = 0.273
+# Audio number 339/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0003.wav):
+# - 3.62 seconds long.
+# - actual    text: 'i can't you don't want him do you'
+# - processed text: 'i can in a non him do you'
+# - processed in 75.764 seconds.
+# - WER = 0.5
+# Audio number 340/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0004.wav):
+# - 3.8 seconds long.
+# - actual    text: 'it is a resolution you ought to have formed long ago'
+# - processed text: 'it is a resolution you as a formed longer'
+# - processed in 79.304 seconds.
+# - WER = 0.455
+# Audio number 341/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0005.wav):
+# - 5.84 seconds long.
+# - actual    text: 'we all have a bit of a liking for him at the bottom of our hearts though we can't respect him'
+# - processed text: 'we all had the vitalising for him at the bottom of our hearts though i can respect him'
+# - processed in 124.6 seconds.
+# - WER = 0.364
+# Audio number 342/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0006.wav):
+# - 4.215 seconds long.
+# - actual    text: 'no i'd rather be like myself bad as i am'
+# - processed text: 'no i rather be like myself when i aim'
+# - processed in 88.79 seconds.
+# - WER = 0.364
+# Audio number 343/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0007.wav):
+# - 6.42 seconds long.
+# - actual    text: 'never mind my plain speaking said i it is from the best of motives'
+# - processed text: 'never mind my plain speaking said i it is some less of motives'
+# - processed in 134.495 seconds.
+# - WER = 0.214
+# Audio number 344/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0008.wav):
+# - 6.23 seconds long.
+# - actual    text: 'but tell me should you wish your sons to be like mister huntingdon or even like yourself'
+# - processed text: 'the tell me should you wish your son to be like mister huntington or even like yourself'
+# - processed in 132.307 seconds.
+# - WER = 0.176
+# Audio number 345/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0009.wav):
+# - 3.06 seconds long.
+# - actual    text: 'oh no i couldn't stand that'
+# - processed text: 'oh no i couldn't stand that'
+# - processed in 64.931 seconds.
+# - WER = 0.0
+# Audio number 346/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0010.wav):
+# - 2.16 seconds long.
+# - actual    text: 'fire and fury'
+# - processed text: 'far and fearing'
+# - processed in 45.936 seconds.
+# - WER = 0.667
+# Audio number 347/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0011.wav):
+# - 3.04 seconds long.
+# - actual    text: 'now don't burst into a tempest at that'
+# - processed text: 'now don't force into a tent of sites'
+# - processed in 64.365 seconds.
+# - WER = 0.444
+# Audio number 348/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0012.wav):
+# - 3.15 seconds long.
+# - actual    text: 'but hang it that's not my fault'
+# - processed text: 'but hang it is not my fault'
+# - processed in 66.618 seconds.
+# - WER = 0.125
+# Audio number 349/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0013.wav):
+# - 3.305 seconds long.
+# - actual    text: 'not years for she's only five and twenty'
+# - processed text: 'now as for is only five and twenty'
+# - processed in 70.504 seconds.
+# - WER = 0.333
+# Audio number 350/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0014.wav):
+# - 6.25 seconds long.
+# - actual    text: 'what would you make of me and the children to be sure that worry her to death between them'
+# - processed text: 'what do you make of me and the children to be sure that worry her that between them'
+# - processed in 133.348 seconds.
+# - WER = 0.158
+# Audio number 351/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0015.wav):
+# - 2.68 seconds long.
+# - actual    text: 'i know they are bless them'
+# - processed text: 'i know they are bless them'
+# - processed in 57.043 seconds.
+# - WER = 0.0
+# Audio number 352/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0016.wav):
+# - 2.585 seconds long.
+# - actual    text: 'he followed me into the library'
+# - processed text: 'i felt i mean with the library'
+# - processed in 55.036 seconds.
+# - WER = 0.833
+# Audio number 353/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0017.wav):
+# - 14.04 seconds long.
+# - actual    text: 'i sought out and put into his hands two of milicent's letters one dated from london and written during one of his wildest seasons of reckless dissipation the other in the country during a lucid interval'
+# - processed text: 'i thought how then food into his hand too of militants letters one did it from london and retendering one of his walter's seasons of reclassification the other in the country during the lucy tenter vat'
+# - processed in 297.653 seconds.
+# - WER = 0.541
+# Audio number 354/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0018.wav):
+# - 20.745 seconds long.
+# - actual    text: 'the former was full of trouble and anguish not accusing him but deeply regretting his connection with his profligate companions abusing mister grimsby and others insinuating bitter things against mister huntingdon and most ingeniously throwing the blame of her husband's misconduct on to other men's shoulders'
+# - processed text: 'before i was far from an anguish not accusing him but tiptoeing his connection with his frosty good companions a using mister grimsby in others is seining better sings against mister huntingdon and most ingenuously throwing the blame of her husband's misconduct on the other men shoulders'
+# - processed in 440.191 seconds.
+# - WER = 0.417
+# Audio number 355/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0019.wav):
+# - 12.89 seconds long.
+# - actual    text: 'i've been a cursed rascal god knows said he as he gave it a hearty squeeze but you see if i don't make amends for it d n me if i don't'
+# - processed text: 'i've been a cursed rascal god knows said he as he gave it a earth decrees that you see if i don't take a meter it then me i don't'
+# - processed in 272.078 seconds.
+# - WER = 0.257
+# Audio number 356/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0020.wav):
+# - 6.905 seconds long.
+# - actual    text: 'if you intend to reform invoke god's blessing his mercy and his aid not his curse'
+# - processed text: 'if you intense reform in a god by a thing even more than this aid notices'
+# - processed in 146.164 seconds.
+# - WER = 0.824
+# Audio number 357/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0021.wav):
+# - 4.4 seconds long.
+# - actual    text: 'god help me then for i'm sure i need it'
+# - processed text: 'god help me then for i am sure i need it'
+# - processed in 93.136 seconds.
+# - WER = 0.0
+# Audio number 358/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0022.wav):
+# - 1.98 seconds long.
+# - actual    text: 'where's milicent'
+# - processed text: 'was a million'
+# - processed in 42.487 seconds.
+# - WER = 1.0
+# Audio number 359/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0023.wav):
+# - 6.215 seconds long.
+# - actual    text: 'nay not i said he turning her round and pushing her towards me'
+# - processed text: 'may not i said he turning it round and pushing a towards me'
+# - processed in 132.054 seconds.
+# - WER = 0.231
+# Audio number 360/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0024.wav):
+# - 4.355 seconds long.
+# - actual    text: 'milicent flew to thank me overflowing with gratitude'
+# - processed text: 'million flew to thank me over whelming its gratitude'
+# - processed in 92.24 seconds.
+# - WER = 0.5
+# Audio number 361/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0025.wav):
+# - 6.24 seconds long.
+# - actual    text: 'cried she i couldn't have influenced him i'm sure by anything that i could have said'
+# - processed text: 'cried she i couldn't have even less him i am sure my anything that i could have said'
+# - processed in 132.141 seconds.
+# - WER = 0.167
+# Audio number 362/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0026.wav):
+# - 3.915 seconds long.
+# - actual    text: 'you never tried me milly said he'
+# - processed text: 'i never tried me merely said he'
+# - processed in 82.685 seconds.
+# - WER = 0.286
+# Audio number 363/362
+# File (tests/LibriSpeech/test-other/533/131564/533-131564-0027.wav):
+# - 3.385 seconds long.
+# - actual    text: 'after that they will repair to their country home'
+# - processed text: 'as the death it was a bad to their sentry home'
+# - processed in 70.864 seconds.
+# - WER = 0.889
+Avg. Proc. time/sec = 21.12017042241051
+Avg. WER = 0.31498071625344337
