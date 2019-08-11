@@ -1,0 +1,1824 @@
+Loading inference model from files models/v0.5.0+6_gram_lm/output_graph.pbmmLoaded inference model in 0.147s.Loading language model from files models/v0.5.0+6_gram_lm/alphabet.txt models/v0.5.0+6_gram_lm/trieLoaded language model in 14.9s.# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac):
+# - 10.435 seconds long.
+# - actual    text: 'he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce'
+# - processed text: 'he hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flour fattened sauce'
+# - processed in 256.845 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0001.flac):
+# - 3.275 seconds long.
+# - actual    text: 'stuff it into you his belly counselled him'
+# - processed text: 'stuff it into you his belly counselled him'
+# - processed in 77.276 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0002.flac):
+# - 6.625 seconds long.
+# - actual    text: 'after early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels'
+# - processed text: 'after early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels'
+# - processed in 157.168 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0003.flac):
+# - 2.68 seconds long.
+# - actual    text: 'hello bertie any good in your mind'
+# - processed text: 'a party and he good in your mind'
+# - processed in 64.487 seconds.
+# - WER = 0.571
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0004.flac):
+# - 5.2150625 seconds long.
+# - actual    text: 'number ten fresh nelly is waiting on you good night husband'
+# - processed text: 'number ten fresh nelly is waiting on you good night husband'
+# - processed in 114.293 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0005.flac):
+# - 9.635 seconds long.
+# - actual    text: 'the music came nearer and he recalled the words the words of shelley's fragment upon the moon wandering companionless pale for weariness'
+# - processed text: 'the music came nearer and he recalled the words the words of shelley s fragment upon the moon wandering companionless pale for weariness'
+# - processed in 202.812 seconds.
+# - WER = 0.043
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0006.flac):
+# - 10.555 seconds long.
+# - actual    text: 'the dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad its widening tail'
+# - processed text: 'the dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad its widening tail'
+# - processed in 220.383 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0007.flac):
+# - 4.275 seconds long.
+# - actual    text: 'a cold lucid indifference reigned in his soul'
+# - processed text: 'a cold lucid indifference reigned in his soul'
+# - processed in 89.91 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0008.flac):
+# - 6.73 seconds long.
+# - actual    text: 'the chaos in which his ardour extinguished itself was a cold indifferent knowledge of himself'
+# - processed text: 'the chaos in which his ardour extinguished itself was a cold indifferent knowledge of himself'
+# - processed in 141.339 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0009.flac):
+# - 10.575 seconds long.
+# - actual    text: 'at most by an alms given to a beggar whose blessing he fled from he might hope wearily to win for himself some measure of actual grace'
+# - processed text: 'as most by an alms given to a beggar whose blessing he fled from he might hope wearily to win for himself some measure of actual grace'
+# - processed in 222.689 seconds.
+# - WER = 0.037
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0010.flac):
+# - 4.405 seconds long.
+# - actual    text: 'well now ennis i declare you have a head and so has my stick'
+# - processed text: 'well now ennis i declare you have a head and so has my stick'
+# - processed in 92.241 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0011.flac):
+# - 12.445 seconds long.
+# - actual    text: 'on saturday mornings when the sodality met in the chapel to recite the little office his place was a cushioned kneeling desk at the right of the altar from which he led his wing of boys through the responses'
+# - processed text: 'on saturday mornings when the sodality met in the chapel to recite the little office his place was a cushioned kneeling desk at the right of the altar from which he led his wing of boys through the responses'
+# - processed in 263.374 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0012.flac):
+# - 11.64 seconds long.
+# - actual    text: 'her eyes seemed to regard him with mild pity her holiness a strange light glowing faintly upon her frail flesh did not humiliate the sinner who approached her'
+# - processed text: 'her eyes seemed to regard him with mild pity her holiness a strange light glowing faintly upon her frail flesh did not humiliate the sinner who approached her'
+# - processed in 245.077 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0013.flac):
+# - 7.915 seconds long.
+# - actual    text: 'if ever he was impelled to cast sin from him and to repent the impulse that moved him was the wish to be her knight'
+# - processed text: 'if ever he was impelled to cast sin from him and to repent the impulse tat moved him was the wish to be her knight'
+# - processed in 166.911 seconds.
+# - WER = 0.04
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0014.flac):
+# - 2.225 seconds long.
+# - actual    text: 'he tried to think how it could be'
+# - processed text: 'he tried to think how it could be'
+# - processed in 46.686 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0015.flac):
+# - 5.815 seconds long.
+# - actual    text: 'but the dusk deepening in the schoolroom covered over his thoughts the bell rang'
+# - processed text: 'but the dusk deepening in the schoolroom covered over his thoughts the bell rang'
+# - processed in 122.22 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0016.flac):
+# - 3.54 seconds long.
+# - actual    text: 'then you can ask him questions on the catechism dedalus'
+# - processed text: 'then you can ask him questions on the catechism dedalus'
+# - processed in 74.109 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0017.flac):
+# - 8.87 seconds long.
+# - actual    text: 'stephen leaning back and drawing idly on his scribbler listened to the talk about him which heron checked from time to time by saying'
+# - processed text: 'stephen leaning back and drawing idly on his scribbler listened to the talk about him which heron checked from time to time by saying'
+# - processed in 186.922 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0018.flac):
+# - 15.72 seconds long.
+# - actual    text: 'it was strange too that he found an arid pleasure in following up to the end the rigid lines of the doctrines of the church and penetrating into obscure silences only to hear and feel the more deeply his own condemnation'
+# - processed text: 'it was strange too tat he found an arid pleasure in following up to the end the rigid lines of the doctrines of the church and penetrating into obscure silences only to hear and feel the more deeply his own condemnation'
+# - processed in 329.743 seconds.
+# - WER = 0.024
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0019.flac):
+# - 13.895 seconds long.
+# - actual    text: 'the sentence of saint james which says that he who offends against one commandment becomes guilty of all had seemed to him first a swollen phrase until he had begun to grope in the darkness of his own state'
+# - processed text: 'the sentence of saint james which says that he who offends against one commandment becomes guilty of all had seemed to him first a swollen phrase until he had begun to grope in the darkness of his own state'
+# - processed in 293.461 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0020.flac):
+# - 16.79 seconds long.
+# - actual    text: 'if a man had stolen a pound in his youth and had used that pound to amass a huge fortune how much was he obliged to give back the pound he had stolen only or the pound together with the compound interest accruing upon it or all his huge fortune'
+# - processed text: 'if a man had stolen a pound in his youth and had used tat pound to amass a huge fortune how much was he obliged to give back the pound he had stolen only or the pound together with the compound interest accruing upon it or all his huge fortune'
+# - processed in 354.215 seconds.
+# - WER = 0.02
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0021.flac):
+# - 6.55 seconds long.
+# - actual    text: 'if a layman in giving baptism pour the water before saying the words is the child baptized'
+# - processed text: 'if a layman in giving baptism pour the water before saying the words is the child baptized'
+# - processed in 139.041 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0022.flac):
+# - 11.175 seconds long.
+# - actual    text: 'how comes it that while the first beatitude promises the kingdom of heaven to the poor of heart the second beatitude promises also to the meek that they shall possess the land'
+# - processed text: 'how comes it tat while the first beatitude promises the kingdom of heaven to the poor of heart the second beatitude promises also to the meek tat they shall possess the land'
+# - processed in 236.31 seconds.
+# - WER = 0.062
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0023.flac):
+# - 13.275 seconds long.
+# - actual    text: 'why was the sacrament of the eucharist instituted under the two species of bread and wine if jesus christ be present body and blood soul and divinity in the bread alone and in the wine alone'
+# - processed text: 'why was the sacrament of the eucharist instituted under the two species of bread and wine if jesus christ be present body and blood soul and divinity in the bread alone and in the wine alone'
+# - processed in 280.338 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0024.flac):
+# - 11.655 seconds long.
+# - actual    text: 'if the wine change into vinegar and the host crumble into corruption after they have been consecrated is jesus christ still present under their species as god and as man'
+# - processed text: 'if the wine change into vinegar and the host crumble into corruption after they have been consecrated is jesus christ still present under their species as god and as man'
+# - processed in 244.651 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0025.flac):
+# - 6.61 seconds long.
+# - actual    text: 'a gentle kick from the tall boy in the bench behind urged stephen to ask a difficult question'
+# - processed text: 'a gentle kick from the tall boy in the bench behind urged stephen to ask a difficult question'
+# - processed in 137.81 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0026.flac):
+# - 4.01 seconds long.
+# - actual    text: 'the rector did not ask for a catechism to hear the lesson from'
+# - processed text: 'the rector did not ask for a catechism to hear the lesson from'
+# - processed in 84.573 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0027.flac):
+# - 2.71 seconds long.
+# - actual    text: 'he clasped his hands on the desk and said'
+# - processed text: 'he clasped his hands on the desk and said'
+# - processed in 57.37 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0028.flac):
+# - 7.83 seconds long.
+# - actual    text: 'the retreat will begin on wednesday afternoon in honour of saint francis xavier whose feast day is saturday'
+# - processed text: 'the retreat will begin on wednesday afternoon in honour of saint francis xavier whose feast day is saturday'
+# - processed in 165.079 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0029.flac):
+# - 4.67 seconds long.
+# - actual    text: 'on friday confession will be heard all the afternoon after beads'
+# - processed text: 'on friday confession will be heard all the afternoon after beads'
+# - processed in 98.207 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0030.flac):
+# - 2.715 seconds long.
+# - actual    text: 'beware of making that mistake'
+# - processed text: 'beware of making tat mistake'
+# - processed in 57.621 seconds.
+# - WER = 0.2
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0031.flac):
+# - 6.615 seconds long.
+# - actual    text: 'stephen's heart began slowly to fold and fade with fear like a withering flower'
+# - processed text: 'stephen s heart began slowly to fold and fade with fear like a withering flower'
+# - processed in 139.211 seconds.
+# - WER = 0.067
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0032.flac):
+# - 4.09 seconds long.
+# - actual    text: 'he is called as you know the apostle of the indies'
+# - processed text: 'he has called as you know the apostle of the indies'
+# - processed in 85.196 seconds.
+# - WER = 0.091
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0033.flac):
+# - 3.33 seconds long.
+# - actual    text: 'a great saint saint francis xavier'
+# - processed text: 'a great saint saint francis savior'
+# - processed in 69.946 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0034.flac):
+# - 5.81 seconds long.
+# - actual    text: 'the rector paused and then shaking his clasped hands before him went on'
+# - processed text: 'the rector paused and then shaking his clasped hands before him went on'
+# - processed in 122.837 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0035.flac):
+# - 3.445 seconds long.
+# - actual    text: 'he had the faith in him that moves mountains'
+# - processed text: 'he had the faith in him tat moves mountains'
+# - processed in 72.422 seconds.
+# - WER = 0.111
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0036.flac):
+# - 3.25 seconds long.
+# - actual    text: 'a great saint saint francis xavier'
+# - processed text: 'a great saint saint francis xavier'
+# - processed in 68.112 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134686/1089-134686-0037.flac):
+# - 5.21 seconds long.
+# - actual    text: 'in the silence their dark fire kindled the dusk into a tawny glow'
+# - processed text: 'in the silence their dark fire kindled the dusk into a tawny glow'
+# - processed in 108.602 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0000.flac):
+# - 2.085 seconds long.
+# - actual    text: 'he could wait no longer'
+# - processed text: 'he could wait no longer'
+# - processed in 43.817 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0001.flac):
+# - 5.415 seconds long.
+# - actual    text: 'for a full hour he had paced up and down waiting but he could wait no longer'
+# - processed text: 'for a full hour he had paced up and down waiting but he could wait no longer'
+# - processed in 113.955 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0002.flac):
+# - 11.6 seconds long.
+# - actual    text: 'he set off abruptly for the bull walking rapidly lest his father's shrill whistle might call him back and in a few moments he had rounded the curve at the police barrack and was safe'
+# - processed text: 'he set off abruptly for the bull walking rapidly lest his father shrill whistle might call him back and in a few moments he had rounded the curve at the police barrack and was safe'
+# - processed in 245.955 seconds.
+# - WER = 0.028
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0003.flac):
+# - 2.175 seconds long.
+# - actual    text: 'the university'
+# - processed text: 'the university'
+# - processed in 44.733 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0004.flac):
+# - 5.1750625 seconds long.
+# - actual    text: 'pride after satisfaction uplifted him like long slow waves'
+# - processed text: 'pride after satisfaction uplifted him like long slow waves'
+# - processed in 108.416 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0005.flac):
+# - 5.36 seconds long.
+# - actual    text: 'whose feet are as the feet of harts and underneath the everlasting arms'
+# - processed text: 'whose feet are as the feet of harts and underneath the everlasting arms'
+# - processed in 112.437 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0006.flac):
+# - 5.895 seconds long.
+# - actual    text: 'the pride of that dim image brought back to his mind the dignity of the office he had refused'
+# - processed text: 'the pride of tat dim image brought back to his mind the dignity of the office he had refused'
+# - processed in 124.597 seconds.
+# - WER = 0.053
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0007.flac):
+# - 3.44 seconds long.
+# - actual    text: 'soon the whole bridge was trembling and resounding'
+# - processed text: 'soon the whole bridge was trembling and resounding'
+# - processed in 72.187 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0008.flac):
+# - 14.985 seconds long.
+# - actual    text: 'the uncouth faces passed him two by two stained yellow or red or livid by the sea and as he strove to look at them with ease and indifference a faint stain of personal shame and commiseration rose to his own face'
+# - processed text: 'the uncouth faces passed him two by two stained yellow or red or livid by the sea and as he strove to look at them with ease and indifference a faint stain of personal shame and commiseration rose to his own face'
+# - processed in 315.771 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0009.flac):
+# - 20.055 seconds long.
+# - actual    text: 'angry with himself he tried to hide his face from their eyes by gazing down sideways into the shallow swirling water under the bridge but he still saw a reflection therein of their top heavy silk hats and humble tape like collars and loosely hanging clerical clothes brother hickey'
+# - processed text: 'angry with himself he tried to hide his face from their eyes by gazing down sideways into the shallow swirling water under the bridge but he still saw a reflection therein of their top heavy silk hats and humble tape like collars and loosely hanging clerical clothes brother hickey'
+# - processed in 418.941 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0010.flac):
+# - 3.195 seconds long.
+# - actual    text: 'brother mac ardle brother keogh'
+# - processed text: 'brother mac ardle brother keogh'
+# - processed in 66.535 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0011.flac):
+# - 20.01 seconds long.
+# - actual    text: 'their piety would be like their names like their faces like their clothes and it was idle for him to tell himself that their humble and contrite hearts it might be paid a far richer tribute of devotion than his had ever been a gift tenfold more acceptable than his elaborate adoration'
+# - processed text: 'their piety would be like their names like their faces like their clothes and it was idle for him to tell himself tat their humble and contrite hearts it might be paid a far richer tribute of devotion than his had ever been a gift tenfold more acceptable than his elaborate adoration'
+# - processed in 432.9 seconds.
+# - WER = 0.019
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0012.flac):
+# - 15.03 seconds long.
+# - actual    text: 'it was idle for him to move himself to be generous towards them to tell himself that if he ever came to their gates stripped of his pride beaten and in beggar's weeds that they would be generous towards him loving him as themselves'
+# - processed text: 'it was idle for him to move himself to be generous towards them to tell himself that if he ever came to their gates stripped of his pride beaten and in beggar s weeds that they would be generous towards him loving him ass themselves'
+# - processed in 359.282 seconds.
+# - WER = 0.044
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0013.flac):
+# - 16.33 seconds long.
+# - actual    text: 'idle and embittering finally to argue against his own dispassionate certitude that the commandment of love bade us not to love our neighbour as ourselves with the same amount and intensity of love but to love him as ourselves with the same kind of love'
+# - processed text: 'idle and embittering finally to argue against his own dispassionate certitude tat the commandment of love bade us not to love our neighbour as ourselves with the same amount and intensity of love but to love him as ourselves with the same kind of love'
+# - processed in 362.179 seconds.
+# - WER = 0.022
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0014.flac):
+# - 4.755 seconds long.
+# - actual    text: 'the phrase and the day and the scene harmonized in a chord'
+# - processed text: 'the phrase and the day and the scene harmonized in a chord'
+# - processed in 99.694 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0015.flac):
+# - 3.395 seconds long.
+# - actual    text: 'words was it their colours'
+# - processed text: 'words was it their colours'
+# - processed in 70.817 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0016.flac):
+# - 9.06 seconds long.
+# - actual    text: 'they were voyaging across the deserts of the sky a host of nomads on the march voyaging high over ireland westward bound'
+# - processed text: 'they were voyaging across the deserts of the sky a host of nomads on the march voyaging high over ireland westward bound'
+# - processed in 192.149 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0017.flac):
+# - 11.695 seconds long.
+# - actual    text: 'the europe they had come from lay out there beyond the irish sea europe of strange tongues and valleyed and woodbegirt and citadelled and of entrenched and marshalled races'
+# - processed text: 'the europe they had come from lay out there beyond the irish sea europe of strange tongues and valleyed and woodbegirt and sit down and of entrenched and marshalled races'
+# - processed in 246.962 seconds.
+# - WER = 0.069
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0018.flac):
+# - 3.09 seconds long.
+# - actual    text: 'again again'
+# - processed text: 'again again'
+# - processed in 64.062 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0019.flac):
+# - 3.155 seconds long.
+# - actual    text: 'a voice from beyond the world was calling'
+# - processed text: 'a voice from beyond the world was calling'
+# - processed in 66.44 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0020.flac):
+# - 3.99 seconds long.
+# - actual    text: 'hello stephanos here comes the dedalus'
+# - processed text: 'hello stephanos here comes the dedalus'
+# - processed in 83.419 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0021.flac):
+# - 13.37 seconds long.
+# - actual    text: 'their diving stone poised on its rude supports and rocking under their plunges and the rough hewn stones of the sloping breakwater over which they scrambled in their horseplay gleamed with cold wet lustre'
+# - processed text: 'their diving stone poised on its rude supports and rocking under their plunges and the rough hewn stones of the sloping breakwater over which they scrambled in their horseplay gleamed with cold wet lustre'
+# - processed in 280.722 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0022.flac):
+# - 5.635 seconds long.
+# - actual    text: 'he stood still in deference to their calls and parried their banter with easy words'
+# - processed text: 'he stood still in deference to their calls and parried their banter with easy words'
+# - processed in 119.04 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0023.flac):
+# - 7.735 seconds long.
+# - actual    text: 'it was a pain to see them and a sword like pain to see the signs of adolescence that made repellent their pitiable nakedness'
+# - processed text: 'it was a pain to see them and a sword like pain to see the signs of adolescence tat made repellent their pitiable nakedness'
+# - processed in 164.299 seconds.
+# - WER = 0.042
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0024.flac):
+# - 2.215 seconds long.
+# - actual    text: 'stephanos dedalos'
+# - processed text: 'stuff noted loss'
+# - processed in 45.501 seconds.
+# - WER = 1.5
+# File (tests/LibriSpeech/test-clean/1089/134691/1089-134691-0025.flac):
+# - 8.005 seconds long.
+# - actual    text: 'a moment before the ghost of the ancient kingdom of the danes had looked forth through the vesture of the hazewrapped city'
+# - processed text: 'a moment before the ghost of the ancient kingdom of the danes had looked forth through the vesture of the haze rap city'
+# - processed in 167.941 seconds.
+# - WER = 0.091
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0000.flac):
+# - 10.725 seconds long.
+# - actual    text: 'you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms'
+# - processed text: 'you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms'
+# - processed in 224.335 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0001.flac):
+# - 9.04 seconds long.
+# - actual    text: 'they unite every quality and sometimes you will find me referring to them as colorists sometimes as chiaroscurists'
+# - processed text: 'they unite every quality and sometimes you will find me referring to them as colorists sometimes his car securest'
+# - processed in 190.156 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0002.flac):
+# - 17.96 seconds long.
+# - actual    text: 'by being studious of color they are studious of division and while the chiaroscurist devotes himself to the representation of degrees of force in one thing unseparated light the colorists have for their function the attainment of beauty by arrangement of the divisions of light'
+# - processed text: 'by being studious of color they are studious of division and while the cure spirit devotes himself to the representation of degrees of force in one thing unseparated light the colorists have for their function the attainment of beauty by arrangement of the divisions of light'
+# - processed in 380.133 seconds.
+# - WER = 0.044
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0003.flac):
+# - 12.61 seconds long.
+# - actual    text: 'my first and principal reason was that they enforced beyond all resistance on any student who might attempt to copy them this method of laying portions of distinct hue side by side'
+# - processed text: 'my first and principal reason was tat they enforced beyond all resistance on any student who might attempt to copy them this method of laying portions of distinct hue side by side'
+# - processed in 264.403 seconds.
+# - WER = 0.031
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0004.flac):
+# - 10.65 seconds long.
+# - actual    text: 'some of the touches indeed when the tint has been mixed with much water have been laid in little drops or ponds so that the pigment might crystallize hard at the edge'
+# - processed text: 'some of the touches indeed when the tint has been mixed with much water have been laid in little drops or ponds so that the pigment might crystallize hard at the edge'
+# - processed in 224.769 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0005.flac):
+# - 8.56 seconds long.
+# - actual    text: 'it is the head of a parrot with a little flower in his beak from a picture of carpaccio's one of his series of the life of saint george'
+# - processed text: 'does the head of a parrot the little flower in his beak from a picture of carpaccio s one of his series of the life of saint george'
+# - processed in 180.301 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0006.flac):
+# - 2.4 seconds long.
+# - actual    text: 'then he comes to the beak of it'
+# - processed text: 'then he comes to the beak of it'
+# - processed in 50.038 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0007.flac):
+# - 14.24 seconds long.
+# - actual    text: 'the brown ground beneath is left for the most part one touch of black is put for the hollow two delicate lines of dark gray define the outer curve and one little quivering touch of white draws the inner edge of the mandible'
+# - processed text: 'the brown ground beneath is left for the most part one touch of black is put for the hollow two delicate lines of dark gray define the outer curve and one little quivering touch of white draws the inner edge of the mandible'
+# - processed in 302.272 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0008.flac):
+# - 20.755 seconds long.
+# - actual    text: 'for believe me the final philosophy of art can only ratify their opinion that the beauty of a cock robin is to be red and of a grass plot to be green and the best skill of art is in instantly seizing on the manifold deliciousness of light which you can only seize by precision of instantaneous touch'
+# - processed text: 'for believe me the final sophy of art can only ratify their opinion tat the beauty of a cock robin is to be read and of a grass plot to be green and the best skill of art is in instantly seizing on the manifold deliciousness of light which you can only seize by precision of instantaneous touch'
+# - processed in 439.379 seconds.
+# - WER = 0.052
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0009.flac):
+# - 23.06 seconds long.
+# - actual    text: 'now you will see in these studies that the moment the white is inclosed properly and harmonized with the other hues it becomes somehow more precious and pearly than the white paper and that i am not afraid to leave a whole field of untreated white paper all round it being sure that even the little diamonds in the round window will tell as jewels if they are gradated justly'
+# - processed text: 'now you will see in these studies tat the moment the white is inclosed properly and harmonized with the other hues it becomes somehow more precious and pearly than the white paper and that i am not afraid to leave a whole field of untreated white paper all round it being sure that even the little diamonds in the round window will tell ass jewels if they are gradated justly'
+# - processed in 491.978 seconds.
+# - WER = 0.029
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0010.flac):
+# - 6.095 seconds long.
+# - actual    text: 'but in this vignette copied from turner you have the two principles brought out perfectly'
+# - processed text: 'but in this vignette copied from turner you have the two principles brought out perfectly'
+# - processed in 128.49 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0011.flac):
+# - 15.19 seconds long.
+# - actual    text: 'they are beyond all other works that i know existing dependent for their effect on low subdued tones their favorite choice in time of day being either dawn or twilight and even their brightest sunsets produced chiefly out of gray paper'
+# - processed text: 'they are beyond all other works tat i know existing dependent for their effect on low subdued tones their favorite choice in time of day being either dawn or twilight and even their brightest sunsets produced chiefly out of gray paper'
+# - processed in 321.456 seconds.
+# - WER = 0.024
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0012.flac):
+# - 14.65 seconds long.
+# - actual    text: 'it may be that a great colorist will use his utmost force of color as a singer his full power of voice but loud or low the virtue is in both cases always in refinement never in loudness'
+# - processed text: 'it may be that a great colorist will use his utmost force of color ass a singer his full power of voice but loud or low the virtue is in both cases always in refinement never in loudness'
+# - processed in 307.601 seconds.
+# - WER = 0.026
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0013.flac):
+# - 3.02 seconds long.
+# - actual    text: 'it must remember be one or the other'
+# - processed text: 'it must remember be one or the other'
+# - processed in 64.039 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0014.flac):
+# - 4.39 seconds long.
+# - actual    text: 'do not therefore think that the gothic school is an easy one'
+# - processed text: 'do not therefore think that the gothic schools easy one'
+# - processed in 91.838 seconds.
+# - WER = 0.25
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0015.flac):
+# - 16.085 seconds long.
+# - actual    text: 'the law of that school is that everything shall be seen clearly or at least only in such mist or faintness as shall be delightful and i have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground'
+# - processed text: 'the law of that schools that everything shall be seen clearly or at least only in such mist faintness ass shall be delightful and i have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground'
+# - processed in 342.97 seconds.
+# - WER = 0.082
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0016.flac):
+# - 16.595 seconds long.
+# - actual    text: 'this at once compels you to understand that the work is to be imaginative and decorative that it represents beautiful things in the clearest way but not under existing conditions and that in fact you are producing jeweler's work rather than pictures'
+# - processed text: 'this at once compels you to understand that the work is to be imaginative and decorative tat it represents beautiful things in the clearest way but not under existing conditions and that in fact you are producing jeweler s work rather than pictures'
+# - processed in 349.545 seconds.
+# - WER = 0.047
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0017.flac):
+# - 4.615 seconds long.
+# - actual    text: 'that a style is restrained or severe does not mean that it is also erroneous'
+# - processed text: 'tat a style is restrained or severe does not mean that it is also erroneous'
+# - processed in 97.585 seconds.
+# - WER = 0.067
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0018.flac):
+# - 11.5499375 seconds long.
+# - actual    text: 'in all early gothic art indeed you will find failure of this kind especially distortion and rigidity which are in many respects painfully to be compared with the splendid repose of classic art'
+# - processed text: 'in all early gothic art indeed you will find failure of this kind especially distortion and rigidity which are in many respects painfully to be compared with the splendid repose of classic art'
+# - processed in 245.444 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0019.flac):
+# - 13.93 seconds long.
+# - actual    text: 'the large letter contains indeed entirely feeble and ill drawn figures that is merely childish and failing work of an inferior hand it is not characteristic of gothic or any other school'
+# - processed text: 'the large letter contains indeed entirely feeble and ill drawn figures tat is merely childish and failing work of an inferior hand it is not characteristic of gothic or any other school'
+# - processed in 293.82 seconds.
+# - WER = 0.031
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0020.flac):
+# - 10.26 seconds long.
+# - actual    text: 'but observe you can only do this on one condition that of striving also to create in reality the beauty which you seek in imagination'
+# - processed text: 'but observe you can only do this on one condition tat of striving also to create in reality the beauty which you seek in imagination'
+# - processed in 216.827 seconds.
+# - WER = 0.04
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0021.flac):
+# - 14.02 seconds long.
+# - actual    text: 'it will be wholly impossible for you to retain the tranquillity of temper and felicity of faith necessary for noble purist painting unless you are actively engaged in promoting the felicity and peace of practical life'
+# - processed text: 'it will be wholly impossible for you to retain the tranquillity of temper and felicity of faith necessary for noble purist painting unless you are actively engaged in promoting the felicity and peace of practical life'
+# - processed in 294.784 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0022.flac):
+# - 9.63 seconds long.
+# - actual    text: 'you must look at him in the face fight him conquer him with what scathe you may you need not think to keep out of the way of him'
+# - processed text: 'you must look at him in the face fight him conquer him with what scathe you may you need not think to keep out of the way of him'
+# - processed in 202.983 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0023.flac):
+# - 23.67 seconds long.
+# - actual    text: 'the colorist says first of all as my delicious paroquet was ruby so this nasty viper shall be black and then is the question can i round him off even though he is black and make him slimy and yet springy and close down clotted like a pool of black blood on the earth all the same'
+# - processed text: 'the colorist says first of all as my delicious paraca was ruby so this nasty viper shall be black and then as the question can i round him off even though he is black and make him slimy and yet springy and close down clotted like a pool of black blood on the earth all the same'
+# - processed in 498.881 seconds.
+# - WER = 0.035
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0024.flac):
+# - 15.24 seconds long.
+# - actual    text: 'nothing will be more precious to you i think in the practical study of art than the conviction which will force itself on you more and more every hour of the way all things are bound together little and great in spirit and in matter'
+# - processed text: 'nothing will be more precious to you i think in the practical study of art than the conviction which will force itself on new more and more every hour of the way of things are bound together little and great in spirit and in matter'
+# - processed in 322.092 seconds.
+# - WER = 0.044
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0025.flac):
+# - 7.45 seconds long.
+# - actual    text: 'you know i have just been telling you how this school of materialism and clay involved itself at last in cloud and fire'
+# - processed text: 'you know i've just been telling you how this school of materialism and clay involved itself at last in cloud and fire'
+# - processed in 157.991 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0026.flac):
+# - 20.125 seconds long.
+# - actual    text: 'here is an equally typical greek school landscape by wilson lost wholly in golden mist the trees so slightly drawn that you don't know if they are trees or towers and no care for color whatever perfectly deceptive and marvelous effect of sunshine through the mist apollo and the python'
+# - processed text: 'here is an equally typical greek school landscape by wilson lost wholly in golden mist the trees so slightly drawn tat you don't know if they are trees or towers and no care for color with soever perfectly deceptive and marvelous effect of sunshine through the mist apollo and the python'
+# - processed in 423.746 seconds.
+# - WER = 0.059
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0027.flac):
+# - 11.245 seconds long.
+# - actual    text: 'now here is raphael exactly between the two trees still drawn leaf by leaf wholly formal but beautiful mist coming gradually into the distance'
+# - processed text: 'now here is raphael exactly between the two trees still drawn leaf by leaf wholly formal but beautiful mist coming gradually into the distance'
+# - processed in 234.541 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0028.flac):
+# - 19.005 seconds long.
+# - actual    text: 'well then last here is turner's greek school of the highest class and you define his art absolutely as first the displaying intensely and with the sternest intellect of natural form as it is and then the envelopment of it with cloud and fire'
+# - processed text: 'while then last here is turns greek school of the highest class and you define his art absolutely ass first the displaying intensely and with the sternest intellect of natural form as it is and then the envelopment of it with cloud and fire'
+# - processed in 400.463 seconds.
+# - WER = 0.089
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0029.flac):
+# - 3.705 seconds long.
+# - actual    text: 'only there are two sorts of cloud and fire'
+# - processed text: 'only there are two sorts of cloud in far'
+# - processed in 77.59 seconds.
+# - WER = 0.222
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0030.flac):
+# - 1.915 seconds long.
+# - actual    text: 'he knows them both'
+# - processed text: 'he knows them both'
+# - processed in 39.89 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0031.flac):
+# - 4.25 seconds long.
+# - actual    text: 'there's one and there's another the dudley and the flint'
+# - processed text: 'there's one in there's another the dudley and the flint'
+# - processed in 89.838 seconds.
+# - WER = 0.083
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0032.flac):
+# - 10.985 seconds long.
+# - actual    text: 'it is only a pencil outline by edward burne jones in illustration of the story of psyche it is the introduction of psyche after all her troubles into heaven'
+# - processed text: 'it is only a pencil outline by edward burne jones in illustration of the story of psyche it is the introduction of psyche after all her troubles into heaven'
+# - processed in 230.33 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0033.flac):
+# - 6.625 seconds long.
+# - actual    text: 'every plant in the grass is set formally grows perfectly and may be realized completely'
+# - processed text: 'every plant in the grass is set formally grows perfectly and may be realized completely'
+# - processed in 138.926 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0034.flac):
+# - 20.905 seconds long.
+# - actual    text: 'exquisite order and universal with eternal life and light this is the faith and effort of the schools of crystal and you may describe and complete their work quite literally by taking any verses of chaucer in his tender mood and observing how he insists on the clearness and brightness first and then on the order'
+# - processed text: 'exquisite order and universal with eternal life and light this is the faith and effort of the schools of crystal and you may describe and complete their work quite literally by taking any verses of chaucer in his tender mood and observing how he insists on the clearness and brightness first and then on the order'
+# - processed in 442.745 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0035.flac):
+# - 2.925 seconds long.
+# - actual    text: 'thus in chaucer's dream'
+# - processed text: 'thus in chances dream'
+# - processed in 60.14 seconds.
+# - WER = 0.4
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0036.flac):
+# - 7.97 seconds long.
+# - actual    text: 'in both these high mythical subjects the surrounding nature though suffering is still dignified and beautiful'
+# - processed text: 'in both these high mythical subjects the surrounding nature though suffering is still dignified and beautiful'
+# - processed in 166.599 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0037.flac):
+# - 14.51 seconds long.
+# - actual    text: 'every line in which the master traces it even where seemingly negligent is lovely and set down with a meditative calmness which makes these two etchings capable of being placed beside the most tranquil work of holbein or duerer'
+# - processed text: 'every line in which the master traces it even where seemingly negligent is lovely and set down with a meditative calmness which makes these two etchings capable of being placed beside the most tranquil work of whole line were dure'
+# - processed in 305.22 seconds.
+# - WER = 0.103
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0038.flac):
+# - 5.365 seconds long.
+# - actual    text: 'but now here is a subject of which you will wonder at first why turner drew it at all'
+# - processed text: 'but now here is a subject of which you will wonder at first why turner drew it at all'
+# - processed in 111.621 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0039.flac):
+# - 6.625 seconds long.
+# - actual    text: 'it has no beauty whatsoever no specialty of picturesqueness and all its lines are cramped and poor'
+# - processed text: 'has no beauty whatsoever no specialty of picturesqueness and all its lines are cramped and poor'
+# - processed in 140.387 seconds.
+# - WER = 0.059
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0040.flac):
+# - 3.23 seconds long.
+# - actual    text: 'the crampness and the poverty are all intended'
+# - processed text: 'the crampness and the poverty are all intended'
+# - processed in 68.004 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0041.flac):
+# - 10.07 seconds long.
+# - actual    text: 'it is a gleaner bringing down her one sheaf of corn to an old watermill itself mossy and rent scarcely able to get its stones to turn'
+# - processed text: 'it is a gleaner bringing down her one sheaf of corn to an old watermill itself mossy and rent scarcely able to get its stones to turn'
+# - processed in 212.106 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0042.flac):
+# - 2.66 seconds long.
+# - actual    text: 'the scene is absolutely arcadian'
+# - processed text: 'the scene is absolutely arcadian'
+# - processed in 55.578 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0043.flac):
+# - 4.885 seconds long.
+# - actual    text: 'see that your lives be in nothing worse than a boy's climbing for his entangled kite'
+# - processed text: 'see that your lives be in nothing worse than a boy s climbing for his entangled kite'
+# - processed in 102.486 seconds.
+# - WER = 0.059
+# File (tests/LibriSpeech/test-clean/1188/133604/1188-133604-0044.flac):
+# - 18.545 seconds long.
+# - actual    text: 'it will be well for you if you join not with those who instead of kites fly falcons who instead of obeying the last words of the great cloud shepherd to feed his sheep live the lives how much less than vanity of the war wolf and the gier eagle'
+# - processed text: 'it will be well for you if you join not with those who instead of kites fly falcons who instead of obeying the last words of the great cloud shepherd to feed his sheep live the lives how much less than vanity of the war wolf and a gurgle'
+# - processed in 389.41 seconds.
+# - WER = 0.06
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0000.flac):
+# - 8.46 seconds long.
+# - actual    text: 'also a popular contrivance whereby love making may be suspended but not stopped during the picnic season'
+# - processed text: 'all far a popular contrivance ran by love making may be suspended but not stopped during the picnic season'
+# - processed in 178.158 seconds.
+# - WER = 0.235
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0001.flac):
+# - 5.925 seconds long.
+# - actual    text: 'harangue the tiresome product of a tireless tongue'
+# - processed text: 'her rang the tiresome product of a tireless tongue'
+# - processed in 123.49 seconds.
+# - WER = 0.25
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0002.flac):
+# - 4.41 seconds long.
+# - actual    text: 'angor pain painful to hear'
+# - processed text: 'angle pain painful to hear'
+# - processed in 90.731 seconds.
+# - WER = 0.2
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0003.flac):
+# - 6.755 seconds long.
+# - actual    text: 'hay fever a heart trouble caused by falling in love with a grass widow'
+# - processed text: 'hay fever a heart trouble caused by falling in love with a grass widow'
+# - processed in 141.942 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0004.flac):
+# - 4.02 seconds long.
+# - actual    text: 'heaven a good place to be raised to'
+# - processed text: 'heaven a good place to be raised to'
+# - processed in 84.246 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0005.flac):
+# - 3.1 seconds long.
+# - actual    text: 'hedge a fence'
+# - processed text: 'hedge a fence'
+# - processed in 64.663 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0006.flac):
+# - 3.895 seconds long.
+# - actual    text: 'heredity the cause of all our faults'
+# - processed text: 'heredity the cause of all our faults'
+# - processed in 81.138 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0007.flac):
+# - 6.73 seconds long.
+# - actual    text: 'horse sense a degree of wisdom that keeps one from betting on the races'
+# - processed text: 'horse sense a degree of wisdom tat keeps one from betting on the races'
+# - processed in 139.736 seconds.
+# - WER = 0.071
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0008.flac):
+# - 4.99 seconds long.
+# - actual    text: 'hose man's excuse for wetting the walk'
+# - processed text: 'hose man s excuse for wetting the walk'
+# - processed in 103.48 seconds.
+# - WER = 0.125
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0009.flac):
+# - 7.26 seconds long.
+# - actual    text: 'hotel a place where a guest often gives up good dollars for poor quarters'
+# - processed text: 'how tell a place where a guest often gives up good dollars for poor quarters'
+# - processed in 153.099 seconds.
+# - WER = 0.143
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0010.flac):
+# - 9.81 seconds long.
+# - actual    text: 'housecleaning a domestic upheaval that makes it easy for the government to enlist all the soldiers it needs'
+# - processed text: 'how screaming a domestic upheaval tat makes it easy for the government to enlist all the soldiers it needs'
+# - processed in 206.302 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0011.flac):
+# - 4.035 seconds long.
+# - actual    text: 'husband the next thing to a wife'
+# - processed text: 'husband the next thing to a wife'
+# - processed in 84.079 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0012.flac):
+# - 4.045 seconds long.
+# - actual    text: 'hussy woman and bond tie'
+# - processed text: 'hussy woman and bond tie'
+# - processed in 84.04 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0013.flac):
+# - 2.49 seconds long.
+# - actual    text: 'tied to a woman'
+# - processed text: 'the tide to a woman'
+# - processed in 51.636 seconds.
+# - WER = 0.5
+# File (tests/LibriSpeech/test-clean/121/121726/121-121726-0014.flac):
+# - 3.165 seconds long.
+# - actual    text: 'hypocrite a horse dealer'
+# - processed text: 'if he cried a force dearer'
+# - processed in 66.325 seconds.
+# - WER = 1.25
+# File (tests/LibriSpeech/test-clean/121/123852/121-123852-0000.flac):
+# - 17.695 seconds long.
+# - actual    text: 'those pretty wrongs that liberty commits when i am sometime absent from thy heart thy beauty and thy years full well befits for still temptation follows where thou art'
+# - processed text: 'those pretty wrongs tat liberty commits when i am sometime absent from thy heart thy beauty and thy years full well befits for still temptation follows where thou art'
+# - processed in 370.872 seconds.
+# - WER = 0.034
+# File (tests/LibriSpeech/test-clean/121/123852/121-123852-0001.flac):
+# - 1.87 seconds long.
+# - actual    text: 'ay me'
+# - processed text: 'i me'
+# - processed in 37.835 seconds.
+# - WER = 0.5
+# File (tests/LibriSpeech/test-clean/121/123852/121-123852-0002.flac):
+# - 17.285 seconds long.
+# - actual    text: 'no matter then although my foot did stand upon the farthest earth remov'd from thee for nimble thought can jump both sea and land as soon as think the place where he would be but ah'
+# - processed text: 'no matter then although my foot did stand upon the farthest earth removed from tee for nimble thought can jump both sea and land as soon as think the place where he would be but ah'
+# - processed in 362.057 seconds.
+# - WER = 0.081
+# File (tests/LibriSpeech/test-clean/121/123852/121-123852-0003.flac):
+# - 23.505 seconds long.
+# - actual    text: 'thought kills me that i am not thought to leap large lengths of miles when thou art gone but that so much of earth and water wrought i must attend time's leisure with my moan receiving nought by elements so slow but heavy tears badges of either's woe'
+# - processed text: 'thought kills me tat i am not thought to leap large lengths of miles when thou art gone but that so much of earth and water wrought i must attend time s leisure with my moan receiving nought by elements so slow but heavy tears badges of either s woe'
+# - processed in 490.901 seconds.
+# - WER = 0.06
+# File (tests/LibriSpeech/test-clean/121/123852/121-123852-0004.flac):
+# - 16.29 seconds long.
+# - actual    text: 'my heart doth plead that thou in him dost lie a closet never pierc'd with crystal eyes but the defendant doth that plea deny and says in him thy fair appearance lies'
+# - processed text: 'my heart doth plead tat thou in him dost lie a closet never pierced with crystal eyes but the defendant doth tat plea deny and says in him thy fair appearance lies'
+# - processed in 341.702 seconds.
+# - WER = 0.121
+# File (tests/LibriSpeech/test-clean/121/123859/121-123859-0000.flac):
+# - 17.39 seconds long.
+# - actual    text: 'you are my all the world and i must strive to know my shames and praises from your tongue none else to me nor i to none alive that my steel'd sense or changes right or wrong'
+# - processed text: 'you are my all the world and i must strive to know my shames and praises from your tongue none else to me nor i to none alive tat my steel d sense or changes right or wrong'
+# - processed in 364.539 seconds.
+# - WER = 0.053
+# File (tests/LibriSpeech/test-clean/121/123859/121-123859-0001.flac):
+# - 25.395 seconds long.
+# - actual    text: 'o tis the first tis flattery in my seeing and my great mind most kingly drinks it up mine eye well knows what with his gust is greeing and to his palate doth prepare the cup if it be poison'd tis the lesser sin that mine eye loves it and doth first begin'
+# - processed text: 'o tis the first tis flattery in my seeing and my great mind most kingly drinks it up mine eye well knows what with his gust is greeing and to his palate doth prepare the cup if it be poisoned tis the lesser sin tat mine eye loves it and doth first begin'
+# - processed in 530.205 seconds.
+# - WER = 0.056
+# File (tests/LibriSpeech/test-clean/121/123859/121-123859-0002.flac):
+# - 30.04 seconds long.
+# - actual    text: 'but reckoning time whose million'd accidents creep in twixt vows and change decrees of kings tan sacred beauty blunt the sharp'st intents divert strong minds to the course of altering things alas why fearing of time's tyranny might i not then say now i love you best when i was certain o'er incertainty crowning the present doubting of the rest'
+# - processed text: 'but reckoning time whose million d accidents creep in twixt vows and change decrees of kings tan sacred beauty blunt the sharp st intents divert strong minds to the course of altering things alas why fearing of time s tyranny might i not then say now i love you best when i was certain or incertainty crowning the present doubting of the rest'
+# - processed in 631.327 seconds.
+# - WER = 0.063
+# File (tests/LibriSpeech/test-clean/121/123859/121-123859-0003.flac):
+# - 10.825 seconds long.
+# - actual    text: 'love is a babe then might i not say so to give full growth to that which still doth grow'
+# - processed text: 'love is a babe then might i not say so to give full growth to that which still doth grow'
+# - processed in 225.225 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/123859/121-123859-0004.flac):
+# - 9.505 seconds long.
+# - actual    text: 'so i return rebuk'd to my content and gain by ill thrice more than i have spent'
+# - processed text: 'so i return rebuke to my content and gain by ill thrice more than i have spent'
+# - processed in 200.098 seconds.
+# - WER = 0.111
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0000.flac):
+# - 9.875 seconds long.
+# - actual    text: 'it was this observation that drew from douglas not immediately but later in the evening a reply that had the interesting consequence to which i call attention'
+# - processed text: 'it was this observation tat drew from douglas not imediately but later in the evening a reply tat had the interesting consequence to which i call attention'
+# - processed in 209.734 seconds.
+# - WER = 0.111
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0001.flac):
+# - 5.025 seconds long.
+# - actual    text: 'someone else told a story not particularly effective which i saw he was not following'
+# - processed text: 'someone else told us to ring up tilly effective which i saw he was not following'
+# - processed in 107.094 seconds.
+# - WER = 0.333
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0002.flac):
+# - 7.495 seconds long.
+# - actual    text: 'cried one of the women he took no notice of her he looked at me but as if instead of me he saw what he spoke of'
+# - processed text: 'cried one of the women he took no notice of her he looked at me but at if instead of me he saw what he spoke of'
+# - processed in 159.058 seconds.
+# - WER = 0.037
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0003.flac):
+# - 7.725 seconds long.
+# - actual    text: 'there was a unanimous groan at this and much reproach after which in his preoccupied way he explained'
+# - processed text: 'there was a unanimous groan at this and much reproach after which in his preoccupied way he explained'
+# - processed in 162.33 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0004.flac):
+# - 2.11 seconds long.
+# - actual    text: 'the story's written'
+# - processed text: 'the stories witten'
+# - processed in 43.397 seconds.
+# - WER = 0.75
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0005.flac):
+# - 5.82 seconds long.
+# - actual    text: 'i could write to my man and enclose the key he could send down the packet as he finds it'
+# - processed text: 'i could write to my man and enclose the key he could send down the packet or i find it'
+# - processed in 122.879 seconds.
+# - WER = 0.15
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0006.flac):
+# - 4.725 seconds long.
+# - actual    text: 'the others resented postponement but it was just his scruples that charmed me'
+# - processed text: 'the others resented postponement but it was just his scruples tat charmed me'
+# - processed in 99.908 seconds.
+# - WER = 0.077
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0007.flac):
+# - 5.79 seconds long.
+# - actual    text: 'to this his answer was prompt oh thank god no and is the record yours'
+# - processed text: 'to this his answer was prompt oh thank god no and is the record yours'
+# - processed in 122.008 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0008.flac):
+# - 2.76 seconds long.
+# - actual    text: 'he hung fire again a woman's'
+# - processed text: 'he hung fire again a woman's'
+# - processed in 58.251 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0009.flac):
+# - 2.29 seconds long.
+# - actual    text: 'she has been dead these twenty years'
+# - processed text: 'she has been dead these twenty years'
+# - processed in 48.317 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0010.flac):
+# - 2.85 seconds long.
+# - actual    text: 'she sent me the pages in question before she died'
+# - processed text: 'she sent me the pages in question before she died'
+# - processed in 59.755 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0011.flac):
+# - 5.78 seconds long.
+# - actual    text: 'she was the most agreeable woman i've ever known in her position she would have been worthy of any whatever'
+# - processed text: 'she was a most agreeable woman i've ever known in her position she would have been worthy of any whatever'
+# - processed in 123.575 seconds.
+# - WER = 0.048
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0012.flac):
+# - 4.83 seconds long.
+# - actual    text: 'it wasn't simply that she said so but that i knew she hadn't i was sure i could see'
+# - processed text: 'and simply that you said so but that i knew she hadn't i was sure i could see'
+# - processed in 101.941 seconds.
+# - WER = 0.19
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0013.flac):
+# - 5.895 seconds long.
+# - actual    text: 'you'll easily judge why when you hear because the thing had been such a scare he continued to fix me'
+# - processed text: 'you leave me judge why when you hear because the thing had been such a scare he continued to fix me'
+# - processed in 125.172 seconds.
+# - WER = 0.095
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0014.flac):
+# - 2.255 seconds long.
+# - actual    text: 'you are acute'
+# - processed text: 'you cow acute'
+# - processed in 47.773 seconds.
+# - WER = 0.333
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0015.flac):
+# - 2.96 seconds long.
+# - actual    text: 'he quitted the fire and dropped back into his chair'
+# - processed text: 'he quitted the fire and dropped back into his chair'
+# - processed in 62.515 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0016.flac):
+# - 2.03 seconds long.
+# - actual    text: 'probably not till the second post'
+# - processed text: 'probably not to the second post'
+# - processed in 42.626 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0017.flac):
+# - 2.695 seconds long.
+# - actual    text: 'it was almost the tone of hope everybody will stay'
+# - processed text: 'it was almost the tone of hope everybody will stay'
+# - processed in 57.291 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0018.flac):
+# - 2.77 seconds long.
+# - actual    text: 'cried the ladies whose departure had been fixed'
+# - processed text: 'cried the ladys whose departure had been fixed'
+# - processed in 58.257 seconds.
+# - WER = 0.125
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0019.flac):
+# - 3.525 seconds long.
+# - actual    text: 'missus griffin however expressed the need for a little more light'
+# - processed text: 'missus griffin however expressed the need for a little more light'
+# - processed in 73.882 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0020.flac):
+# - 14.355 seconds long.
+# - actual    text: 'who was it she was in love with the story will tell i took upon myself to reply oh i can't wait for the story the story won't tell said douglas not in any literal vulgar way more's the pity then'
+# - processed text: 'who was it she was in love with the story will tell i took upon myself to reply oh i can't wait for the story the story won't tell said douglas not in any literal vulgar way more s the pity don'
+# - processed in 301.024 seconds.
+# - WER = 0.045
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0021.flac):
+# - 2.0 seconds long.
+# - actual    text: 'won't you tell douglas'
+# - processed text: 'won't you tell douglas'
+# - processed in 42.13 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0022.flac):
+# - 5.075 seconds long.
+# - actual    text: 'well if i don't know who she was in love with i know who he was'
+# - processed text: 'for if it on now who see was in love with i know who he is'
+# - processed in 105.731 seconds.
+# - WER = 0.412
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0023.flac):
+# - 10.91 seconds long.
+# - actual    text: 'let me say here distinctly to have done with it that this narrative from an exact transcript of my own made much later is what i shall presently give'
+# - processed text: 'let me say here distinctly to have done with it tat this narrative from an exact transcript of my own made much later it was i shall presently give'
+# - processed in 229.548 seconds.
+# - WER = 0.103
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0024.flac):
+# - 14.45 seconds long.
+# - actual    text: 'poor douglas before his death when it was in sight committed to me the manuscript that reached him on the third of these days and that on the same spot with immense effect he began to read to our hushed little circle on the night of the fourth'
+# - processed text: 'for the less before his death when it was in sight committed to me the manuscript ed reached him on the third of these days and that on the same spot with immense effect he began to read to our hushed little circle on the night of the fourth'
+# - processed in 305.356 seconds.
+# - WER = 0.083
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0025.flac):
+# - 16.065 seconds long.
+# - actual    text: 'the departing ladies who had said they would stay didn't of course thank heaven stay they departed in consequence of arrangements made in a rage of curiosity as they professed produced by the touches with which he had already worked us up'
+# - processed text: 'the departing ladys who had said they would stay didn t of course thank heaven stay they departed in consequence of arrangements made in a rage of curiosity as they professed produced by the touches with which he had already worked us up'
+# - processed in 338.247 seconds.
+# - WER = 0.07
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0026.flac):
+# - 7.53 seconds long.
+# - actual    text: 'the first of these touches conveyed that the written statement took up the tale at a point after it had in a manner begun'
+# - processed text: 'the first of these touches conveyed tat the written statement took up the tale at a point after it had in a manner begun'
+# - processed in 159.208 seconds.
+# - WER = 0.042
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0027.flac):
+# - 13.87 seconds long.
+# - actual    text: 'he had for his own town residence a big house filled with the spoils of travel and the trophies of the chase but it was to his country home an old family place in essex that he wished her immediately to proceed'
+# - processed text: 'he had for his own town residence a big house filled with the spoils of travel and the trophies of the chase but it was to his country home an old family place in essex tat he wished her immediately to proceed'
+# - processed in 292.224 seconds.
+# - WER = 0.024
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0028.flac):
+# - 6.75 seconds long.
+# - actual    text: 'the awkward thing was that they had practically no other relations and that his own affairs took up all his time'
+# - processed text: 'the awkward thing was that they had practically no other relations and tat his own affairs took up all his time'
+# - processed in 141.919 seconds.
+# - WER = 0.048
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0029.flac):
+# - 7.31 seconds long.
+# - actual    text: 'there were plenty of people to help but of course the young lady who should go down as governess would be in supreme authority'
+# - processed text: 'they were plenty of people to help but of course the young lady who should go down a governess would be in supreme authority'
+# - processed in 153.812 seconds.
+# - WER = 0.083
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0030.flac):
+# - 2.175 seconds long.
+# - actual    text: 'i don't anticipate'
+# - processed text: 'i don't anticipate'
+# - processed in 45.824 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0031.flac):
+# - 10.765 seconds long.
+# - actual    text: 'she was young untried nervous it was a vision of serious duties and little company of really great loneliness'
+# - processed text: 'she was young untried nervous it was a vision of serious duties and little company of really great loneliness'
+# - processed in 226.571 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0032.flac):
+# - 3.17 seconds long.
+# - actual    text: 'yes but that's just the beauty of her passion'
+# - processed text: 'yes but that's just a beauty of her passion'
+# - processed in 65.944 seconds.
+# - WER = 0.1
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0033.flac):
+# - 2.355 seconds long.
+# - actual    text: 'it was the beauty of it'
+# - processed text: 'it was the beauty of it'
+# - processed in 49.481 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0034.flac):
+# - 7.41 seconds long.
+# - actual    text: 'it sounded dull it sounded strange and all the more so because of his main condition which was'
+# - processed text: 'it sounded dull it sounded strange and all the more so because it his main condition which was'
+# - processed in 156.263 seconds.
+# - WER = 0.056
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0035.flac):
+# - 14.15 seconds long.
+# - actual    text: 'she promised to do this and she mentioned to me that when for a moment disburdened delighted he held her hand thanking her for the sacrifice she already felt rewarded'
+# - processed text: 'she promised to do this and she mentioned to me that when for a moment disburdened delighted he held her hand thanking her for the sacrifice she already felt rewarded'
+# - processed in 297.115 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/121/127105/121-127105-0036.flac):
+# - 4.15 seconds long.
+# - actual    text: 'but was that all her reward one of the ladies asked'
+# - processed text: 'but is that all her reward one of the ladys asked'
+# - processed in 86.16 seconds.
+# - WER = 0.182
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0000.flac):
+# - 12.435 seconds long.
+# - actual    text: 'how strange it seemed to the sad woman as she watched the growth and the beauty that became every day more brilliant and the intelligence that threw its quivering sunshine over the tiny features of this child'
+# - processed text: 'how strange it seemed to the sad woman as she watched the growth and the beauty tat became every day more brilliant and the intelligence that through its quivering sunshine over the tiny features of this child'
+# - processed in 261.599 seconds.
+# - WER = 0.054
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0001.flac):
+# - 16.715 seconds long.
+# - actual    text: 'god as a direct consequence of the sin which man thus punished had given her a lovely child whose place was on that same dishonoured bosom to connect her parent for ever with the race and descent of mortals and to be finally a blessed soul in heaven'
+# - processed text: 'god as a direct consequence of the sin which man thus punished had given her a lovely child whose place was on that same dishonoured bosom to connect her parent for ever with the race and descent of mortals and to be finally a blessed soul in heaven'
+# - processed in 350.802 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0002.flac):
+# - 4.825 seconds long.
+# - actual    text: 'yet these thoughts affected hester prynne less with hope than apprehension'
+# - processed text: 'yet these thoughts affected hester prynne less with hope than apprehension'
+# - processed in 100.997 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0003.flac):
+# - 13.72 seconds long.
+# - actual    text: 'the child had a native grace which does not invariably co exist with faultless beauty its attire however simple always impressed the beholder as if it were the very garb that precisely became it best'
+# - processed text: 'the child had a native grace which does not invariably co exist with faultless beauty its attire however simple always impressed the beholder as if it were the very garb tat precisely became it best'
+# - processed in 287.151 seconds.
+# - WER = 0.029
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0004.flac):
+# - 7.44 seconds long.
+# - actual    text: 'this outward mutability indicated and did not more than fairly express the various properties of her inner life'
+# - processed text: 'this outward new to bility indicated and did not more than fairly express the various properties of her inner life'
+# - processed in 156.273 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0005.flac):
+# - 16.645 seconds long.
+# - actual    text: 'hester could only account for the child's character and even then most vaguely and imperfectly by recalling what she herself had been during that momentous period while pearl was imbibing her soul from the spiritual world and her bodily frame from its material of earth'
+# - processed text: 'hester could only account for the child's character and even then most vaguely and imperfectly by recalling what she herself had been during tat momentous period while pearl was imbibing her soul from the spiritual world and her bodily frame from its material of earth'
+# - processed in 351.383 seconds.
+# - WER = 0.022
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0006.flac):
+# - 11.415 seconds long.
+# - actual    text: 'they were now illuminated by the morning radiance of a young child's disposition but later in the day of earthly existence might be prolific of the storm and whirlwind'
+# - processed text: 'they were now illuminated by the morning radiance of a young child's disposition but later in the day of earthly existence might be prolific of the storm and whirlwind'
+# - processed in 240.083 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0007.flac):
+# - 8.795 seconds long.
+# - actual    text: 'hester prynne nevertheless the loving mother of this one child ran little risk of erring on the side of undue severity'
+# - processed text: 'hester prynne nevertheless the loving mother of this one child ran little risk of erring on the side of undue severity'
+# - processed in 185.32 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0008.flac):
+# - 10.78 seconds long.
+# - actual    text: 'mindful however of her own errors and misfortunes she early sought to impose a tender but strict control over the infant immortality that was committed to her charge'
+# - processed text: 'mindful however of her own errors and misfortunes she early sought to impose a tender but strict control over the infant immortality tat was committed to her charge'
+# - processed in 227.738 seconds.
+# - WER = 0.036
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0009.flac):
+# - 10.19 seconds long.
+# - actual    text: 'as to any other kind of discipline whether addressed to her mind or heart little pearl might or might not be within its reach in accordance with the caprice that ruled the moment'
+# - processed text: 'as to any other kind of discipline whether addressed to her mind or heart little pearl might or might not be within its reach in accordance with the caprice tat ruled the moment'
+# - processed in 214.347 seconds.
+# - WER = 0.03
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0010.flac):
+# - 15.05 seconds long.
+# - actual    text: 'it was a look so intelligent yet inexplicable perverse sometimes so malicious but generally accompanied by a wild flow of spirits that hester could not help questioning at such moments whether pearl was a human child'
+# - processed text: 'it was a look so intelligent yet inexplicable perverse sometimes so malicious but generally accompanied by a wild flow of spirits tat hester could not help questioning at such moments whether pearl was a human child'
+# - processed in 315.29 seconds.
+# - WER = 0.028
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0011.flac):
+# - 21.345 seconds long.
+# - actual    text: 'beholding it hester was constrained to rush towards the child to pursue the little elf in the flight which she invariably began to snatch her to her bosom with a close pressure and earnest kisses not so much from overflowing love as to assure herself that pearl was flesh and blood and not utterly delusive'
+# - processed text: 'beholding it hester was constrained to rush towards the child to pursue the little elf in the flight which she invariably began to snatch her to her bosom with a close pressure and earnest kisses not so much from overflowing love as to assure herself tat pearl was flesh and blood and not utterly delusive'
+# - processed in 449.84 seconds.
+# - WER = 0.018
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0012.flac):
+# - 16.22 seconds long.
+# - actual    text: 'brooding over all these matters the mother felt like one who has evoked a spirit but by some irregularity in the process of conjuration has failed to win the master word that should control this new and incomprehensible intelligence'
+# - processed text: 'brooding over all these matters the mother felt like one who has evoked a spirit but by some irregularity in the process of conjuration has failed to win the master word tat should control this new and incomprehensible intelligence'
+# - processed in 342.578 seconds.
+# - WER = 0.026
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0013.flac):
+# - 3.645 seconds long.
+# - actual    text: 'pearl was a born outcast of the infantile world'
+# - processed text: 'pearl was a born outcast of the infantile world'
+# - processed in 76.519 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0014.flac):
+# - 4.75 seconds long.
+# - actual    text: 'pearl saw and gazed intently but never sought to make acquaintance'
+# - processed text: 'for i saw and gazed intently but never sought to make acquaintance'
+# - processed in 99.446 seconds.
+# - WER = 0.182
+# File (tests/LibriSpeech/test-clean/1221/135766/1221-135766-0015.flac):
+# - 2.63 seconds long.
+# - actual    text: 'if spoken to she would not speak again'
+# - processed text: 'if spoken to she would not speak again'
+# - processed in 55.131 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0000.flac):
+# - 24.85 seconds long.
+# - actual    text: 'hester prynne went one day to the mansion of governor bellingham with a pair of gloves which she had fringed and embroidered to his order and which were to be worn on some great occasion of state for though the chances of a popular election had caused this former ruler to descend a step or two from the highest rank he still held an honourable and influential place among the colonial magistracy'
+# - processed text: 'hester prynne went one day to the mansion of governor bellingham with a pair of gloves which she had fringed and embroidered to his order and which were to be worn on some great occasion of state for though the chances of a popular election had caused this former ruler to descend a step or two from the highest rank he still held an honourable and influential place among the colonial magistracy'
+# - processed in 523.304 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0001.flac):
+# - 13.43 seconds long.
+# - actual    text: 'another and far more important reason than the delivery of a pair of embroidered gloves impelled hester at this time to seek an interview with a personage of so much power and activity in the affairs of the settlement'
+# - processed text: 'another and far more important reason than the delivery of a pair of embroidered gloves impelled hester at this time to seek an interview with a personage of so much power and activity in the affairs of the settlement'
+# - processed in 284.202 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0002.flac):
+# - 16.12 seconds long.
+# - actual    text: 'at that epoch of pristine simplicity however matters of even slighter public interest and of far less intrinsic weight than the welfare of hester and her child were strangely mixed up with the deliberations of legislators and acts of state'
+# - processed text: 'at tat epoch of pristine simplicity however matters of even slighter public interest and of far less intrinsic weight than the welfare of hester and her child were strangely mixed up with the deliberations of legislators and acts of state'
+# - processed in 341.158 seconds.
+# - WER = 0.025
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0003.flac):
+# - 18.63 seconds long.
+# - actual    text: 'the period was hardly if at all earlier than that of our story when a dispute concerning the right of property in a pig not only caused a fierce and bitter contest in the legislative body of the colony but resulted in an important modification of the framework itself of the legislature'
+# - processed text: 'the period was hardly if at all earlier than that of our story when a dispute concerning the right of property in a pig not only caused a fierce and bitter contest in the legislative body of the colony but resulted in an important modification of the framework itself of the legislature'
+# - processed in 393.273 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0004.flac):
+# - 19.09 seconds long.
+# - actual    text: 'we have spoken of pearl's rich and luxuriant beauty a beauty that shone with deep and vivid tints a bright complexion eyes possessing intensity both of depth and glow and hair already of a deep glossy brown and which in after years would be nearly akin to black'
+# - processed text: 'we have spoken of pearl s rich and luxuriant beauty a beauty tat shone with deep and vivid tints a bright complexion eyes possessing intensity both of depth and glow and hair already of a deep glossy brown and which in after years would be nearly akin to black'
+# - processed in 399.679 seconds.
+# - WER = 0.041
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0005.flac):
+# - 5.865 seconds long.
+# - actual    text: 'it was the scarlet letter in another form the scarlet letter endowed with life'
+# - processed text: 'it was the scarlet letter in another form the scarlet letter endowed with life'
+# - processed in 123.632 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0006.flac):
+# - 20.56 seconds long.
+# - actual    text: 'the mother herself as if the red ignominy were so deeply scorched into her brain that all her conceptions assumed its form had carefully wrought out the similitude lavishing many hours of morbid ingenuity to create an analogy between the object of her affection and the emblem of her guilt and torture'
+# - processed text: 'the mother herself as if the red ignominy were so deeply scorched into her brain tat all her conceptions assumed its form had carefully wrought out the similitude lavishing many hours of morbid ingenuity to create an analogy between the object of her affection and the emblem of her guilt and torture'
+# - processed in 432.58 seconds.
+# - WER = 0.019
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0007.flac):
+# - 12.77 seconds long.
+# - actual    text: 'but in truth pearl was the one as well as the other and only in consequence of that identity had hester contrived so perfectly to represent the scarlet letter in her appearance'
+# - processed text: 'but in truth for i was the one as well as the other and only in consequence of tat identity had hester contrived so perfectly to represent the scarlet letter in her appearance'
+# - processed in 268.892 seconds.
+# - WER = 0.094
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0008.flac):
+# - 3.095 seconds long.
+# - actual    text: 'come therefore and let us fling mud at them'
+# - processed text: 'come therefore and let us fling mud at them'
+# - processed in 65.176 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0009.flac):
+# - 13.34 seconds long.
+# - actual    text: 'but pearl who was a dauntless child after frowning stamping her foot and shaking her little hand with a variety of threatening gestures suddenly made a rush at the knot of her enemies and put them all to flight'
+# - processed text: 'but pearl who was a dauntless child after frowning stamping her foot and shaking her little hand with a variety of threatening gestures suddenly made a rush at the knot of her enemies and put them all to flight'
+# - processed in 282.228 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0010.flac):
+# - 8.2 seconds long.
+# - actual    text: 'she screamed and shouted too with a terrific volume of sound which doubtless caused the hearts of the fugitives to quake within them'
+# - processed text: 'she screamed and shouted too with a terrific volume of sound which doubtless caused the hearts of the fugitives to quake within them'
+# - processed in 173.161 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0011.flac):
+# - 16.51 seconds long.
+# - actual    text: 'it was further decorated with strange and seemingly cabalistic figures and diagrams suitable to the quaint taste of the age which had been drawn in the stucco when newly laid on and had now grown hard and durable for the admiration of after times'
+# - processed text: 'it was further decorated with strange and seemingly cabalistic figures and diagrams suitable to the quaint taste of the age which had been drawn in the stucco when newly laid on and had now grown hard and durable for the admiration of after times'
+# - processed in 348.5 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0012.flac):
+# - 13.885 seconds long.
+# - actual    text: 'they approached the door which was of an arched form and flanked on each side by a narrow tower or projection of the edifice in both of which were lattice windows the wooden shutters to close over them at need'
+# - processed text: 'they approached the door which was of an arched form and flanked on each side by a narrow tower or projection of the edifice in both of which were lattice windows the wooden shutters to close over them at need'
+# - processed in 294.913 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0013.flac):
+# - 11.985 seconds long.
+# - actual    text: 'lifting the iron hammer that hung at the portal hester prynne gave a summons which was answered by one of the governor's bond servant a free born englishman but now a seven years slave'
+# - processed text: 'lifting the iron hammer tat hung at the portal hester prynne gave a summons which was answered by one of the governor s bond servant a free born englishman but now a seven years slave'
+# - processed in 253.735 seconds.
+# - WER = 0.057
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0014.flac):
+# - 7.07 seconds long.
+# - actual    text: 'yea his honourable worship is within but he hath a godly minister or two with him and likewise a leech'
+# - processed text: 'yea his honourable worship is within but he hath a godly minister or two with him and likewise a leech'
+# - processed in 148.916 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0015.flac):
+# - 2.85 seconds long.
+# - actual    text: 'ye may not see his worship now'
+# - processed text: 'ye may not see his worship now'
+# - processed in 59.658 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0016.flac):
+# - 15.255 seconds long.
+# - actual    text: 'with many variations suggested by the nature of his building materials diversity of climate and a different mode of social life governor bellingham had planned his new habitation after the residences of gentlemen of fair estate in his native land'
+# - processed text: 'with many variations suggested by the nature of his building materials diversity of climate and a different mode of social life governor bellingham had planned his new habitation after the residences of gentlemen of fair estate in his native land'
+# - processed in 321.911 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0017.flac):
+# - 16.72 seconds long.
+# - actual    text: 'on the table in token that the sentiment of old english hospitality had not been left behind stood a large pewter tankard at the bottom of which had hester or pearl peeped into it they might have seen the frothy remnant of a recent draught of ale'
+# - processed text: 'on the table in token tat the sentiment of old english hospitality had not been left behind stood a large pewter tankard at the bottom of which had hester or pearl peeped into it they might have seen the frothy remnant of a recent draft of al'
+# - processed in 351.068 seconds.
+# - WER = 0.064
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0018.flac):
+# - 11.16 seconds long.
+# - actual    text: 'little pearl who was as greatly pleased with the gleaming armour as she had been with the glittering frontispiece of the house spent some time looking into the polished mirror of the breastplate'
+# - processed text: 'little pearl who was ass greatly pleased with the gleaming armour as she had been with the glittering frontispiece of the house spent some time looking into the polished mirror of the breastplate'
+# - processed in 233.297 seconds.
+# - WER = 0.03
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0019.flac):
+# - 3.78 seconds long.
+# - actual    text: 'mother cried she i see you here look look'
+# - processed text: 'mother cried she i see you here look look'
+# - processed in 78.721 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0020.flac):
+# - 3.345 seconds long.
+# - actual    text: 'in truth she seemed absolutely hidden behind it'
+# - processed text: 'in truth she seemed absolutely hidden behind it'
+# - processed in 71.038 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0021.flac):
+# - 12.72 seconds long.
+# - actual    text: 'pearl accordingly ran to the bow window at the further end of the hall and looked along the vista of a garden walk carpeted with closely shaven grass and bordered with some rude and immature attempt at shrubbery'
+# - processed text: 'pearl accordingly ran to the bow window at the further end of the hall and looked along the vista of a garden walk carpeted with closely shaven grass and bordered with some rude and immature attempt at shrubbery'
+# - processed in 269.368 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0022.flac):
+# - 14.395 seconds long.
+# - actual    text: 'but the proprietor appeared already to have relinquished as hopeless the effort to perpetuate on this side of the atlantic in a hard soil and amid the close struggle for subsistence the native english taste for ornamental gardening'
+# - processed text: 'but the proprietor appeared already to have relinquished ass hopeless the effort to perpetuate on this side of the atlantic in a hard soil and amid the close struggle for subsistence the native english taste for ornamental gardening'
+# - processed in 304.046 seconds.
+# - WER = 0.026
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0023.flac):
+# - 16.27 seconds long.
+# - actual    text: 'there were a few rose bushes however and a number of apple trees probably the descendants of those planted by the reverend mister blackstone the first settler of the peninsula that half mythological personage who rides through our early annals seated on the back of a bull'
+# - processed text: 'there were a few rose bushes however and a number of apple trees probably the descendants of those planted by the reverend mister blackstone the first settler of the peninsula tat half mythological personage who rides through our early annals seated on the back of a bull'
+# - processed in 344.179 seconds.
+# - WER = 0.021
+# File (tests/LibriSpeech/test-clean/1221/135767/1221-135767-0024.flac):
+# - 5.85 seconds long.
+# - actual    text: 'pearl seeing the rose bushes began to cry for a red rose and would not be pacified'
+# - processed text: 'pearl seeing the rose bushes began to cry for a red rose and would not be pacified'
+# - processed in 123.525 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0000.flac):
+# - 8.12 seconds long.
+# - actual    text: 'he wore blue silk stockings blue knee pants with gold buckles a blue ruffled waist and a jacket of bright blue braided with gold'
+# - processed text: 'he wore blue silk stockings blue knee pants with gold buckles a blue ruffled waist and a jacket of bright blue braided with gold'
+# - processed in 170.853 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0001.flac):
+# - 7.755 seconds long.
+# - actual    text: 'his hat had a peaked crown and a flat brim and around the brim was a row of tiny golden bells that tinkled when he moved'
+# - processed text: 'his hat had a peaked crown with a flat brim and around the brim with a row of tiny golden bells tat tinkled when he moved'
+# - processed in 162.856 seconds.
+# - WER = 0.115
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0002.flac):
+# - 7.68 seconds long.
+# - actual    text: 'instead of shoes the old man wore boots with turnover tops and his blue coat had wide cuffs of gold braid'
+# - processed text: 'instead of shoes the old man wore boots with turnover tops and his blue coat had wide cuffs of gold braid'
+# - processed in 160.421 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0003.flac):
+# - 4.835 seconds long.
+# - actual    text: 'for a long time he had wished to explore the beautiful land of oz in which they lived'
+# - processed text: 'for a long time he had wished to explore the beautiful land of oz in which they lived'
+# - processed in 102.88 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0004.flac):
+# - 4.285 seconds long.
+# - actual    text: 'when they were outside unc simply latched the door and started up the path'
+# - processed text: 'when they were outside unc simply latched the door and started up the path'
+# - processed in 90.589 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0005.flac):
+# - 6.55 seconds long.
+# - actual    text: 'no one would disturb their little house even if anyone came so far into the thick forest while they were gone'
+# - processed text: 'no one would disturb their little house even if anyone came so far into the thick forest while they were gone'
+# - processed in 139.1 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0006.flac):
+# - 6.865 seconds long.
+# - actual    text: 'at the foot of the mountain that separated the country of the munchkins from the country of the gillikins the path divided'
+# - processed text: 'at the foot of the mountain tat separated the country of the munchkins from the country of the gillikins the path divided'
+# - processed in 145.236 seconds.
+# - WER = 0.045
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0007.flac):
+# - 6.265 seconds long.
+# - actual    text: 'he knew it would take them to the house of the crooked magician whom he had never seen but who was their nearest neighbor'
+# - processed text: 'he knew it would take them to the house of the crooked magician whom he had never seen but who was their nearest neighbor'
+# - processed in 133.285 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0008.flac):
+# - 10.49 seconds long.
+# - actual    text: 'all the morning they trudged up the mountain path and at noon unc and ojo sat on a fallen tree trunk and ate the last of the bread which the old munchkin had placed in his pocket'
+# - processed text: 'all the morning they trudged up the mountain path and at noon unc and ojo sat on a fallen tree trunk and ate the last of the bread which the old munchkin had placed in his pocket'
+# - processed in 221.752 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0009.flac):
+# - 6.285 seconds long.
+# - actual    text: 'then they started on again and two hours later came in sight of the house of doctor pipt'
+# - processed text: 'then they started on again and two hours later came in sight of the house of doctor pipped'
+# - processed in 134.086 seconds.
+# - WER = 0.056
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0010.flac):
+# - 8.635 seconds long.
+# - actual    text: 'unc knocked at the door of the house and a chubby pleasant faced woman dressed all in blue opened it and greeted the visitors with a smile'
+# - processed text: 'one cannot at the door of the house and a chubby pleasant faced woman dressed all in blue opened it and greeted the visitors with a smile'
+# - processed in 181.673 seconds.
+# - WER = 0.074
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0011.flac):
+# - 4.275 seconds long.
+# - actual    text: 'i am my dear and all strangers are welcome to my home'
+# - processed text: 'i am my dear and all strangers are welcome to my home'
+# - processed in 90.356 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0012.flac):
+# - 4.88 seconds long.
+# - actual    text: 'we have come from a far lonelier place than this a lonelier place'
+# - processed text: 'we have come from a far lonelier place than this a lonelier place'
+# - processed in 101.96 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0013.flac):
+# - 3.705 seconds long.
+# - actual    text: 'and you must be ojo the unlucky she added'
+# - processed text: 'and you must be o julia lucky she added'
+# - processed in 76.885 seconds.
+# - WER = 0.333
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0014.flac):
+# - 3.665 seconds long.
+# - actual    text: 'ojo had never eaten such a fine meal in all his life'
+# - processed text: 'oh you had never eaten such a fine meal in all his life'
+# - processed in 77.401 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0015.flac):
+# - 5.835 seconds long.
+# - actual    text: 'we are traveling replied ojo and we stopped at your house just to rest and refresh ourselves'
+# - processed text: 'we are traveling replied ojo and we stopped at your house just to rest and refresh ourselves'
+# - processed in 122.568 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0016.flac):
+# - 2.13 seconds long.
+# - actual    text: 'the woman seemed thoughtful'
+# - processed text: 'the woman seemed thoughtful'
+# - processed in 43.988 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0017.flac):
+# - 10.68 seconds long.
+# - actual    text: 'at one end stood a great fireplace in which a blue log was blazing with a blue flame and over the fire hung four kettles in a row all bubbling and steaming at a great rate'
+# - processed text: 'at one end stood a great fireplace in which a blue log was blazing with a blue flame and over the fire hung four kettles in a row all bubbling and steaming at a great rate'
+# - processed in 225.879 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0018.flac):
+# - 12.005 seconds long.
+# - actual    text: 'it takes me several years to make this magic powder but at this moment i am pleased to say it is nearly done you see i am making it for my good wife margolotte who wants to use some of it for a purpose of her own'
+# - processed text: 'it takes me several years to make this magic powder but at this moment i am pleased to say this nearly done you see i making it for my good wife margolotte who wants to use some of it for a purpose of her own'
+# - processed in 254.662 seconds.
+# - WER = 0.064
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0019.flac):
+# - 15.025 seconds long.
+# - actual    text: 'you must know said margolotte when they were all seated together on the broad window seat that my husband foolishly gave away all the powder of life he first made to old mombi the witch who used to live in the country of the gillikins to the north of here'
+# - processed text: 'you must know said margolotte when they were all seated together on the broad window seat tat my husband foolishly gave away all the powder of life he first made to old mombi the witch who used to live in the country of the gillikins to the north of here'
+# - processed in 318.454 seconds.
+# - WER = 0.02
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0020.flac):
+# - 5.87 seconds long.
+# - actual    text: 'the first lot we tested on our glass cat which not only began to live but has lived ever since'
+# - processed text: 'the first lot we tested on our glass cat which not only began to live but has lived ever since'
+# - processed in 124.295 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0021.flac):
+# - 9.84 seconds long.
+# - actual    text: 'i think the next glass cat the magician makes will have neither brains nor heart for then it will not object to catching mice and may prove of some use to us'
+# - processed text: 'i think the next glass cat the magician makes will have neither brains nor heart for then it will not object to catching mice and may prove of some use to us'
+# - processed in 207.549 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0022.flac):
+# - 2.885 seconds long.
+# - actual    text: 'i'm afraid i don't know much about the land of oz'
+# - processed text: 'i m afraid i don't know much about the land of oz'
+# - processed in 60.197 seconds.
+# - WER = 0.077
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0023.flac):
+# - 5.61 seconds long.
+# - actual    text: 'you see i've lived all my life with unc nunkie the silent one and there was no one to tell me anything'
+# - processed text: 'yes i lived all my life with a donkey the silent one and there was no one to tell me anything'
+# - processed in 118.832 seconds.
+# - WER = 0.217
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0024.flac):
+# - 5.26 seconds long.
+# - actual    text: 'that is one reason you are ojo the unlucky said the woman in a sympathetic tone'
+# - processed text: 'that is one reason you are ojo the unlucky said the woman in sympathetic tone'
+# - processed in 111.505 seconds.
+# - WER = 0.062
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0025.flac):
+# - 8.705 seconds long.
+# - actual    text: 'i think i must show you my patchwork girl said margolotte laughing at the boy's astonishment for she is rather difficult to explain'
+# - processed text: 'i think i must show you my patchwork girl said margolotte laughing it to boys astonishment for she is rather difficult to explain'
+# - processed in 182.785 seconds.
+# - WER = 0.167
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0026.flac):
+# - 8.29 seconds long.
+# - actual    text: 'but first i will tell you that for many years i have longed for a servant to help me with the housework and to cook the meals and wash the dishes'
+# - processed text: 'but first i will tell you that for many years i have longed for a servant to help me with the housework and to cook the meals and wash the dishes'
+# - processed in 173.876 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0027.flac):
+# - 3.27 seconds long.
+# - actual    text: 'yet that task was not so easy as you may suppose'
+# - processed text: 'yet tat task was not so easy as you may suppose'
+# - processed in 68.424 seconds.
+# - WER = 0.091
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0028.flac):
+# - 6.045 seconds long.
+# - actual    text: 'a bed quilt made of patches of different kinds and colors of cloth all neatly sewed together'
+# - processed text: 'a bed quilt made of patches of different kinds and colors of cloth all neatly so together'
+# - processed in 126.137 seconds.
+# - WER = 0.059
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0029.flac):
+# - 5.335 seconds long.
+# - actual    text: 'sometimes it is called a crazy quilt because the patches and colors are so mixed up'
+# - processed text: 'sometimes it is called a crazy quilt because the patches and colors are so mixed up'
+# - processed in 113.163 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0030.flac):
+# - 16.22 seconds long.
+# - actual    text: 'when i found it i said to myself that it would do nicely for my servant girl for when she was brought to life she would not be proud nor haughty as the glass cat is for such a dreadful mixture of colors would discourage her from trying to be as dignified as the blue munchkins are'
+# - processed text: 'when i found it i said to myself that it would do nicely for my servant girl for when she was brought to life she would not be proud nor haughty as the glass cat is for such a dreadful mixture of colors would discourage her from trying to be as dignified as the blue munchkins are'
+# - processed in 344.524 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0031.flac):
+# - 4.825 seconds long.
+# - actual    text: 'at the emerald city where our princess ozma lives green is the popular color'
+# - processed text: 'at the emerald city where our princess ozma lives green is the popular color'
+# - processed in 102.277 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1180/1284-1180-0032.flac):
+# - 5.78 seconds long.
+# - actual    text: 'i will show you what a good job i did and she went to a tall cupboard and threw open the doors'
+# - processed text: 'i will show you what a good job i did and she went to a tall cupboard and threw open the doors'
+# - processed in 122.212 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0000.flac):
+# - 3.965 seconds long.
+# - actual    text: 'ojo examined this curious contrivance with wonder'
+# - processed text: 'ojo examined this curious contrivance with wonder'
+# - processed in 83.562 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0001.flac):
+# - 11.43 seconds long.
+# - actual    text: 'margolotte had first made the girl's form from the patchwork quilt and then she had dressed it with a patchwork skirt and an apron with pockets in it using the same gay material throughout'
+# - processed text: 'margolotte had first made the girl s form from the patchwork quilt and then she had dressed it with a patchwork skirt and an apron with pockets in it using the same gay material throughout'
+# - processed in 242.134 seconds.
+# - WER = 0.029
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0002.flac):
+# - 3.835 seconds long.
+# - actual    text: 'the head of the patchwork girl was the most curious part of her'
+# - processed text: 'the head of the patchwork girl was the most curious part of her'
+# - processed in 80.76 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0003.flac):
+# - 4.505 seconds long.
+# - actual    text: 'the hair was of brown yarn and hung down on her neck in several neat braids'
+# - processed text: 'the hair was of brown yarn and hung down on her neck in several neat braids'
+# - processed in 95.815 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0004.flac):
+# - 7.15 seconds long.
+# - actual    text: 'gold is the most common metal in the land of oz and is used for many purposes because it is soft and pliable'
+# - processed text: 'gold is the most common metal in the land of oz and is used for many purposes because it is soft and pliable'
+# - processed in 150.475 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0005.flac):
+# - 3.855 seconds long.
+# - actual    text: 'no i forgot all about the brains exclaimed the woman'
+# - processed text: 'no i forgot all about the brains exclaimed the woman'
+# - processed in 79.825 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0006.flac):
+# - 11.405 seconds long.
+# - actual    text: 'well that may be true agreed margolotte but on the contrary a servant with too much brains is sure to become independent and high and mighty and feel above her work'
+# - processed text: 'well that may be true agreed margolotte but on the contrary a servant with too much brains is sure to become independent and high and mighty and feel above her work'
+# - processed in 240.62 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0007.flac):
+# - 4.04 seconds long.
+# - actual    text: 'she poured into the dish a quantity from each of these bottles'
+# - processed text: 'she poured into the dish a quantity from each of these bottles'
+# - processed in 84.779 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0008.flac):
+# - 6.08 seconds long.
+# - actual    text: 'i think that will do she continued for the other qualities are not needed in a servant'
+# - processed text: 'i think that will do she continued for the other qualities are not needed in a servant'
+# - processed in 128.301 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0009.flac):
+# - 5.245 seconds long.
+# - actual    text: 'she ran to her husband's side at once and helped him lift the four kettles from the fire'
+# - processed text: 'she ran to her husband s side at once and helped him lift the four kettles from the fire'
+# - processed in 110.171 seconds.
+# - WER = 0.053
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0010.flac):
+# - 6.435 seconds long.
+# - actual    text: 'their contents had all boiled away leaving in the bottom of each kettle a few grains of fine white powder'
+# - processed text: 'their contents had all boiled away leaving in the bottom of each kettle a few grains of fine white powder'
+# - processed in 135.467 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0011.flac):
+# - 7.75 seconds long.
+# - actual    text: 'very carefully the magician removed this powder placing it all together in a golden dish where he mixed it with a golden spoon'
+# - processed text: 'very carefully the magician removed this powder placing it all together in a golden dish where he mixed it with a golden spoon'
+# - processed in 163.563 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0012.flac):
+# - 8.51 seconds long.
+# - actual    text: 'no one saw him do this for all were looking at the powder of life but soon the woman remembered what she had been doing and came back to the cupboard'
+# - processed text: 'no one saw him do this for all were looking at the powder of life but soon the woman remembered what she had been doing and came back to the cupboard'
+# - processed in 180.387 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0013.flac):
+# - 12.66 seconds long.
+# - actual    text: 'ojo became a bit uneasy at this for he had already put quite a lot of the cleverness powder in the dish but he dared not interfere and so he comforted himself with the thought that one cannot have too much cleverness'
+# - processed text: 'ojo became a bit uneasy at this for he had already put quite a lot of the cleverness powder in the dish but he dared not interfere and so he comforted himself with the thought that one cannot have too much cleverness'
+# - processed in 269.702 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0014.flac):
+# - 7.92 seconds long.
+# - actual    text: 'he selected a small gold bottle with a pepper box top so that the powder might be sprinkled on any object through the small holes'
+# - processed text: 'he selected a small gold bottle with a pepper box top so tat the powder might be sprinkled on any object through the small holes'
+# - processed in 167.785 seconds.
+# - WER = 0.04
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0015.flac):
+# - 5.115 seconds long.
+# - actual    text: 'most people talk too much so it is a relief to find one who talks too little'
+# - processed text: 'most people talk too much so it is a relief to find one who talks too little'
+# - processed in 107.875 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0016.flac):
+# - 9.515 seconds long.
+# - actual    text: 'i am not allowed to perform magic except for my own amusement he told his visitors as he lighted a pipe with a crooked stem and began to smoke'
+# - processed text: 'i am not allowed to perform magic except for my own amusement he told his visitors as he lighted a pipe with a crooked stem and began to smoke'
+# - processed in 200.902 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0017.flac):
+# - 11.775 seconds long.
+# - actual    text: 'the wizard of oz who used to be a humbug and knew no magic at all has been taking lessons of glinda and i'm told he is getting to be a pretty good wizard but he is merely the assistant of the great sorceress'
+# - processed text: 'the wizard of oz paused to be a humbug and knew no magic at all has been taking lessons of glinda and untold he is getting to be a pretty good wizard but he is merely the assistant of the great sources'
+# - processed in 248.744 seconds.
+# - WER = 0.133
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0018.flac):
+# - 3.16 seconds long.
+# - actual    text: 'it truly is asserted the magician'
+# - processed text: 'it truly is asserted the magician'
+# - processed in 66.511 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0019.flac):
+# - 3.2 seconds long.
+# - actual    text: 'i now use them as ornamental statuary in my garden'
+# - processed text: 'i know use them as ornamental statuary in my garden'
+# - processed in 67.155 seconds.
+# - WER = 0.1
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0020.flac):
+# - 6.73 seconds long.
+# - actual    text: 'dear me what a chatterbox you're getting to be unc remarked the magician who was pleased with the compliment'
+# - processed text: 'do you me what a chatterbox or getting to be unc remarked the magician who was pleased with the compliment'
+# - processed in 142.035 seconds.
+# - WER = 0.2
+# File (tests/LibriSpeech/test-clean/1284/1181/1284-1181-0021.flac):
+# - 2.7 seconds long.
+# - actual    text: 'asked the voice in scornful accents'
+# - processed text: 'asked the voice in scornful accents'
+# - processed in 56.699 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0000.flac):
+# - 8.53 seconds long.
+# - actual    text: 'the grateful applause of the clergy has consecrated the memory of a prince who indulged their passions and promoted their interest'
+# - processed text: 'the grateful applause of the clergy has consecrated the memory of a prince who indulged their passions and promoted their interest'
+# - processed in 178.118 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0001.flac):
+# - 10.275 seconds long.
+# - actual    text: 'the edict of milan the great charter of toleration had confirmed to each individual of the roman world the privilege of choosing and professing his own religion'
+# - processed text: 'the edict of milan the great charter of toleration had confirmed to each individual of the roman world the privilege of choosing and professing his own religion'
+# - processed in 217.869 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0002.flac):
+# - 15.11 seconds long.
+# - actual    text: 'but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity'
+# - processed text: 'but this inestimable privilege was soon violated with the knowledge of truth the emperor imbibed the maxims of persecution and the sects which dissented from the catholic church were afflicted and oppressed by the triumph of christianity'
+# - processed in 318.123 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0003.flac):
+# - 20.145 seconds long.
+# - actual    text: 'constantine easily believed that the heretics who presumed to dispute his opinions or to oppose his commands were guilty of the most absurd and criminal obstinacy and that a seasonable application of moderate severities might save those unhappy men from the danger of an everlasting condemnation'
+# - processed text: 'constantine easily believed tat the heretics who presumed to dispute his opinions or to oppose his commands were guilty of the most absurd and criminal obstinacy and tat a seasonable application of moderate severities might save those unhappy men from the danger of an everlasting condemnation'
+# - processed in 423.124 seconds.
+# - WER = 0.043
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0004.flac):
+# - 12.835 seconds long.
+# - actual    text: 'some of the penal regulations were copied from the edicts of diocletian and this method of conversion was applauded by the same bishops who had felt the hand of oppression and pleaded for the rights of humanity'
+# - processed text: 'some of the penal regulations were copied from the edicts of diocletian and this method of conversion was applauded by the same bishops who had felt the hand of oppression and pleaded for the rights of humanity'
+# - processed in 271.31 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0005.flac):
+# - 23.3350625 seconds long.
+# - actual    text: 'they asserted with confidence and almost with exultation that the apostolical succession was interrupted that all the bishops of europe and asia were infected by the contagion of guilt and schism and that the prerogatives of the catholic church were confined to the chosen portion of the african believers who alone had preserved inviolate the integrity of their faith and discipline'
+# - processed text: 'they asserted with confidence and almost with exultation tat the apostolical succession was interrupted tat all the bishops of the europe and asia were infected by the contagion of guilt and schism and that the prerogatives of the catholic church were confined to the chosen portion of the african believers who alone had preserved inviolate the integrity of their faith and discipline'
+# - processed in 491.259 seconds.
+# - WER = 0.049
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0006.flac):
+# - 10.155 seconds long.
+# - actual    text: 'bishops virgins and even spotless infants were subjected to the disgrace of a public penance before they could be admitted to the communion of the donatists'
+# - processed text: 'bishops virgins and even spotless infants were subjected to the disgrace of a public penance before they could be admitted to the communion of the donatists'
+# - processed in 214.095 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1284/134647/1284-134647-0007.flac):
+# - 14.17 seconds long.
+# - actual    text: 'proscribed by the civil and ecclesiastical powers of the empire the donatists still maintained in some provinces particularly in numidia their superior numbers and four hundred bishops acknowledged the jurisdiction of their primate'
+# - processed text: 'proscribed by the simple and ecclesiastical powers of the empire the donatists still maintained in some provinces particularly in media their superior numbers and four hundred bishops acknowledged the jurisdiction of their primate'
+# - processed in 297.64 seconds.
+# - WER = 0.061
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0000.flac):
+# - 13.48 seconds long.
+# - actual    text: 'since the period of our tale the active spirit of the country has surrounded it with a belt of rich and thriving settlements though none but the hunter or the savage is ever known even now to penetrate its wild recesses'
+# - processed text: 'since the period of our tale the active spirit of the country has surrounded it with a belt of rich and thriving settlements though none but the hunter or the savage is ever known even now to penetrate its wild recesses'
+# - processed in 285.169 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0001.flac):
+# - 9.52 seconds long.
+# - actual    text: 'the dews were suffered to exhale and the sun had dispersed the mists and was shedding a strong and clear light in the forest when the travelers resumed their journey'
+# - processed text: 'the dews were suffered to exhale and the sun had dispersed the mists and was shedding a strong and clear light in the forest when the travelers resumed their journey'
+# - processed in 200.643 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0002.flac):
+# - 7.46 seconds long.
+# - actual    text: 'after proceeding a few miles the progress of hawkeye who led the advance became more deliberate and watchful'
+# - processed text: 'after proceeding a few miles the progress of hawkeye who led the advance became more deliberate and watchful'
+# - processed in 156.064 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0003.flac):
+# - 9.865 seconds long.
+# - actual    text: 'he often stopped to examine the trees nor did he cross a rivulet without attentively considering the quantity the velocity and the color of its waters'
+# - processed text: 'he often stopped to examine the trees nor did he cross a rivulet without attentively considering the quantity the velocity and the color of its waters'
+# - processed in 207.033 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0004.flac):
+# - 6.425 seconds long.
+# - actual    text: 'distrusting his own judgment his appeals to the opinion of chingachgook were frequent and earnest'
+# - processed text: 'distrusting his own judgment his appeals to the opinion of chingachgook were frequent and earnest'
+# - processed in 135.478 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0005.flac):
+# - 5.915 seconds long.
+# - actual    text: 'yet here are we within a short range of the scaroons and not a sign of a trail have we crossed'
+# - processed text: 'yet here are we within a short range of the scaroons and not a sign of a trail have we crossed'
+# - processed in 125.673 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0006.flac):
+# - 4.845 seconds long.
+# - actual    text: 'let us retrace our steps and examine as we go with keener eyes'
+# - processed text: 'let us retrace our steps and examine as we go with keener eyes'
+# - processed in 102.45 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0007.flac):
+# - 5.54 seconds long.
+# - actual    text: 'chingachgook had caught the look and motioning with his hand he bade him speak'
+# - processed text: 'she got cook had caught the look and motioning with his hand he bade him speak'
+# - processed in 116.859 seconds.
+# - WER = 0.214
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0008.flac):
+# - 7.875 seconds long.
+# - actual    text: 'the eyes of the whole party followed the unexpected movement and read their success in the air of triumph that the youth assumed'
+# - processed text: 'the eyes of the whole party followed the unexpected movement and read their success in the air of triumph tat the youth assumed'
+# - processed in 166.509 seconds.
+# - WER = 0.043
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0009.flac):
+# - 3.88 seconds long.
+# - actual    text: 'it would have been more wonderful had he spoken without a bidding'
+# - processed text: 'it would have been more wonderful had he spoken without a bidding'
+# - processed in 82.697 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0010.flac):
+# - 10.195 seconds long.
+# - actual    text: 'see said uncas pointing north and south at the evident marks of the broad trail on either side of him the dark hair has gone toward the forest'
+# - processed text: 'see said uncas pointing north and south at the evident marks of the broad trail on either side of him the dark hair has gone toward the forest'
+# - processed in 214.958 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0011.flac):
+# - 13.695 seconds long.
+# - actual    text: 'if a rock or a rivulet or a bit of earth harder than common severed the links of the clew they followed the true eye of the scout recovered them at a distance and seldom rendered the delay of a single moment necessary'
+# - processed text: 'if a rock or a rivulet or a bit of earth harder than common severed the links of the clew they followed the true eye of the scout recovered them at a distance and seldom rendered the delay of a single moment necessary'
+# - processed in 288.986 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0012.flac):
+# - 10.49 seconds long.
+# - actual    text: 'extinguished brands were lying around a spring the offals of a deer were scattered about the place and the trees bore evident marks of having been browsed by the horses'
+# - processed text: 'extinguished brands were lying around a spring the offals of a deer were scattered about the place and the trees bore evident marks of having been browsed by the horses'
+# - processed in 219.978 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0013.flac):
+# - 6.55 seconds long.
+# - actual    text: 'a circle of a few hundred feet in circumference was drawn and each of the party took a segment for his portion'
+# - processed text: 'a circle of a few hundred feet in circumference was drawn and each of the party took a segment for his portion'
+# - processed in 138.804 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0014.flac):
+# - 3.515 seconds long.
+# - actual    text: 'the examination however resulted in no discovery'
+# - processed text: 'the examination however resulted in no discovery'
+# - processed in 73.113 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0015.flac):
+# - 6.385 seconds long.
+# - actual    text: 'the whole party crowded to the spot where uncas pointed out the impression of a moccasin in the moist alluvion'
+# - processed text: 'the whole party crowded to the spot where uncas pointed out the impression of a moccasin in the moist alluvion'
+# - processed in 134.213 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122612/1320-122612-0016.flac):
+# - 3.49 seconds long.
+# - actual    text: 'run back uncas and bring me the size of the singer's foot'
+# - processed text: 'run back uncas and bring me the size of the singer spot'
+# - processed in 72.921 seconds.
+# - WER = 0.154
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0000.flac):
+# - 7.835 seconds long.
+# - actual    text: 'notwithstanding the high resolution of hawkeye he fully comprehended all the difficulties and danger he was about to incur'
+# - processed text: 'notwithstanding the high resolution of hawkeye he fully comprehended all the difficulties and danger he was about to incur'
+# - processed in 165.642 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0001.flac):
+# - 14.055 seconds long.
+# - actual    text: 'in his return to the camp his acute and practised intellects were intently engaged in devising means to counteract a watchfulness and suspicion on the part of his enemies that he knew were in no degree inferior to his own'
+# - processed text: 'in his return to the camp his acute and practised intellects were intently engaged in devising means to counteract a watchfulness and suspicion on the part of his enemies tat he knew were in no degree inferior to his own'
+# - processed in 297.276 seconds.
+# - WER = 0.025
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0002.flac):
+# - 13.585 seconds long.
+# - actual    text: 'in other words while he had implicit faith in the ability of balaam's ass to speak he was somewhat skeptical on the subject of a bear's singing and yet he had been assured of the latter on the testimony of his own exquisite organs'
+# - processed text: 'in other words while he had implicit faith in the ability of balaam s asked to speak he was somewhat skeptical on the subject of a bare singing and yet he had been assured of the latter on the testimony of his own exquisite organs'
+# - processed in 287.556 seconds.
+# - WER = 0.087
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0003.flac):
+# - 6.285 seconds long.
+# - actual    text: 'there was something in his air and manner that betrayed to the scout the utter confusion of the state of his mind'
+# - processed text: 'there was something in his air and manner tat betrayed to the scout the utter confusion of the state of his mind'
+# - processed in 133.386 seconds.
+# - WER = 0.045
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0004.flac):
+# - 12.26 seconds long.
+# - actual    text: 'the ingenious hawkeye who recalled the hasty manner in which the other had abandoned his post at the bedside of the sick woman was not without his suspicions concerning the subject of so much solemn deliberation'
+# - processed text: 'the ingenious hawkeye who recalled the hasty manner in which the other had abandoned his post at the bedside of the sick woman was not without his suspicions concerning the subject of so much solemn deliberation'
+# - processed in 259.655 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0005.flac):
+# - 4.4 seconds long.
+# - actual    text: 'the bear shook his shaggy sides and then a well known voice replied'
+# - processed text: 'the bear shook his shaggy sides and then a well known voice replied'
+# - processed in 92.808 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0006.flac):
+# - 5.655 seconds long.
+# - actual    text: 'can these things be returned david breathing more freely as the truth began to dawn upon him'
+# - processed text: 'can these things be returned david breathing more freely as the truth began to dawn upon him'
+# - processed in 120.061 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0007.flac):
+# - 18.525 seconds long.
+# - actual    text: 'come come returned hawkeye uncasing his honest countenance the better to assure the wavering confidence of his companion you may see a skin which if it be not as white as one of the gentle ones has no tinge of red to it that the winds of the heaven and the sun have not bestowed now let us to business'
+# - processed text: 'come come returned hawkeye uncasing his honest countenance the better to assure the wavering confidence of his companion you may see a skin which if it be not as wide as one of the gentle ones has no tinge of red to it that the winds of the heaven and the sun have not bestowed now let us to business'
+# - processed in 391.922 seconds.
+# - WER = 0.017
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0008.flac):
+# - 4.185 seconds long.
+# - actual    text: 'the young man is in bondage and much i fear his death is decreed'
+# - processed text: 'the young man is in bondage and much i fear his death is decreed'
+# - processed in 88.358 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0009.flac):
+# - 7.705 seconds long.
+# - actual    text: 'i greatly mourn that one so well disposed should die in his ignorance and i have sought a goodly hymn can you lead me to him'
+# - processed text: 'i greatly mourn tat one so well disposed should die in his ignorance and i have sought a goodly hymn can you lead me to him'
+# - processed in 163.016 seconds.
+# - WER = 0.038
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0010.flac):
+# - 10.0 seconds long.
+# - actual    text: 'the task will not be difficult returned david hesitating though i greatly fear your presence would rather increase than mitigate his unhappy fortunes'
+# - processed text: 'the task will not be difficult returned david hesitating though i greatly fear your presence would rather increase than mitigate his unhappy fortunes'
+# - processed in 211.705 seconds.
+# - WER = 0.0
+# File (tests/LibriSpeech/test-clean/1320/122617/1320-122617-0011.flac):
+# - 9.76 seconds long.
+# - actual    text: 'the lodge in which uncas was confined was in the very center of the village and in a situation perhaps more difficult than any other to approach or leave without observation'
+# - processed text: 'the lodge in which uncas was confined was in the very centre of the village and in a situation perhaps more difficult than any other to approach or leave without observation'
+# - processed in 205.801 seconds.
+# - WER = 0.032
