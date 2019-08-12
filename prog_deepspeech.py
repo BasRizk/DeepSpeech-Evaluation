@@ -18,21 +18,22 @@ from timeit import default_timer as timer
 from utils import get_platform_id, document_machine
 from utils import prepare_pathes, get_metafiles_pathes
 
-#DEEPSPEECH_VERSION="0.5.1"
-#DEEPSPEECH_VERSION="0.5.1+6_gram_lm"
+#DEEPSPEEH_VERSION="0.5.1+4_gram_lm"
 #DEEPSPEECH_VERSION="0.5.1+5_gram_lm"
-DEEPSPEECH_VERSION="0.5.1+4_gram_lm"
+DEEPSPEECH_VERSION="0.5.1+6_gram_lm"
 
-#TEST_PATH="tests/LibriSpeech/test-clean"
-#TEST_PATH="tests/LibriSpeech/test-other"
-TEST_PATH="tests/iisys"
+TEST_PATH="tests/LibriSpeech/test-other"
+#TEST_PATH="tests/iisys"
+FORCED_FORMAT="wav"
 
 IS_GLOBAL_DIRECTORIES = True
-USING_GPU = False
+USING_GPU = True
 USE_LANGUAGE_MODEL = True
 USE_TFLITE = False
 USE_MEMORY_MAPPED_MODEL = True
 VERBOSE = True
+
+
 assert(path.exists(TEST_PATH))
 
 try:
@@ -54,7 +55,10 @@ if IS_TSV:
     AUDIO_INPUT = "wav"
 else:
     TS_INPUT = "txt"
-    AUDIO_INPUT = "wav"
+    AUDIO_INPUT = "flac"
+
+if FORCED_FORMAT:
+    AUDIO_INPUT = FORCED_FORMAT
 
 try:
     if TEST_PATH.split("/")[2] == "Sprecher":
@@ -175,7 +179,7 @@ processed_data = "filename,length(sec),proc_time(sec),wer,actual_text,processed_
 avg_wer = 0
 avg_proc_time = 0
 num_of_audiofiles = len([item for sublist in audio_pathes for item in sublist])
-current_audio_number = 1
+current_audio_number = 0
 all_text_pathes = [item for sublist in text_pathes for item in sublist]
 for text_path in all_text_pathes:
     audio_transcripts = open(text_path, 'r').readlines()
