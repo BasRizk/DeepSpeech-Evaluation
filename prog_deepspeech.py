@@ -27,7 +27,7 @@ TEST_PATH="tests/LibriSpeech/test-other"
 FORCED_FORMAT="wav"
 
 IS_GLOBAL_DIRECTORIES = True
-USING_GPU = True
+USING_GPU = False
 USE_LANGUAGE_MODEL = True
 USE_TFLITE = False
 USE_MEMORY_MAPPED_MODEL = True
